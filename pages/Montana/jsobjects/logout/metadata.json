@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "Montana",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Montana_logout",
+  "deleted": false,
+  "gitSyncId": "66b4db469579f24357381910_88f6c807-d450-4203-8e06-e71051e924ed"
+}

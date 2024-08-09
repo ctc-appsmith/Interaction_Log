@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login Page",
-    "collectionId": "Login Page_logout",
+    "pageId": "Montana",
+    "collectionId": "Montana_logout",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-08-09T15:18:00Z"
+    "createdAt": "2024-08-09T19:48:18Z"
   },
-  "id": "Login Page_logout.logout",
+  "id": "Montana_logout.logout",
   "deleted": false,
-  "gitSyncId": "66b4db469579f24357381910_7f39fd93-7467-44e5-a137-0f7893f45bb5"
+  "gitSyncId": "66b4db469579f24357381910_4a50d39c-077c-4446-a595-cbb36722953b"
 }
