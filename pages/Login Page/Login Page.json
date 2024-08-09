@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 750,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 74,
           "parentRowSpace": 1,
@@ -25,7 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Login Page_auth_js.continue",
+              "name": "auth_js.continue",
+              "collectionId": "Login Page_auth_js",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  if (!appsmith.URL.fullPath.includes('#access_token=')) return;\n  appsmith.URL.fullPath.split('#')[1].split('&').forEach(i => {\n    const [key, value] = i.split('=');\n    storeValue(key, value);\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Login Page",
@@ -39,5 +53,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66b4db469579f24357381910_272b7bdb-61a4-4498-aa0b-56a377d47374"
+  "gitSyncId": "66b4db469579f24357381910_523c9b2c-348d-484e-933c-8edaffd12954"
 }

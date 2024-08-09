@@ -1,6 +1,6 @@
 export default {
-	signin_func: () => {
-		return signin.run()
+	async signin_func () {
+		await signin.run()
 		.then(data => {
 			delete data.user;
 			Object.keys(data).forEach(i => {

@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,13 +33,13 @@
       "Appsmith expects all entities to follow Javascript variable naming conventions. It must be a single word containing alphabets, numbers, or \"_\". Any other special characters like hyphens (\"-\"), comma (\",\"), hash (\"#\") etc. are not allowed. Please change the name."
     ],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-08-09T14:55:31Z"
+    "createdAt": "2024-08-09T15:18:00Z"
   },
   "id": "Login Page_auth_js.continue",
   "deleted": false,
-  "gitSyncId": "66b4db469579f24357381910_0d0b4b20-96d1-4f8b-a62a-5bd28f7e2284"
+  "gitSyncId": "66b4db469579f24357381910_722b1b0f-44f7-4f56-98df-8b248427fcd3"
 }
