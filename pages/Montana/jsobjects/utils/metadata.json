@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Montana",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Montana_utils",
+  "deleted": false,
+  "gitSyncId": "66b4db469579f24357381910_46e3148a-9ebe-427c-87ad-cfe95d7d4363"
+}

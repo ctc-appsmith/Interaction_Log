@@ -1,0 +1,6 @@
+UPDATE applicantCommunication
+
+SET archived = "Yes"
+
+WHERE recordID = {{callLog_tbl.selectedRow.recordID}}
+;

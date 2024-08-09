@@ -1,0 +1,13 @@
+UPDATE applicantCommunication SET
+		importance = '{{update_form.fieldState.importance.isVisible ? update_form.formData.importance : update_form.sourceData.importance}}',
+		clientID = '{{update_form.fieldState.clientID.isVisible ? update_form.formData.clientID : update_form.sourceData.clientID}}',
+    applicantID = '{{update_form.fieldState.applicantID.isVisible ? update_form.formData.applicantID : update_form.sourceData.applicantID}}',
+		spokeWith = '{{update_form.fieldState.spokeWith.isVisible ? update_form.formData.spokeWith : update_form.sourceData.spokeWith}}',
+		title = '{{update_form.fieldState.title.isVisible ? update_form.formData.title : update_form.sourceData.title}}',
+		commsDate = '{{update_form.fieldState.commsDate.isVisible ? update_form.formData.commsDate : update_form.sourceData.commsDate}}',
+		commsType = '{{update_form.fieldState.commsType.isVisible ? update_form.formData.commsType : update_form.sourceData.commsType}}',
+		subject = '{{update_form.fieldState.subject.isVisible ? update_form.formData.subject : update_form.sourceData.subject}}',
+		applicationName = '{{update_form.fieldState.applicationName.isVisible ? update_form.formData.applicationName : update_form.sourceData.applicationName}}',
+		notes = '{{update_form.fieldState.notes.isVisible ? update_form.formData.notes : update_form.sourceData.notes}}',
+		staff = '{{update_form.fieldState.staff.isVisible ? update_form.formData.staff : update_form.sourceData.staff}}'
+  WHERE recordID = {{data_table.selectedRow.recordID}};
