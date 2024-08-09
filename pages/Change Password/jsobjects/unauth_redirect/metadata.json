@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "unauth_redirect",
+    "pageId": "Change Password",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Change Password_unauth_redirect",
+  "deleted": false,
+  "gitSyncId": "66b4db469579f24357381910_e1ee7e81-3ba2-4c0e-8102-10df23dc2810"
+}

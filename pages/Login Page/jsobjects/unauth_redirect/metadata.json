@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "unauth_redirect",
+    "pageId": "Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Login Page_unauth_redirect",
+  "deleted": false,
+  "gitSyncId": "66b4db469579f24357381910_337d30b8-b1ae-44b8-8e80-c576d7d62c89"
+}

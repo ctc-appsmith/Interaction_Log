@@ -6,7 +6,15 @@
     },
     {
       "id": "Montana",
+      "isDefault": false
+    },
+    {
+      "id": "Login Page",
       "isDefault": true
+    },
+    {
+      "id": "Change Password",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -31,7 +39,11 @@
   },
   "color": "#D9E7FF",
   "icon": "chat",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
