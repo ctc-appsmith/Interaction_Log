@@ -1,4 +1,0 @@
-{
-  "email" : "{{get_user.data.email}}",
-  "password" : "{{update_pw_input_confirm.text}}"
-}

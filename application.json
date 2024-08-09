@@ -11,10 +11,6 @@
     {
       "id": "Login Page",
       "isDefault": true
-    },
-    {
-      "id": "Change Password",
-      "isDefault": false
     }
   ],
   "viewMode": false,

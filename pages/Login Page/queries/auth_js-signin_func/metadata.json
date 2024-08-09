@@ -16,7 +16,7 @@
     "pageId": "Login Page",
     "collectionId": "Login Page_auth_js",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-08-09T14:05:41Z"
+    "createdAt": "2024-08-09T14:55:31Z"
   },
   "id": "Login Page_auth_js.signin_func",
   "deleted": false,
-  "gitSyncId": "66b4db469579f24357381910_a619976a-a87c-4a62-a1df-c37874dc88bd"
+  "gitSyncId": "66b4db469579f24357381910_f3c017df-9803-42f2-98bd-fa1a1f161f38"
 }

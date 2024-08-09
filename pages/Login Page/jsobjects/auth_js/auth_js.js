@@ -7,8 +7,8 @@ export default {
 				storeValue(i, data[i]);
 			});
 		})
-		.then(() => navigateTo('MyReviews2'))
-		.then(() => {{utils.setCurrentPage('MyReviews2')}})
+		.then(() => navigateTo('Montana'))
+		.then(() => {{utils.setCurrentPage('Montana')}})
 		.catch((err) => {
 			//showAlert(`${err.message}`, 'error') //Error: signin failed to execute
 			//showAlert(`Status Code: ${signin.responseMeta.statusCode}`, 'error') //400 BAD_REQUEST
