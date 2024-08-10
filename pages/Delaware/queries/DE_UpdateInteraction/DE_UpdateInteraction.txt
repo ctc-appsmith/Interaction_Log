@@ -1,0 +1,10 @@
+UPDATE applicantCommunication SET
+		applicantID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.ApplicantName : callLogUpdate_form.data.ApplicantName}}',
+		spokeWith = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.spokeWith : callLogUpdate_form.data.spokeWith}}',
+		commsDate = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate}}',  
+		commsType = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType}}',		
+		subject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.subject : callLogUpdate_form.data.subject}}',		
+		applicationName = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationName : callLogUpdate_form.data.applicationName}}',		
+		importance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',	
+		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}'			
+		WHERE recordID = {{callLog_tbl.selectedRow.recordID}};

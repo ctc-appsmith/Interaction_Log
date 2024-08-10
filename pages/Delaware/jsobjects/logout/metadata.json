@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "Delaware",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Delaware_logout",
+  "deleted": false,
+  "gitSyncId": "66b4db469579f24357381910_bec70cfe-5d3b-43be-8093-395b5c88149e"
+}

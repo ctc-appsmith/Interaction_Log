@@ -1,0 +1,4 @@
+SELECT applicationName FROM Applications
+
+WHERE applicantID = {{applicantSelect.selectedOptionValue}}
+ORDER BY applicationName ASC;
