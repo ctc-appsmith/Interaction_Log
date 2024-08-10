@@ -15,7 +15,7 @@
     "parentColumnSpace": 18.5712890625,
     "dynamicTriggerPathList": [],
     "leftColumn": 19,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [],
     "children": [{
         "tabId": "tab1",
         "boxShadow": "none",
@@ -58,7 +58,7 @@
     "rightColumn": 45,
     "dynamicHeight": "FIXED",
     "widgetId": "i4ece5mdzh",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "accentColor": "#134463",
     "defaultTab": "Sign In",
     "shouldShowTabs": true,
     "tabsObj": {"tab1": {
@@ -73,7 +73,9 @@
     "parentId": "0w1i4mgn7n",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 21,
     "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 61,
     "minDynamicHeight": 4
 }
