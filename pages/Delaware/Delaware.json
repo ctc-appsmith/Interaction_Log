@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1320,
+          "bottomRow": 1400,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -78,6 +78,16 @@
             }
           ],
           [
+            {
+              "id": "Delaware_DE_getAppIDbyApplicant",
+              "name": "DE_getAppIDbyApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "applicantSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Delaware_DE_getAppsByApplicant",
               "name": "DE_getAppsByApplicant",

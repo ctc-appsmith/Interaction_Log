@@ -73,7 +73,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1723167810801,
+    "columnUpdatedAt": 1723833004039,
     "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -86,11 +86,11 @@
         "subject",
         "ApplicantName",
         "recordID",
+        "applicationName",
         "clientID",
         "applicantID",
         "title",
         "commsType",
-        "applicationName",
         "importance",
         "staff",
         "notes",
@@ -109,7 +109,7 @@
         "spokeWith": 156,
         "subject": 185,
         "ApplicantName": 219,
-        "applicationName": 394
+        "applicationName": 232
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -630,7 +630,7 @@
             "verticalAlignment": "CENTER"
         },
         "applicationName": {
-            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationName\"]))}}",
+            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"amplifund_appID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "applicationName",
@@ -647,7 +647,7 @@
             "index": 9,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Application Name (if applicable)",
+            "label": "Application ID (if applicable)",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",

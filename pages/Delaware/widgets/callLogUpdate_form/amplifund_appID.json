@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Application (if applicable)",
+    "labelText": "Application ID (if applicable)",
     "topRow": 41,
     "labelWidth": "15",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.applicationName))(applicationName.options, applicationName.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.amplifund_appID))(amplifund_appID.options, amplifund_appID.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -30,7 +30,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 48,
-    "widgetName": "applicationName",
+    "widgetName": "amplifund_appID",
     "isFilterable": true,
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
@@ -48,7 +48,7 @@
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{DE_getAppsByApplicant.data.map( p => ({label: p.applicationName, value: p.applicationName}))}}",
+    "sourceData": "{{DE_getAppIDbyApplicant.data.map( p => ({label: p.amplifund_appID, value: p.amplifund_appID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
