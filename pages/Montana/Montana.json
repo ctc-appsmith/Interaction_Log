@@ -79,6 +79,16 @@
           ],
           [
             {
+              "id": "Montana_MT_getAppIDbyApplicant",
+              "name": "MT_getAppIDbyApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "applicantSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Montana_MT_getAppsByApplicant",
               "name": "MT_getAppsByApplicant",
               "confirmBeforeExecute": false,

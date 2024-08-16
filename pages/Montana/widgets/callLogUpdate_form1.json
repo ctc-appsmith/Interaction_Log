@@ -85,6 +85,28 @@
                 "sourceData": "",
                 "fieldType": "Multiline Text Input"
             },
+            "amplifund_appID": {
+                "labelTextSize": "0.875rem",
+                "identifier": "amplifund_appID",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.amplifund_appID))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "dataType": "string",
+                "accessor": "amplifund_appID",
+                "isVisible": true,
+                "label": "Amplifund App ID",
+                "originalIdentifier": "amplifund_appID",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 17,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
             "created": {
                 "labelTextSize": "0.875rem",
                 "identifier": "created",
@@ -500,7 +522,10 @@
         {"key": "schema.__root_schema__.children.applicationName.placeholderText"},
         {"key": "schema.__root_schema__.children.applicationName.options"},
         {"key": "schema.__root_schema__.children.staff.options"},
-        {"key": "schema.__root_schema__.children.staff.placeholderText"}
+        {"key": "schema.__root_schema__.children.staff.placeholderText"},
+        {"key": "schema.__root_schema__.children.amplifund_appID.defaultValue"},
+        {"key": "schema.__root_schema__.children.amplifund_appID.borderRadius"},
+        {"key": "schema.__root_schema__.children.amplifund_appID.accentColor"}
     ],
     "borderWidth": "0",
     "sourceData": "{{callLog_tbl.selectedRow}}",

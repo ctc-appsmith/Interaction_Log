@@ -13,7 +13,8 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "optionValue"}
     ],
     "placeholderText": "",
     "isDisabled": false,
@@ -35,8 +36,8 @@
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
         {"key": "optionLabel"},
-        {"key": "optionValue"},
-        {"key": "labelWidth"}
+        {"key": "labelWidth"},
+        {"key": "optionValue"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -55,7 +56,7 @@
     "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "w9j5h5bsya",
-    "optionValue": "value",
+    "optionValue": "{{amplifund_appID.sourceData.map((item) => (value))}}",
     "minWidth": 450,
     "parentId": "hr1s52x8sj",
     "labelAlignment": "left",
