@@ -242,7 +242,7 @@
             "index": 14,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Application ID",
+            "label": "Application ID (if applicable)",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
