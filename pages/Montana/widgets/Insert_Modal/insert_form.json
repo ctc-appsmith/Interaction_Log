@@ -80,6 +80,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
+                "placeholderText": "Notes should include names of CTC staff in attendance, action items and discussion outcomes.",
                 "position": 7,
                 "isDisabled": false,
                 "sourceData": "",

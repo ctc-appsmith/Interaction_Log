@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Applicant Name*",
+    "labelText": "Entity Name*",
     "topRow": 13,
     "labelWidth": "10",
     "type": "SELECT_WIDGET",

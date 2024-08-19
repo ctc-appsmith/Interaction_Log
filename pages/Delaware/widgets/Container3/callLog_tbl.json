@@ -29,7 +29,8 @@
         {"key": "primaryColumns.archived.computedValue"},
         {"key": "primaryColumns.created.computedValue"},
         {"key": "primaryColumns.lastchanged.computedValue"},
-        {"key": "primaryColumns.lastChangedBy.computedValue"}
+        {"key": "primaryColumns.lastChangedBy.computedValue"},
+        {"key": "primaryColumns.spokeWith.isCellVisible"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -73,7 +74,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1723833004039,
+    "columnUpdatedAt": 1724090370760,
     "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -99,7 +100,10 @@
         "lastchanged",
         "lastChangedBy"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.spokeWith.isCellVisible"}
+    ],
     "displayName": "Table",
     "bottomRow": 67,
     "columnWidthMap": {
@@ -504,7 +508,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( false))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
