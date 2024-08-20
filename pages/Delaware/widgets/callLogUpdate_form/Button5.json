@@ -11,14 +11,14 @@
         "click",
         "submit"
     ],
-    "topRow": 72,
-    "bottomRow": 76,
+    "topRow": 81,
+    "bottomRow": 85,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
     "animateLoading": true,
     "dynamicTriggerPathList": [],
-    "leftColumn": 31,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "isDisabled": false,
     "key": "n81lvcz0tb",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 48,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "iconName": "reset",
