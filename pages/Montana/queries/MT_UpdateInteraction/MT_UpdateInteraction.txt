@@ -6,5 +6,6 @@ UPDATE applicantCommunication SET
 		subject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.subject : callLogUpdate_form.data.subject}}',		
 		applicationName = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationName : callLogUpdate_form.data.applicationName}}',		
 		importance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',	
-		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}'			
+		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}',
+		inReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}'
 		WHERE recordID = {{callLog_tbl.selectedRow.recordID}};

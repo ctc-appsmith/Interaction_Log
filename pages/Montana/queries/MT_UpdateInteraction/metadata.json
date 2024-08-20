@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE applicantCommunication SET\n\t\tapplicantID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.ApplicantName : callLogUpdate_form.data.ApplicantName}}',\n\t\tspokeWith = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.spokeWith : callLogUpdate_form.data.spokeWith}}',\n\t\tcommsDate = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate}}',  \n\t\tcommsType = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType}}',\t\t\n\t\tsubject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.subject : callLogUpdate_form.data.subject}}',\t\t\n\t\tapplicationName = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationName : callLogUpdate_form.data.applicationName}}',\t\t\n\t\timportance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',\t\n\t\tnotes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',\t\t staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}'\t\t\t\n\t\tWHERE recordID = {{callLog_tbl.selectedRow.recordID}};",
+      "body": "UPDATE applicantCommunication SET\n\t\tapplicantID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.ApplicantName : callLogUpdate_form.data.ApplicantName}}',\n\t\tspokeWith = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.spokeWith : callLogUpdate_form.data.spokeWith}}',\n\t\tcommsDate = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate}}',  \n\t\tcommsType = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType}}',\t\t\n\t\tsubject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.subject : callLogUpdate_form.data.subject}}',\t\t\n\t\tapplicationName = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationName : callLogUpdate_form.data.applicationName}}',\t\t\n\t\timportance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',\t\n\t\tnotes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',\t\t staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}',\n\t\tinReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}'\n\t\tWHERE recordID = {{callLog_tbl.selectedRow.recordID}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -41,6 +41,7 @@
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate",
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType",
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance",
+      "callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo",
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes",
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.spokeWith : callLogUpdate_form.data.spokeWith",
       "callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff",

@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.inReferenceTo))(Reference.options, Reference.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.inReferenceTo))(inReferenceTo.options, inReferenceTo.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -32,7 +32,7 @@
     "originalBottomRow": 23,
     "needsErrorInfo": false,
     "mobileBottomRow": 27,
-    "widgetName": "Reference",
+    "widgetName": "inReferenceTo",
     "isFilterable": true,
     "dynamicPropertyPathList": [
         {"key": "isVisible"},
@@ -47,7 +47,7 @@
     "parentColumnSpace": 7.200927734375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{MT_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.rootApplicantID}))}}",
+    "sourceData": "{{MT_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
     "key": "b77g5wqtat",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
