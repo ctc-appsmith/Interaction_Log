@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.ApplicantName.computedValue"},
         {"key": "primaryColumns.recordID.computedValue"},
         {"key": "primaryColumns.clientID.computedValue"},
@@ -30,7 +29,8 @@
         {"key": "primaryColumns.created.computedValue"},
         {"key": "primaryColumns.lastchanged.computedValue"},
         {"key": "primaryColumns.lastChangedBy.computedValue"},
-        {"key": "primaryColumns.spokeWith.isCellVisible"}
+        {"key": "primaryColumns.spokeWith.isCellVisible"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,

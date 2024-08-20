@@ -85,6 +85,28 @@
                 "sourceData": "",
                 "fieldType": "Multiline Text Input"
             },
+            "inReferenceTo": {
+                "labelTextSize": "0.875rem",
+                "identifier": "inReferenceTo",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.inReferenceTo))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "dataType": "string",
+                "accessor": "inReferenceTo",
+                "isVisible": true,
+                "label": "In Reference To",
+                "originalIdentifier": "inReferenceTo",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 18,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
             "amplifund_appID": {
                 "labelTextSize": "0.875rem",
                 "identifier": "amplifund_appID",
@@ -445,8 +467,8 @@
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{MT_UpdateInteraction.run(() => MT_getApplicantCallLog.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
     "displayName": "JSON Form",
-    "topRow": 92,
-    "bottomRow": 132,
+    "topRow": 98,
+    "bottomRow": 138,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "type": "JSON_FORM_WIDGET",
@@ -525,7 +547,10 @@
         {"key": "schema.__root_schema__.children.staff.placeholderText"},
         {"key": "schema.__root_schema__.children.amplifund_appID.defaultValue"},
         {"key": "schema.__root_schema__.children.amplifund_appID.borderRadius"},
-        {"key": "schema.__root_schema__.children.amplifund_appID.accentColor"}
+        {"key": "schema.__root_schema__.children.amplifund_appID.accentColor"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.defaultValue"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.borderRadius"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.accentColor"}
     ],
     "borderWidth": "0",
     "sourceData": "{{callLog_tbl.selectedRow}}",
@@ -629,10 +654,10 @@
         }
     },
     "fixedFooter": true,
-    "originalTopRow": 92,
+    "originalTopRow": 98,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 132,
+    "originalBottomRow": 138,
     "minDynamicHeight": 4
 }

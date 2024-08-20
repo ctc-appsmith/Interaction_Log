@@ -8,7 +8,7 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 6,
+    "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -51,7 +51,7 @@
     "key": "1orclqa9qv",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "lyumuzy4rs",
     "optionValue": "rootApplicantID",
