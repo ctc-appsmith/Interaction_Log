@@ -58,7 +58,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 9,
+                "position": 10,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -81,10 +81,33 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "placeholderText": "Notes should include names of CTC staff in attendance, action items and discussion outcomes.",
-                "position": 7,
+                "position": 8,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Multiline Text Input"
+            },
+            "inReferenceTo": {
+                "labelTextSize": "0.875rem",
+                "identifier": "inReferenceTo",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isFilterable": false,
+                "isCustomField": false,
+                "defaultValue": "",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "dataType": "string",
+                "accessor": "inReferenceTo",
+                "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.applicantID ===10))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "label": "In Reference To",
+                "serverSideFiltering": false,
+                "originalIdentifier": "inReferenceTo",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "children": {},
+                "options": "{{DE_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Select"
             },
             "spokeWith": {
                 "labelTextSize": "0.875rem",
@@ -104,7 +127,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "labelTextColor": "#231f20",
-                "position": 2,
+                "position": 3,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -128,7 +151,7 @@
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Correspondence\",\n    \"value\": \"Correspondence\"\n  },\n  {\n    \"label\": \"Curing Request\",\n    \"value\": \"Curing Request\"\n  },\n\t{\"label\": \"Final Determination\",\n\t\t\"value\": \"Final Determination\"\n\t},\n\t{\n\t\t\"label\": \"Final Review Request\",\n\t\t\"value\": \"Final Review Request\"\n\t},\t\n\t{\"label\": \"Negotiation\",\n\t \"value\": \"Negotiation\"\n\t },\n\t{\n\t\t\t\"label\": \"Policy Decision\",\n\t\t\t\"value\": \"Policy Decision\"\n\t},\n\t{\n    \"label\": \"Update Sent\",\n    \"value\": \"Update Sent\"\n  },\t\n\t{\"label\": \"Other\",\n\t\t \"value\": \"Other\"\n\t},\n\t{\n\t\t\t\"label\": \"Misc.\",\n\t\t\t\"value\": \"Misc.\"}\n]",
                 "labelTextColor": "#231f20",
-                "position": 4,
+                "position": 5,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -152,7 +175,7 @@
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Executive\",\n    \"value\": \"Executive\"\n  },\n  {\n    \"label\": \"Standard\",\n    \"value\": \"Standard\"\n  }\n]",
                 "labelTextColor": "#231f20",
-                "position": 6,
+                "position": 7,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -176,7 +199,7 @@
                 "children": {},
                 "options": "{{DE_getEmps.data.map( p => ({label: p.userName, value: p.userName}))}}",
                 "labelTextColor": "#231f20",
-                "position": 8,
+                "position": 9,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -224,7 +247,7 @@
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Portal\",\n    \"value\": \"Portal\"\n  },\n  {\n    \"label\": \"Email\",\n    \"value\": \"Email\"\n  },\n  {\n    \"label\": \"Phone Call\",\n    \"value\": \"Phone Call\"\n  },\n\t{\n\t\t\"label\": \"Video Call\",\n\t\t\"value\": \"Video Call\"\n\t},\n\t{\n\t\t\"label\": \"Other\",\n\t\t\"value\": \"Other\"\n\t}\n]",
                 "labelTextColor": "#231f20",
-                "position": 3,
+                "position": 4,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -246,7 +269,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 10,
+                "position": 11,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -270,7 +293,7 @@
                 "children": {},
                 "options": "{{DE_getAppIDbyApplicant.data.map( p => ({label: p.amplifund_appID, value: p.amplifund_appID}))}}",
                 "labelTextColor": "#231f20",
-                "position": 5,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -300,7 +323,8 @@
         {"key": "borderRadius"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.clientID.isVisible"},
-        {"key": "schema.__root_schema__.children.lastChangedBy.isVisible"}
+        {"key": "schema.__root_schema__.children.lastChangedBy.isVisible"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.isVisible"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -355,10 +379,14 @@
         {"key": "schema.__root_schema__.children.clientID.isVisible"},
         {"key": "schema.__root_schema__.children.applicationName.options"},
         {"key": "schema.__root_schema__.children.lastChangedBy.isVisible"},
-        {"key": "schema.__root_schema__.children.staff.options"}
+        {"key": "schema.__root_schema__.children.staff.options"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.borderRadius"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.accentColor"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.options"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.isVisible"}
     ],
     "borderWidth": "",
-    "sourceData": "{\n  \"clientID\": \"\",\n  \"applicantID\": \"\",\n  \"spokeWith\": \"\",\n\n  \"commsDate\": \"\",\n  \"commsType\": \"\",\n  \"subject\": \"\",\n  \"applicationName\": \"\",\n  \"importance\": \"\",\n  \"notes\": \"\",\n  \"staff\": \"\",\n\n  \"lastChangedBy\": \"\"\n}",
+    "sourceData": "{\n  \"clientID\": \"\",\n  \"applicantID\": \"\",\n  \"spokeWith\": \"\",\n\n  \"commsDate\": \"\",\n  \"commsType\": \"\",\n  \"subject\": \"\",\n  \"applicationName\": \"\",\n  \"importance\": \"\",\n  \"notes\": \"\",\n  \"staff\": \"\",\n  \"inReferenceTo\": \"\",\n  \"lastChangedBy\": \"\"\n}",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",

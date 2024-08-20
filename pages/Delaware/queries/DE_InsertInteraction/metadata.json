@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO applicantCommunication (clientID,applicantID,spokeWith,commsDate,commsType,subject,applicationName,importance,notes,staff,archived, lastChangedBy) VALUES ('{{1}}','{{(insert_form.formData || {}).applicantID}}','{{(insert_form.formData || {}).spokeWith}}','{{(insert_form.formData || {}).commsDate}}','{{(insert_form.formData || {}).commsType}}','{{(insert_form.formData || {}).subject}}','{{(insert_form.formData || {}).applicationName}}','{{(insert_form.formData || {}).importance}}','{{(insert_form.formData || {}).notes}}','{{(insert_form.formData || {}).staff}}', \"No\", '{{appsmith.user.username}}')",
+      "body": "INSERT INTO applicantCommunication (clientID,applicantID,spokeWith,commsDate,commsType,subject,applicationName,importance,notes,staff,inReferenceTo, archived, lastChangedBy) VALUES ('{{1}}','{{(insert_form.formData || {}).applicantID}}','{{(insert_form.formData || {}).spokeWith}}','{{(insert_form.formData || {}).commsDate}}','{{(insert_form.formData || {}).commsType}}','{{(insert_form.formData || {}).subject}}','{{(insert_form.formData || {}).applicationName}}','{{(insert_form.formData || {}).importance}}','{{(insert_form.formData || {}).notes}}','{{(insert_form.formData || {}).staff}}', '{{(insert_form.formData || {}).inReferenceTo}}',\"No\", '{{appsmith.user.username}}')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,6 +41,7 @@
       "(insert_form.formData || {}).commsDate",
       "(insert_form.formData || {}).commsType",
       "(insert_form.formData || {}).importance",
+      "(insert_form.formData || {}).inReferenceTo",
       "(insert_form.formData || {}).notes",
       "(insert_form.formData || {}).spokeWith",
       "(insert_form.formData || {}).staff",
