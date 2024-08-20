@@ -32,7 +32,8 @@
         {"key": "primaryColumns.lastChangedBy.computedValue"},
         {"key": "primaryColumns.amplifund_appID.computedValue"},
         {"key": "primaryColumns.spokeWith.isCellVisible"},
-        {"key": "primaryColumns.inReferenceTo.computedValue"}
+        {"key": "primaryColumns.inReferenceTo.computedValue"},
+        {"key": "primaryColumns.inReferenceTo.isCellVisible"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -106,7 +107,8 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
-        {"key": "primaryColumns.spokeWith.isCellVisible"}
+        {"key": "primaryColumns.spokeWith.isCellVisible"},
+        {"key": "primaryColumns.inReferenceTo.isCellVisible"}
     ],
     "displayName": "Table",
     "bottomRow": 67,
@@ -242,7 +244,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( applicantSelect.selectedOptionValue ===103))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
