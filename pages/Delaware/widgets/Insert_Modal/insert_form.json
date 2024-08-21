@@ -38,7 +38,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "closeOnSelection": false,
                 "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 1,
+                "position": 0,
                 "fieldType": "Datepicker"
             },
             "clientID": {
@@ -223,7 +223,7 @@
                 "children": {},
                 "options": "{{DE_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.rootApplicantID}))}}",
                 "labelTextColor": "#231f20",
-                "position": 0,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
