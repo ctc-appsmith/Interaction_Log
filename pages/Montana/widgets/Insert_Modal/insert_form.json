@@ -149,7 +149,7 @@
                 "originalIdentifier": "subject",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Correspondence\",\n    \"value\": \"Correspondence\"\n  },\n  {\n    \"label\": \"Curing Request\",\n    \"value\": \"Curing Request\"\n  },\n\t{\"label\": \"Final Determination\",\n\t\t\"value\": \"Final Determination\"\n\t},\n\t{\n\t\t\"label\": \"Final Review Request\",\n\t\t\"value\": \"Final Review Request\"\n\t},\t\n\t{\"label\": \"Negotiation\",\n\t \"value\": \"Negotiation\"\n\t },\n\t{\n\t\t\t\"label\": \"Policy Decision\",\n\t\t\t\"value\": \"Policy Decision\"\n\t},\n\t{\n    \"label\": \"Update Sent\",\n    \"value\": \"Update Sent\"\n  },\t\n\t{\"label\": \"Other\",\n\t\t \"value\": \"Other\"\n\t},\n\t{\n\t\t\t\"label\": \"Misc.\",\n\t\t\t\"value\": \"Misc.\"}\n]",
+                "options": "[\n  {\n    \"label\": \"Negotiation\",\n    \"value\": \"Negotiation\"\n  },\n  {\n    \"label\": \"Policy Decision\",\n    \"value\": \"Policy Decision\"\n  },\n\t{\"label\": \"Recommendation\",\n\t\t\"value\": \"Recommendation\"\n\t},\n\t{\n\t\t\"label\": \"Revision Request\",\n\t\t\"value\": \"Revision Request\"\n\t},\t\n\t{\"label\": \"Other\",\n\t\t \"value\": \"Other\"\n\t}\n]",
                 "labelTextColor": "#231f20",
                 "position": 5,
                 "isDisabled": false,
