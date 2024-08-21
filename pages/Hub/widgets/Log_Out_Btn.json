@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 17,
-    "bottomRow": 23,
+    "topRow": 11,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 20.109375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 53,
+    "leftColumn": 59,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Log Out",
     "isDisabled": false,
@@ -39,11 +39,11 @@
     "isLoading": false,
     "mobileTopRow": 20,
     "responsiveBehavior": "hug",
-    "originalTopRow": 17,
+    "originalTopRow": 11,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 48,
-    "originalBottomRow": 23,
+    "originalBottomRow": 17,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

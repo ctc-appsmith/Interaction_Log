@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "BEAD Interaction Log",
+    "text": "BEAD Main Dashboard",
     "key": "iriebyc2p6",
     "isDeprecated": false,
     "rightColumn": 64,
