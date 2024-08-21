@@ -333,7 +333,7 @@
     "bottomRow": 58,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Insert New Interaction",
+    "title": "Add New Interaction",
     "type": "JSON_FORM_WIDGET",
     "hideCard": false,
     "animateLoading": true,
