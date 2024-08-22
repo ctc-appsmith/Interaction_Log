@@ -7,10 +7,7 @@
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
     "leftColumn": 42,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Return to Homepage",
     "isDisabled": false,
     "isDefaultClickDisabled": true,
@@ -26,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 20,
     "widgetName": "Home_Btn",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#054587",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
     "searchTags": [
