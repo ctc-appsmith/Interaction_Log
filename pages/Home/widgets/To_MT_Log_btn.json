@@ -5,7 +5,7 @@
     "mobileBottomRow": 13,
     "onClick": "{{showModal('To_MT_Log_Modal');}}",
     "widgetName": "To_MT_Log_btn",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#054587",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "displayName": "Button",
     "topRow": 28,
@@ -22,10 +22,7 @@
     "parentColumnSpace": 6.900390625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 39,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Montana Interaction Log",
     "isDisabled": false,
     "key": "ql5n001pte",
