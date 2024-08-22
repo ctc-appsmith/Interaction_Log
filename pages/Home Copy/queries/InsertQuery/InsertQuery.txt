@@ -1,0 +1,26 @@
+INSERT INTO applicantCommunication (
+	importance,
+	clientID,
+	applicantID,
+	spokeWith,
+	title,
+	commsDate,
+	commsType,
+	subject,
+	applicationName,
+	notes,
+	staff
+)
+VALUES (
+	'{{insert_form.formData.importance}}',
+	'{{insert_form.formData.clientID}}',
+	'{{insert_form.formData.applicantID}}',
+	'{{insert_form.formData.spokeWith}}',
+	'{{insert_form.formData.title}}',
+	'{{insert_form.formData.commsDate}}',
+	'{{insert_form.formData.commsType}}',
+	'{{insert_form.formData.subject}}',
+	'{{insert_form.formData.applicationName}}',
+	'{{insert_form.formData.notes}}',
+	'{{insert_form.formData.staff}}'
+);

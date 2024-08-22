@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "Home Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home Copy_logout",
+  "deleted": false,
+  "gitSyncId": "66c731d09579f24357383db8_fe675ce6-6ea1-4eb1-a776-dd2f2b332c42"
+}

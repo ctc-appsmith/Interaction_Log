@@ -1,0 +1,2 @@
+DELETE FROM applicantCommunication
+  WHERE recordID = {{data_table.triggeredRow.recordID}};
