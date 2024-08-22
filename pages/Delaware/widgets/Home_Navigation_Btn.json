@@ -58,7 +58,7 @@
         "submit"
     ],
     "topRow": 11,
-    "bottomRow": 15,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton9vldljkxof": {
@@ -219,7 +219,7 @@
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.onClick"},
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem8m80v0iezf.onClick"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.menuItems.menuItem1.isDisabled"},
@@ -244,7 +244,7 @@
     "key": "zsz33weswm",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 52,
+    "rightColumn": 42,
     "widgetId": "d6nx65jgo3",
     "minWidth": 450,
     "isVisible": true,

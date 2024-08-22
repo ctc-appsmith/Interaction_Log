@@ -21,7 +21,7 @@
     "minHeight": 240,
     "animateLoading": true,
     "parentColumnSpace": 13.234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClose"}],
     "leftColumn": 35,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
@@ -82,6 +82,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 30,
+    "onClose": "{{closeModal('To_MT_Log_Modal');}}",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
