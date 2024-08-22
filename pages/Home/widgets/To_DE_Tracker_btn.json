@@ -29,6 +29,7 @@
     "rightColumn": 24,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
+    "iconName": "form",
     "widgetId": "s30ua1lk71",
     "minWidth": 120,
     "isVisible": true,
@@ -46,5 +47,6 @@
     "mobileLeftColumn": 8,
     "originalBottomRow": 22,
     "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }
