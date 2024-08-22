@@ -24,7 +24,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Close",
+    "text": "Cancel",
     "isDisabled": false,
     "key": "ab4zcza81i",
     "isDeprecated": false,
