@@ -29,6 +29,7 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
+    "iconName": "log-out",
     "widgetId": "v3gaj776xe",
     "minWidth": 120,
     "isVisible": true,
@@ -45,5 +46,6 @@
     "mobileLeftColumn": 48,
     "originalBottomRow": 17,
     "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }
