@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "BEAD Main Dashboard",
+    "text": "BEAD Home Page",
     "key": "iriebyc2p6",
     "isDeprecated": false,
     "rightColumn": 64,
