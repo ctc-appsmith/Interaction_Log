@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "montanaURL",
-        "value": "\"https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=master\""
+        "value": "\"https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=redirect\""
       }
     ],
     "userPermissions": []

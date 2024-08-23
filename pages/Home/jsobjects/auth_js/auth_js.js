@@ -47,7 +47,7 @@ export default {
 		});
 	},
 	
-	montanaURL: "https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=master",
+	montanaURL: "https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=redirect",
 
   redirectToApp(redirect_url) {
     const constructed_url = `${redirect_url}#access_token=${appsmith.store.access_token}&refresh_token=${appsmith.store.refresh_token}`;

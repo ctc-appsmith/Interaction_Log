@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy1",
-    "onClick": "{{navigateTo(auth_js.montanaURL + '&access_token=' + appsmith.store.access_token + '&refresh_token=' + appsmith.store.refresh_token, {}, 'NEW_WINDOW');}}",
-    "buttonColor": "#dd4b34",
-    "dynamicPropertyPathList": [],
+    "onClick": "{{navigateTo(auth_js.montanaURL + '&#access_token=' + appsmith.store.access_token + '&#refresh_token=' + appsmith.store.refresh_token, {}, 'NEW_WINDOW');}}",
+    "buttonColor": "#054587",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
