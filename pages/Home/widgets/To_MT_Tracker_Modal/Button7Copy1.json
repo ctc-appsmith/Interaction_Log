@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy1",
-    "onClick": "{{navigateTo('https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=master', {\nusername:appsmith.store.user.email,\npassword:appsmith.store.password,\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo(auth_js.montanaURL + '&access_token=' + appsmith.store.access_token + '&refresh_token=' + appsmith.store.refresh_token, {}, 'NEW_WINDOW');}}",
     "buttonColor": "#dd4b34",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

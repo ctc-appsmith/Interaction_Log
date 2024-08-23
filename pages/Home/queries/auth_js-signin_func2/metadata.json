@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "thissignin_func",
-    "fullyQualifiedName": "auth_js.thissignin_func",
+    "name": "signin_func2",
+    "fullyQualifiedName": "auth_js.signin_func2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -41,7 +41,7 @@
     "userPermissions": [],
     "createdAt": "2024-08-22T21:08:14Z"
   },
-  "id": "Home_auth_js.thissignin_func",
+  "id": "Home_auth_js.signin_func2",
   "deleted": false,
   "gitSyncId": "66c731d09579f24357383db8_0ad40010-4ad3-452b-9887-1974190e6490"
 }
