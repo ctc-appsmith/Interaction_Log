@@ -77,7 +77,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1724184442243,
+    "columnUpdatedAt": 1724766943147,
     "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -283,7 +283,7 @@
             "allowCellWrapping": false,
             "index": 14,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "amplifund_appID",
             "fontStyle": "",
             "textColor": "",
