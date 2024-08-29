@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Home Admin",
       "isDefault": false
     },
     {
@@ -17,11 +17,11 @@
       "isDefault": false
     },
     {
-      "id": "Home Copy",
+      "id": "State Tracker",
       "isDefault": false
     },
     {
-      "id": "State Tracker",
+      "id": "Home Regular",
       "isDefault": false
     }
   ],

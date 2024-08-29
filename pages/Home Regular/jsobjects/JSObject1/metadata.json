@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Home Regular",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "montanaURL",
+        "value": "\"https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=master\""
+      },
+      {
+        "name": "oregonURL",
+        "value": "\"https://ctcnetapps.us/app/oregon/main_page_url\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Home Regular_JSObject1",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_0ad8afa4-dba4-4460-baa1-4a74de06de84"
+}

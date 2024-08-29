@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "auth_js",
+    "pageId": "Home Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "montanaURL",
+        "value": "\"https://ctcnetapps.us/app/grant-bid-tracker-mt/login-page-65bd14d46a813f5d1501a40d?branch=master\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Home Admin_auth_js",
+  "deleted": false,
+  "gitSyncId": "66c731d09579f24357383db8_55b25073-ab4d-46c0-b691-9bad42fd58f2"
+}
