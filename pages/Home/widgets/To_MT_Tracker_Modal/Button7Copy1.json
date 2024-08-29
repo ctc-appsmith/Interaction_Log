@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy1",
-    "onClick": "{{navigateTo('State Tracker', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{closeModal('To_MT_Tracker_Modal');\nnavigateTo('State Tracker', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#054587",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
