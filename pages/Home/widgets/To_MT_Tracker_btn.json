@@ -24,7 +24,7 @@
     "mobileBottomRow": 6,
     "widgetName": "To_MT_Tracker_btn",
     "buttonColor": "#061041",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "searchTags": [
         "click",
