@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_utils",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_36a73f0d-cd18-42af-a96f-772252fc88f5"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_logout",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_217ce150-bff7-4c3c-bc4f-0986815af62b"
+}
