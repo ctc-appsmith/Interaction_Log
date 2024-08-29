@@ -7,8 +7,8 @@ export default {
 				storeValue(i, data[i]);
 			});
 		})
-		.then(() => navigateTo('Home'))
-		.then(() => {{utils.setCurrentPage('Home')}})
+		.then(() => navigateTo('Home Admin'))
+		.then(() => {{utils.setCurrentPage('Home Admin')}})
 		.catch((err) => {
 			//showAlert(`${err.message}`, 'error') //Error: signin failed to execute
 			//showAlert(`Status Code: ${signin.responseMeta.statusCode}`, 'error') //400 BAD_REQUEST
