@@ -4,7 +4,7 @@
     "mobileBottomRow": 24,
     "widgetName": "Log_Out_Btn",
     "onClick": "{{logout.logout();}}",
-    "buttonColor": "#054587",
+    "buttonColor": "#061041",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
