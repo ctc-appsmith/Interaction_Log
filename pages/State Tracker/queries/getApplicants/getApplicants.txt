@@ -1,2 +1,3 @@
 SELECT * FROM rootApplicant
+WHERE clientID = {{appsmith.store.clientID}}
 ORDER BY ApplicantName ASC;

@@ -2,7 +2,7 @@
     "labelTextSize": "0.875rem",
     "boxShadow": "none",
     "widgetName": "Delete_Button",
-    "onClick": "{{MT_DeleteQuery.run(() => MT_SelectQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
+    "onClick": "{{DeleteQuery.run(() => SelectQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
     "rightColumn": 64,
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "buttonColor": "#DD4B34",

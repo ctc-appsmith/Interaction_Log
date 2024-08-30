@@ -47,7 +47,7 @@
     "parentColumnSpace": 7.200927734375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{MT_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
+    "sourceData": "{{getApplicants.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
     "key": "b77g5wqtat",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

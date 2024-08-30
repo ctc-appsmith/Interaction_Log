@@ -125,7 +125,7 @@
     "accentColor": "#061041",
     "widgetId": "ykg7xsho98",
     "defaultTab": "Applicant Information",
-    "onTabSelected": "",
+    "onTabSelected": "{{getApplicantCallLog.run().then(() => {\n  getApplicants.run();\n});}}",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {

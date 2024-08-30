@@ -50,7 +50,7 @@
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{MT_getAppIDbyApplicant.data.map( p => ({label: p.amplifund_appID, value: p.amplifund_appID}))}}",
+    "sourceData": "{{getAppIDbyApplicant.data.map( p => ({label: p.amplifund_appID, value: p.amplifund_appID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

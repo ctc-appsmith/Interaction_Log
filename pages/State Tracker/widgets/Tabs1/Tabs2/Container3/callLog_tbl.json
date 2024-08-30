@@ -786,7 +786,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "iahb1p7q10",
     "minWidth": 450,
-    "tableData": "{{MT_getApplicantCallLog.data}}",
+    "tableData": "{{getApplicantCallLog.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "tq8zmjptm0",

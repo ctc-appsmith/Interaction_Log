@@ -29,19 +29,21 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "State Tracker_MT_SelectQuery",
-              "name": "MT_SelectQuery",
+              "id": "State Tracker_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_MT_getApplicants",
-              "name": "MT_getApplicants",
+              "id": "State Tracker_getApplicants",
+              "name": "getApplicants",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -57,8 +59,8 @@
           ],
           [
             {
-              "id": "State Tracker_MT_getEmps",
-              "name": "MT_getEmps",
+              "id": "State Tracker_getEmps",
+              "name": "getEmps",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -67,8 +69,8 @@
           ],
           [
             {
-              "id": "State Tracker_MT_getApplicantCallLog",
-              "name": "MT_getApplicantCallLog",
+              "id": "State Tracker_getApplicantCallLog",
+              "name": "getApplicantCallLog",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -79,8 +81,8 @@
           ],
           [
             {
-              "id": "State Tracker_MT_getAppIDbyApplicant",
-              "name": "MT_getAppIDbyApplicant",
+              "id": "State Tracker_getAppIDbyApplicant",
+              "name": "getAppIDbyApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -89,8 +91,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_MT_getAppsByApplicant",
-              "name": "MT_getAppsByApplicant",
+              "id": "State Tracker_getAppsByApplicant",
+              "name": "getAppsByApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

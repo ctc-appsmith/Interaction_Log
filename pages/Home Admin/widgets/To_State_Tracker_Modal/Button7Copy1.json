@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy1",
-    "onClick": "{{closeModal('To_MT_Tracker_Modal');\nstoreValue('clientName', 'Montana').then(() => {\n  navigateTo('State Tracker', {}, 'SAME_WINDOW');\n});}}",
+    "onClick": "{{closeModal('To_MT_Tracker_Modal');\nnavigateTo('State Tracker', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#054587",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
