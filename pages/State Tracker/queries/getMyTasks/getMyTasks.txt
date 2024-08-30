@@ -1,0 +1,1 @@
+SELECT * FROM AppDetailItems LIMIT 10;

@@ -47,6 +47,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getMyTasks",
+              "name": "getMyTasks",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
