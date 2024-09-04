@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "InteractionLog_Report1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "InteractionLog_Report1_utils",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_4b67224d-7498-47c2-9ba6-8bf3ef3e9dd0"
+}

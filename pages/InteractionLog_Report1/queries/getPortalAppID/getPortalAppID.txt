@@ -1,0 +1,4 @@
+SELECT portalAppID FROM Applications
+
+WHERE appID = {{insert_form.formData.applicationID}}
+;

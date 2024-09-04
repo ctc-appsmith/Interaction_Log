@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "InteractionLog_Report1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "InteractionLog_Report1_logout",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_c6e7b834-033f-4ea0-ab0e-45578d3317df"
+}

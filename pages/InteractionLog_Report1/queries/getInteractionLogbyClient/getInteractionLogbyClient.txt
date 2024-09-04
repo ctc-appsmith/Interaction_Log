@@ -1,0 +1,4 @@
+SELECT * FROM interactionLog
+	WHERE clientID = {{clientSelect.selectedOptionValue}}
+	ORDER BY commsDate DESC
+;

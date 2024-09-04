@@ -54,7 +54,7 @@
         "submit"
     ],
     "topRow": 11,
-    "bottomRow": 16,
+    "bottomRow": 15,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton9vldljkxof": {
@@ -84,7 +84,7 @@
             },
             "index": 0,
             "label": "States",
-            "isVisible": true,
+            "isVisible": false,
             "buttonType": "MENU",
             "buttonVariant": "filled",
             "id": "groupButton9vldljkxof",
@@ -252,6 +252,6 @@
     "originalTopRow": 11,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
-    "originalBottomRow": 16,
+    "originalBottomRow": 15,
     "buttonVariant": "SECONDARY"
 }

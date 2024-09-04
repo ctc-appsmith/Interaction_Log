@@ -19,6 +19,10 @@
     {
       "id": "Home Regular",
       "isDefault": false
+    },
+    {
+      "id": "InteractionLog_Report1",
+      "isDefault": false
     }
   ],
   "viewMode": false,

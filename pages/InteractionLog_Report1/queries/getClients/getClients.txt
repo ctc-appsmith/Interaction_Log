@@ -1,0 +1,2 @@
+SELECT * FROM Clients
+	ORDER BY clientName ASC;

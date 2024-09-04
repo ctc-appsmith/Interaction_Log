@@ -1,0 +1,4 @@
+SELECT * FROM Entities
+	WHERE entityType = "Applicant"
+	ORDER BY entityName ASC
+;
