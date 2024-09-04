@@ -46,7 +46,10 @@
         {"key": "groupButtons.groupButtonj45xqmkqy8.onClick"},
         {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItembf30ogockx.isDisabled"},
         {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemdpqeiovrvg.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.iconName"}
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemc535vczx17.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItembo43fhmy0c.iconName"}
     ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.7c22979bacc83c8d84aedf56ea6c2022.svg",
@@ -67,6 +70,7 @@
                 "menuItembo43fhmy0c": {
                     "onClick": "{{showModal('To_WY_Log_Modal');}}",
                     "backgroundColor": "",
+                    "iconName": "{{appsmith.store.clientID == 11 ? 'caret-right' : ''}}",
                     "widgetId": "1tupy04emg",
                     "index": 3,
                     "id": "menuItembo43fhmy0c",
@@ -76,7 +80,7 @@
                 },
                 "menuItemo9ocoeq5o7": {
                     "onClick": "{{showModal('To_DE_Log_Modal');}}",
-                    "iconName": "{{appsmith.store.clientID === 9 ? 'caret-right' : ''}}",
+                    "iconName": "{{appsmith.store.clientID == 9 ? 'caret-right' : ''}}",
                     "widgetId": "zc4ufo5nzw",
                     "index": 0,
                     "id": "menuItemo9ocoeq5o7",
@@ -86,6 +90,7 @@
                 },
                 "menuItemc535vczx17": {
                     "onClick": "{{showModal('To_IL_Log_Modal');}}",
+                    "iconName": "{{appsmith.store.clientID == 10 ? 'caret-right' : ''}}",
                     "widgetId": "tcblap6mic",
                     "index": 1,
                     "id": "menuItemc535vczx17",
@@ -95,6 +100,7 @@
                 },
                 "menuItem7e5xfzkd62": {
                     "onClick": "{{showModal('To_MT_Log_Modal');}}",
+                    "iconName": "{{appsmith.store.clientID == 1 ? 'caret-right' : ''}}",
                     "widgetId": "xot7x4y92j",
                     "index": 2,
                     "id": "menuItem7e5xfzkd62",
@@ -257,7 +263,10 @@
         {"key": "groupButtons.groupButton3.menuItems.menuItemvwxlctdt7n.onClick"},
         {"key": "groupButtons.groupButton3.menuItems.menuItemqetcqopg6c.onClick"},
         {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemzio04syxtu.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.iconName"}
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemc535vczx17.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.iconName"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItembo43fhmy0c.iconName"}
     ],
     "key": "zsz33weswm",
     "orientation": "horizontal",
