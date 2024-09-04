@@ -97,12 +97,12 @@
             "iconName": "annotation",
             "widgetId": "ns3kvp5lfq",
             "menuItems": {"menuItemzio04syxtu": {
-                "onClick": "{{utils.setCurrentPage('DailyPreQualReport')}}",
+                "onClick": "{{utils.setCurrentPage('InteractionLog_Report1')}}",
                 "widgetId": "mty1eqm9pi",
                 "index": 0,
                 "id": "menuItemzio04syxtu",
                 "label": "Report 1",
-                "isDisabled": "{{utils.isCurrentPage('DailyPreQualReport')}}",
+                "isDisabled": "{{utils.isCurrentPage('InteractionLog_Report1')}}",
                 "isVisible": true
             }},
             "index": 1,
