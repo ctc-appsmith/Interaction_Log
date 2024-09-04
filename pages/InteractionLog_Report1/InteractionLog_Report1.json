@@ -29,47 +29,11 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "InteractionLog_Report1_getApplicantsOnly",
-              "name": "getApplicantsOnly",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "InteractionLog_Report1_getAppsByApplicant",
-              "name": "getAppsByApplicant",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "InteractionLog_Report1_getClients",
               "name": "getClients",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "InteractionLog_Report1_getEmps",
-              "name": "getEmps",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "InteractionLog_Report1_getEntityList",
-              "name": "getEntityList",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
               "timeoutInMillisecond": 10000
             },
             {
