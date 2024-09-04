@@ -35,7 +35,7 @@
     "iconName": "floppy-disk",
     "widgetId": "bippyj51qx",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": false,
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "hr1s52x8sj",

@@ -33,7 +33,7 @@
     "iconName": "reset",
     "widgetId": "zmen722ufr",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": false,
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "hr1s52x8sj",

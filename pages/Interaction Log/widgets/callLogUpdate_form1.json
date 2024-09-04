@@ -49,7 +49,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.clientID))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "clientID",
                 "isVisible": true,
                 "label": "Client ID",
@@ -60,8 +60,8 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "notes": {
                 "labelTextSize": "0.875rem",
@@ -181,7 +181,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.entityID))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "entityID",
                 "isVisible": true,
                 "label": "Entity ID",
@@ -192,8 +192,8 @@
                 "iconAlign": "left",
                 "position": 14,
                 "isDisabled": false,
-                "sourceData": 96,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "commsSubject": {
                 "labelTextSize": "0.875rem",
@@ -246,7 +246,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.recordID))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "recordID",
                 "isVisible": true,
                 "label": "Record ID",
@@ -257,8 +257,8 @@
                 "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": 9,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "archived": {
                 "labelTextSize": "0.875rem",
@@ -401,7 +401,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.applicationID))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(callLogUpdate_form1.sourceData, callLogUpdate_form1.formData, callLogUpdate_form1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "applicationID",
                 "isVisible": true,
                 "label": "Application ID",
@@ -412,8 +412,8 @@
                 "iconAlign": "left",
                 "position": 16,
                 "isDisabled": false,
-                "sourceData": 0,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "lastchanged": {
                 "labelTextSize": "0.875rem",
