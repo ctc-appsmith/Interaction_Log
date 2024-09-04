@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Application ID (if applicable)",
-    "topRow": 48,
+    "labelText": "Application Name (if applicable)",
+    "topRow": 47,
     "labelWidth": "15",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.amplifund_appID))(applicationName.options, applicationName.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.applicationID))(applicationName.options, applicationName.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -38,19 +38,20 @@
         {"key": "sourceData"},
         {"key": "optionLabel"},
         {"key": "optionValue"},
-        {"key": "labelWidth"}
+        {"key": "labelWidth"},
+        {"key": "onOptionChange"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 55,
+    "bottomRow": 54,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 22,
     "parentColumnSpace": 7.19482421875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{getPortalAppID.data.map( p => ({label: p.amplifund_appID, value: p.amplifund_appID}))}}",
+    "sourceData": "{{getAppsByApplicant.data.map( p => ({label: p.applicationName, value: p.appID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -68,5 +69,6 @@
     "originalTopRow": 41,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{getPortalAppID.run()}}",
     "minDynamicHeight": 4
 }

@@ -98,7 +98,7 @@
                 "dataType": "string",
                 "accessor": "inReferenceTo",
                 "label": "In Reference To",
-                "isVisible": "{{((sourceData, formData, fieldState) => (getEntityType_fromEntitySelect.data != \"Applicant\"))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "isVisible": "{{((sourceData, formData, fieldState) => (getEntityType_fromEntitySelect.data[0].entityType !== \"Applicant\"))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "serverSideFiltering": false,
                 "originalIdentifier": "inReferenceTo",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",

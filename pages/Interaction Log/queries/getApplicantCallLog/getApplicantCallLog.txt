@@ -1,6 +1,6 @@
-SELECT rootApplicant.ApplicantName, applicantCommunication.*
-FROM applicantCommunication INNER JOIN rootApplicant ON applicantCommunication.applicantID = rootApplicant.rootApplicantID
-WHERE applicantCommunication.applicantID = {{entitySelect.selectedOptionValue}}
+SELECT Entities.entityName, interactionLog.*
+FROM interactionLog INNER JOIN Entities ON interactionLog.entityID = Entities.entityID
+WHERE interactionLog.entityID = {{entitySelect.selectedOptionValue}}
 AND archived = "No"
 ORDER BY commsDate DESC
 ;

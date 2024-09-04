@@ -1,11 +1,11 @@
-UPDATE applicantCommunication SET
-		applicantID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.ApplicantName : callLogUpdate_form.data.ApplicantName}}',
+UPDATE interactionLog SET
+		entityID = '{{entitySelect.selectedOptionValue}}',
 		spokeWith = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.spokeWith : callLogUpdate_form.data.spokeWith}}',
 		commsDate = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate}}',  
 		commsType = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType}}',		
-		subject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.subject : callLogUpdate_form.data.subject}}',		
-		applicationName = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationName : callLogUpdate_form.data.applicationName}}',		
+		commsSubject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsSubject : callLogUpdate_form.data.commsSubject}}',		
+		applicationID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationID : callLogUpdate_form.data.applicationID}}',		
 		importance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',	
-		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 staff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.staff : callLogUpdate_form.data.staff}}',
+		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 CTCstaff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.CTCstaff : callLogUpdate_form.data.CTCstaff}}',
 		inReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}'
 		WHERE recordID = {{callLog_tbl.selectedRow.recordID}};

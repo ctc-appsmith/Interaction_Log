@@ -45,11 +45,7 @@
         {"key": "groupButtons.groupButtonj45xqmkqy8.isDisabled"},
         {"key": "groupButtons.groupButtonj45xqmkqy8.onClick"},
         {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItembf30ogockx.isDisabled"},
-        {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemdpqeiovrvg.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.onClick"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.onClick"}
+        {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemdpqeiovrvg.isDisabled"}
     ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.7c22979bacc83c8d84aedf56ea6c2022.svg",
@@ -68,21 +64,21 @@
             "widgetId": "6rah4i0s9t",
             "menuItems": {
                 "menuItemo9ocoeq5o7": {
-                    "onClick": "{{utils.setCurrentPage('Delaware')}}",
+                    "onClick": "{{showModal('To_DE_Log_Modal');}}",
                     "widgetId": "zc4ufo5nzw",
                     "index": 0,
                     "id": "menuItemo9ocoeq5o7",
                     "label": "Delaware",
-                    "isDisabled": "{{utils.isCurrentPage('Delaware')}}",
+                    "isDisabled": false,
                     "isVisible": true
                 },
                 "menuItem7e5xfzkd62": {
-                    "onClick": "{{utils.setCurrentPage('Montana')}}",
+                    "onClick": "{{showModal('To_MT_Log_Modal');}}",
                     "widgetId": "xot7x4y92j",
                     "index": 1,
                     "id": "menuItem7e5xfzkd62",
                     "label": "Montana",
-                    "isDisabled": "{{utils.isCurrentPage('Montana')}}",
+                    "isDisabled": false,
                     "isVisible": true
                 }
             },
@@ -237,9 +233,7 @@
         {"key": "groupButtons.groupButton3.menuItems.menuItem3.onClick"},
         {"key": "groupButtons.groupButton3.menuItems.menuItemvwxlctdt7n.onClick"},
         {"key": "groupButtons.groupButton3.menuItems.menuItemqetcqopg6c.onClick"},
-        {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemzio04syxtu.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem7e5xfzkd62.isDisabled"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemo9ocoeq5o7.isDisabled"}
+        {"key": "groupButtons.groupButtonu2bqtvhhnb.menuItems.menuItemzio04syxtu.isDisabled"}
     ],
     "key": "zsz33weswm",
     "orientation": "horizontal",

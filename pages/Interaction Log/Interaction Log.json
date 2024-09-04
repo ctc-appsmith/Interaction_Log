@@ -77,16 +77,6 @@
                 "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Interaction Log_getEntityType_fromEntitySelect",
-              "name": "getEntityType_fromEntitySelect",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -97,16 +87,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entitySelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Interaction Log_getPortalAppID",
-              "name": "getPortalAppID",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "insert_form.formData.applicationID"
               ],
               "timeoutInMillisecond": 10000
             }

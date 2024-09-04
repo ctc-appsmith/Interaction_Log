@@ -1,4 +1,4 @@
-UPDATE applicantCommunication
+UPDATE interactionLog
 
 SET archived = "Yes"
 
