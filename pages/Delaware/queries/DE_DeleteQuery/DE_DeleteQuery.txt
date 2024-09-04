@@ -1,2 +1,0 @@
-DELETE FROM rootApplicant
-  WHERE rootApplicantID = {{data_table.triggeredRow.rootApplicantID}};

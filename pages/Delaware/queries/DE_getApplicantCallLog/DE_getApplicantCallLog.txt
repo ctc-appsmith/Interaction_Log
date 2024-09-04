@@ -1,6 +1,0 @@
-SELECT rootApplicant.ApplicantName, applicantCommunication.*
-FROM applicantCommunication INNER JOIN rootApplicant ON applicantCommunication.applicantID = rootApplicant.rootApplicantID
-WHERE applicantCommunication.applicantID = {{applicantSelect.selectedOptionValue}}
-AND archived = "No"
-ORDER BY commsDate DESC
-;
