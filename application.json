@@ -45,8 +45,8 @@
       "showSignIn": true
     }
   },
-  "color": "#D9E7FF",
-  "icon": "chat",
+  "color": "#C2DAF0",
+  "icon": "bag",
   "unpublishedCustomJSLibs": [
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
