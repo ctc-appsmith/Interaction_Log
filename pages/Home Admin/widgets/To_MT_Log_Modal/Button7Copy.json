@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7Copy",
-    "onClick": "{{closeModal('To_MT_Log_Modal').then(() => {\n  navigateTo('Montana', {}, 'SAME_WINDOW');\n});}}",
+    "onClick": "{{closeModal('To_MT_Log_Modal').then(() => {\n  navigateTo('Interaction Log', {}, 'SAME_WINDOW');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
