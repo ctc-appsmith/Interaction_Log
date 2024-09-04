@@ -21,7 +21,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{applicantSelect.selectedOptionValue ===103}}",
+    "isVisible": "{{entitySelect.selectedOptionValue ===103}}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -47,7 +47,7 @@
     "parentColumnSpace": 7.200927734375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{MT_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
+    "sourceData": "{{getEntities.data.map( p => ({label: p.ApplicantName, value: p.ApplicantName}))}}",
     "key": "b77g5wqtat",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

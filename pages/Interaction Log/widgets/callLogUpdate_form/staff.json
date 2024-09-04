@@ -47,7 +47,7 @@
     "parentColumnSpace": 7.200927734375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{MT_getEmps.data.map( p => ({label: p.userName, value: p.userName}))}}",
+    "sourceData": "{{getEmps.data.map( p => ({label: p.userName, value: p.userName}))}}",
     "key": "rvrxjosqsy",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

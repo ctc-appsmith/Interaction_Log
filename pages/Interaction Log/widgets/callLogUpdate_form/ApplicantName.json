@@ -50,7 +50,7 @@
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{MT_getApplicants.data.map( p => ({label: p.ApplicantName, value: p.rootApplicantID}))}}",
+    "sourceData": "{{getEntities.data.map( p => ({label: p.ApplicantName, value: p.rootApplicantID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

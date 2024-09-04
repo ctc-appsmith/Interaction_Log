@@ -1,0 +1,5 @@
+SELECT applicationName, appID FROM Applications
+
+WHERE entityID = {{entitySelect.selectedOptionValue}}
+
+ORDER BY applicationName ASC;

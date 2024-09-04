@@ -63,7 +63,7 @@
     "groupButtons": {
         "groupButton9vldljkxof": {
             "itemType": "BUTTON",
-            "buttonColor": "#054587",
+            "buttonColor": "#b91c1c",
             "iconName": "globe",
             "widgetId": "6rah4i0s9t",
             "menuItems": {
@@ -97,7 +97,7 @@
         },
         "groupButtonu2bqtvhhnb": {
             "buttonType": "MENU",
-            "buttonColor": "#054587",
+            "buttonColor": "#b91c1c",
             "iconName": "annotation",
             "widgetId": "ns3kvp5lfq",
             "menuItems": {"menuItemzio04syxtu": {

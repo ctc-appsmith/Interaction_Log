@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "MT_UpdateInteraction",
+    "name": "UpdateInteraction",
     "datasource": {
       "name": "grantprogramMontana",
       "pluginId": "mysql-plugin",
@@ -54,7 +54,7 @@
     "userPermissions": [],
     "createdAt": "2024-08-08T14:23:28Z"
   },
-  "id": "Interaction Log_MT_UpdateInteraction",
+  "id": "Interaction Log_UpdateInteraction",
   "deleted": false,
   "gitSyncId": "66b4db469579f24357381910_cae8d3ac-3510-4176-a3ca-6f0617e7cd0f"
 }

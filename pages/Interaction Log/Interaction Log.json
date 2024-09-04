@@ -29,19 +29,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Interaction Log_MT_SelectQuery",
-              "name": "MT_SelectQuery",
+              "id": "Interaction Log_getEntityList",
+              "name": "getEntityList",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Interaction Log_MT_getApplicants",
-              "name": "MT_getApplicants",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -57,8 +51,16 @@
           ],
           [
             {
-              "id": "Interaction Log_MT_getEmps",
-              "name": "MT_getEmps",
+              "id": "Interaction Log_getApplicantsOnly",
+              "name": "getApplicantsOnly",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Interaction Log_getEmps",
+              "name": "getEmps",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -67,34 +69,44 @@
           ],
           [
             {
-              "id": "Interaction Log_MT_getApplicantCallLog",
-              "name": "MT_getApplicantCallLog",
+              "id": "Interaction Log_getApplicantCallLog",
+              "name": "getApplicantCallLog",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
+                "entitySelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Interaction Log_getEntityType_fromEntitySelect",
+              "name": "getEntityType_fromEntitySelect",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Interaction Log_MT_getAppIDbyApplicant",
-              "name": "MT_getAppIDbyApplicant",
+              "id": "Interaction Log_getAppsByApplicant",
+              "name": "getAppsByApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
+                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Interaction Log_MT_getAppsByApplicant",
-              "name": "MT_getAppsByApplicant",
+              "id": "Interaction Log_getPortalAppID",
+              "name": "getPortalAppID",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
+                "insert_form.formData.applicationID"
               ],
               "timeoutInMillisecond": 10000
             }
