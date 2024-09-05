@@ -4,6 +4,7 @@ SELECT Tasks.*, Applications.entityID, Applications.applicationType, Application
 		INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID =	Entities.clientID
 			WHERE Clients.clientID = {{appsmith.store.clientID}}
 			AND taskStatus <> "Complete"
+			AND (('{{RadioGroup1.value}}' = "All") OR ( Applications.applicationType= '{{RadioGroup1.value}}')
+	)
 ;
-
 

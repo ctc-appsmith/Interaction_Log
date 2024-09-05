@@ -4,29 +4,31 @@
     "topRow": 5,
     "labelWidth": 5,
     "type": "RADIO_GROUP_WIDGET",
-    "defaultOptionValue": "Y",
+    "defaultOptionValue": "All",
     "animateLoading": true,
     "leftColumn": 1,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [],
+    "onSelectionChange": "{{getMyTasks.run()}}",
     "options": [
         {
-            "label": "Prequal",
-            "value": "Y"
-        },
-        {
-            "label": "Scoring",
-            "value": "N"
-        },
-        {
             "label": "All Tasks",
-            "value": "OPTION1"
+            "value": "All"
+        },
+        {
+            "label": "Prequalification",
+            "value": "Prequalification"
+        },
+        {
+            "label": "Scoring Round",
+            "value": "Scoring"
         }
     ],
+    "labelStyle": "",
     "isDisabled": false,
     "flexVerticalAlignment": "start",
     "isRequired": false,
     "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "accentColor": "#061041",
     "isVisible": true,
     "version": 1,
     "tags": ["Toggles"],
@@ -44,7 +46,7 @@
     "hideCard": false,
     "mobileRightColumn": 42,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onSelectionChange"}],
     "labelPosition": "Top",
     "key": "q1znzgt1vh",
     "labelTextSize": "0.875rem",

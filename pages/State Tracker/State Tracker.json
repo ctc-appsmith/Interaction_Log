@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "State Tracker_getMyTasks",
-              "name": "getMyTasks",
+              "id": "State Tracker_getApplicants",
+              "name": "getApplicants",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -51,23 +51,22 @@
           ],
           [
             {
-              "id": "State Tracker_getApplicants",
-              "name": "getApplicants",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "State Tracker_getEmps",
               "name": "getEmps",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getMyTasks",
+              "name": "getMyTasks",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "RadioGroup1.value"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

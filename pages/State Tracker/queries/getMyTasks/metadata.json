@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID\n\tFROM Clients \n\t\tINNER JOIN ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID =\tEntities.clientID\n\t\t\tWHERE Clients.clientID = {{appsmith.store.clientID}}\n\t\t\tAND taskStatus <> \"Complete\"\n;\n\n\n",
+      "body": "SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID\n\tFROM Clients \n\t\tINNER JOIN ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID =\tEntities.clientID\n\t\t\tWHERE Clients.clientID = {{appsmith.store.clientID}}\n\t\t\tAND taskStatus <> \"Complete\"\n\t\t\tAND (('{{RadioGroup1.value}}' = \"All\") OR ( Applications.applicationType= '{{RadioGroup1.value}}')\n\t)\n;\n\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,6 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "RadioGroup1.value",
       "appsmith.store.clientID"
     ],
     "userSetOnLoad": true,
