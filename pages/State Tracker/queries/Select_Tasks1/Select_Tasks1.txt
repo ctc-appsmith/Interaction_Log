@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  Tasks
+WHERE
+  assignedTo LIKE '%{{Table6.searchText}}%'
+ORDER BY
+  {{Table6.sortOrder.column || 'taskID'}} {{Table6.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table6.pageSize}}
+OFFSET
+  {{Table6.pageOffset}}

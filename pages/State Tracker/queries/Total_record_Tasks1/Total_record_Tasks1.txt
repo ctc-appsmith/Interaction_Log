@@ -1,0 +1,1 @@
+SELECT COUNT(*) from Tasks WHERE assignedTo LIKE '%{{Table6.searchText}}%';
