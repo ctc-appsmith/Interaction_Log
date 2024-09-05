@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO taskTypes (appType,taskName,taskDefinition,taskOrder,created,lastChanged,lastChangedBy) VALUES ('{{(Table4.newRow || {}).appType}}','{{(Table4.newRow || {}).taskName}}','{{(Table4.newRow || {}).taskDefinition}}','{{(Table4.newRow || {}).taskOrder}}','{{(Table4.newRow || {}).created}}','{{(Table4.newRow || {}).lastChanged}}','{{(Table4.newRow || {}).lastChangedBy}}')",

@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO taskStatusTypes (taskStatus,taskStatusDefinition,created,lastUpdated,lastUpdatedBy) VALUES ('{{(Table5.newRow || {}).taskStatus}}','{{(Table5.newRow || {}).taskStatusDefinition}}','{{(Table5.newRow || {}).created}}','{{(Table5.newRow || {}).lastUpdated}}','{{(Table5.newRow || {}).lastUpdatedBy}}')",

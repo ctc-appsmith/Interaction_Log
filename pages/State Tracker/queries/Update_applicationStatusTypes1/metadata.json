@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE applicationStatusTypes SET appStatusType= '{{Table1.updatedRow.appStatusType}}', statusDefinition= '{{Table1.updatedRow.statusDefinition}}', created= '{{Table1.updatedRow.created}}', lastUpdated= '{{Table1.updatedRow.lastUpdated}}', lastUpdatedBy= '{{Table1.updatedRow.lastUpdatedBy}}' WHERE appStatusID= '{{Table1.updatedRow.appStatusID}}';",

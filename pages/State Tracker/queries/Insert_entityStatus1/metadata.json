@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO entityStatus (entityStatusType,created,lastChanged,lastChangedBy) VALUES ('{{(Table2.newRow || {}).entityStatusType}}','{{(Table2.newRow || {}).created}}','{{(Table2.newRow || {}).lastChanged}}','{{(Table2.newRow || {}).lastChangedBy}}')",

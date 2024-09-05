@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE taskTypes SET appType= '{{Table4.updatedRow.appType}}', taskName= '{{Table4.updatedRow.taskName}}', taskDefinition= '{{Table4.updatedRow.taskDefinition}}', taskOrder= '{{Table4.updatedRow.taskOrder}}', created= '{{Table4.updatedRow.created}}', lastChanged= '{{Table4.updatedRow.lastChanged}}', lastChangedBy= '{{Table4.updatedRow.lastChangedBy}}' WHERE requiredTaskID= '{{Table4.updatedRow.requiredTaskID}}';",

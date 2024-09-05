@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE entityStatus SET entityStatusType= '{{Table2.updatedRow.entityStatusType}}', created= '{{Table2.updatedRow.created}}', lastChanged= '{{Table2.updatedRow.lastChanged}}', lastChangedBy= '{{Table2.updatedRow.lastChangedBy}}' WHERE recordID= '{{Table2.updatedRow.recordID}}';",

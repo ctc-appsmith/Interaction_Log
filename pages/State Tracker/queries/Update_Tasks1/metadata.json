@@ -15,6 +15,7 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE Tasks SET appID= '{{Table6.updatedRow.appID}}', startDate= '{{Table6.updatedRow.startDate}}', completedDate= '{{Table6.updatedRow.completedDate}}', taskTypeID= '{{Table6.updatedRow.taskTypeID}}', taskStatus= '{{Table6.updatedRow.taskStatus}}', assignedTo= '{{Table6.updatedRow.assignedTo}}', taskNotes= '{{Table6.updatedRow.taskNotes}}', filePath= '{{Table6.updatedRow.filePath}}', created= '{{Table6.updatedRow.created}}', lastChanged= '{{Table6.updatedRow.lastChanged}}', lastChangedBy= '{{Table6.updatedRow.lastChangedBy}}' WHERE taskID= '{{Table6.updatedRow.taskID}}';",
