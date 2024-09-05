@@ -1,0 +1,1 @@
+SELECT COUNT(*) from applicationStatusTypes WHERE lastUpdatedBy LIKE '%{{Table1.searchText}}%';

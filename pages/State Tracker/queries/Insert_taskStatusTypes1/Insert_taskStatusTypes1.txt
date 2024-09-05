@@ -1,0 +1,1 @@
+INSERT INTO taskStatusTypes (taskStatus,taskStatusDefinition,created,lastUpdated,lastUpdatedBy) VALUES ('{{(Table5.newRow || {}).taskStatus}}','{{(Table5.newRow || {}).taskStatusDefinition}}','{{(Table5.newRow || {}).created}}','{{(Table5.newRow || {}).lastUpdated}}','{{(Table5.newRow || {}).lastUpdatedBy}}')

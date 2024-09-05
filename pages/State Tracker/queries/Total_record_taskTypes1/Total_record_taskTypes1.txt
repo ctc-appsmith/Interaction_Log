@@ -1,0 +1,1 @@
+SELECT COUNT(*) from taskTypes WHERE taskName LIKE '%{{Table4.searchText}}%';

@@ -1,0 +1,1 @@
+INSERT INTO Employees (empLastName,empFirstName,empEmail,userName,created,lastChanged,lastChangedBy) VALUES ('{{(Table3.newRow || {}).empLastName}}','{{(Table3.newRow || {}).empFirstName}}','{{(Table3.newRow || {}).empEmail}}','{{(Table3.newRow || {}).userName}}','{{(Table3.newRow || {}).created}}','{{(Table3.newRow || {}).lastChanged}}','{{(Table3.newRow || {}).lastChangedBy}}')

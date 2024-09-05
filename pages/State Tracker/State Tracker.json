@@ -73,12 +73,133 @@
           ],
           [
             {
+              "id": "State Tracker_Select_Employees1",
+              "name": "Select_Employees1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table3.pageOffset",
+                "Table3.sortOrder.column || 'empID'",
+                "Table3.searchText",
+                "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table3.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Select_applicationStatusTypes1",
+              "name": "Select_applicationStatusTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'appStatusID'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Select_entityStatus1",
+              "name": "Select_entityStatus1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.pageSize",
+                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table2.sortOrder.column || 'recordID'",
+                "Table2.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Select_taskStatusTypes1",
+              "name": "Select_taskStatusTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table5.pageSize",
+                "Table5.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table5.pageOffset",
+                "Table5.searchText",
+                "Table5.sortOrder.column || 'taskStatusID'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Select_taskTypes1",
+              "name": "Select_taskTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table4.sortOrder.column || 'requiredTaskID'",
+                "Table4.pageOffset",
+                "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table4.pageSize",
+                "Table4.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_entityStatus1",
+              "name": "Total_record_entityStatus1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "State Tracker_getAppIDbyApplicant",
               "name": "getAppIDbyApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "applicantSelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_Total_record_Employees1",
+              "name": "Total_record_Employees1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table3.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_applicationStatusTypes1",
+              "name": "Total_record_applicationStatusTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_taskStatusTypes1",
+              "name": "Total_record_taskStatusTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table5.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_taskTypes1",
+              "name": "Total_record_taskTypes1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table4.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

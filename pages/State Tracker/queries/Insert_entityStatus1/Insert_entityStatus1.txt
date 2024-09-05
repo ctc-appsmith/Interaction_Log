@@ -1,0 +1,1 @@
+INSERT INTO entityStatus (entityStatusType,created,lastChanged,lastChangedBy) VALUES ('{{(Table2.newRow || {}).entityStatusType}}','{{(Table2.newRow || {}).created}}','{{(Table2.newRow || {}).lastChanged}}','{{(Table2.newRow || {}).lastChangedBy}}')

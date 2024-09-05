@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  taskTypes
+WHERE
+  taskName LIKE '%{{Table4.searchText}}%'
+ORDER BY
+  {{Table4.sortOrder.column || 'requiredTaskID'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table4.pageSize}}
+OFFSET
+  {{Table4.pageOffset}}

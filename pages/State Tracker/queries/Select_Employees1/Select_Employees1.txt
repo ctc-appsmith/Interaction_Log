@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  Employees
+WHERE
+  empLastName LIKE '%{{Table3.searchText}}%'
+ORDER BY
+  {{Table3.sortOrder.column || 'empID'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table3.pageSize}}
+OFFSET
+  {{Table3.pageOffset}}

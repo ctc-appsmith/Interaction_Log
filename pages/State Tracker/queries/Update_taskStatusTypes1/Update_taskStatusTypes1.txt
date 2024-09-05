@@ -1,0 +1,1 @@
+UPDATE taskStatusTypes SET taskStatus= '{{Table5.updatedRow.taskStatus}}', taskStatusDefinition= '{{Table5.updatedRow.taskStatusDefinition}}', created= '{{Table5.updatedRow.created}}', lastUpdated= '{{Table5.updatedRow.lastUpdated}}', lastUpdatedBy= '{{Table5.updatedRow.lastUpdatedBy}}' WHERE taskStatusID= '{{Table5.updatedRow.taskStatusID}}';
