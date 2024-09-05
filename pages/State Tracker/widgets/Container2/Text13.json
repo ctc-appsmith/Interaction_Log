@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "[{{appsmith.store.clientName}}] BEAD State Tracker",
+    "text": "{{appsmith.store.clientName}} BEAD State Tracker",
     "key": "iriebyc2p6",
     "isDeprecated": false,
     "rightColumn": 64,

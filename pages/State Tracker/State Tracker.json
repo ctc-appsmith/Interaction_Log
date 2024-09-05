@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1520,
+          "bottomRow": 1040,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -29,29 +29,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "State Tracker_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getApplicants",
-              "name": "getApplicants",
+              "id": "State Tracker_getMyTasks",
+              "name": "getMyTasks",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getMyTasks",
-              "name": "getMyTasks",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -61,6 +45,18 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.access_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_getApplicants",
+              "name": "getApplicants",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -77,30 +73,8 @@
           ],
           [
             {
-              "id": "State Tracker_getApplicantCallLog",
-              "name": "getApplicantCallLog",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "State Tracker_getAppIDbyApplicant",
               "name": "getAppIDbyApplicant",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getAppsByApplicant",
-              "name": "getAppsByApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

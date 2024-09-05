@@ -5,7 +5,7 @@
     "mobileBottomRow": 22,
     "widgetName": "Button6Copy1",
     "onClick": "{{closeModal('To_MT_Tracker_Modal');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#061041",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
@@ -20,10 +20,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 31,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Cancel",
     "isDisabled": false,
     "key": "ab4zcza81i",
