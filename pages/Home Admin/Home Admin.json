@@ -29,20 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home Admin_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "data_table.sortOrder.column || 'recordID'",
-                "data_table.sortOrder.order || \"ASC\"",
-                "data_table.pageSize",
-                "data_table.searchText || \"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Home Admin_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,

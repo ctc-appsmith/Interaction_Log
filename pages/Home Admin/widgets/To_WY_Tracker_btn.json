@@ -22,7 +22,7 @@
     "placement": "CENTER",
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
-    "widgetName": "To_State_Tracker_btnCopy1",
+    "widgetName": "To_WY_Tracker_btn",
     "buttonColor": "#fde047",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
