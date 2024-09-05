@@ -75,7 +75,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas16",
             "displayName": "Canvas",
-            "bottomRow": 670,
+            "bottomRow": 680,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -135,7 +135,7 @@
             "index": 0,
             "label": "Applicant Information",
             "id": "tab1",
-            "isVisible": true
+            "isVisible": false
         },
         "tab2": {
             "widgetId": "fctla3frcs",

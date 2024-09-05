@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Update Interaction Information",
+    "text": "Interaction Information",
     "key": "gx10giqudt",
     "isDeprecated": false,
     "rightColumn": 64,

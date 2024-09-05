@@ -29,7 +29,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 23,
+    "originalBottomRow": 27,
     "needsErrorInfo": false,
     "mobileBottomRow": 27,
     "widgetName": "inReferenceTo",
@@ -62,7 +62,7 @@
     "mobileTopRow": 20,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
+    "originalTopRow": 20,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

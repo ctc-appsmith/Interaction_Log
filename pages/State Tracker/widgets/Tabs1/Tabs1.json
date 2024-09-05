@@ -261,7 +261,7 @@
             ],
             "key": "8k0sr7no30",
             "isDeprecated": false,
-            "tabName": "Applicants",
+            "tabName": "Interaction Log",
             "rightColumn": 1231,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -316,7 +316,7 @@
         "tabkbzms8qhvt": {
             "widgetId": "k8g2y2sjdv",
             "isDuplicateLabel": false,
-            "index": 4,
+            "index": 3,
             "id": "tabkbzms8qhvt",
             "label": "Reports",
             "isVisible": true
@@ -324,7 +324,7 @@
         "tabto4pbeop59": {
             "widgetId": "md6ppnz935",
             "isDuplicateLabel": false,
-            "index": 3,
+            "index": 2,
             "id": "tabto4pbeop59",
             "label": "Map",
             "isVisible": true
@@ -350,7 +350,7 @@
             "widgetId": "r4gsa9l8cm",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 2,
+            "index": 1,
             "label": "All Tasks",
             "id": "tab2",
             "isVisible": true
@@ -358,9 +358,9 @@
         "tabj856a0fluf": {
             "widgetId": "8iq7k7zs99",
             "isDuplicateLabel": false,
-            "index": 1,
+            "index": 4,
             "id": "tabj856a0fluf",
-            "label": "Applicants",
+            "label": "Interaction Log",
             "isVisible": true
         }
     },
