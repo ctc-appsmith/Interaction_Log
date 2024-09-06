@@ -1,0 +1,4 @@
+SELECT * FROM Entities
+	WHERE clientID = {{appsmith.store.clientID}}
+	ORDER BY entityName ASC
+;

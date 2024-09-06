@@ -66,6 +66,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "onFilterUpdate": "",
-    "onOptionChange": "{{getApplicantCallLog.run()}}",
+    "onOptionChange": "{{interactionLog_getCallLog.run()}}",
     "minDynamicHeight": 4
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1040,
+          "bottomRow": 1120,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -45,6 +45,16 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.access_token"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_interactionLog_getEntityList",
+              "name": "interactionLog_getEntityList",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -161,6 +171,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_interactionLog_getCallLog",
+              "name": "interactionLog_getCallLog",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect2.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -170,7 +190,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "applicantSelect.selectedOptionValue"
+                "entitySelect2.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

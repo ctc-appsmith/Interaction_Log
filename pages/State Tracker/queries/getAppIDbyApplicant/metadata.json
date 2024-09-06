@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT amplifund_appID FROM Applications\n\nWHERE applicantID = {{applicantSelect.selectedOptionValue}}\nORDER BY applicationName ASC;",
+      "body": "SELECT amplifund_appID FROM Applications\n\nWHERE applicantID = {{entitySelect2.selectedOptionValue}}\nORDER BY applicationName ASC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "applicantSelect.selectedOptionValue"
+      "entitySelect2.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

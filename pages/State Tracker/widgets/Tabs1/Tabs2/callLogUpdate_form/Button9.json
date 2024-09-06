@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 45,
     "widgetName": "Button9",
-    "onClick": "{{Update_ArchiveComms.run().then(() => {\n  getApplicantCallLog.run();\n});}}",
+    "onClick": "{{Update_ArchiveComms.run().then(() => {\n  interactionLog_getCallLog.run();\n});}}",
     "buttonColor": "#b91c1c",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
