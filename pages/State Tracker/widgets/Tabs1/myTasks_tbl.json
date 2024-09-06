@@ -104,7 +104,8 @@
     "bottomRow": 69,
     "columnWidthMap": {
         "taskTypeID": 188,
-        "applicationName": 214,
+        "taskName": 232,
+        "applicationName": 242,
         "startDate": 150
     },
     "parentRowSpace": 10,
