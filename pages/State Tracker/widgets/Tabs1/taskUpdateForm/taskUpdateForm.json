@@ -3,7 +3,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 51,
     "borderColor": "#E0DEDE",
-    "widgetName": "Form1",
+    "widgetName": "taskUpdateForm",
     "isCanvas": true,
     "displayName": "Form",
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",

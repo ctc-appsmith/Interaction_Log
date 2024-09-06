@@ -1,0 +1,12 @@
+UPDATE Tasks 
+	SET 
+		appID= '{{myTasks_tbl.selectedRow.appID}}', 
+		startDate= '{{(taskUpdateForm.data || {}).startDate}}', 
+		completedDate= '{{(taskUpdateForm.data || {}).completeDate}}', 
+		taskStatus= '{{(taskUpdateForm.data || {}).taskStatus}}', 
+		assignedTo= '{{(taskUpdateForm.data || {}).assignedTo}}', 
+		taskNotes= '{{(taskUpdateForm.data || {}).taskNotes}}', 
+		filePath= '{{(taskUpdateForm.data || {}).filePath}}', 
+		lastChangedBy= '{{appsmith.user.email}}' 
+	
+	WHERE taskID= '{{myTasks_tbl.selectedRow.taskID}}';

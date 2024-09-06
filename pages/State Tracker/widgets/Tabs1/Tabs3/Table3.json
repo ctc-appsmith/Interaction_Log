@@ -1,12 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "onSort": "{{\n            settings_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
+    "onSort": "{{\n            all_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
     "topRow": 0,
     "isSortable": true,
-    "onPageChange": "{{\n            settings_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
+    "onPageChange": "{{\n            all_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -47,7 +47,7 @@
         "Display"
     ],
     "isLoading": false,
-    "onSearchTextChanged": "{{\n            settings_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
+    "onSearchTextChanged": "{{\n            all_getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
     "childStylesheet": {
         "button": {
             "boxShadow": "none",
@@ -105,7 +105,7 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{Insert_Employees1.run(() => {\n            showAlert(\"Successfully created!\");\n            settings_getEmployees.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+    "onAddNewRowSave": "{{Insert_Employees1.run(() => {\n            showAlert(\"Successfully created!\");\n            all_getEmployees.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [
@@ -166,7 +166,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
-            "onSave": "{{Update_Employees1.run(() => {\n            showAlert(\"Successfully saved!\");\n            settings_getEmployees.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+            "onSave": "{{Update_Employees1.run(() => {\n            showAlert(\"Successfully saved!\");\n            all_getEmployees.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
@@ -419,7 +419,7 @@
     "widgetId": "d4vvh3fq4x",
     "allowAddNewRow": true,
     "minWidth": 450,
-    "tableData": "{{settings_getEmployees.data}}",
+    "tableData": "{{all_getEmployees.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "1yqafxngyo",

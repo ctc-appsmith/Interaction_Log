@@ -29,6 +29,14 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "State Tracker_all_getTaskStatusType",
+              "name": "all_getTaskStatusType",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getApplicants",
               "name": "getApplicants",
               "confirmBeforeExecute": false,
@@ -137,20 +145,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_Select_taskStatusTypes1",
-              "name": "Select_taskStatusTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table5.pageSize",
-                "Table5.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table5.pageOffset",
-                "Table5.searchText",
-                "Table5.sortOrder.column || 'taskStatusID'"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_Select_taskTypes1",
               "name": "Select_taskTypes1",
               "confirmBeforeExecute": false,
@@ -173,18 +167,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_interactionLog_getCallLog",
-              "name": "interactionLog_getCallLog",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect2.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_settings_getEmployees",
-              "name": "settings_getEmployees",
+              "id": "State Tracker_all_getEmployees",
+              "name": "all_getEmployees",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -193,6 +177,16 @@
                 "Table3.searchText",
                 "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table3.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_interactionLog_getCallLog",
+              "name": "interactionLog_getCallLog",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect2.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

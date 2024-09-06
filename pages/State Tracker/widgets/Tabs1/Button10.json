@@ -6,12 +6,12 @@
     "topRow": 5,
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
-    "leftColumn": 54,
+    "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Refresh Task List",
+    "text": "Refresh",
     "isDisabled": false,
     "isDefaultClickDisabled": true,
     "iconName": "refresh",
@@ -41,7 +41,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "key": "8wpt3j8pau",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "widgetId": "9hxtec77vj",
     "minWidth": 120,
