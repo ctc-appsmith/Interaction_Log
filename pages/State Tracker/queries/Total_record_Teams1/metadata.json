@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getMyTasks",
+    "name": "Total_record_Teams1",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID\n\tFROM Clients \n\t\tINNER JOIN ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID =\tEntities.clientID\n\t\t\tWHERE Clients.clientID = {{appsmith.store.clientID}}\n\t\t\tAND taskStatus <> \"Complete\"\n\t\t\tAND (('{{RadioGroup1.value}}' = \"All\") OR ( Applications.applicationType= '{{RadioGroup1.value}}')\n\t)\n;\n\n",
+      "body": "SELECT COUNT(*) from Teams WHERE teamName LIKE '%{{Table7.searchText}}%';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -36,16 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "RadioGroup1.value",
-      "appsmith.store.clientID"
+      "Table7.searchText"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-08-30T19:17:00Z"
+    "createdAt": "2024-09-06T17:44:49Z"
   },
-  "id": "State Tracker_getMyTasks",
+  "id": "State Tracker_Total_record_Teams1",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_470cfaf2-5270-4cb8-9124-16c9cb6c3b3f"
+  "gitSyncId": "66cfdd139579f24357386f16_5b41c931-0b5d-450a-8089-57e29c990912"
 }

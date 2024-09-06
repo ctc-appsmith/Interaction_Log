@@ -8,7 +8,7 @@
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [],
-    "onSelectionChange": "{{getMyTasks.run()}}",
+    "onSelectionChange": "{{myTasks_getMyTasks.run()}}",
     "options": [
         {
             "label": "All Tasks",

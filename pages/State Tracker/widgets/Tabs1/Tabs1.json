@@ -10,7 +10,6 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tab1.label"},
         {"key": "defaultTab"}
     ],
     "children": [
@@ -35,13 +34,12 @@
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
-                {"key": "boxShadow"},
-                {"key": "tabName"}
+                {"key": "boxShadow"}
             ],
             "isDisabled": false,
             "key": "8k0sr7no30",
             "isDeprecated": false,
-            "tabName": "{{appsmith.user.username}}",
+            "tabName": "My Tasks",
             "rightColumn": 461.625,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -86,7 +84,7 @@
             "isDisabled": false,
             "key": "8k0sr7no30",
             "isDeprecated": false,
-            "tabName": "All Tasks",
+            "tabName": "Unassigned Tasks",
             "rightColumn": 461.625,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -386,7 +384,7 @@
             "positioning": "vertical",
             "isDuplicateLabel": false,
             "index": 0,
-            "label": "{{appsmith.user.username}}",
+            "label": "My Tasks",
             "id": "tab1",
             "isVisible": true
         },
@@ -395,7 +393,7 @@
             "positioning": "vertical",
             "isDuplicateLabel": false,
             "index": 1,
-            "label": "All Tasks",
+            "label": "Unassigned Tasks",
             "id": "tab2",
             "isVisible": true
         },

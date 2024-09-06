@@ -1,0 +1,1 @@
+SELECT COUNT(*) from Teams WHERE teamName LIKE '%{{Table7.searchText}}%';

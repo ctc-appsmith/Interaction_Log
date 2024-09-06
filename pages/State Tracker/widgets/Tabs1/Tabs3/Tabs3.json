@@ -288,6 +288,50 @@
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
             "flexLayers": []
+        },
+        {
+            "needsErrorInfo": false,
+            "tabId": "tabawmetdf8tt",
+            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+            "mobileBottomRow": 711,
+            "widgetName": "Canvas31",
+            "displayName": "Canvas",
+            "topRow": 1,
+            "bottomRow": 670,
+            "parentRowSpace": 1,
+            "type": "CANVAS_WIDGET",
+            "canExtend": false,
+            "hideCard": true,
+            "minHeight": 710,
+            "mobileRightColumn": 1211,
+            "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
+            "leftColumn": 0,
+            "dynamicBindingPathList": [
+                {"key": "borderRadius"},
+                {"key": "boxShadow"}
+            ],
+            "key": "ohxd6ns931",
+            "isDeprecated": false,
+            "tabName": "Teams",
+            "rightColumn": 1211,
+            "detachFromLayout": true,
+            "dynamicHeight": "AUTO_HEIGHT",
+            "widgetId": "gwb9eh0oau",
+            "containerStyle": "none",
+            "minWidth": 450,
+            "isVisible": true,
+            "version": 1,
+            "parentId": "ofedb3hvyp",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "mobileTopRow": 1,
+            "responsiveBehavior": "fill",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "mobileLeftColumn": 0,
+            "maxDynamicHeight": 9000,
+            "minDynamicHeight": 4,
+            "flexLayers": []
         }
     ],
     "borderWidth": 1,
@@ -300,20 +344,30 @@
     "dynamicHeight": "FIXED",
     "widgetId": "ofedb3hvyp",
     "accentColor": "#061041",
-    "defaultTab": "Tab 1",
+    "defaultTab": "",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
         "tab1wng77gynw": {
             "widgetId": "3cwml806kw",
-            "index": 4,
+            "isDuplicateLabel": false,
+            "index": 5,
             "id": "tab1wng77gynw",
             "label": "Task Status",
             "isVisible": true
         },
+        "tabawmetdf8tt": {
+            "widgetId": "gwb9eh0oau",
+            "isDuplicateLabel": false,
+            "index": 6,
+            "id": "tabawmetdf8tt",
+            "label": "Teams",
+            "isVisible": true
+        },
         "tab9bcloqailc": {
             "widgetId": "w9o85rtu1l",
-            "index": 5,
+            "isDuplicateLabel": false,
+            "index": 0,
             "id": "tab9bcloqailc",
             "label": "Entity Information",
             "isVisible": true
@@ -321,7 +375,7 @@
         "tabajz3mj71jr": {
             "widgetId": "2cl6xnn0fo",
             "isDuplicateLabel": false,
-            "index": 0,
+            "index": 1,
             "id": "tabajz3mj71jr",
             "label": "Application Status",
             "isVisible": true
@@ -330,7 +384,7 @@
             "widgetId": "1yqafxngyo",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 2,
+            "index": 3,
             "label": "Employees",
             "id": "tab1",
             "isVisible": true
@@ -339,7 +393,7 @@
             "widgetId": "5wp6jvkp12",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 3,
+            "index": 4,
             "label": "Task Types",
             "id": "tab2",
             "isVisible": true
@@ -347,7 +401,7 @@
         "tabje2vynxqbs": {
             "widgetId": "0bozxdv1yz",
             "isDuplicateLabel": false,
-            "index": 1,
+            "index": 2,
             "id": "tabje2vynxqbs",
             "label": "Applicant Status",
             "isVisible": true

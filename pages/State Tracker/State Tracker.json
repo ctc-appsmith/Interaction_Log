@@ -69,8 +69,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getMyTasks",
-              "name": "getMyTasks",
+              "id": "State Tracker_myTasks_getMyTasks",
+              "name": "myTasks_getMyTasks",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -92,6 +92,20 @@
                 "Table6.pageOffset",
                 "Table6.pageSize",
                 "Table6.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Select_Teams1",
+              "name": "Select_Teams1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table7.searchText",
+                "Table7.pageOffset",
+                "Table7.pageSize",
+                "Table7.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table7.sortOrder.column || 'teamID'"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -213,6 +227,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table6.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_Teams1",
+              "name": "Total_record_Teams1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table7.searchText"
               ],
               "timeoutInMillisecond": 10000
             },
