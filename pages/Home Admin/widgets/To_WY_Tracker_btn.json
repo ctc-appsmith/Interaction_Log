@@ -12,7 +12,7 @@
     "isDisabled": false,
     "isDefaultClickDisabled": true,
     "iconName": "form",
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "tags": ["Buttons"],
     "isLoading": false,
