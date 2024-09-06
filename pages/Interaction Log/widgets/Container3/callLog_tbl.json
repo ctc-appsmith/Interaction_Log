@@ -38,7 +38,7 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": "-1",
+    "defaultSelectedRowIndex": "0",
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
