@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1040,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -81,20 +81,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Select_Employees1",
-              "name": "Select_Employees1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table3.pageOffset",
-                "Table3.sortOrder.column || 'empID'",
-                "Table3.searchText",
-                "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table3.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Select_Tasks1",
               "name": "Select_Tasks1",
@@ -179,6 +165,20 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entitySelect2.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_settings_getEmployees",
+              "name": "settings_getEmployees",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table3.pageOffset",
+                "Table3.sortOrder.column || 'empLastName'",
+                "Table3.searchText",
+                "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table3.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }

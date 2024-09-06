@@ -5,7 +5,7 @@ FROM
 WHERE
   empLastName LIKE '%{{Table3.searchText}}%'
 ORDER BY
-  {{Table3.sortOrder.column || 'empID'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+  {{Table3.sortOrder.column || 'empLastName'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
   {{Table3.pageSize}}
 OFFSET

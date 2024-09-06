@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Select_Employees1",
+    "name": "settings_getEmployees",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  Employees\nWHERE\n  empLastName LIKE '%{{Table3.searchText}}%'\nORDER BY\n  {{Table3.sortOrder.column || 'empID'}} {{Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table3.pageSize}}\nOFFSET\n  {{Table3.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  Employees\nWHERE\n  empLastName LIKE '%{{Table3.searchText}}%'\nORDER BY\n  {{Table3.sortOrder.column || 'empLastName'}} {{Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table3.pageSize}}\nOFFSET\n  {{Table3.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,7 +39,7 @@
       "Table3.pageOffset",
       "Table3.pageSize",
       "Table3.searchText",
-      "Table3.sortOrder.column || 'empID'",
+      "Table3.sortOrder.column || 'empLastName'",
       "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
     ],
     "userSetOnLoad": false,
@@ -48,7 +48,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-05T17:02:13Z"
   },
-  "id": "State Tracker_Select_Employees1",
+  "id": "State Tracker_settings_getEmployees",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_daa1759d-fed0-4158-8186-3bb99ab551d1"
 }
