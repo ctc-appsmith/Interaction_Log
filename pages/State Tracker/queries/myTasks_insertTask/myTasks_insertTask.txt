@@ -1,0 +1,23 @@
+INSERT INTO Tasks (
+	appID,
+	startDate,
+	completedDate,
+	taskTypeID,
+	taskStatus,
+	assignedTo,
+	taskNotes,
+	filePath,
+	lastChangedBy
+) 
+	VALUES (
+		'{{myTasks_tbl.selectedRow.appID}}',
+		'{{(addTask_form.data || {}).startDate}}',
+		'{{(addTask_form.data || {}).completedDate}}',
+		'{{(addTask_form.data || {}).taskTypeID}}',
+		'{{(addTask_form.data || {}).taskStatus}}',
+		'{{(addTask_form.data || {}).assignedTo}}',
+		'{{(addTask_form.data || {}).taskNotes}}',
+		'{{(addTask_form.data || {}).filePath}}',
+		'{{appsmith.user.email}}'
+	)
+;

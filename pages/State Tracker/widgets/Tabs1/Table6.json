@@ -108,7 +108,7 @@
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{Insert_Tasks1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_Tasks1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+    "onAddNewRowSave": "{{myTasks_insertTask.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_Tasks1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.921875,
     "dynamicTriggerPathList": [
