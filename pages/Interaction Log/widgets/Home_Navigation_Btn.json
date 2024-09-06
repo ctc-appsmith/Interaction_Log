@@ -72,6 +72,7 @@
                     "backgroundColor": "",
                     "iconName": "{{appsmith.store.clientID == 11 ? 'caret-right' : ''}}",
                     "widgetId": "1tupy04emg",
+                    "iconColor": "#eab308",
                     "index": 3,
                     "id": "menuItembo43fhmy0c",
                     "label": "Wyoming",
@@ -82,16 +83,19 @@
                     "onClick": "{{showModal('To_DE_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 9 ? 'caret-right' : ''}}",
                     "widgetId": "zc4ufo5nzw",
+                    "iconColor": "#eab308",
                     "index": 0,
                     "id": "menuItemo9ocoeq5o7",
                     "label": "Delaware",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": ""
                 },
                 "menuItemc535vczx17": {
                     "onClick": "{{showModal('To_IL_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 10 ? 'caret-right' : ''}}",
                     "widgetId": "tcblap6mic",
+                    "iconColor": "#eab308",
                     "index": 1,
                     "id": "menuItemc535vczx17",
                     "label": "Illinois",
@@ -102,6 +106,7 @@
                     "onClick": "{{showModal('To_MT_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 1 ? 'caret-right' : ''}}",
                     "widgetId": "xot7x4y92j",
+                    "iconColor": "#eab308",
                     "index": 2,
                     "id": "menuItem7e5xfzkd62",
                     "label": "Montana",
@@ -282,9 +287,9 @@
     "mobileTopRow": 20,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 11,
+    "originalTopRow": 17,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
-    "originalBottomRow": 16,
+    "originalBottomRow": 22,
     "buttonVariant": "SECONDARY"
 }

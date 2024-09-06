@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.CTCstaff))(staff.options, staff.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.CTCstaff))(CTCstaff.options, CTCstaff.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -31,7 +31,7 @@
     "originalBottomRow": 85,
     "needsErrorInfo": false,
     "mobileBottomRow": 72,
-    "widgetName": "staff",
+    "widgetName": "CTCstaff",
     "isFilterable": true,
     "dynamicPropertyPathList": [
         {"key": "optionLabel"},

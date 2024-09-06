@@ -69,18 +69,6 @@
           ],
           [
             {
-              "id": "Interaction Log_getApplicantCallLog",
-              "name": "getApplicantCallLog",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Interaction Log_getAppsByApplicant",
               "name": "getAppsByApplicant",
               "confirmBeforeExecute": false,
