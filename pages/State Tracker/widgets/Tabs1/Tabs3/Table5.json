@@ -1,12 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "onSort": "{{\n            all_getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
+    "onSort": "{{\n            getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
     "topRow": 0,
     "isSortable": true,
-    "onPageChange": "{{\n            all_getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
+    "onPageChange": "{{\n            getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -45,7 +45,7 @@
         "Display"
     ],
     "isLoading": false,
-    "onSearchTextChanged": "{{\n            all_getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
+    "onSearchTextChanged": "{{\n            getTaskStatusType.run();\n            Total_record_taskStatusTypes1.run()\n          }}",
     "childStylesheet": {
         "button": {
             "boxShadow": "none",
@@ -96,7 +96,7 @@
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{Insert_taskStatusTypes1.run(() => {\n            showAlert(\"Successfully created!\");\n            all_getTaskStatusType.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+    "onAddNewRowSave": "{{Insert_taskStatusTypes1.run(() => {\n            showAlert(\"Successfully created!\");\n            getTaskStatusType.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [
@@ -219,7 +219,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
-            "onSave": "{{Update_taskStatusTypes1.run(() => {\n            showAlert(\"Successfully saved!\");\n            all_getTaskStatusType.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+            "onSave": "{{Update_taskStatusTypes1.run(() => {\n            showAlert(\"Successfully saved!\");\n            getTaskStatusType.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
@@ -348,7 +348,7 @@
     "widgetId": "a29knvjzbr",
     "allowAddNewRow": true,
     "minWidth": 450,
-    "tableData": "{{all_getTaskStatusType.data}}",
+    "tableData": "{{getTaskStatusType.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "3cwml806kw",

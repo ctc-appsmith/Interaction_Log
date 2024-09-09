@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "all_getTaskStatusType",
+    "name": "getTaskStatusType",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-05T17:03:23Z"
   },
-  "id": "State Tracker_all_getTaskStatusType",
+  "id": "State Tracker_getTaskStatusType",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_4eb840bb-8ab6-4d03-b611-6202fdc92b91"
 }

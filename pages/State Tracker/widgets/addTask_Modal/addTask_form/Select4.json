@@ -42,7 +42,7 @@
     "parentColumnSpace": 6.5166015625,
     "dynamicTriggerPathList": [],
     "labelPosition": "Left",
-    "sourceData": "{{all_getTaskStatusType.data.map (u => ({label: u.taskStatus, value: u.taskStatus}) )}}",
+    "sourceData": "{{getTaskStatusType.data.map (u => ({label: u.taskStatus, value: u.taskStatus}) )}}",
     "key": "es04kqfxpw",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

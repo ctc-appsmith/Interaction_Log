@@ -29,14 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "State Tracker_all_getTaskStatusType",
-              "name": "all_getTaskStatusType",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getApplicants",
               "name": "getApplicants",
               "confirmBeforeExecute": false,
@@ -44,6 +36,14 @@
               "jsonPathKeys": [
                 "appsmith.store.clientID"
               ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getTaskStatusType",
+              "name": "getTaskStatusType",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -123,8 +123,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_all_getEmployees",
-              "name": "all_getEmployees",
+              "id": "State Tracker_getEmployees",
+              "name": "getEmployees",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -145,8 +145,8 @@
                 "Table4.pageOffset",
                 "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table4.pageSize",
-                "Table4.sortOrder.column || 'taskTypeID'",
-                "Table4.searchText"
+                "Table4.searchText",
+                "Table4.sortOrder.column || 'taskOrder'"
               ],
               "timeoutInMillisecond": 10000
             },

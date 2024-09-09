@@ -46,7 +46,7 @@
     "parentColumnSpace": 8.84521484375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Left",
-    "sourceData": "{{all_getEmployees.data.map (u => ({label: u.empFirstName + \" \" + u.empLastName, value: u.empEmail}) )}}",
+    "sourceData": "{{getEmployees.data.map (u => ({label: u.empFirstName + \" \" + u.empLastName, value: u.empEmail}) )}}",
     "key": "jimqd4lnqm",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

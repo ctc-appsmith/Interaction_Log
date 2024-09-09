@@ -704,7 +704,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "defaultSearchText": "unassigned@ctcnet.us",
+    "defaultSearchText": "",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,
     "isDeprecated": false,

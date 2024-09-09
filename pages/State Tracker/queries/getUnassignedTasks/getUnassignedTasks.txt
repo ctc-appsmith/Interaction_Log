@@ -6,6 +6,7 @@ SELECT Tasks.*, Applications.entityID, Applications.applicationType, Application
 															INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 
 								             Clients.clientID =	Entities.clientID) ON taskTypes.taskTypeID = Tasks.taskTypeID
 			WHERE Clients.clientID = {{appsmith.store.clientID}}
+			AND assignedTo = "unassigned@ctcnet.us"
 			AND (('{{RadioGroup3.selectedOptionValue}}' = "All") OR ( Tasks.assignedTeam= '{{RadioGroup3.selectedOptionValue}}'))
 			AND (('{{RadioGroup4.selectedOptionValue}}' = "All") OR ( Applications.applicationType= '{{RadioGroup4.selectedOptionValue}}'))
 

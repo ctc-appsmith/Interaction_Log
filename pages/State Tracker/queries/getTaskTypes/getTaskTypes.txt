@@ -5,7 +5,7 @@ FROM
 WHERE
   taskName LIKE '%{{Table4.searchText}}%'
 ORDER BY
-  {{Table4.sortOrder.column || 'taskTypeID'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
+  {{Table4.sortOrder.column || 'taskOrder'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
   {{Table4.pageSize}}
 OFFSET
