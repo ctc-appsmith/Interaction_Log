@@ -1,3 +1,5 @@
-SELECT Applications.appID, Applications.applicationName, Applications.entityID, Clients.clientID, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, applicationScores.categoryName, applicationScores.categoryScore
-FROM ((Clients INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID) INNER JOIN applicationScores ON Applications.appID = applicationScores.appID) INNER JOIN scoringCategories ON Clients.clientID = scoringCategories.clientID
-WHERE (((Clients.clientID)={{appsmith.store.clientID}}));
+SELECT Applications.appID, Applications.applicationName, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget
+FROM Clients INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
+WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
+ORDER BY entityName ASC, applicationName ASC;
+

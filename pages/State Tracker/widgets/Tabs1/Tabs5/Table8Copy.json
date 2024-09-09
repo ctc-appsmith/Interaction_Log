@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_manualOverrideTable1.run();\n            Total_record_manualOverrideTable1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 22,
+    "topRow": 27,
     "isSortable": true,
     "onPageChange": "{{\n            Select_manualOverrideTable1.run();\n            Total_record_manualOverrideTable1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -83,12 +83,12 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1718642121127,
-    "originalBottomRow": 60,
+    "originalBottomRow": 65,
     "primaryColumnId": "recordID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 52,
-    "widgetName": "Table8",
+    "widgetName": "Table8Copy",
     "defaultPageSize": 0,
     "columnOrder": [
         "recordID",
@@ -118,7 +118,7 @@
         {"key": "primaryColumns.newTechType.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 60,
+    "bottomRow": 65,
     "columnWidthMap": {
         "newAwardStatus": 169,
         "notes": 303,
@@ -142,9 +142,9 @@
     "primaryColumns": {
         "EditActions1": {
             "computedValue": "",
-            "saveButtonColor": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "saveButtonColor": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "discardIconAlign": "left",
-            "isSaveDisabled": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( !Table8.updatedRowIndices.includes(currentIndex)))}}",
+            "isSaveDisabled": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( !Table8.updatedRowIndices.includes(currentIndex)))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "EditActions1",
@@ -164,7 +164,7 @@
             "allowCellWrapping": false,
             "index": 0,
             "isDiscardVisible": true,
-            "isDiscardDisabled": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( !Table8.updatedRowIndices.includes(currentIndex)))}}",
+            "isDiscardDisabled": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( !Table8.updatedRowIndices.includes(currentIndex)))}}",
             "isVisible": false,
             "label": "Save / Discard",
             "discardActionLabel": "Discard",
@@ -174,18 +174,18 @@
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "decimals": 0,
-            "saveBorderRadius": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "saveBorderRadius": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
             "sticky": "right",
             "saveIconAlign": "left",
             "originalId": "EditActions1",
-            "discardBorderRadius": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "discardBorderRadius": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
         "notes": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"notes\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"notes\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "notes",
@@ -216,7 +216,7 @@
             "verticalAlignment": "CENTER"
         },
         "newBudget": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newBudget\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newBudget\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "newBudget",
@@ -226,7 +226,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( false))}}",
+            "isCellVisible": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( false))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
@@ -247,7 +247,7 @@
             "verticalAlignment": "CENTER"
         },
         "created": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "created",
@@ -278,7 +278,7 @@
             "verticalAlignment": "CENTER"
         },
         "changeType": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"changeType\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"changeType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "changeType",
@@ -309,7 +309,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChanged": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChanged",
@@ -340,7 +340,7 @@
             "verticalAlignment": "CENTER"
         },
         "newTechType": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newTechType\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newTechType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "newTechType",
@@ -350,7 +350,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Tech Type\" || CategorySlider1.value === \"All\"))}}",
+            "isCellVisible": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Tech Type\" || CategorySlider1.value === \"All\"))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
@@ -374,7 +374,7 @@
             "verticalAlignment": "CENTER"
         },
         "emailLink": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"emailLink\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"emailLink\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "emailLink",
@@ -405,7 +405,7 @@
             "verticalAlignment": "CENTER"
         },
         "newFunding": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newFunding\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newFunding\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "newFunding",
@@ -415,7 +415,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Funding\" || CategorySlider1.value === \"All\"))}}",
+            "isCellVisible": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Funding\" || CategorySlider1.value === \"All\"))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
@@ -436,7 +436,7 @@
             "verticalAlignment": "CENTER"
         },
         "recordID": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"recordID\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"recordID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "recordID",
@@ -467,7 +467,7 @@
             "verticalAlignment": "CENTER"
         },
         "newAwardStatus": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newAwardStatus\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newAwardStatus\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "newAwardStatus",
@@ -477,7 +477,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Negotiation Status\" || CategorySlider1.value === \"All\"))}}",
+            "isCellVisible": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Negotiation Status\" || CategorySlider1.value === \"All\"))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
@@ -498,7 +498,7 @@
             "verticalAlignment": "CENTER"
         },
         "newScore": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newScore\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"newScore\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "newScore",
@@ -508,7 +508,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Scoring\" || CategorySlider1.value === \"All\"))}}",
+            "isCellVisible": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( CategorySlider1.value === \"Scoring\" || CategorySlider1.value === \"All\"))}}",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
@@ -529,7 +529,7 @@
             "verticalAlignment": "CENTER"
         },
         "appID": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "appID",
@@ -560,7 +560,7 @@
             "verticalAlignment": "CENTER"
         },
         "changeDate": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"changeDate\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"changeDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "changeDate",
@@ -592,7 +592,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChangedBy": {
-            "computedValue": "{{Table8.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
+            "computedValue": "{{Table8Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChangedBy",
@@ -630,20 +630,20 @@
     "rightColumn": 63,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "1fwxtnh1jd",
+    "widgetId": "znn31tsrhh",
     "allowAddNewRow": false,
     "minWidth": 450,
     "tableData": "{{Select_manualOverrideTable1.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "2t4xrgf3ry",
+    "parentId": "2f52h8zscg",
     "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 24,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 22,
+    "originalTopRow": 27,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

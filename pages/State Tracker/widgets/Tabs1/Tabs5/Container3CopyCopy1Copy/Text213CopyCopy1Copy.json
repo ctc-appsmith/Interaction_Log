@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 4,
-    "widgetName": "Text213Copy2Copy",
+    "widgetName": "Text213CopyCopy1Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "searchTags": [
@@ -28,20 +28,20 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Current Score",
+    "text": "Current Budget",
     "key": "o5gl6zhgae",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 60,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "7rxdzn3nzv",
+    "widgetId": "ouhp67h168",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "njljs3zst1",
+    "parentId": "kirxz375ps",
     "tags": [
         "Suggested",
         "Content"
