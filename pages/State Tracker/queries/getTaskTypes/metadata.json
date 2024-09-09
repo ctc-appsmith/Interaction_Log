@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Select_Teams1",
+    "name": "getTaskTypes",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  Teams\nWHERE\n  teamName LIKE '%{{Table7.searchText}}%'\nORDER BY\n  {{Table7.sortOrder.column || 'teamID'}} {{Table7.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table7.pageSize}}\nOFFSET\n  {{Table7.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  taskTypes\nWHERE\n  taskName LIKE '%{{Table4.searchText}}%'\nORDER BY\n  {{Table4.sortOrder.column || 'taskTypeID'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,19 +36,19 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table7.pageOffset",
-      "Table7.pageSize",
-      "Table7.searchText",
-      "Table7.sortOrder.column || 'teamID'",
-      "Table7.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "Table4.pageOffset",
+      "Table4.pageSize",
+      "Table4.searchText",
+      "Table4.sortOrder.column || 'taskTypeID'",
+      "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-06T17:44:49Z"
+    "createdAt": "2024-09-05T17:02:57Z"
   },
-  "id": "State Tracker_Select_Teams1",
+  "id": "State Tracker_getTaskTypes",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_0cc73ffb-edfe-4e70-934a-3ef6204b7059"
+  "gitSyncId": "66cfdd139579f24357386f16_ac988617-fc17-4b8b-af0e-138e1ba959e8"
 }

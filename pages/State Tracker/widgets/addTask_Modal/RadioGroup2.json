@@ -11,27 +11,23 @@
     "options": [
         {
             "label": "Analytics",
-            "value": "1"
+            "value": "Analytics"
         },
         {
             "label": "Grants",
-            "value": "2"
+            "value": "Grants"
         },
         {
             "label": "Negotiation",
-            "value": "3"
+            "value": "Negotiation"
         },
         {
             "label": "PM",
-            "value": "4"
-        },
-        {
-            "label": "State Client",
-            "value": "5"
+            "value": "PM"
         },
         {
             "label": "Technical",
-            "value": "6"
+            "value": "Technical"
         }
     ],
     "isDisabled": false,

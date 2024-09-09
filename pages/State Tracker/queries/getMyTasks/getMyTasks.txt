@@ -1,4 +1,4 @@
-SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID
+SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID, Tasks.assignedTeam
 	FROM taskTypes
 		INNER JOIN (Clients 
 								INNER JOIN ((Tasks 

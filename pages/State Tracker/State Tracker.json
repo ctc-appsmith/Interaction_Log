@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -47,6 +47,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getTeam",
+              "name": "getTeam",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
@@ -67,8 +75,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_myTasks_getMyTasks",
-              "name": "myTasks_getMyTasks",
+              "id": "State Tracker_getMyTasks",
+              "name": "getMyTasks",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -79,20 +87,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Select_Teams1",
-              "name": "Select_Teams1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table7.searchText",
-                "Table7.pageOffset",
-                "Table7.pageSize",
-                "Table7.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table7.sortOrder.column || 'teamID'"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Select_applicationStatusTypes1",
               "name": "Select_applicationStatusTypes1",
@@ -121,20 +115,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_Select_taskTypes1",
-              "name": "Select_taskTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table4.sortOrder.column || 'requiredTaskID'",
-                "Table4.pageOffset",
-                "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table4.pageSize",
-                "Table4.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_Total_record_entityStatus1",
               "name": "Total_record_entityStatus1",
               "confirmBeforeExecute": false,
@@ -153,6 +133,20 @@
                 "Table3.searchText",
                 "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table3.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getTaskTypes",
+              "name": "getTaskTypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table4.pageOffset",
+                "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table4.pageSize",
+                "Table4.sortOrder.column || 'taskTypeID'",
+                "Table4.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

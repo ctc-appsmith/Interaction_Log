@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "{{myTasks_updateTasks.run().then(() => {\n  myTasks_getMyTasks.run();\n});\nshowModal('Modal1');}}",
+    "onClick": "{{updateTasks.run().then(() => {\n  getMyTasks.run();\n});\nshowModal('Modal1');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 58,
-    "bottomRow": 62,
+    "topRow": 61,
+    "bottomRow": 65,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 62,
@@ -43,11 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 58,
+    "originalTopRow": 61,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 62,
+    "originalBottomRow": 65,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

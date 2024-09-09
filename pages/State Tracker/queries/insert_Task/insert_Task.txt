@@ -7,6 +7,7 @@ INSERT INTO Tasks (
 	assignedTo,
 	taskNotes,
 	filePath,
+	assignedTeam,
 	lastChangedBy
 ) 
 	VALUES (
@@ -18,6 +19,7 @@ INSERT INTO Tasks (
 		'{{(addTask_form.data || {}).assignedTo}}',
 		'{{(addTask_form.data || {}).taskNotes}}',
 		'{{(addTask_form.data || {}).filePath}}',
+		'{{(addTask_form.data || {}).Select5Copy}}',
 		'{{appsmith.user.email}}'
 	)
 ;
