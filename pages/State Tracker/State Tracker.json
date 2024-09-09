@@ -51,16 +51,6 @@
           ],
           [
             {
-              "id": "State Tracker_getApplicants",
-              "name": "getApplicants",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getTaskStatusType",
               "name": "getTaskStatusType",
               "confirmBeforeExecute": false,
@@ -89,14 +79,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getEmps",
-              "name": "getEmps",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getMyTasks",
               "name": "getMyTasks",
               "confirmBeforeExecute": false,
@@ -109,20 +91,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Select_applicationStatusTypes1",
-              "name": "Select_applicationStatusTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'appStatusID'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Select_entityStatus1",
               "name": "Select_entityStatus1",
@@ -142,6 +110,19 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getAppStatusTypes",
+              "name": "getAppStatusTypes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'appStatusID'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -208,22 +189,23 @@
           ],
           [
             {
-              "id": "State Tracker_getAppIDbyApplicant",
-              "name": "getAppIDbyApplicant",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect2.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getAppScores",
               "name": "getAppScores",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "applications_tbl.selectedRow.appID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getEntities",
+              "name": "getEntities",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -305,7 +287,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "entitySelect2.selectedOptionValue"
+                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

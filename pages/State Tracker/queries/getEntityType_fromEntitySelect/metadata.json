@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT entityType FROM Entities\n\tWHERE entityID = {{entitySelect2.selectedOptionValue}};",
+      "body": "SELECT entityType FROM Entities\n\tWHERE entityID = {{entitySelect.selectedOptionValue}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,15 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "entitySelect2.selectedOptionValue"
+      "entitySelect.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-09T20:23:22Z"
+    "createdAt": "2024-09-09T20:50:48Z"
   },
   "id": "State Tracker_getEntityType_fromEntitySelect",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_1115515f-aae1-456d-9eb8-a9d1e4ddc6e2"
+  "gitSyncId": "66df548a9579f243573899d9_b0968702-4554-4239-9fd5-208fdb146685"
 }

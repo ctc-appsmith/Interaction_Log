@@ -344,7 +344,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "ofedb3hvyp",
     "accentColor": "#061041",
-    "defaultTab": "",
+    "defaultTab": "Entity Information",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {

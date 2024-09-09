@@ -2,8 +2,7 @@ SELECT
   *
 FROM
   applicationStatusTypes
-WHERE
-  lastUpdatedBy LIKE '%{{Table1.searchText}}%'
+
 ORDER BY
   {{Table1.sortOrder.column || 'appStatusID'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

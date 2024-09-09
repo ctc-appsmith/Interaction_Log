@@ -28,7 +28,8 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "primaryColumns.primaryTeam.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -72,7 +73,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1725587720753,
+    "columnUpdatedAt": 1725914940089,
     "primaryColumnId": "empID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -88,6 +89,7 @@
         "created",
         "lastChanged",
         "lastChangedBy",
+        "primaryTeam",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -252,6 +254,40 @@
             "sticky": "",
             "originalId": "created",
             "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
+        "primaryTeam": {
+            "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"primaryTeam\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "primaryTeam",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "primaryTeam",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 5,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "primaryTeam",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "primaryTeam",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "empFirstName": {

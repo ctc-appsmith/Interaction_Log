@@ -1,0 +1,1 @@
+SELECT * FROM Applications LIMIT 10;

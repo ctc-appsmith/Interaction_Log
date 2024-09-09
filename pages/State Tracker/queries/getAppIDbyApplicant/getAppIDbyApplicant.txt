@@ -1,4 +1,0 @@
-SELECT amplifund_appID FROM Applications
-
-WHERE applicantID = {{entitySelect2.selectedOptionValue}}
-ORDER BY applicationName ASC;

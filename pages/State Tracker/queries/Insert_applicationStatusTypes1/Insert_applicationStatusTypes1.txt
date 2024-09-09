@@ -1,1 +1,0 @@
-INSERT INTO applicationStatusTypes (appStatusType,statusDefinition,created,lastUpdated,lastUpdatedBy) VALUES ('{{(Table1.newRow || {}).appStatusType}}','{{(Table1.newRow || {}).statusDefinition}}','{{(Table1.newRow || {}).created}}','{{(Table1.newRow || {}).lastUpdated}}','{{(Table1.newRow || {}).lastUpdatedBy}}')

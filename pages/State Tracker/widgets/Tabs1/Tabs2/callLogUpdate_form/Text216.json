@@ -39,7 +39,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "73v2597lp6",
     "minWidth": 450,
-    "isVisible": "{{getEntityType_fromEntitySelect.data[0].entityType !== \"Applicant\"}}",
+    "isVisible": "{{getEntityType_froEntitySelect.data[0].entityType !== \"Applicant\"}}",
     "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,

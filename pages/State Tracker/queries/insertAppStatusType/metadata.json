@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Insert_applicationStatusTypes1",
+    "name": "insertAppStatusType",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO applicationStatusTypes (appStatusType,statusDefinition,created,lastUpdated,lastUpdatedBy) VALUES ('{{(Table1.newRow || {}).appStatusType}}','{{(Table1.newRow || {}).statusDefinition}}','{{(Table1.newRow || {}).created}}','{{(Table1.newRow || {}).lastUpdated}}','{{(Table1.newRow || {}).lastUpdatedBy}}')",
+      "body": "INSERT INTO applicationStatusTypes (appStatusType,statusDefinition,lastUpdatedBy) VALUES ('{{(Table1.newRow || {}).appStatusType}}','{{(Table1.newRow || {}).statusDefinition}}','{{appsmith.user.email}}')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,10 +37,8 @@
     "messages": [],
     "jsonPathKeys": [
       "(Table1.newRow || {}).appStatusType",
-      "(Table1.newRow || {}).created",
-      "(Table1.newRow || {}).lastUpdated",
-      "(Table1.newRow || {}).lastUpdatedBy",
-      "(Table1.newRow || {}).statusDefinition"
+      "(Table1.newRow || {}).statusDefinition",
+      "appsmith.user.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -48,7 +46,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-05T17:00:56Z"
   },
-  "id": "State Tracker_Insert_applicationStatusTypes1",
+  "id": "State Tracker_insertAppStatusType",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_399c5883-ba42-4e14-9c4f-bce00c9d679b"
 }
