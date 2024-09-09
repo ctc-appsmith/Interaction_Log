@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "{{updateTasks.run().then(() => {\n  getMyTasks.run();\n});\nshowModal('Modal1');}}",
+    "onClick": "{{myTasks_updateTasks.run().then(() => {\n  getMyTasks.run();\n});\nshowModal('Modal1');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

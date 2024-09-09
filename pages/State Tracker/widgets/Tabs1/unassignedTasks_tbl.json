@@ -16,7 +16,6 @@
         {"key": "primaryColumns.created.computedValue"},
         {"key": "primaryColumns.lastChanged.computedValue"},
         {"key": "primaryColumns.lastChangedBy.computedValue"},
-        {"key": "defaultSearchText"},
         {"key": "primaryColumns.taskID.computedValue"},
         {"key": "primaryColumns.appID.computedValue"},
         {"key": "primaryColumns.startDate.computedValue"},
@@ -705,7 +704,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "defaultSearchText": "{{appsmith.user.email}}",
+    "defaultSearchText": "unassigned@ctcnet.us",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,
     "isDeprecated": false,
@@ -714,7 +713,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "qgxvguwz8y",
     "minWidth": 450,
-    "tableData": "{{getMyTasks.data}}",
+    "tableData": "{{getUnassignedTasks.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "r4gsa9l8cm",

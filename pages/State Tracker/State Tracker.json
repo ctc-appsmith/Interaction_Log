@@ -149,6 +149,18 @@
                 "Table4.searchText"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getUnassignedTasks",
+              "name": "getUnassignedTasks",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "RadioGroup3.selectedOptionValue",
+                "RadioGroup4.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [

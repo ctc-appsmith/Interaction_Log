@@ -3,7 +3,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 51,
     "borderColor": "#E0DEDE",
-    "widgetName": "taskUpdateFormCopy",
+    "widgetName": "unassigned_taskupdate_form",
     "isCanvas": true,
     "displayName": "Form",
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",
@@ -18,7 +18,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.921875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 33,
+    "leftColumn": 31,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -70,7 +70,7 @@
     "key": "kqgkorrlj9",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.3e92e6e159c53c6046da08eae3732a97.svg",
     "dynamicHeight": "FIXED",
     "widgetId": "fnb0no07pb",

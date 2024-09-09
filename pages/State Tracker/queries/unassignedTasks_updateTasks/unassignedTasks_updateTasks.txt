@@ -1,0 +1,13 @@
+UPDATE Tasks 
+	SET 
+		appID= '{{unassignedTasks_tbl.selectedRow.appID}}', 
+		startDate= '{{(unassigned_taskupdate_form.data || {}).startDateCopy}}', 
+		completedDate= '{{(unassigned_taskupdate_form.data || {}).completeDateCopy}}', 
+		taskStatus= '{{(unassigned_taskupdate_form.data || {}).taskStatusCopy}}', 
+		assignedTo= '{{(unassigned_taskupdate_form.data || {}).assignedToCopy}}', 
+		taskNotes= '{{(unassigned_taskupdate_form.data || {}).taskNotesCopy}}', 
+		filePath= '{{(unassigned_taskupdate_form.data || {}).filePathCopy}}', 
+		assignedTeam= '{{(unassigned_taskupdate_form.data || {}).Select5Copy1}}',
+		lastChangedBy= '{{appsmith.user.email}}' 
+	
+	WHERE taskID= '{{unassignedTasks_tbl.selectedRow.taskID}}';
