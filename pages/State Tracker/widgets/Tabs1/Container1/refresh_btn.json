@@ -5,7 +5,7 @@
     "rightColumn": 57,
     "onClick": "{{SelectQuery.run();\ngeneralSelectQuery.run();\nQASelectQuery.run();\ncountUnSatReviews.run()}}",
     "iconName": "refresh",
-    "buttonColor": "#054587",
+    "buttonColor": "#b91c1c",
     "widgetId": "ybphxxmhi9",
     "topRow": 0,
     "bottomRow": 4,

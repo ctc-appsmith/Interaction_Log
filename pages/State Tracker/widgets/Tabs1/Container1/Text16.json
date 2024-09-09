@@ -15,7 +15,7 @@
     "text": "Select Application",
     "labelTextSize": "0.875rem",
     "rightColumn": 48,
-    "textAlign": "CENTER",
+    "textAlign": "RIGHT",
     "dynamicHeight": "FIXED",
     "widgetId": "kf9q00ba5c",
     "isVisible": "true",
