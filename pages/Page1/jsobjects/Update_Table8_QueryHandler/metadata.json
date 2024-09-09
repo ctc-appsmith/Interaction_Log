@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Update_Table8_QueryHandler",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_Update_Table8_QueryHandler",
+  "deleted": false,
+  "gitSyncId": "66cfdd139579f24357386f16_6ff0166b-487f-4ce3-ad7b-9eaa3da76480"
+}

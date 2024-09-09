@@ -9,8 +9,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "defaultTab"}
+        {"key": "boxShadow"}
     ],
     "children": [
         {
@@ -352,7 +351,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qal6aq2p79",
-    "defaultTab": "{{appsmith.user.username}}",
+    "defaultTab": "Scoring/Bid Selection",
     "minWidth": 450,
     "tabsObj": {
         "tabkbzms8qhvt": {
