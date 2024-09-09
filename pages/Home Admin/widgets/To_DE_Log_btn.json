@@ -6,7 +6,7 @@
     "topRow": 23,
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
-    "leftColumn": 44,
+    "leftColumn": 42,
     "dynamicBindingPathList": [],
     "text": "Delaware ",
     "isDisabled": false,
