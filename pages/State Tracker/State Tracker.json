@@ -29,6 +29,28 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "State Tracker_get_user",
+              "name": "get_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.access_token"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_interactionLog_getEntityList",
+              "name": "interactionLog_getEntityList",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "State Tracker_getApplicants",
               "name": "getApplicants",
               "confirmBeforeExecute": false,
@@ -52,16 +74,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_get_user",
-              "name": "get_user",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.access_token"
-              ],
               "timeoutInMillisecond": 10000
             }
           ],
