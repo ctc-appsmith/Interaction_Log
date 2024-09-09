@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 950,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -79,20 +79,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Select_Tasks1",
-              "name": "Select_Tasks1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table6.searchText",
-                "Table6.sortOrder.column || 'taskID'",
-                "Table6.pageOffset",
-                "Table6.pageSize",
-                "Table6.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Select_Teams1",
               "name": "Select_Teams1",
@@ -191,16 +177,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table3.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_Tasks1",
-              "name": "Total_record_Tasks1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table6.searchText"
               ],
               "timeoutInMillisecond": 10000
             },
