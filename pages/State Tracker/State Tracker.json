@@ -298,6 +298,16 @@
                 "applications_tbl.selectedRow.appID"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getEntityType_fromEntitySelect",
+              "name": "getEntityType_fromEntitySelect",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect2.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],
