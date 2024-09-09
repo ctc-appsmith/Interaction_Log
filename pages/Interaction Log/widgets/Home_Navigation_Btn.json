@@ -287,9 +287,9 @@
     "mobileTopRow": 20,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 17,
+    "originalTopRow": 11,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
-    "originalBottomRow": 22,
+    "originalBottomRow": 16,
     "buttonVariant": "SECONDARY"
 }

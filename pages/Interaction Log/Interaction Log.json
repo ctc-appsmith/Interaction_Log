@@ -55,7 +55,9 @@
               "name": "getApplicantsOnly",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
