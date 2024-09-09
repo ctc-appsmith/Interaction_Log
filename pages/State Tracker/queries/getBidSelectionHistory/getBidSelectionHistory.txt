@@ -1,0 +1,11 @@
+SELECT
+  *
+FROM
+  BidSelectionHistory
+WHERE appID = {{applications_tbl.selectedRow.appID}}
+ORDER BY
+  BidSelectionHistory.runDate DESC
+LIMIT
+  {{Table4.pageSize}}
+OFFSET
+  {{Table4.pageOffset}}

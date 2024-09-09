@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_BidSelectionHistory2.run();\n            Total_record_BidSelectionHistory2.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 96,
+    "topRow": 75,
     "isSortable": true,
     "onPageChange": "{{\n            Select_BidSelectionHistory2.run();\n            Total_record_BidSelectionHistory2.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -32,7 +32,7 @@
         {"key": "primaryColumns.rank.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 21,
+    "leftColumn": 19,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -77,7 +77,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 64,
-    "widgetName": "Table4",
+    "widgetName": "Table4Copy",
     "defaultPageSize": 0,
     "columnOrder": [
         "idBidSelectionHistory",
@@ -97,7 +97,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 135,
+    "bottomRow": 114,
     "columnWidthMap": {
         "runDate": 204,
         "EditActions1": 268.203125,
@@ -118,9 +118,9 @@
     "primaryColumns": {
         "EditActions1": {
             "computedValue": "",
-            "saveButtonColor": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "saveButtonColor": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "discardIconAlign": "left",
-            "isSaveDisabled": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( !Table4.updatedRowIndices.includes(currentIndex)))}}",
+            "isSaveDisabled": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( !Table4.updatedRowIndices.includes(currentIndex)))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "EditActions1",
@@ -140,7 +140,7 @@
             "allowCellWrapping": false,
             "index": 0,
             "isDiscardVisible": true,
-            "isDiscardDisabled": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( !Table4.updatedRowIndices.includes(currentIndex)))}}",
+            "isDiscardDisabled": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( !Table4.updatedRowIndices.includes(currentIndex)))}}",
             "isVisible": false,
             "label": "Save / Discard",
             "discardActionLabel": "Discard",
@@ -150,18 +150,18 @@
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "decimals": 0,
-            "saveBorderRadius": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "saveBorderRadius": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
             "sticky": "right",
             "saveIconAlign": "left",
             "originalId": "EditActions1",
-            "discardBorderRadius": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "discardBorderRadius": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
         "runDate": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"runDate\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"runDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "runDate",
@@ -193,7 +193,7 @@
             "verticalAlignment": "CENTER"
         },
         "idBidSelectionHistory": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"idBidSelectionHistory\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"idBidSelectionHistory\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "idBidSelectionHistory",
@@ -224,7 +224,7 @@
             "verticalAlignment": "CENTER"
         },
         "currentBudget": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"currentBudget\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"currentBudget\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "currentBudget",
@@ -255,7 +255,7 @@
             "verticalAlignment": "CENTER"
         },
         "created": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "created",
@@ -286,7 +286,7 @@
             "verticalAlignment": "CENTER"
         },
         "appID": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "appID",
@@ -317,7 +317,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChanged": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChanged",
@@ -348,7 +348,7 @@
             "verticalAlignment": "CENTER"
         },
         "rank": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rank\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rank\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rank",
@@ -382,7 +382,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChangedBy": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChangedBy",
@@ -413,7 +413,7 @@
             "verticalAlignment": "CENTER"
         },
         "awardStatus": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"awardStatus\"]))}}",
+            "computedValue": "{{Table4Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"awardStatus\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "awardStatus",
@@ -447,16 +447,16 @@
     "key": "huf8l6ora0",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "b0grcaatd7",
+    "widgetId": "celd3xxeop",
     "allowAddNewRow": false,
     "minWidth": 450,
     "tableData": "{{Select_BidSelectionHistory2.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "0",
+    "parentId": "grq9kubjj6",
     "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 36,
