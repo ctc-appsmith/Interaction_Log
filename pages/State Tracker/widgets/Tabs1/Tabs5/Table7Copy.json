@@ -97,7 +97,7 @@
         "newBudget",
         "newTechType"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 67,
     "columnWidthMap": {},
@@ -579,7 +579,7 @@
     "widgetId": "covmr93uqv",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{Select_ManualScores1.data}}",
+    "tableData": "{{getManualScores.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "wtlcvgfxvq",
