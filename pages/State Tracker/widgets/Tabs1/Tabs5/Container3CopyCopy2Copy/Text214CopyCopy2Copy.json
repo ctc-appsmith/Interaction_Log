@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "${{get_reference.data[0].reference.toLocaleString()}}",
+    "text": "${{getApplications.data[0].referenceBudget}}",
     "key": "o5gl6zhgae",
     "isDeprecated": false,
     "rightColumn": 63,

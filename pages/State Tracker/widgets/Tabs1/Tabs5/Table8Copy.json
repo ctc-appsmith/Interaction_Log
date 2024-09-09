@@ -633,7 +633,7 @@
     "widgetId": "znn31tsrhh",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{Select_manualOverrideTable1.data}}",
+    "tableData": "{{getManualOverrideTable.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "2f52h8zscg",

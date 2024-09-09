@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{get_negotiationStatus.data[0].awardStatus}}",
+    "text": "{{getApplications.data[0].awardStatus}}",
     "key": "o5gl6zhgae",
     "isDeprecated": false,
     "rightColumn": 64,

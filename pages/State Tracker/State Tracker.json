@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -133,16 +133,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getAppScores",
-              "name": "getAppScores",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getEmployees",
               "name": "getEmployees",
               "confirmBeforeExecute": false,
@@ -153,6 +143,17 @@
                 "Table3.searchText",
                 "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table3.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getManualOverrideTable",
+              "name": "getManualOverrideTable",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "applications_tbl.selectedRow.appID",
+                "CategorySlider1.value"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -201,6 +202,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entitySelect2.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getAppScores",
+              "name": "getAppScores",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "applications_tbl.selectedRow.appID"
               ],
               "timeoutInMillisecond": 10000
             }
