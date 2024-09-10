@@ -74,7 +74,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1725895087536,
-    "originalBottomRow": 63,
+    "originalBottomRow": 74,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -103,7 +103,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 63,
+    "bottomRow": 74,
     "columnWidthMap": {
         "taskTypeID": 188,
         "taskName": 217,

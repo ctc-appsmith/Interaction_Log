@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Tasks \n\tSET \n\t\tappID= '{{myTasks_tbl.selectedRow.appID}}', \n\t\tstartDate= '{{(taskUpdateForm.data || {}).startDate}}', \n\t\tcompletedDate= '{{(taskUpdateForm.data || {}).completeDate}}', \n\t\ttaskStatus= '{{(taskUpdateForm.data || {}).taskStatus}}', \n\t\tassignedTo= '{{(taskUpdateForm.data || {}).assignedTo}}', \n\t\ttaskNotes= '{{(taskUpdateForm.data || {}).taskNotes}}', \n\t\tfilePath= '{{(taskUpdateForm.data || {}).filePath}}', \n\t\tassignedTeam= '{{(taskUpdateForm.data || {}).Select5}}',\n\t\tlastChangedBy= '{{appsmith.user.email}}' \n\t\n\tWHERE taskID= '{{myTasks_tbl.selectedRow.taskID}}';",
+      "body": "UPDATE Tasks \n\tSET \n\t\tappID= '{{myTasks_tbl.selectedRow.appID}}', \n\t\tstartDate= '{{(myTaskUpdateForm.data || {}).startDate}}', \n\t\tcompletedDate= '{{(myTaskUpdateForm.data || {}).completeDate}}', \n\t\ttaskStatus= '{{(myTaskUpdateForm.data || {}).taskStatus}}', \n\t\tassignedTo= '{{(myTaskUpdateForm.data || {}).assignedTo}}', \n\t\ttaskNotes= '{{(myTaskUpdateForm.data || {}).taskNotes}}', \n\t\tfilePath= '{{(myTaskUpdateForm.data || {}).filePath}}', \n\t\tassignedTeam= '{{(myTaskUpdateForm.data || {}).Select5}}',\n\t\tlastChangedBy= '{{appsmith.user.email}}' \n\t\n\tWHERE taskID= '{{myTasks_tbl.selectedRow.taskID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,13 +36,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(taskUpdateForm.data || {}).Select5",
-      "(taskUpdateForm.data || {}).assignedTo",
-      "(taskUpdateForm.data || {}).completeDate",
-      "(taskUpdateForm.data || {}).filePath",
-      "(taskUpdateForm.data || {}).startDate",
-      "(taskUpdateForm.data || {}).taskNotes",
-      "(taskUpdateForm.data || {}).taskStatus",
+      "(myTaskUpdateForm.data || {}).Select5",
+      "(myTaskUpdateForm.data || {}).assignedTo",
+      "(myTaskUpdateForm.data || {}).completeDate",
+      "(myTaskUpdateForm.data || {}).filePath",
+      "(myTaskUpdateForm.data || {}).startDate",
+      "(myTaskUpdateForm.data || {}).taskNotes",
+      "(myTaskUpdateForm.data || {}).taskStatus",
       "appsmith.user.email",
       "myTasks_tbl.selectedRow.appID",
       "myTasks_tbl.selectedRow.taskID"
