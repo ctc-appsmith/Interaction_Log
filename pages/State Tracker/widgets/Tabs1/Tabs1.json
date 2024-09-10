@@ -257,7 +257,7 @@
             ],
             "key": "3dqx71k5fo",
             "isDeprecated": false,
-            "tabName": "Entities",
+            "tabName": "Applicants",
             "rightColumn": 1231,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -330,7 +330,7 @@
             "isDuplicateLabel": false,
             "index": 2,
             "id": "tabv4i2lm5otq",
-            "label": "Entities",
+            "label": "Applicants",
             "isVisible": true
         },
         "tabto4pbeop59": {
@@ -339,7 +339,7 @@
             "index": 3,
             "id": "tabto4pbeop59",
             "label": "Map",
-            "isVisible": true
+            "isVisible": false
         },
         "tabmpqf6qofns": {
             "widgetId": "5mqz8vehey",

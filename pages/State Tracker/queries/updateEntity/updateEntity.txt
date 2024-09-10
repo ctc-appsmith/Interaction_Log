@@ -1,0 +1,2 @@
+UPDATE Entities SET
+		entityID = '{{update_formCopy.fieldState.entityName.isVisible ? update_formCopy.formData.entityName : update_formCopy.sourceData.entityName}}',

@@ -19,7 +19,6 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
@@ -124,7 +123,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "dynamicHeight": "FIXED",
     "widgetId": "kyh6inf1mv",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "accentColor": "#061041",
     "defaultTab": "",
     "shouldShowTabs": true,
     "minWidth": 450,

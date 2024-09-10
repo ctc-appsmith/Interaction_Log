@@ -21,7 +21,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{Tabs7.selectedTab !== \"Interaction Log\"}}",
+    "isVisible": "{{true}}",
     "version": 1,
     "tags": [
         "Suggested",

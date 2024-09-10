@@ -19,7 +19,7 @@
         "groupButton3": {
             "buttonType": "SIMPLE",
             "iconName": "none",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#061041",
             "widgetId": "",
             "menuItems": {
                 "menuItem1": {
@@ -66,7 +66,7 @@
         },
         "groupButton1": {
             "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#061041",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
@@ -78,7 +78,7 @@
         },
         "groupButton2": {
             "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#061041",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
@@ -95,12 +95,7 @@
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "7vdas4n2qv",
     "orientation": "vertical",
     "isDeprecated": false,
