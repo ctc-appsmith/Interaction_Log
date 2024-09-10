@@ -1,0 +1,14 @@
+UPDATE Applications SET
+		applicationName = '{{update_formCopy.fieldState.applicationName.isVisible ? update_formCopy.formData.applicationName : update_formCopy.sourceData.applicationName}}',
+		applicationType = '{{update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType}}',
+		applicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',
+		portalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',
+		initialScore = '{{update_formCopy.fieldState.initialScore.isVisible ? update_formCopy.formData.initialScore : update_formCopy.sourceData.initialScore}}',
+		applicationRank = '{{update_formCopy.fieldState.applicationRank.isVisible ? update_formCopy.formData.applicationRank : update_formCopy.sourceData.applicationRank}}',
+		awardStatus = '{{update_formCopy.fieldState.awardStatus.isVisible ? update_formCopy.formData.awardStatus : update_formCopy.sourceData.awardStatus}}',
+		fundingRequest = '{{update_formCopy.fieldState.fundingRequest.isVisible ? update_formCopy.formData.fundingRequest : update_formCopy.sourceData.fundingRequest}}',
+		referenceBudget = '{{update_formCopy.fieldState.referenceBudget.isVisible ? update_formCopy.formData.referenceBudget : update_formCopy.sourceData.referenceBudget}}',
+		currentBudget = '{{update_formCopy.fieldState.currentBudget.isVisible ? update_formCopy.formData.currentBudget : update_formCopy.sourceData.currentBudget}}',
+		lastChangedBy = '{{appsmith.user.email}}'
+		
+WHERE appID = {{Select6.selectedOptionValue}};

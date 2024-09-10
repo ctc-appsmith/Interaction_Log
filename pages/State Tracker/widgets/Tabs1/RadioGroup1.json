@@ -6,7 +6,7 @@
     "type": "RADIO_GROUP_WIDGET",
     "defaultOptionValue": "All",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 6,
     "dynamicBindingPathList": [],
     "onSelectionChange": "{{getMyTasks.run()}}",
     "options": [
@@ -51,7 +51,7 @@
     "key": "q1znzgt1vh",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.f1ed00d0b9588bed20e6359d9d03a790.svg",
     "widgetId": "urlx7j4gsh",
     "label": "",

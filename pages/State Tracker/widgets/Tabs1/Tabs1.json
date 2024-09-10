@@ -38,7 +38,7 @@
             "isDisabled": false,
             "key": "8k0sr7no30",
             "isDeprecated": false,
-            "tabName": "My Tasks",
+            "tabName": "Tasks",
             "rightColumn": 461.625,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -324,50 +324,6 @@
         },
         {
             "needsErrorInfo": false,
-            "tabId": "tabz1i484mss2",
-            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 1201,
-            "widgetName": "Canvas37",
-            "displayName": "Canvas",
-            "topRow": 1,
-            "bottomRow": 1160,
-            "parentRowSpace": 1,
-            "type": "CANVAS_WIDGET",
-            "canExtend": false,
-            "hideCard": true,
-            "minHeight": 1200,
-            "mobileRightColumn": 1231,
-            "parentColumnSpace": 1,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 0,
-            "dynamicBindingPathList": [
-                {"key": "borderRadius"},
-                {"key": "boxShadow"}
-            ],
-            "key": "ewwjacwgqk",
-            "isDeprecated": false,
-            "tabName": "Tasks",
-            "rightColumn": 1231,
-            "detachFromLayout": true,
-            "dynamicHeight": "AUTO_HEIGHT",
-            "widgetId": "ydgkzs8lrj",
-            "containerStyle": "none",
-            "minWidth": 450,
-            "isVisible": true,
-            "version": 1,
-            "parentId": "qal6aq2p79",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "mobileTopRow": 1,
-            "responsiveBehavior": "fill",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "mobileLeftColumn": 0,
-            "maxDynamicHeight": 9000,
-            "minDynamicHeight": 4,
-            "flexLayers": []
-        },
-        {
-            "needsErrorInfo": false,
             "tabId": "tab2xpoulqjzh",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
             "mobileBottomRow": 1201,
@@ -453,7 +409,7 @@
         "tabkbzms8qhvt": {
             "widgetId": "k8g2y2sjdv",
             "isDuplicateLabel": false,
-            "index": 7,
+            "index": 6,
             "id": "tabkbzms8qhvt",
             "label": "Reports",
             "isVisible": true
@@ -461,7 +417,7 @@
         "tabto4pbeop59": {
             "widgetId": "md6ppnz935",
             "isDuplicateLabel": false,
-            "index": 6,
+            "index": 5,
             "id": "tabto4pbeop59",
             "label": "Map",
             "isVisible": true
@@ -469,7 +425,7 @@
         "tabmpqf6qofns": {
             "widgetId": "5mqz8vehey",
             "isDuplicateLabel": false,
-            "index": 8,
+            "index": 7,
             "id": "tabmpqf6qofns",
             "label": "Settings",
             "isVisible": true
@@ -478,24 +434,16 @@
             "widgetId": "9ba1p7kq9u",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 2,
-            "label": "My Tasks",
-            "id": "tab1",
-            "isVisible": true
-        },
-        "tabz1i484mss2": {
-            "widgetId": "ydgkzs8lrj",
-            "isDuplicateLabel": false,
             "index": 1,
-            "id": "tabz1i484mss2",
             "label": "Tasks",
+            "id": "tab1",
             "isVisible": true
         },
         "tab2": {
             "widgetId": "r4gsa9l8cm",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 3,
+            "index": 2,
             "label": "Unassigned Tasks",
             "id": "tab2",
             "isVisible": true
@@ -503,7 +451,7 @@
         "tabai87x09gvf": {
             "widgetId": "grq9kubjj6",
             "isDuplicateLabel": false,
-            "index": 5,
+            "index": 4,
             "id": "tabai87x09gvf",
             "label": "Scoring/Bid Selection",
             "isVisible": true
@@ -511,7 +459,7 @@
         "tabj856a0fluf": {
             "widgetId": "8iq7k7zs99",
             "isDuplicateLabel": false,
-            "index": 4,
+            "index": 3,
             "id": "tabj856a0fluf",
             "label": "Interaction Log",
             "isVisible": true

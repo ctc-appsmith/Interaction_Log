@@ -8,7 +8,7 @@
     "animateLoading": true,
     "leftColumn": 6,
     "dynamicBindingPathList": [],
-    "onSelectionChange": "{{getApplications.run()}}",
+    "onSelectionChange": "{{getApplications.run().then(() => {\n  getApplications_forUpdateForm.run();\n});}}",
     "options": [
         {
             "label": "Prequalification",
@@ -37,7 +37,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
     "widgetName": "RadioGroup5",
-    "dynamicPropertyPathList": [{"key": "onSelectionChange"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Radio Group",
     "searchTags": ["choice"],
     "bottomRow": 4,
