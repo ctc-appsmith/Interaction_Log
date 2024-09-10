@@ -1,3 +1,6 @@
-SELECT * FROM Applications
-	WHERE appID = '{{Select6.selectedOptionValue}}'
+SELECT Applications.*, Entities.entityName
+	FROM Applications INNER JOIN
+		Entities ON Applications.entityID = Entities.entityID
+		
+		WHERE appID = '{{Select6.selectedOptionValue}}'
 ;

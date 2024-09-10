@@ -1,0 +1,15 @@
+INSERT INTO Applications (applicationName,entityID,portalAppID,applicationType,applicationStatus,initialScore,applicationRank,awardStatus,fundingRequest,referenceBudget,currentBudget,lastChangedBy) 
+	VALUES (
+		'{{(insertApplication_form.formData || {}).applicationName}}',
+		'{{(insertApplication_form.formData || {}).entityID}}',
+		'{{(insertApplication_form.formData || {}).portalAppID}}',
+		'{{(insertApplication_form.formData || {}).applicationType}}',
+		'{{(insertApplication_form.formData || {}).applicationStatus}}',
+		'{{(insertApplication_form.formData || {}).initialScore}}',
+		'{{(insertApplication_form.formData || {}).applicationRank}}',
+		'{{(insertApplication_form.formData || {}).awardStatus}}',
+		'{{(insertApplication_form.formData || {}).fundingRequest}}',
+		'{{(insertApplication_form.formData || {}).referenceBudget}}',
+		'{{(insertApplication_form.formData || {}).currentBudget}}',
+		'{{appsmith.user.email}}')
+;
