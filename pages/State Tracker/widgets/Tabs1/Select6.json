@@ -12,7 +12,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "isVisible"}
     ],
     "labelStyle": "BOLD",
     "placeholderText": "Select option",
@@ -20,7 +21,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
+    "isVisible": "{{Tabs7.selectedTab !== \"Interaction Log\"}}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -35,7 +36,8 @@
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
         {"key": "optionLabel"},
-        {"key": "onOptionChange"}
+        {"key": "onOptionChange"},
+        {"key": "isVisible"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
