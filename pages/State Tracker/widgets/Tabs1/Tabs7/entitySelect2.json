@@ -46,7 +46,7 @@
         {"key": "onOptionChange"}
     ],
     "labelPosition": "Left",
-    "labelTextColor": "#231f20",
+    "labelTextColor": "#15803d",
     "sourceData": "{{interactionLog_getEntityList.data}}",
     "key": "1orclqa9qv",
     "labelTextSize": "1.25rem",
