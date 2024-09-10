@@ -3,7 +3,7 @@ SELECT
 FROM
   manualOverrideTable
 WHERE 
-	manualOverrideTable.appID = {{applications_tbl.selectedRow.appID}} 
+	manualOverrideTable.appID = {{Select6.selectedOptionValue}} 
 AND (
 
 ('{{CategorySlider1.value}}' = "All") OR (manualOverrideTable.changeType = '{{CategorySlider1.value}}')

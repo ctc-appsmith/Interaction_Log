@@ -51,16 +51,6 @@
           ],
           [
             {
-              "id": "State Tracker_getManualScores",
-              "name": "getManualScores",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getTaskStatusType",
               "name": "getTaskStatusType",
               "confirmBeforeExecute": false,
@@ -78,16 +68,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_getAppScores",
-              "name": "getAppScores",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_getApplicantsOnly",
               "name": "getApplicantsOnly",
@@ -128,26 +108,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getAppScores_ManualOverride",
-              "name": "getAppScores_ManualOverride",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getAppScores_overall",
-              "name": "getAppScores_overall",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID"
-              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -195,8 +155,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "applications_tbl.selectedRow.appID",
+                "Select6.selectedOptionValue",
                 "CategorySlider1.value"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getManualScores",
+              "name": "getManualScores",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -230,6 +200,16 @@
             }
           ],
           [
+            {
+              "id": "State Tracker_getAppScores",
+              "name": "getAppScores",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "State Tracker_getApplications",
               "name": "getApplications",
@@ -311,6 +291,26 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table4.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getAppScores_ManualOverride",
+              "name": "getAppScores_ManualOverride",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getAppScores_overall",
+              "name": "getAppScores_overall",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },

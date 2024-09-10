@@ -36,8 +36,8 @@
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
         {"key": "optionLabel"},
-        {"key": "onOptionChange"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "optionValue"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -66,6 +66,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getApplications_forUpdateForm.run().then(() => {\n  getTasks_byApplication.run();\n});}}",
+    "onOptionChange": "{{getApplications_forUpdateForm.run().then(() => {\n  getTasks_byApplication.run();\n});\ngetAppScores_overall.run().then(() => {\n  getAppScores_ManualOverride.run();\n});}}",
     "minDynamicHeight": 4
 }

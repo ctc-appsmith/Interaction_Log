@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT applicationScores.categoryName, applicationScores.categoryScore, applicationScores.lastChangedBy\nFROM applicationScores\n\nWHERE appID = {{applications_tbl.selectedRow.appID}}\nORDER BY applicationScores.scoreID;\n\n",
+      "body": "SELECT applicationScores.categoryName, applicationScores.categoryScore, applicationScores.lastChangedBy\nFROM applicationScores\n\nWHERE appID = {{Select6.selectedOptionValue}}\nORDER BY applicationScores.scoreID;\n\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "applications_tbl.selectedRow.appID"
+      "Select6.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

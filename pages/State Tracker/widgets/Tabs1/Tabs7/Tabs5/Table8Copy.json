@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_manualOverrideTable1.run();\n            Total_record_manualOverrideTable1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 27,
+    "topRow": 29,
     "isSortable": true,
     "onPageChange": "{{\n            Select_manualOverrideTable1.run();\n            Total_record_manualOverrideTable1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -83,7 +83,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1718642121127,
-    "originalBottomRow": 65,
+    "originalBottomRow": 67,
     "primaryColumnId": "recordID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -118,7 +118,7 @@
         {"key": "primaryColumns.newTechType.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 65,
+    "bottomRow": 67,
     "columnWidthMap": {
         "newAwardStatus": 169,
         "notes": 303,
@@ -643,7 +643,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 27,
+    "originalTopRow": 29,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
