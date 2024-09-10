@@ -12,8 +12,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "sourceData"}
     ],
     "labelStyle": "BOLD",
     "placeholderText": "Select Application",
