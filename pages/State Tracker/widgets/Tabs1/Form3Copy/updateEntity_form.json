@@ -501,11 +501,10 @@
         {"key": "schema.__root_schema__.children.date_of_birth.defaultValue"},
         {"key": "isVisible"},
         {"key": "borderRadius"},
-        {"key": "onSubmit"},
         {"key": "sourceData"}
     ],
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run().then(() => showModal('Modal2')), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
+    "onSubmit": "",
     "displayName": "JSON Form",
     "topRow": 4,
     "bottomRow": 71,

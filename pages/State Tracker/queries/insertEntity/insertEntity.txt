@@ -1,0 +1,22 @@
+INSERT INTO Entities (clientID,entityName,entityType,entityStatus,applicantAddress,primaryFirstName,primaryLastName,primaryTitle,primaryEmail,primaryPhone,aorFirstName,aorLastName,aorTitle,aorEmail,aorPhone,portalAppID,folderLink,lastChangedBy) 
+VALUES 
+('{{appsmith.store.clientID}}',
+ '{{(insertEntity_form.formData || {}).entityName}}',
+ '{{(insertEntity_form.formData || {}).entityType}}',
+ '{{(insertEntity_form.formData || {}).entityStatus}}',
+ '{{(insertEntity_form.formData || {}).applicantAddress}}',
+ '{{(insertEntity_form.formData || {}).primaryFirstName}}',
+ '{{(insertEntity_form.formData || {}).primaryLastName}}',
+ '{{(insertEntity_form.formData || {}).primaryTitle}}',
+ '{{(insertEntity_form.formData || {}).primaryEmail}}',
+ '{{(insertEntity_form.formData || {}).primaryPhone}}',
+ '{{(insertEntity_form.formData || {}).aorFirstName}}',
+ '{{(insertEntity_form.formData || {}).aorLastName}}',
+ '{{(insertEntity_form.formData || {}).aorTitle}}',
+ '{{(insertEntity_form.formData || {}).aorEmail}}',
+ '{{(insertEntity_form.formData || {}).aorPhone}}',
+ '{{(insertEntity_form.formData || {}).portalAppID}}',
+ '{{(insertEntity_form.formData || {}).folderLink}}',
+
+ '{{appsmith.user.email}}')
+ ;
