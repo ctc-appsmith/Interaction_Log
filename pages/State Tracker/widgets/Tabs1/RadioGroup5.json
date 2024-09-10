@@ -7,7 +7,7 @@
     "defaultOptionValue": "Prequalification",
     "animateLoading": true,
     "leftColumn": 6,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [{"key": "isVisible"}],
     "onSelectionChange": "{{getApplications.run().then(() => {\n  getApplications_forUpdateForm.run();\n});}}",
     "options": [
         {
@@ -29,7 +29,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "#061041",
-    "isVisible": true,
+    "isVisible": "{{Tabs7.selectedTab !== \"Interaction Log\"}}",
     "version": 1,
     "tags": ["Toggles"],
     "isLoading": false,
@@ -37,7 +37,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
     "widgetName": "RadioGroup5",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Radio Group",
     "searchTags": ["choice"],
     "bottomRow": 4,

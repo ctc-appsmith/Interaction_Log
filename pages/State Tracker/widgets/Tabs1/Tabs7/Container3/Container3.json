@@ -12,7 +12,7 @@
         "parent",
         "group"
     ],
-    "topRow": 7,
+    "topRow": 1,
     "bottomRow": 65,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",

@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Select Entity",
-    "topRow": 1,
+    "topRow": 4,
     "labelWidth": "6",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
@@ -12,7 +12,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "isVisible"}
     ],
     "labelStyle": "BOLD",
     "placeholderText": "Select option",
@@ -20,7 +21,7 @@
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
+    "isVisible": "{{Tabs7.selectedTab === \"Interaction Log\"}}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -33,10 +34,13 @@
     "mobileBottomRow": 22,
     "widgetName": "entitySelect2",
     "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "isVisible"}
+    ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 6,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 18,
@@ -56,7 +60,7 @@
     "widgetId": "25ugfik63j",
     "optionValue": "entityID",
     "minWidth": 450,
-    "parentId": "btdx2mb8ge",
+    "parentId": "fro9eg0mfm",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 15,
