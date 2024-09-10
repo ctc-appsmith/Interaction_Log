@@ -361,9 +361,9 @@
     "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{insertApplication.run(() => {\n  showAlert(\"undefined\");\n  getApplications.run();\n}, () => {\n  showAlert(\"Unable to create!\");\n});\ngetApplications_forUpdateForm.run().then(() => {\n  storeValue('addForm', 'No');\n});}}",
+    "onSubmit": "{{insertApplication.run(() => {\n  showAlert(\"undefined\");\n  getApplications.run();\n}, () => {\n  showAlert(\"Unable to create!\");\n});\ngetApplications_forUpdateForm.run().then(() => {\n  removeValue('addForm');\n});}}",
     "topRow": 0,
-    "bottomRow": 61,
+    "bottomRow": 82,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add a New Application",
@@ -465,7 +465,7 @@
     "isLoading": false,
     "scrollContents": true,
     "fixedFooter": true,
-    "submitButtonLabel": "Save Entry",
+    "submitButtonLabel": "Save Application",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
