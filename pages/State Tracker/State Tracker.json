@@ -99,6 +99,17 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getApplications_byApplicant",
+              "name": "getApplications_byApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "appsmith.store.entityID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getMyTasks",
               "name": "getMyTasks",
               "confirmBeforeExecute": false,

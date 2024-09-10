@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 36,
-    "widgetName": "addTask_Modal",
+    "widgetName": "addTask_fromTaskTab_modal",
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.4b2718a4b16cd370332555ef28633b8d.svg",
