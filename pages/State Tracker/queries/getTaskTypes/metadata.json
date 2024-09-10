@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  taskTypes\nWHERE\n  taskName LIKE '%{{Table4.searchText}}%'\nORDER BY\n  {{Table4.sortOrder.column || 'taskOrder'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  taskTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\nORDER BY\n  {{Table4.sortOrder.column || 'taskOrder'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,9 +38,9 @@
     "jsonPathKeys": [
       "Table4.pageOffset",
       "Table4.pageSize",
-      "Table4.searchText",
       "Table4.sortOrder.column || 'taskOrder'",
-      "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+      "appsmith.store.clientID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

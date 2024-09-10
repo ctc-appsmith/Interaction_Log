@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1360,
+          "bottomRow": 1440,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -92,19 +92,6 @@
           ],
           [
             {
-              "id": "State Tracker_Select_entityStatus1",
-              "name": "Select_entityStatus1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table2.pageSize",
-                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table2.sortOrder.column || 'recordID'",
-                "Table2.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_Total_record_entityStatus1",
               "name": "Total_record_entityStatus1",
               "confirmBeforeExecute": false,
@@ -126,6 +113,19 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getApplicantStatus",
+              "name": "getApplicantStatus",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.pageSize",
+                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table2.sortOrder.column || 'recordID'",
+                "Table2.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getEmployees",
               "name": "getEmployees",
               "confirmBeforeExecute": false,
@@ -133,7 +133,6 @@
               "jsonPathKeys": [
                 "Table3.pageOffset",
                 "Table3.sortOrder.column || 'empLastName'",
-                "Table3.searchText",
                 "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table3.pageSize"
               ],
@@ -167,9 +166,9 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table4.pageOffset",
+                "appsmith.store.clientID",
                 "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table4.pageSize",
-                "Table4.searchText",
                 "Table4.sortOrder.column || 'taskOrder'"
               ],
               "timeoutInMillisecond": 10000

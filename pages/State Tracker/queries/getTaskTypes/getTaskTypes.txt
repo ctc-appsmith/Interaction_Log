@@ -2,8 +2,8 @@ SELECT
   *
 FROM
   taskTypes
-WHERE
-  taskName LIKE '%{{Table4.searchText}}%'
+	
+	WHERE clientID = {{appsmith.store.clientID}}
 ORDER BY
   {{Table4.sortOrder.column || 'taskOrder'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

@@ -74,7 +74,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1725914945500,
+    "columnUpdatedAt": 1725976579143,
     "primaryColumnId": "requiredTaskID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -84,6 +84,7 @@
     "columnOrder": [
         "appType",
         "taskName",
+        "team",
         "taskDefinition",
         "taskOrder",
         "created",
@@ -91,7 +92,6 @@
         "lastChangedBy",
         "taskTypeID",
         "clientID",
-        "team",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -101,7 +101,11 @@
     ],
     "displayName": "Table",
     "bottomRow": 58,
-    "columnWidthMap": {},
+    "columnWidthMap": {
+        "appType": 158,
+        "taskName": 181,
+        "taskDefinition": 352
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "onAddNewRowSave": "{{Insert_taskTypes1.run(() => {\n            showAlert(\"Successfully created!\");\n            getTaskTypes.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
