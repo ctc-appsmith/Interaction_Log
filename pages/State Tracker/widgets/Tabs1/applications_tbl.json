@@ -66,10 +66,11 @@
     "columnSizeMap": {
         "task": 245,
         "clientName": 112,
+        "entityName": 241,
         "ApplicantName": 273,
         "step": 62,
         "type": 109,
-        "applicationName": 293,
+        "applicationName": 212,
         "status": 75
     },
     "widgetName": "applications_tbl",
@@ -77,8 +78,8 @@
     "columnOrder": [
         "appID",
         "applicationName",
-        "applicationType",
         "entityName",
+        "applicationType",
         "clientName",
         "portalAppID",
         "initialScore",
@@ -92,7 +93,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "onRowSelected"}],
     "displayName": "Table",
-    "bottomRow": 81,
+    "bottomRow": 64,
     "parentRowSpace": 10,
     "defaultSelectedRow": "0",
     "hideCard": false,
