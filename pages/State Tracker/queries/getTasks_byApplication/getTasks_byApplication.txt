@@ -1,4 +1,4 @@
-SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID, Tasks.assignedTeam
+SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Applications.appID, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID, Tasks.assignedTeam
 	FROM taskTypes
 		INNER JOIN (Clients 
 								INNER JOIN ((Tasks 
@@ -6,9 +6,11 @@ SELECT Tasks.*, Applications.entityID, Applications.applicationType, Application
 															INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 
 								             Clients.clientID =	Entities.clientID) ON taskTypes.taskTypeID = Tasks.taskTypeID
 			WHERE Clients.clientID = {{appsmith.store.clientID}}
-			AND assignedTo = "unassigned@ctcnet.us"
-			AND (('{{RadioGroup3.selectedOptionValue}}' = "All") OR ( Tasks.assignedTeam= '{{RadioGroup3.selectedOptionValue}}'))
+			AND ((Tasks.appID= '{{Select6.selectedOptionValue}}'))
 			AND (('{{RadioGroup4.selectedOptionValue}}' = "All") OR ( Applications.applicationType= '{{RadioGroup4.selectedOptionValue}}'))
+			
+				AND ({{!Select7.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7.selectedOptionValue}}'))
+
 
 ;
 

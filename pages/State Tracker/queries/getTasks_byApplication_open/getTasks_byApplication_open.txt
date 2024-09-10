@@ -1,0 +1,15 @@
+SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Applications.appID, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID, Tasks.assignedTeam
+	FROM taskTypes
+		INNER JOIN (Clients 
+								INNER JOIN ((Tasks 
+											     INNER JOIN Applications ON Tasks.appID = Applications.appID) 
+															INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 
+								             Clients.clientID =	Entities.clientID) ON taskTypes.taskTypeID = Tasks.taskTypeID
+			WHERE Clients.clientID = {{appsmith.store.clientID}}
+			AND ((Tasks.appID= '{{Select6.selectedOptionValue}}'))
+			AND (('{{RadioGroup4.selectedOptionValue}}' = "All") OR ( Applications.applicationType= '{{RadioGroup4.selectedOptionValue}}'))
+			
+				AND ({{!Select7.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7.selectedOptionValue}}'))
+				AND Tasks.taskStatus <> "Complete"
+
+;

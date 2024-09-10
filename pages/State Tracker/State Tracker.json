@@ -204,14 +204,16 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getUnassignedTasks",
-              "name": "getUnassignedTasks",
+              "id": "State Tracker_getTasks_byApplication",
+              "name": "getTasks_byApplication",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "Select7.selectedOptionValue",
                 "appsmith.store.clientID",
-                "RadioGroup3.selectedOptionValue",
-                "RadioGroup4.selectedOptionValue"
+                "Select6.selectedOptionValue",
+                "RadioGroup4.selectedOptionValue",
+                "!Select7.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
