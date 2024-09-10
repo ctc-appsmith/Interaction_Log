@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1440,
+          "bottomRow": 1360,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -68,16 +68,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_getApplications",
-              "name": "getApplications",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_getMyTasks",
               "name": "getMyTasks",
@@ -190,6 +180,27 @@
             {
               "id": "State Tracker_getAppScores",
               "name": "getAppScores",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "applications_tbl.selectedRow.appID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getApplications",
+              "name": "getApplications",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "RadioGroup5.value"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getApplications_forUpdateForm",
+              "name": "getApplications_forUpdateForm",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

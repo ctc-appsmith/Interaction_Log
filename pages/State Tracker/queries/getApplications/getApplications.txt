@@ -1,5 +1,8 @@
-SELECT Applications.appID, Applications.applicationName, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget
+SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType
 FROM Clients INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
 WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
+AND entityType = "Applicant"
+AND (('{{RadioGroup5.value}}' = "All") OR ( Applications.applicationType= '{{RadioGroup5.value}}')
+	)
 ORDER BY entityName ASC, applicationName ASC;
 
