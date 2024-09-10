@@ -273,7 +273,7 @@
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "autoGenerateForm": true,
-    "widgetId": "qx2zz5y1lc",
+    "widgetId": "d9btlf70hb",
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -282,7 +282,7 @@
     },
     "isVisible": "true",
     "version": 1,
-    "parentId": "g62hawu5dj",
+    "parentId": "o6txs8i60s",
     "renderMode": "CANVAS",
     "isLoading": false,
     "scrollContents": true,

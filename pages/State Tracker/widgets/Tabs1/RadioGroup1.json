@@ -6,7 +6,7 @@
     "type": "RADIO_GROUP_WIDGET",
     "defaultOptionValue": "All",
     "animateLoading": true,
-    "leftColumn": 6,
+    "leftColumn": 1,
     "dynamicBindingPathList": [],
     "onSelectionChange": "{{getMyTasks.run()}}",
     "options": [

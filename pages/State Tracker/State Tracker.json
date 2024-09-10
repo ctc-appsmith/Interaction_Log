@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1440,
+          "bottomRow": 1360,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -99,6 +99,17 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getEntities",
+              "name": "getEntities",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "entitySelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getMyTasks",
               "name": "getMyTasks",
               "confirmBeforeExecute": false,
@@ -179,6 +190,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getEntityType_fromEntitySelect",
+              "name": "getEntityType_fromEntitySelect",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getManualOverrideTable",
               "name": "getManualOverrideTable",
               "confirmBeforeExecute": false,
@@ -237,17 +258,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select6.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntities",
-              "name": "getEntities",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -310,16 +320,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entitySelect2.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntityType_fromEntitySelect",
-              "name": "getEntityType_fromEntitySelect",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

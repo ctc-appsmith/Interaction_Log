@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Text21Copy",
+    "widgetName": "Text24Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "searchTags": [
@@ -26,20 +26,20 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Task Update Form",
-    "key": "yipos6d1zh",
+    "text": "Entity Information",
+    "key": "ctad0mvjdq",
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "e435t5eirf",
+    "widgetId": "on7dpvfnrr",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "qxaq3ysnjx",
+    "parentId": "w521jj9l3i",
     "tags": [
         "Suggested",
         "Content"
@@ -48,11 +48,9 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 4,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

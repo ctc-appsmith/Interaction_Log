@@ -486,7 +486,7 @@
     }},
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#2E3D4955",
-    "widgetName": "update_form",
+    "widgetName": "update_formCopy1",
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -602,7 +602,7 @@
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "autoGenerateForm": true,
-    "widgetId": "qcpz4umpr7",
+    "widgetId": "ny2ito8ph3",
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -613,7 +613,7 @@
     },
     "isVisible": "{{!!data_table.selectedRow.applicantID}}",
     "version": 1,
-    "parentId": "6bytaysa2a",
+    "parentId": "w521jj9l3i",
     "isLoading": false,
     "renderMode": "CANVAS",
     "scrollContents": true,
