@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button25",
-    "onClick": "{{insert_Task.run().then(() => {\n  getMyTasks.run();\n});\ncloseModal('addTask_Modal');}}",
+    "onClick": "{{insert_Task.run().then(() => {\n  getMyTasks.run();\n});\ngetTasks_byApplication.run().then(() => {\n  closeModal('addTask_Modal');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

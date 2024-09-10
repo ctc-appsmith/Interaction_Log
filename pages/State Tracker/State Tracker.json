@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1360,
+          "bottomRow": 1440,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -300,6 +300,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table4.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getEntityType_froEntitySelect2",
+              "name": "getEntityType_froEntitySelect2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect2.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },

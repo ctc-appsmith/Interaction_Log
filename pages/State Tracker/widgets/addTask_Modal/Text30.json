@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Select a Team to add a Task",
+    "text": "Add a Task",
     "key": "86r5eyu839",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -55,6 +55,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 7,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
