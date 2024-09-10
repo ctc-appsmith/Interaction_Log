@@ -65,7 +65,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas42",
             "displayName": "Canvas",
-            "bottomRow": 620,
+            "bottomRow": 630,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -213,7 +213,7 @@
     "shouldScrollContents": true,
     "mobileRightColumn": 24,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onTabSelected"}],
     "borderWidth": 1,
     "key": "ernr3bf93d",
     "backgroundColor": "#FFFFFF",
@@ -222,6 +222,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
     "defaultTab": "Application Information",
+    "onTabSelected": "{{removeValue('addForm');}}",
     "minWidth": 450,
     "tabsObj": {
         "tabcvi8narali": {
