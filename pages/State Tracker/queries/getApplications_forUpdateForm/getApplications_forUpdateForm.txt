@@ -1,3 +1,3 @@
 SELECT * FROM Applications
-	WHERE appID = {{applications_tbl.selectedRow.appID}}
+	WHERE appID = {{Select6.selectedOptionValue}}
 ;
