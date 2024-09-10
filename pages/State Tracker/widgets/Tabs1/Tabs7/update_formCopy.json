@@ -521,7 +521,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "string",
                 "accessor": "applicationName",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Application Name",
                 "originalIdentifier": "applicationName",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",

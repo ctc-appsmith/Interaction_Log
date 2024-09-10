@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Add Entity",
+    "text": "Add Applicant",
     "key": "xfgk9e954i",
     "isDeprecated": false,
     "rightColumn": 63,

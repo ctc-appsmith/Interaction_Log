@@ -2,7 +2,7 @@ SELECT Applications.appID, Applications.applicationName, Applications.applicatio
 FROM Clients INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
 WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
 AND entityType = "Applicant"
-AND (('{{RadioGroup5.value}}' = "All") OR ( Applications.applicationType= '{{RadioGroup5.value}}')
+AND ((Applications.applicationType= '{{Select10.selectedOptionValue}}')
 	)
 ORDER BY entityName ASC, applicationName ASC;
 

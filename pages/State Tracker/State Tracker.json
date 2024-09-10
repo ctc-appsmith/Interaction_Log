@@ -150,6 +150,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getEntityType_froEntitySelect2",
+              "name": "getEntityType_froEntitySelect2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect2.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getManualOverrideTable",
               "name": "getManualOverrideTable",
               "confirmBeforeExecute": false,
@@ -217,7 +227,7 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID",
-                "RadioGroup5.value"
+                "Select10.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -311,16 +321,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select6.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntityType_froEntitySelect2",
-              "name": "getEntityType_froEntitySelect2",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect2.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -1,6 +1,6 @@
 UPDATE Applications SET
 		entityID = '{{update_formCopy.fieldState.entityName.isVisible ? update_formCopy.formData.entityName : update_formCopy.sourceData.entityName}}',
-		applicationName = '{{update_formCopy.fieldState.applicationName.isVisible ? update_formCopy.formData.applicationName : update_formCopy.sourceData.applicationName}}',
+		applicationName = '{{Select6.selectedOptionLabel}}',
 		applicationType = '{{update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType}}',
 		applicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',
 		portalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',
