@@ -377,7 +377,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{generalSelectQuery.run().then(() => {\n  Select_BidSelectionHistory2.run();\n\tUpdate_awardStatus_apps.run();\n  Select_ManualAwards2.run();\n Update_currentScore_apps.run();\n\tget_ApplicationFunding.run();\n\tget_reference.run();\n\tget_CurrentBudget.run()\n});\nget_scores.run();\nget_negotiationStatus.run();\nget_currentScore.run();\nSelect_ManualScores1.run();\nSelect_manualOverrideTable1.run();\nQASelectQuery.run();\ncountUnSatReviews.run();}}",
+    "onRowSelected": "{{getApplications_forUpdateForm.run()}}",
     "key": "zba5qel0au",
     "derivedColumns": {"customColumn1": {
         "isCellVisible": false,
