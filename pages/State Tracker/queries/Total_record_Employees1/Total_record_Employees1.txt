@@ -1,1 +1,0 @@
-SELECT COUNT(*) from Employees WHERE empLastName LIKE '%{{Table3.searchText}}%';

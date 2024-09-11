@@ -177,7 +177,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
     "defaultTab": "Details",
-    "onTabSelected": "{{removeValue('addForm');}}",
+    "onTabSelected": "{{interactionLog_getCallLog.run()}}",
     "minWidth": 450,
     "tabsObj": {
         "tabcvi8narali": {

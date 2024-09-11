@@ -1,1 +1,0 @@
-SELECT COUNT(*) from taskStatusTypes WHERE taskStatus LIKE '%{{Table5.searchText}}%';

@@ -119,14 +119,6 @@
           ],
           [
             {
-              "id": "State Tracker_Total_record_entityStatus1",
-              "name": "Total_record_entityStatus1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getAppStatusTypes",
               "name": "getAppStatusTypes",
               "confirmBeforeExecute": false,
@@ -270,56 +262,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Total_record_Employees1",
-              "name": "Total_record_Employees1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table3.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_Teams1",
-              "name": "Total_record_Teams1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table7.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_applicationStatusTypes1",
-              "name": "Total_record_applicationStatusTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_taskStatusTypes1",
-              "name": "Total_record_taskStatusTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table5.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_taskTypes1",
-              "name": "Total_record_taskTypes1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table4.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_getAppScores_ManualOverride",
               "name": "getAppScores_ManualOverride",
