@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "widgetName": "Insert_Modal",
+    "widgetName": "insertInteraction_Modal",
     "topRow": 16,
     "bottomRow": 40,
     "parentRowSpace": 10,
