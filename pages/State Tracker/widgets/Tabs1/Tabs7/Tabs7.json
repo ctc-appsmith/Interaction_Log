@@ -60,51 +60,6 @@
         },
         {
             "needsErrorInfo": false,
-            "tabId": "tab2",
-            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 150,
-            "widgetName": "Canvas42",
-            "displayName": "Canvas",
-            "bottomRow": 950,
-            "topRow": 0,
-            "parentRowSpace": 1,
-            "type": "CANVAS_WIDGET",
-            "canExtend": true,
-            "hideCard": true,
-            "shouldScrollContents": false,
-            "minHeight": 150,
-            "mobileRightColumn": 454.125,
-            "parentColumnSpace": 1,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 0,
-            "dynamicBindingPathList": [
-                {"key": "borderRadius"},
-                {"key": "boxShadow"}
-            ],
-            "isDisabled": false,
-            "key": "ewwjacwgqk",
-            "isDeprecated": false,
-            "tabName": "Tasks",
-            "rightColumn": 454.125,
-            "detachFromLayout": true,
-            "dynamicHeight": "AUTO_HEIGHT",
-            "widgetId": "3rwg6z2mbb",
-            "minWidth": 450,
-            "isVisible": true,
-            "version": 1,
-            "parentId": "czybk4jang",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "mobileTopRow": 0,
-            "responsiveBehavior": "fill",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "mobileLeftColumn": 0,
-            "maxDynamicHeight": 9000,
-            "minDynamicHeight": 4,
-            "flexLayers": []
-        },
-        {
-            "needsErrorInfo": false,
             "tabId": "tabo031r0jrap",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
             "mobileBottomRow": 671,
@@ -227,7 +182,7 @@
     "tabsObj": {
         "tabcvi8narali": {
             "widgetId": "n197ypd2dk",
-            "index": 3,
+            "index": 2,
             "id": "tabcvi8narali",
             "label": "Scoring/Bid Selection",
             "isVisible": "{{Select10.selectedOptionValue ===\"Scoring\"}}"
@@ -242,17 +197,9 @@
         },
         "tabo031r0jrap": {
             "widgetId": "btdx2mb8ge",
-            "index": 2,
+            "index": 1,
             "id": "tabo031r0jrap",
             "label": "Interaction Log",
-            "isVisible": true
-        },
-        "tab2": {
-            "widgetId": "3rwg6z2mbb",
-            "positioning": "vertical",
-            "index": 1,
-            "label": "Tasks",
-            "id": "tab2",
             "isVisible": true
         }
     },
