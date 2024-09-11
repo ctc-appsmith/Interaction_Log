@@ -6,7 +6,7 @@
     "labelWidth": "7",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "Scoring",
+    "defaultOptionValue": "",
     "animateLoading": true,
     "leftColumn": 12,
     "dynamicBindingPathList": [
@@ -64,6 +64,6 @@
     "originalTopRow": 5,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getApplications.run()}}",
+    "onOptionChange": "{{getMyTasks.run()}}",
     "minDynamicHeight": 4
 }

@@ -29,17 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "State Tracker_getMyTasks",
-              "name": "getMyTasks",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "RadioGroup1.value"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
@@ -114,6 +103,20 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getMyTasks",
+              "name": "getMyTasks",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "Select7Copy.selectedOptionValue",
+                "!Select11.selectedOptionValue",
+                "Select11.selectedOptionValue",
+                "!Select7Copy.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

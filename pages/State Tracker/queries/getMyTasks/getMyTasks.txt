@@ -1,14 +1,13 @@
-SELECT Tasks.*, Applications.entityID, Applications.applicationType, Applications.applicationName, Clients.clientID, taskTypes.taskName, taskTypes.taskTypeID, Tasks.assignedTeam
-	FROM taskTypes
-		INNER JOIN (Clients 
-								INNER JOIN ((Tasks 
-											     INNER JOIN Applications ON Tasks.appID = Applications.appID) 
-															INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 
-								             Clients.clientID =	Entities.clientID) ON taskTypes.taskTypeID = Tasks.taskTypeID
+SELECT Tasks.*, Applications.applicationType, Applications.applicationName, Clients.clientID, Entities.entityName
+	FROM Clients 
+		INNER JOIN ((Tasks 
+								 INNER JOIN Applications ON Tasks.appID = Applications.appID) 
+										INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID =  Entities.clientID
 			WHERE Clients.clientID = {{appsmith.store.clientID}}
 			AND taskStatus <> "Complete"
-			AND (('{{RadioGroup1.value}}' = "All") OR ( Applications.applicationType= '{{RadioGroup1.value}}')
-	)
+			AND ({{!Select11.selectedOptionValue}} OR (Applications.applicationType= '{{Select11.selectedOptionValue}}'))
+			AND ({{!Select7Copy.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7Copy.selectedOptionValue}}'))
+			
 ;
 
 
