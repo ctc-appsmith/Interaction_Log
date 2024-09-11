@@ -6,9 +6,9 @@
     "iconSVG": "/static/media/icon.7615ff4a5f55a5c7a3eb377a653a028b.svg",
     "displayName": "Category Slider",
     "labelText": "Select Type of Records to Review",
-    "topRow": 19,
+    "topRow": 16,
     "searchTags": ["range"],
-    "bottomRow": 25,
+    "bottomRow": 22,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "CATEGORY_SLIDER_WIDGET",
@@ -64,8 +64,8 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 9,
     "responsiveBehavior": "fill",
-    "originalTopRow": 19,
+    "originalTopRow": 16,
     "mobileLeftColumn": 15,
-    "originalBottomRow": 25,
+    "originalBottomRow": 22,
     "showMarksLabel": true
 }
