@@ -488,7 +488,10 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "isVisible"}
+    ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{insertEntity.run(() => {\n            showAlert(\"undefined\");\n            \n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
@@ -571,7 +574,8 @@
         {"key": "schema.__root_schema__.children.lastChanged.accentColor"},
         {"key": "schema.__root_schema__.children.lastChangedBy.defaultValue"},
         {"key": "schema.__root_schema__.children.lastChangedBy.borderRadius"},
-        {"key": "schema.__root_schema__.children.lastChangedBy.accentColor"}
+        {"key": "schema.__root_schema__.children.lastChangedBy.accentColor"},
+        {"key": "isVisible"}
     ],
     "borderWidth": "",
     "sourceData": {
@@ -604,16 +608,16 @@
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "autoGenerateForm": true,
-    "widgetId": "d9btlf70hb",
+    "widgetId": "aj3v0ud637",
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "isVisible": "true",
+    "isVisible": "{{true}}",
     "version": 1,
-    "parentId": "o6txs8i60s",
+    "parentId": "7wu1kuxq2t",
     "renderMode": "CANVAS",
     "isLoading": false,
     "scrollContents": true,
