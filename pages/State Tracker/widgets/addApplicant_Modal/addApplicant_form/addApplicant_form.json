@@ -5,7 +5,7 @@
     "borderColor": "#E0DEDE",
     "widgetName": "addApplicant_form",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Form",
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",
     "searchTags": ["group"],
@@ -22,8 +22,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "isVisible"}
+        {"key": "boxShadow"}
     ],
     "children": [{
         "needsErrorInfo": false,
@@ -77,7 +76,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "p1dfq9r8yf",
     "minWidth": 450,
-    "isVisible": "{{appsmith.store.addForm ===\"yes\"}}",
+    "isVisible": true,
     "parentId": "jbdqv4cplm",
     "tags": ["Layout"],
     "renderMode": "CANVAS",
