@@ -3,7 +3,7 @@
     "borderColor": "#2E3D4955",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdateForm.run()}}",
-    "topRow": 0,
+    "topRow": 5,
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
