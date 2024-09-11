@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Applications SET\n\n\t\tapplicationName = '{{getApplications.data[0].applicationName}}',\n\t\tapplicationType = '{{update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType}}',\n\t\tapplicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',\n\t\tportalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',\n\t\tinitialScore = '{{update_formCopy.fieldState.initialScore.isVisible ? update_formCopy.formData.initialScore : update_formCopy.sourceData.initialScore}}',\n\t\tapplicationRank = '{{update_formCopy.fieldState.applicationRank.isVisible ? update_formCopy.formData.applicationRank : update_formCopy.sourceData.applicationRank}}',\n\t\tawardStatus = '{{update_formCopy.fieldState.awardStatus.isVisible ? update_formCopy.formData.awardStatus : update_formCopy.sourceData.awardStatus}}',\n\t\tfundingRequest = '{{update_formCopy.fieldState.fundingRequest.isVisible ? update_formCopy.formData.fundingRequest : update_formCopy.sourceData.fundingRequest}}',\n\t\treferenceBudget = '{{update_formCopy.fieldState.referenceBudget.isVisible ? update_formCopy.formData.referenceBudget : update_formCopy.sourceData.referenceBudget}}',\n\t\tcurrentBudget = '{{update_formCopy.fieldState.currentBudget.isVisible ? update_formCopy.formData.currentBudget : update_formCopy.sourceData.currentBudget}}',\n\t\tlastChangedBy = '{{appsmith.user.email}}'\n\t\t\nWHERE appID = {{Select6.selectedOptionValue}};",
+      "body": "UPDATE Applications SET\n\n\t\tapplicationName = '{{getApplications.data[0].applicationName}}',\n\t\tapplicationType = '{{update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType}}',\n\t\tapplicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',\n\t\tportalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',\n\t\tlastChangedBy = '{{appsmith.user.email}}'\n\t\t\nWHERE appID = {{Select6.selectedOptionValue}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,15 +39,9 @@
       "Select6.selectedOptionValue",
       "appsmith.user.email",
       "getApplications.data[0].applicationName",
-      "update_formCopy.fieldState.applicationRank.isVisible ? update_formCopy.formData.applicationRank : update_formCopy.sourceData.applicationRank",
       "update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus",
       "update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType",
-      "update_formCopy.fieldState.awardStatus.isVisible ? update_formCopy.formData.awardStatus : update_formCopy.sourceData.awardStatus",
-      "update_formCopy.fieldState.currentBudget.isVisible ? update_formCopy.formData.currentBudget : update_formCopy.sourceData.currentBudget",
-      "update_formCopy.fieldState.fundingRequest.isVisible ? update_formCopy.formData.fundingRequest : update_formCopy.sourceData.fundingRequest",
-      "update_formCopy.fieldState.initialScore.isVisible ? update_formCopy.formData.initialScore : update_formCopy.sourceData.initialScore",
-      "update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID",
-      "update_formCopy.fieldState.referenceBudget.isVisible ? update_formCopy.formData.referenceBudget : update_formCopy.sourceData.referenceBudget"
+      "update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

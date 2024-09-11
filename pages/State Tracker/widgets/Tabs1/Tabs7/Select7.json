@@ -15,7 +15,7 @@
         {"key": "sourceData"}
     ],
     "labelStyle": "BOLD",
-    "placeholderText": "Select option",
+    "placeholderText": "Select Team",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
