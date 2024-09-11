@@ -6,7 +6,7 @@
     "labelWidth": "7",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "Scoring",
     "animateLoading": true,
     "leftColumn": 12,
     "dynamicBindingPathList": [

@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Filter Applications",
+    "text": "Search Applications",
     "key": "qmx5atr8k7",
     "isDeprecated": false,
     "rightColumn": 63,

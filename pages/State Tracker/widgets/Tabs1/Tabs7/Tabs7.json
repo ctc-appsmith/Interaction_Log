@@ -177,7 +177,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
     "defaultTab": "Details",
-    "onTabSelected": "{{interactionLog_getCallLog.run()}}",
+    "onTabSelected": "{{interactionLog_getCallLog.run().then(() => {\n  getAppScores_overall.run();\n});\ngetAppScores_ManualOverride.run()}}",
     "minWidth": 450,
     "tabsObj": {
         "tabcvi8narali": {
