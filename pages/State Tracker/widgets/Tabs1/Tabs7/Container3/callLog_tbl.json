@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 10,
+    "topRow": 4,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -109,7 +109,7 @@
         {"key": "primaryColumns.inReferenceTo.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 67,
+    "bottomRow": 61,
     "columnWidthMap": {
         "commsDate": 107,
         "EditActions1": 160,
