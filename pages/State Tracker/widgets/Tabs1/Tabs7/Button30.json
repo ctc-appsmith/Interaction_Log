@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 8,
     "widgetName": "Button30",
-    "onClick": "{{storeValue('addForm', 'Yes');}}",
+    "onClick": "{{storeValue('addForm', 'Yes').then(() => {\n  showModal('addApplication_Modal');\n});}}",
     "buttonColor": "#061041",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

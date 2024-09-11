@@ -221,7 +221,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
-    "defaultTab": "General Information",
+    "defaultTab": "Details",
     "onTabSelected": "{{removeValue('addForm');}}",
     "minWidth": 450,
     "tabsObj": {
