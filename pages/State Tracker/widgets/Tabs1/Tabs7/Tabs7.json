@@ -10,8 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tabcvi8narali.isVisible"},
-        {"key": "tabsObj.tabf3jekfiq49.label"}
+        {"key": "tabsObj.tabcvi8narali.isVisible"}
     ],
     "children": [
         {
@@ -40,7 +39,7 @@
             "isDisabled": false,
             "key": "ewwjacwgqk",
             "isDeprecated": false,
-            "tabName": "General Information",
+            "tabName": "Details",
             "rightColumn": 454.125,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -191,51 +190,6 @@
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
             "flexLayers": []
-        },
-        {
-            "needsErrorInfo": false,
-            "tabId": "tabf3jekfiq49",
-            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 901,
-            "widgetName": "Canvas47",
-            "displayName": "Canvas",
-            "topRow": 1,
-            "bottomRow": 860,
-            "parentRowSpace": 1,
-            "type": "CANVAS_WIDGET",
-            "canExtend": false,
-            "hideCard": true,
-            "minHeight": 900,
-            "mobileRightColumn": 1192.078125,
-            "parentColumnSpace": 1,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 0,
-            "dynamicBindingPathList": [
-                {"key": "borderRadius"},
-                {"key": "boxShadow"},
-                {"key": "tabName"}
-            ],
-            "key": "dwky64j2t6",
-            "isDeprecated": false,
-            "tabName": "Negotiation Status: {{getApplications.data[0].awardStatus}}",
-            "rightColumn": 1192.078125,
-            "detachFromLayout": true,
-            "dynamicHeight": "AUTO_HEIGHT",
-            "widgetId": "1e72q72gah",
-            "containerStyle": "none",
-            "minWidth": 450,
-            "isVisible": true,
-            "version": 1,
-            "parentId": "czybk4jang",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "mobileTopRow": 1,
-            "responsiveBehavior": "fill",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "mobileLeftColumn": 0,
-            "maxDynamicHeight": 9000,
-            "minDynamicHeight": 4,
-            "flexLayers": []
         }
     ],
     "flexVerticalAlignment": "stretch",
@@ -278,18 +232,11 @@
             "label": "Scoring/Bid Selection",
             "isVisible": "{{Select10.selectedOptionValue ===\"Scoring\"}}"
         },
-        "tabf3jekfiq49": {
-            "widgetId": "1e72q72gah",
-            "index": 4,
-            "id": "tabf3jekfiq49",
-            "label": "Negotiation Status: {{getApplications.data[0].awardStatus}}",
-            "isVisible": true
-        },
         "tab1": {
             "widgetId": "jdyybhnowk",
             "positioning": "vertical",
             "index": 0,
-            "label": "General Information",
+            "label": "Details",
             "id": "tab1",
             "isVisible": true
         },

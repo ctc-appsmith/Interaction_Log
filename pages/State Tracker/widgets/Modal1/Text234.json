@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appName.text}}",
+    "text": "{{Select6.selectedOptionLabel}}",
     "key": "2gnval9hp5",
     "isDeprecated": false,
     "rightColumn": 63,
