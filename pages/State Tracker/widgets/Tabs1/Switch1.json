@@ -8,7 +8,7 @@
     "iconSVG": "/static/media/icon.c0b4c50c8e9e6060b0525341b26d016d.svg",
     "searchTags": ["boolean"],
     "topRow": 21,
-    "bottomRow": 26,
+    "bottomRow": 25,
     "parentRowSpace": 10,
     "type": "SWITCH_WIDGET",
     "alignWidget": "LEFT",
@@ -25,7 +25,7 @@
     "isDisabled": false,
     "key": "8rnue4d6ks",
     "isDeprecated": false,
-    "rightColumn": 12,
+    "rightColumn": 13,
     "thumbnailSVG": "/static/media/thumbnail.cd04c6d6a11266a806cebe39829607cb.svg",
     "onChange": "{{getMyTasks_Completed.run()}}",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -44,6 +44,6 @@
     "originalTopRow": 21,
     "mobileLeftColumn": 17,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 26,
+    "originalBottomRow": 25,
     "minDynamicHeight": 4
 }
