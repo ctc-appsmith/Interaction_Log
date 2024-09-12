@@ -4,7 +4,7 @@
     "onSort": "{{\n            getAppStatusTypes.run();\n            Total_record_applicationStatusTypes1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 5,
+    "topRow": 6,
     "isSortable": true,
     "onPageChange": "{{\n            getAppStatusTypes.run();\n            Total_record_applicationStatusTypes1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -31,7 +31,7 @@
         {"key": "primaryColumns.customColumn1.borderRadius"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -96,7 +96,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 66,
+    "bottomRow": 61,
     "columnWidthMap": {
         "lastUpdatedBy": 169,
         "lastUpdated": 190,
@@ -400,7 +400,7 @@
     "key": "ik8857k0ee",
     "canFreezeColumn": false,
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 23,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "ssne0vj7pj",
