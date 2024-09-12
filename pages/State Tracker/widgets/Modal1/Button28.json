@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button28",
-    "onClick": "{{showModal('addTask_fromUpdate_modal').then(() => {\n  closeModal('Modal1');\n});}}",
+    "onClick": "{{showModal('addTask_fromUpdate_modal').then(() => {\n  removeValue('taskStatus');\n});\ncloseModal('Modal1');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

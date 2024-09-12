@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "{{myTasks_updateTasks.run().then(() => {\n  getMyTasks.run().then(() => { \n    getTasks_byApplication.run().then(() => {\n      if (getTasks_byApplication.data[0].taskStatus === \"Complete\") {\n        showModal('Modal1');\n      }\n      closeModal('updateTask_Modal');\n    });\n  });\n});\n}}\n",
+    "onClick": "{{storeValue('taskStatus', taskStatus.selectedOptionValue).then(() => {\n  myTasks_updateTasks.run().then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\n}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

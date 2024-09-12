@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Task Name*",
-    "topRow": 4,
+    "topRow": 5,
     "labelWidth": "16",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
@@ -32,15 +32,18 @@
     "mobileBottomRow": 15,
     "widgetName": "Select2Copy",
     "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "onOptionChange"}
+    ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 8,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 20,
     "parentColumnSpace": 6.5166015625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
     "sourceData": "{{getTaskTypes_applicationtab.data.map (u => ({label: u.taskName, value: u.taskTypeID}) )}}",
     "key": "es04kqfxpw",
@@ -60,5 +63,6 @@
     "originalTopRow": 4,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{getTaskTeam.run()}}",
     "minDynamicHeight": 4
 }

@@ -1,0 +1,1 @@
+{{getMyTasks.data[0].taskStatus}}
