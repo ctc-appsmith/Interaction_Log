@@ -32,7 +32,10 @@
     "mobileBottomRow": 15,
     "widgetName": "Select2",
     "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "onOptionChange"}
+    ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 14,
@@ -40,7 +43,7 @@
     "hideCard": false,
     "mobileRightColumn": 20,
     "parentColumnSpace": 6.5166015625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
     "sourceData": "{{getTaskTypes_applicationtab.data.map (u => ({label: u.taskName, value: u.taskTypeID}) )}}",
     "key": "es04kqfxpw",
@@ -60,5 +63,6 @@
     "originalTopRow": 5,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{getTaskTeam_TaskTab.run()}}",
     "minDynamicHeight": 4
 }

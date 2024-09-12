@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Tasks (\n\tappID,\n\tstartDate,\n\n\ttaskTypeID,\n\ttaskStatus,\n\tassignedTo,\n\ttaskNotes,\n\tfilePath,\n\n\tlastChangedBy\n) \n\tVALUES (\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select8}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).DatePicker1}}',\n\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select2}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select4}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select3}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input1}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input2}}',\n\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
+      "body": "INSERT INTO Tasks (\n\tappID,\n\tstartDate,\n  assignedTeam,\n\ttaskTypeID,\n\ttaskStatus,\n\tassignedTo,\n\ttaskNotes,\n\tfilePath,\n\n\tlastChangedBy\n) \n\tVALUES (\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select8}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).DatePicker1}}',\n\t\t'{{getTaskTeam_TaskTab.data[0].team}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select2}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select4}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select3}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input1}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input2}}',\n\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,7 +43,8 @@
       "(addTask_fromTaskTab_form.data || {}).Select3",
       "(addTask_fromTaskTab_form.data || {}).Select4",
       "(addTask_fromTaskTab_form.data || {}).Select8",
-      "appsmith.user.email"
+      "appsmith.user.email",
+      "getTaskTeam_TaskTab.data[0].team"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

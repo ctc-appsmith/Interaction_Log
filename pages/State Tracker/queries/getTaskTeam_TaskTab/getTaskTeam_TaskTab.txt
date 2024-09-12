@@ -1,0 +1,3 @@
+SELECT taskTypeID, team FROM taskTypes
+
+WHERE taskTypeID = '{{addTask_fromTaskTab_form.data.Select2}}';
