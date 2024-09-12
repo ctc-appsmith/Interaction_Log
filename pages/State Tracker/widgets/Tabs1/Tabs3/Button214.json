@@ -5,7 +5,7 @@
     "mobileBottomRow": 4,
     "widgetName": "Button214",
     "onClick": "{{showModal('addAppStatus_Modal').then(() => {\n  getAppStatusTypes.run();\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#061041",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
@@ -21,16 +21,13 @@
     "animateLoading": true,
     "parentColumnSpace": 15.140625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add Status",
     "isDisabled": false,
     "key": "ehhi0gtrja",
     "isDeprecated": false,
-    "rightColumn": 9,
+    "rightColumn": 8,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "iconName": "add",
