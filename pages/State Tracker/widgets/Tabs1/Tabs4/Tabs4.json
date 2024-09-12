@@ -124,7 +124,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "kyh6inf1mv",
     "accentColor": "#061041",
-    "defaultTab": "",
+    "defaultTab": "Scoring Roung Reports",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {

@@ -63,12 +63,13 @@
             "isDisabled": false
         },
         "groupButton1": {
+            "onClick": "{{storeValue('ScoringReport1', 'Yes').then(() => {\n  getCOUNT_tasksByStatus_Scoring.run();\n});}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Scoring Report 1",
+            "label": "Task Count by Status",
             "id": "groupButton1",
             "placement": "CENTER",
             "isVisible": true,
@@ -91,7 +92,7 @@
     "mobileRightColumn": 24,
     "animateLoading": true,
     "parentColumnSpace": 18.609375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},

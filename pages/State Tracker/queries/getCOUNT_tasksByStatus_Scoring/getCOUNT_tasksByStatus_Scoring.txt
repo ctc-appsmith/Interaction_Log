@@ -1,0 +1,4 @@
+SELECT Tasks.taskStatus, Count(Tasks.appID) AS CountOfappID
+FROM Tasks
+GROUP BY Tasks.taskStatus;
+ 
