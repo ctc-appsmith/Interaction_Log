@@ -192,7 +192,7 @@
                 "iconAlign": "left",
                 "position": 14,
                 "isDisabled": false,
-                "sourceData": 109,
+                "sourceData": 69,
                 "fieldType": "Number Input"
             },
             "commsSubject": {
@@ -257,7 +257,7 @@
                 "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": 6,
+                "sourceData": 27,
                 "fieldType": "Number Input"
             },
             "archived": {
@@ -412,7 +412,7 @@
                 "iconAlign": "left",
                 "position": 16,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 240,
                 "fieldType": "Number Input"
             },
             "lastchanged": {

@@ -23,7 +23,9 @@
         {"key": "primaryColumns.lastUpdated.computedValue"},
         {"key": "primaryColumns.lastUpdatedBy.computedValue"},
         {"key": "primaryColumns.customColumn1.boxShadow"},
-        {"key": "primaryColumns.customColumn1.borderRadius"}
+        {"key": "primaryColumns.customColumn1.borderRadius"},
+        {"key": "primaryColumns.customColumn2.boxShadow"},
+        {"key": "primaryColumns.customColumn2.borderRadius"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -87,7 +89,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 61,
+    "bottomRow": 62,
     "columnWidthMap": {
         "lastUpdatedBy": 169,
         "lastUpdated": 190,
@@ -294,7 +296,7 @@
             "label": "Delete",
             "fontStyle": "",
             "labelColor": "#FFFFFF",
-            "buttonLabel": "Delete Record",
+            "buttonLabel": "Delete",
             "columnType": "button",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -343,7 +345,9 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn2": {
+            "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "buttonColor": "#061041",
             "isEditable": false,
             "notation": "standard",
             "alias": "Edit",
@@ -364,16 +368,20 @@
             "label": "Edit",
             "fontStyle": "",
             "labelColor": "#FFFFFF",
-            "columnType": "text",
+            "buttonLabel": "Edit",
+            "columnType": "button",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
+            "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
+            "buttonVariant": "SECONDARY",
             "width": 150,
             "enableFilter": true,
             "sticky": "",
             "originalId": "customColumn2",
             "currencyCode": "USD",
+            "customAlias": "",
             "verticalAlignment": "CENTER"
         }
     },

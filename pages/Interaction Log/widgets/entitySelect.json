@@ -66,6 +66,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "onFilterUpdate": "",
-    "onOptionChange": "{{getEntityType_fromEntitySelect.run().then(() => {\n  getApplicantCallLog.run();\n});}}",
+    "onOptionChange": "{{getEntityType_fromEntitySelect.run().then(() => {\n  getApplicantCallLog.run();\n});\ngetAppsByApplicant.run()}}",
     "minDynamicHeight": 4
 }
