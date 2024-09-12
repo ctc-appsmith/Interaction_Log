@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1380,
+          "bottomRow": 1390,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -190,20 +190,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getTaskTypes",
-              "name": "getTaskTypes",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table4.pageOffset",
-                "appsmith.store.clientID",
-                "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table4.pageSize",
-                "Table4.sortOrder.column || 'taskOrder'"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getTasks_byApplication",
               "name": "getTasks_byApplication",
               "confirmBeforeExecute": false,
@@ -259,6 +245,17 @@
               "jsonPathKeys": [
                 "appsmith.store.clientID",
                 "entitySelect4.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getTaskTypes_applicationtab",
+              "name": "getTaskTypes_applicationtab",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "Select10"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -1,0 +1,8 @@
+SELECT
+  *
+FROM
+  taskTypes
+	
+	WHERE clientID = {{appsmith.store.clientID}}
+	
+	AND taskTypes.appType = '{{Select10.selectedOptionLabel}}';

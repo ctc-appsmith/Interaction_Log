@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getTaskTypes",
+    "name": "getTaskTypes_applicationtab",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  taskTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\nORDER BY\n  {{Table4.sortOrder.column || 'taskOrder'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  taskTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\n\t\n\tAND taskTypes.appType = '{{Select10.selectedOptionLabel}}';\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,10 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table4.pageOffset",
-      "Table4.pageSize",
-      "Table4.sortOrder.column || 'taskOrder'",
-      "Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+      "Select10.selectedOptionLabel",
       "appsmith.store.clientID"
     ],
     "userSetOnLoad": false,
@@ -48,7 +45,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-05T17:02:57Z"
   },
-  "id": "State Tracker_getTaskTypes",
+  "id": "State Tracker_getTaskTypes_applicationtab",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_ac988617-fc17-4b8b-af0e-138e1ba959e8"
 }
