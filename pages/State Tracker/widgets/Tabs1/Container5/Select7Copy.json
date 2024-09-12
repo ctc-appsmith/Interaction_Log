@@ -15,7 +15,7 @@
         {"key": "sourceData"}
     ],
     "labelStyle": "BOLD",
-    "placeholderText": "Select Team",
+    "placeholderText": "All Teams",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",

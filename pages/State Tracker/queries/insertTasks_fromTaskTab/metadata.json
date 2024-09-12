@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Tasks (\n\tappID,\n\tstartDate,\n\tcompletedDate,\n\ttaskTypeID,\n\ttaskStatus,\n\tassignedTo,\n\ttaskNotes,\n\tfilePath,\n\tassignedTeam,\n\tlastChangedBy\n) \n\tVALUES (\n\t\t'{{appsmith.store.appID}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).startDate}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).completedDate}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).taskTypeID}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).taskStatus}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).assignedTo}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).taskNotes}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).filePath}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select5Copy}}',\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
+      "body": "INSERT INTO Tasks (\n\tappID,\n\tstartDate,\n\n\ttaskTypeID,\n\ttaskStatus,\n\tassignedTo,\n\ttaskNotes,\n\tfilePath,\n\n\tlastChangedBy\n) \n\tVALUES (\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select8}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).DatePicker1}}',\n\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select2}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select4}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Select3}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input1}}',\n\t\t'{{(addTask_fromTaskTab_form.data || {}).Input2}}',\n\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,15 +36,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(addTask_fromTaskTab_form.data || {}).Select5Copy",
-      "(addTask_fromTaskTab_form.data || {}).assignedTo",
-      "(addTask_fromTaskTab_form.data || {}).completedDate",
-      "(addTask_fromTaskTab_form.data || {}).filePath",
-      "(addTask_fromTaskTab_form.data || {}).startDate",
-      "(addTask_fromTaskTab_form.data || {}).taskNotes",
-      "(addTask_fromTaskTab_form.data || {}).taskStatus",
-      "(addTask_fromTaskTab_form.data || {}).taskTypeID",
-      "appsmith.store.appID",
+      "(addTask_fromTaskTab_form.data || {}).DatePicker1",
+      "(addTask_fromTaskTab_form.data || {}).Input1",
+      "(addTask_fromTaskTab_form.data || {}).Input2",
+      "(addTask_fromTaskTab_form.data || {}).Select2",
+      "(addTask_fromTaskTab_form.data || {}).Select3",
+      "(addTask_fromTaskTab_form.data || {}).Select4",
+      "(addTask_fromTaskTab_form.data || {}).Select8",
       "appsmith.user.email"
     ],
     "userSetOnLoad": false,

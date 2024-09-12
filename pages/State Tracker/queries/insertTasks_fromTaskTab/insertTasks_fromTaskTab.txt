@@ -1,25 +1,25 @@
 INSERT INTO Tasks (
 	appID,
 	startDate,
-	completedDate,
+
 	taskTypeID,
 	taskStatus,
 	assignedTo,
 	taskNotes,
 	filePath,
-	assignedTeam,
+
 	lastChangedBy
 ) 
 	VALUES (
-		'{{appsmith.store.appID}}',
-		'{{(addTask_fromTaskTab_form.data || {}).startDate}}',
-		'{{(addTask_fromTaskTab_form.data || {}).completedDate}}',
-		'{{(addTask_fromTaskTab_form.data || {}).taskTypeID}}',
-		'{{(addTask_fromTaskTab_form.data || {}).taskStatus}}',
-		'{{(addTask_fromTaskTab_form.data || {}).assignedTo}}',
-		'{{(addTask_fromTaskTab_form.data || {}).taskNotes}}',
-		'{{(addTask_fromTaskTab_form.data || {}).filePath}}',
-		'{{(addTask_fromTaskTab_form.data || {}).Select5Copy}}',
+		'{{(addTask_fromTaskTab_form.data || {}).Select8}}',
+		'{{(addTask_fromTaskTab_form.data || {}).DatePicker1}}',
+
+		'{{(addTask_fromTaskTab_form.data || {}).Select2}}',
+		'{{(addTask_fromTaskTab_form.data || {}).Select4}}',
+		'{{(addTask_fromTaskTab_form.data || {}).Select3}}',
+		'{{(addTask_fromTaskTab_form.data || {}).Input1}}',
+		'{{(addTask_fromTaskTab_form.data || {}).Input2}}',
+
 		'{{appsmith.user.email}}'
 	)
 ;

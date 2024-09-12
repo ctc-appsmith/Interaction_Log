@@ -14,7 +14,7 @@
         {"key": "borderRadius"}
     ],
     "labelStyle": "BOLD",
-    "placeholderText": "Select Application Type",
+    "placeholderText": "All Application Types",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
