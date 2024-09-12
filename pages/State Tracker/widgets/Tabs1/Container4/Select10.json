@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Type",
+    "labelText": "Type*",
     "topRow": 5,
     "labelWidth": "7",
     "type": "SELECT_WIDGET",
@@ -16,7 +16,7 @@
     "labelStyle": "BOLD",
     "placeholderText": "Select Application Type",
     "isDisabled": false,
-    "isRequired": false,
+    "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
