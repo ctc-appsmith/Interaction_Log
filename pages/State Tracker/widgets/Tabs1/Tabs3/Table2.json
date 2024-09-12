@@ -4,7 +4,7 @@
     "onSort": "{{\n            getApplicantStatus.run();\n            Total_record_entityStatus1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 6,
+    "topRow": 4,
     "isSortable": true,
     "onPageChange": "{{\n            getApplicantStatus.run();\n            Total_record_entityStatus1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",

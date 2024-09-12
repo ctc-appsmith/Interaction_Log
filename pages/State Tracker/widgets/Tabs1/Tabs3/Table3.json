@@ -101,7 +101,7 @@
     "bottomRow": 63,
     "columnWidthMap": {
         "empLastName": 160,
-        "empFirstName": 168,
+        "empFirstName": 128,
         "empEmail": 279,
         "userName": 264
     },
@@ -449,7 +449,7 @@
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 31,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "d4vvh3fq4x",
