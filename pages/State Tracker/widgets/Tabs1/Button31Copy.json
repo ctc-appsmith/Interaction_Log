@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.313720703125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 17,
+    "leftColumn": 20,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add Task to Any Application",
     "isDisabled": false,
