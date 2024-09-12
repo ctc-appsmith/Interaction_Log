@@ -236,6 +236,7 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID",
+                "!Select10.selectedOptionValue",
                 "Select10.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000

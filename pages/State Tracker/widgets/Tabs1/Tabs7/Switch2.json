@@ -31,7 +31,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "dkwxkdics9",
     "accentColor": "#061041",
-    "isVisible": true,
+    "isVisible": false,
     "label": "Include Completed Tasks",
     "defaultSwitchState": true,
     "version": 1,
