@@ -73,7 +73,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726153751235,
+    "columnUpdatedAt": 1726156716136,
     "originalBottomRow": 84,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],

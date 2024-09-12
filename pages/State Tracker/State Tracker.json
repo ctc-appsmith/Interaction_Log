@@ -115,6 +115,7 @@
                 "Select7Copy.selectedOptionValue",
                 "!Select11.selectedOptionValue",
                 "Select11.selectedOptionValue",
+                "Switch1.isSwitchedOn",
                 "!Select7Copy.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
