@@ -4,8 +4,8 @@ FROM
   applicationStatusTypes
 
 ORDER BY
-  {{Table1.sortOrder.column || 'appStatusID'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+  {{Table9.sortOrder.column || 'appStatusID'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table1.pageSize}}
+  {{Table9.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{Table9.pageOffset}}

@@ -128,10 +128,10 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "Table9.sortOrder.column || 'appStatusID'",
                 "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'appStatusID'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
+                "Table9.pageOffset",
+                "Table9.pageSize"
               ],
               "timeoutInMillisecond": 10000
             },
