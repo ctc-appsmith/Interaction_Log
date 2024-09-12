@@ -140,10 +140,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table2.pageSize",
                 "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table2.sortOrder.column || 'recordID'",
-                "Table2.pageOffset"
+                "Table2.sortOrder.column || 'recordID'"
               ],
               "timeoutInMillisecond": 10000
             },

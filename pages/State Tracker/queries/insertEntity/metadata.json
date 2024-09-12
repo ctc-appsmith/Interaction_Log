@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Entities (clientID,entityName,entityType,entityStatus,applicantAddress,primaryFirstName,primaryLastName,primaryTitle,primaryEmail,primaryPhone,aorFirstName,aorLastName,aorTitle,aorEmail,aorPhone,portalAppID,folderLink,lastChangedBy) \nVALUES \n('{{appsmith.store.clientID}}',\n '{{(insertEntity_form.formData || {}).entityName}}',\n '{{(insertEntity_form.formData || {}).entityType}}',\n '{{(insertEntity_form.formData || {}).entityStatus}}',\n '{{(insertEntity_form.formData || {}).applicantAddress}}',\n '{{(insertEntity_form.formData || {}).primaryFirstName}}',\n '{{(insertEntity_form.formData || {}).primaryLastName}}',\n '{{(insertEntity_form.formData || {}).primaryTitle}}',\n '{{(insertEntity_form.formData || {}).primaryEmail}}',\n '{{(insertEntity_form.formData || {}).primaryPhone}}',\n '{{(insertEntity_form.formData || {}).aorFirstName}}',\n '{{(insertEntity_form.formData || {}).aorLastName}}',\n '{{(insertEntity_form.formData || {}).aorTitle}}',\n '{{(insertEntity_form.formData || {}).aorEmail}}',\n '{{(insertEntity_form.formData || {}).aorPhone}}',\n '{{(insertEntity_form.formData || {}).portalAppID}}',\n '{{(insertEntity_form.formData || {}).folderLink}}',\n\n '{{appsmith.user.email}}')\n ;",
+      "body": "INSERT INTO Entities (clientID,entityName,entityType,entityStatus,folderLink,lastChangedBy) \nVALUES \n('{{appsmith.store.clientID}}',\n '{{(insertEntity_form.formData || {}).entityName}}',\n '{{(insertEntity_form.formData || {}).entityType}}',\n '{{(insertEntity_form.formData || {}).entityStatus}}',\n\n '{{(insertEntity_form.formData || {}).folderLink}}',\n\n '{{appsmith.user.email}}')\n ;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,22 +36,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(insertEntity_form.formData || {}).aorEmail",
-      "(insertEntity_form.formData || {}).aorFirstName",
-      "(insertEntity_form.formData || {}).aorLastName",
-      "(insertEntity_form.formData || {}).aorPhone",
-      "(insertEntity_form.formData || {}).aorTitle",
-      "(insertEntity_form.formData || {}).applicantAddress",
       "(insertEntity_form.formData || {}).entityName",
       "(insertEntity_form.formData || {}).entityStatus",
       "(insertEntity_form.formData || {}).entityType",
       "(insertEntity_form.formData || {}).folderLink",
-      "(insertEntity_form.formData || {}).portalAppID",
-      "(insertEntity_form.formData || {}).primaryEmail",
-      "(insertEntity_form.formData || {}).primaryFirstName",
-      "(insertEntity_form.formData || {}).primaryLastName",
-      "(insertEntity_form.formData || {}).primaryPhone",
-      "(insertEntity_form.formData || {}).primaryTitle",
       "appsmith.store.clientID",
       "appsmith.user.email"
     ],
