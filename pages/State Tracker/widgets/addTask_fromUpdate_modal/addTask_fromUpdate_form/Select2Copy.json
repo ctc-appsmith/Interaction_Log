@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 9,
+    "originalBottomRow": 8,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Select2Copy",
@@ -57,7 +57,7 @@
     "mobileTopRow": 8,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 5,
+    "originalTopRow": 4,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

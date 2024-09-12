@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appName.text}}",
+    "text": "{{Select6.selectedOptionLabel}}",
     "key": "86r5eyu839",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 4,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
