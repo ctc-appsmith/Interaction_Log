@@ -1,0 +1,8 @@
+UPDATE applicationStatusTypes 
+SET 
+appStatusType= '{{Table9.updatedRow.appStatusType}}', 
+statusDefinition= '{{Table9.updatedRow.statusDefinition}}', 
+
+lastUpdatedBy= '{{appsmith.user.email}}' 
+
+WHERE appStatusID= '{{Table9.updatedRow.appStatusID}}';

@@ -1,1 +1,6 @@
-INSERT INTO applicationStatusTypes (appStatusType,statusDefinition,lastUpdatedBy) VALUES ('{{(Table1.newRow || {}).appStatusType}}','{{(Table1.newRow || {}).statusDefinition}}','{{appsmith.user.email}}')
+INSERT INTO applicationStatusTypes 
+(appStatusType,statusDefinition,lastUpdatedBy) 
+VALUES (
+	'{{(Form1.data || {}).Input3}}',
+	'{{(Form1.data || {}).Input4}}',
+	'{{appsmith.user.email}}');

@@ -96,7 +96,10 @@
     "hideCard": false,
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.609375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "primaryColumns.EditActions1.onSave"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "lastUpdated": {
@@ -179,6 +182,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
+            "onSave": "{{updateAppStatusType.run().then(() => {\n  getAppStatusTypes.run();\n});}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
@@ -300,6 +304,7 @@
         "customColumn1": {
             "boxShadow": "{{Table9.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{showModal('Delete_AppStatus_Modal');}}",
             "buttonColor": "#b91c1c",
             "isEditable": false,
             "notation": "standard",

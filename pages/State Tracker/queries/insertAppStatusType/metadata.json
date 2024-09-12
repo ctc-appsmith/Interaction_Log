@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO applicationStatusTypes (appStatusType,statusDefinition,lastUpdatedBy) VALUES ('{{(Table1.newRow || {}).appStatusType}}','{{(Table1.newRow || {}).statusDefinition}}','{{appsmith.user.email}}')",
+      "body": "INSERT INTO applicationStatusTypes \n(appStatusType,statusDefinition,lastUpdatedBy) \nVALUES (\n\t'{{(Form1.data || {}).Input3}}',\n\t'{{(Form1.data || {}).Input4}}',\n\t'{{appsmith.user.email}}');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(Table1.newRow || {}).appStatusType",
-      "(Table1.newRow || {}).statusDefinition",
+      "(Form1.data || {}).Input3",
+      "(Form1.data || {}).Input4",
       "appsmith.user.email"
     ],
     "userSetOnLoad": false,
