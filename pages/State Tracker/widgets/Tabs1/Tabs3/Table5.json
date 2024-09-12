@@ -26,7 +26,8 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "primaryColumns.sortOrder.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 29,
@@ -70,7 +71,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1725555809059,
+    "columnUpdatedAt": 1726166603226,
     "primaryColumnId": "taskStatusID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -84,6 +85,7 @@
         "created",
         "lastUpdated",
         "lastUpdatedBy",
+        "sortOrder",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -274,6 +276,40 @@
             "sticky": "",
             "originalId": "created",
             "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
+        "sortOrder": {
+            "computedValue": "{{Table5.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sortOrder\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "sortOrder",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "sortOrder",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 3,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "sortOrder",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "sortOrder",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "taskStatusDefinition": {
