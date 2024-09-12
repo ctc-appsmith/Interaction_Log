@@ -696,10 +696,10 @@
         }
     },
     "fixedFooter": false,
-    "originalTopRow": 4,
+    "originalTopRow": 6,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 73,
+    "originalBottomRow": 75,
     "minDynamicHeight": 4
 }
