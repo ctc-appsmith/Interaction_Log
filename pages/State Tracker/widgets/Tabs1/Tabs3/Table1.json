@@ -93,9 +93,11 @@
     "columnWidthMap": {
         "lastUpdatedBy": 169,
         "lastUpdated": 190,
-        "statusDefinition": 447,
+        "statusDefinition": 536,
         "created": 60,
-        "appStatusType": 154
+        "customColumn1": 95,
+        "appStatusType": 154,
+        "customColumn2": 77
     },
     "parentRowSpace": 10,
     "hideCard": false,
