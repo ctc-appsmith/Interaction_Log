@@ -367,16 +367,17 @@
         {"key": "schema.__root_schema__.children.referenceBudget.isVisible"},
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
     ],
-    "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{insertApplication.run(() => {\n  showAlert(\"undefined\");\n  getApplications.run();\n}, () => {\n  showAlert(\"Unable to create!\");\n});\ngetApplications_forUpdateForm.run().then(() => {\n  closeModal('addApplication_Modal');\n});}}",
-    "topRow": 0,
-    "bottomRow": 87,
+    "displayName": "JSON Form",
+    "topRow": 4,
+    "bottomRow": 60,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Add a New Application",
     "type": "JSON_FORM_WIDGET",
+    "title": "Add a New Application",
     "hideCard": false,
+    "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
@@ -455,13 +456,13 @@
         "lastChangedBy": "",
         "applicationName": ""
     },
-    "showReset": true,
+    "showReset": false,
     "resetButtonLabel": "Reset Form",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
     "rightColumn": 63,
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
     "widgetId": "vzg8yt5kbh",
     "resetButtonStyles": {
@@ -475,11 +476,10 @@
     "isVisible": "{{true}}",
     "version": 1,
     "parentId": "ksue6gs77b",
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "scrollContents": true,
-    "fixedFooter": false,
-    "submitButtonLabel": "Save Application",
+    "submitButtonLabel": "Submit",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -557,8 +557,11 @@
             "accentColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
+    "fixedFooter": false,
+    "originalTopRow": 4,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 60,
     "minDynamicHeight": 4
 }
