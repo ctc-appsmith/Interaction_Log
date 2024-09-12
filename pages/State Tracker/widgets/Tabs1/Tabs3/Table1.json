@@ -93,7 +93,7 @@
     "columnWidthMap": {
         "lastUpdatedBy": 169,
         "lastUpdated": 190,
-        "statusDefinition": 728,
+        "statusDefinition": 447,
         "created": 60,
         "appStatusType": 154
     },
@@ -392,7 +392,7 @@
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "ssne0vj7pj",
-    "allowAddNewRow": true,
+    "allowAddNewRow": false,
     "minWidth": 450,
     "tableData": "{{getAppStatusTypes.data}}",
     "label": "Data",
