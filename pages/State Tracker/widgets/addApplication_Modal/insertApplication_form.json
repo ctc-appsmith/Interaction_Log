@@ -478,7 +478,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "scrollContents": true,
-    "fixedFooter": true,
+    "fixedFooter": false,
     "submitButtonLabel": "Save Application",
     "childStylesheet": {
         "CHECKBOX": {
