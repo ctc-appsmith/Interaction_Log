@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1380,
+          "bottomRow": 1390,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -143,6 +143,17 @@
               "jsonPathKeys": [
                 "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table2.sortOrder.column || 'recordID'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getCallLog_applicantsTab",
+              "name": "getCallLog_applicantsTab",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -279,6 +290,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select6.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getEntityType_fromEntitySelect",
+              "name": "getEntityType_fromEntitySelect",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

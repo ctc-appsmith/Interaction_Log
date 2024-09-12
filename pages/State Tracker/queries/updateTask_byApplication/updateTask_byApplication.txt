@@ -7,7 +7,7 @@ UPDATE Tasks
 		assignedTo= '{{(taskUpdateFormCopy.data || {}).assignedToCopy1}}', 
 		taskNotes= '{{(taskUpdateFormCopy.data || {}).taskNotesCopy1}}', 
 		filePath= '{{(taskUpdateFormCopy.data || {}).filePathCopy1}}', 
-		assignedTeam= '{{(taskUpdateFormCopy.data || {}).Select5Copy2}}',
+		
 		lastChangedBy= '{{appsmith.user.email}}' 
 	
 	WHERE taskID= '{{applicationTasks_tbl.selectedRow.taskID}}';

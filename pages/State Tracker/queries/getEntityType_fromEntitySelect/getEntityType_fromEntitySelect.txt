@@ -1,2 +1,2 @@
 SELECT entityType FROM Entities
-	WHERE entityID = {{entitySelect.selectedOptionValue}};
+	WHERE entityID = {{entitySelect4.selectedOptionValue}};
