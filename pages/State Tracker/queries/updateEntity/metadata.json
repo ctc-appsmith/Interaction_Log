@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Entities SET\n\t\tentityID = '{{update_formCopy.fieldState.entityName.isVisible ? update_formCopy.formData.entityName : update_formCopy.sourceData.entityName}}',",
+      "body": "UPDATE Entities SET\n\n\t\tentityName = '{{updateEntity_form.fieldState.entityName.isVisible ? updateEntity_form.formData.entityName : updateEntity_form.sourceData.entityName}}',\n\t\tentityType = '{{updateEntity_form.fieldState.entityType.isVisible ? updateEntity_form.formData.entityType : updateEntity_form.sourceData.entityType}}',\n\t\tentityStatus = '{{updateEntity_form.fieldState.entityStatus.isVisible ? updateEntity_form.formData.entityStatus : updateEntity_form.sourceData.entityStatus}}',\n\t\tfolderLink = '{{updateEntity_form.fieldState.folderLink.isVisible ? updateEntity_form.formData.folderLink : updateEntity_form.sourceData.folderLink}}',\n\t\tlastchangedBy = '{{appsmith.user.email}}'\n\t\t\n\t\tWHERE entityID = {{entitySelect4.selectedOptionValue}}\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -36,7 +36,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "update_formCopy.fieldState.entityName.isVisible ? update_formCopy.formData.entityName : update_formCopy.sourceData.entityName"
+      "appsmith.user.email",
+      "entitySelect4.selectedOptionValue",
+      "updateEntity_form.fieldState.entityName.isVisible ? updateEntity_form.formData.entityName : updateEntity_form.sourceData.entityName",
+      "updateEntity_form.fieldState.entityStatus.isVisible ? updateEntity_form.formData.entityStatus : updateEntity_form.sourceData.entityStatus",
+      "updateEntity_form.fieldState.entityType.isVisible ? updateEntity_form.formData.entityType : updateEntity_form.sourceData.entityType",
+      "updateEntity_form.fieldState.folderLink.isVisible ? updateEntity_form.formData.folderLink : updateEntity_form.sourceData.folderLink"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

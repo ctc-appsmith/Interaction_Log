@@ -505,7 +505,7 @@
         {"key": "sourceData"}
     ],
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "",
+    "onSubmit": "{{updateEntity.run().then(() => {\n  getEntities.run();\n});}}",
     "displayName": "JSON Form",
     "topRow": 4,
     "bottomRow": 71,
