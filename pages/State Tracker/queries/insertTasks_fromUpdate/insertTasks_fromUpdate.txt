@@ -1,7 +1,6 @@
 INSERT INTO Tasks (
 	appID,
 	startDate,
-
 	taskTypeID,
 	taskStatus,
 	assignedTo,
@@ -11,15 +10,14 @@ INSERT INTO Tasks (
 	lastChangedBy
 ) 
 	VALUES (
-		'{{myTasks_tbl.selectedRow.appID}}',
+		'{{applicationTasks_tbl.selectedRow.appID}}',
 		'{{(addTask_fromUpdate_form.data || {}).DatePicker1Copy}}',
-
 		'{{(addTask_fromUpdate_form.data || {}).Select2Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select4Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select3Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Input1Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Input2Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Select5CopyCopy}}',
+		'{{getTaskTeam.data[0].team}}',
 		'{{appsmith.user.email}}'
 	)
 ;

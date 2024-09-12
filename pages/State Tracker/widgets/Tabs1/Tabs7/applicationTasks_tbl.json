@@ -73,7 +73,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726069814049,
+    "columnUpdatedAt": 1726152739777,
     "originalBottomRow": 84,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
@@ -93,13 +93,13 @@
         "taskID",
         "appID",
         "assignedTo",
+        "assignedTeam",
         "taskNotes",
         "filePath",
         "entityID",
         "clientID",
         "applicationType",
-        "taskTypeID",
-        "assignedTeam"
+        "taskTypeID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
