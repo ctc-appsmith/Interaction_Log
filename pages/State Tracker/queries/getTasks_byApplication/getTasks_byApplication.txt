@@ -10,7 +10,7 @@ SELECT Tasks.*, Applications.entityID, Applications.applicationType, Application
 		
 				AND ({{!Select7.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7.selectedOptionValue}}'))
 
-ORDER BY 
+ORDER BY startDate
 ;
 
 
