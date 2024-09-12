@@ -129,8 +129,8 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table9.sortOrder.column || 'appStatusID'",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table9.pageOffset",
+                "Table9.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
                 "Table9.pageSize"
               ],
               "timeoutInMillisecond": 10000
