@@ -75,7 +75,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726155553080,
+    "columnUpdatedAt": 1726155687399,
     "originalBottomRow": 88,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
@@ -84,11 +84,11 @@
     "widgetName": "myTasks_tbl",
     "defaultPageSize": 0,
     "columnOrder": [
-        "entityName",
-        "applicationName",
         "taskName",
-        "startDate",
         "taskStatus",
+        "applicationName",
+        "entityName",
+        "startDate",
         "completedDate",
         "created",
         "lastChanged",
