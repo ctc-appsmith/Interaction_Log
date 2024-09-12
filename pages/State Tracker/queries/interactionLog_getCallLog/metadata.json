@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM interactionLog\n\nWHERE applicationID = '{{Select6.selectedOptionValue}}'\n\nAND archived = \"No\"\n\nORDER BY commsDate DESC\n\n;",
+      "body": "SELECT * FROM interactionLog\n\nWHERE clientID = '{{appsmith.store.clientID}}'\n\nAND (('{{Select6.selectedOptionValue}}' != 0 ) AND (applicationID = '{{Select6.selectedOptionValue}}'))\n\n\nAND archived = \"No\"\n\nORDER BY commsDate DESC\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select6.selectedOptionValue"
+      "Select6.selectedOptionValue",
+      "appsmith.store.clientID"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

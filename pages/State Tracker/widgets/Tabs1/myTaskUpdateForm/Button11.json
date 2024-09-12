@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "{{myTasks_updateTasks.run().then(() => {\n  getMyTasks.run();\n});\nshowModal('Modal1');}}",
+    "onClick": "{{myTasks_updateTasks.run().then(() => {\n  getMyTasks.run().then(() => { \n    getTasks_byApplication.run().then(() => {\n      if (getTasks_byApplication.data[0].taskStatus === \"Complete\") {\n        showModal('Modal1');\n      }\n      closeModal('updateTask_Modal');\n    });\n  });\n});\n}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

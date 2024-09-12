@@ -1,6 +1,9 @@
 SELECT * FROM interactionLog
 
-WHERE applicationID = '{{Select6.selectedOptionValue}}'
+WHERE clientID = '{{appsmith.store.clientID}}'
+
+AND (('{{Select6.selectedOptionValue}}' != 0 ) AND (applicationID = '{{Select6.selectedOptionValue}}'))
+
 
 AND archived = "No"
 

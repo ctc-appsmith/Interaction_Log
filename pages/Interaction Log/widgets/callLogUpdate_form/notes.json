@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 78,
+    "originalBottomRow": 85,
     "needsErrorInfo": false,
     "mobileBottomRow": 62,
     "widgetName": "notes",
@@ -39,7 +39,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 85,
+    "bottomRow": 78,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,

@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Task Name",
+    "labelText": "Task Name*",
     "topRow": 4,
     "labelWidth": "16",
     "type": "SELECT_WIDGET",
@@ -16,7 +16,7 @@
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
-    "isRequired": false,
+    "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,

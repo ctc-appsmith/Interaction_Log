@@ -76,7 +76,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726066755237,
+    "columnUpdatedAt": 1726111086631,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -119,6 +119,7 @@
         "subject": 314,
         "importance": 202.4375,
         "ApplicantName": 219,
+        "portalAppID": 175,
         "applicationName": 394
     },
     "parentRowSpace": 10,
@@ -248,7 +249,7 @@
             "allowCellWrapping": false,
             "index": 15,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "In Reference To",
             "fontStyle": "",
             "textColor": "",

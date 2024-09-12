@@ -3,7 +3,7 @@
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Assigned To",
     "topRow": 17,
-    "labelWidth": "16",
+    "labelWidth": "17",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( applicationTasks_tbl.selectedRow.assignedTo))(assignedToCopy1.options, assignedToCopy1.serverSideFiltering) }}",
