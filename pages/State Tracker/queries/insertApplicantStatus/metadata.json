@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Update_entityStatus1",
+    "name": "insertApplicantStatus",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE entityStatus SET entityStatusType= '{{Table2.updatedRow.entityStatusType}}', created= '{{Table2.updatedRow.created}}', lastChanged= '{{Table2.updatedRow.lastChanged}}', lastChangedBy= '{{Table2.updatedRow.lastChangedBy}}' WHERE recordID= '{{Table2.updatedRow.recordID}}';",
+      "body": "INSERT INTO entityStatus \n(entityStatusType,definition,lastChangedBy) \nVALUES (\n\t'{{(Form1Copy.data || {}).Input3Copy}}',\n\t'{{(Form1Copy.data || {}).Input4Copy}}',\n\t'{{appsmith.user.email}}');",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,11 +36,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table2.updatedRow.created",
-      "Table2.updatedRow.entityStatusType",
-      "Table2.updatedRow.lastChanged",
-      "Table2.updatedRow.lastChangedBy",
-      "Table2.updatedRow.recordID"
+      "(Form1Copy.data || {}).Input3Copy",
+      "(Form1Copy.data || {}).Input4Copy",
+      "appsmith.user.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -48,7 +46,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-05T17:01:47Z"
   },
-  "id": "State Tracker_Update_entityStatus1",
+  "id": "State Tracker_insertApplicantStatus",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_365f917d-da4c-4f47-81c5-3638a3ac79df"
+  "gitSyncId": "66cfdd139579f24357386f16_2c2f440e-f1f7-4f51-81ed-9b88603c8cdf"
 }

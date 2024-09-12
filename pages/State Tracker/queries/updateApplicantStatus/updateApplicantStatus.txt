@@ -1,0 +1,8 @@
+UPDATE entityStatus 
+SET 
+entityStatusType= '{{Table2.updatedRow.entityStatusType}}', 
+definition= '{{Table2.updatedRow.definition}}', 
+
+lastchangedBy= '{{appsmith.user.email}}' 
+
+WHERE recordID= '{{Table2.updatedRow.recordID}}';
