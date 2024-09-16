@@ -37,7 +37,7 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": "0",
+    "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -128,7 +128,7 @@
     "hideCard": false,
     "mobileRightColumn": 51,
     "parentColumnSpace": 19.234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "commsDate": {
@@ -745,6 +745,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('viewInteraction_Modal');}}",
     "key": "eide1ace5w",
     "canFreezeColumn": true,
     "isDeprecated": false,

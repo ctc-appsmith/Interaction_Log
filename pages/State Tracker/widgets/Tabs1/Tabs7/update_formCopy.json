@@ -568,7 +568,6 @@
                 "options": "[\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  },\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  }\n]",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Select"
             }
         },
