@@ -178,7 +178,7 @@
             "index": 0,
             "id": "tabajz3mj71jr",
             "label": "Status Types",
-            "isVisible": true
+            "isVisible": false
         },
         "tab1": {
             "widgetId": "1yqafxngyo",
@@ -187,7 +187,7 @@
             "index": 2,
             "label": "Personnel",
             "id": "tab1",
-            "isVisible": true
+            "isVisible": false
         },
         "tab2": {
             "widgetId": "5wp6jvkp12",
@@ -196,7 +196,7 @@
             "index": 1,
             "label": "Task Settings",
             "id": "tab2",
-            "isVisible": true
+            "isVisible": false
         }
     },
     "isVisible": true,
