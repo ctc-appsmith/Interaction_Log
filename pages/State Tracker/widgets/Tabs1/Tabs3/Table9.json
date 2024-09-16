@@ -87,7 +87,10 @@
     "hideCard": false,
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.609375,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "onRowSelected"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "lastUpdated": {
@@ -317,6 +320,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('updateAppStatus_Modal');}}",
     "key": "zqc7i4u6eq",
     "canFreezeColumn": false,
     "isDeprecated": false,
