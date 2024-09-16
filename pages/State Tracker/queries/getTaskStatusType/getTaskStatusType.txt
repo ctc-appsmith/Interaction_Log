@@ -4,4 +4,4 @@ FROM
   taskStatusTypes
 
 ORDER BY
-  taskStatusID ASC;
+  sortOrder ASC;

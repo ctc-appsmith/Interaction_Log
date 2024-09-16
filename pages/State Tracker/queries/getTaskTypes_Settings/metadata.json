@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getTaskStatusType",
+    "name": "getTaskTypes_Settings",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,27 +18,33 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  taskStatusTypes\n\nORDER BY\n  sortOrder ASC;",
+      "body": "SELECT * FROM taskTypes\n\nWHERE clientID = {{appsmith.store.clientID}}\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-05T17:03:23Z"
+    "createdAt": "2024-09-16T19:29:54Z"
   },
-  "id": "State Tracker_getTaskStatusType",
+  "id": "State Tracker_getTaskTypes_Settings",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_4eb840bb-8ab6-4d03-b611-6202fdc92b91"
+  "gitSyncId": "66df548a9579f243573899d9_a2d8ac73-5091-489d-9a04-8969bbdb1fbe"
 }

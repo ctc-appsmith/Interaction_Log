@@ -67,6 +67,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getTaskTypes_Settings",
+              "name": "getTaskTypes_Settings",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getTeam",
               "name": "getTeam",
               "confirmBeforeExecute": false,
@@ -199,17 +209,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getTaskTypes_applicationtab",
-              "name": "getTaskTypes_applicationtab",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "Select10.selectedOptionLabel"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getTasks_byApplication",
               "name": "getTasks_byApplication",
               "confirmBeforeExecute": false,
@@ -255,6 +254,17 @@
               "jsonPathKeys": [
                 "appsmith.store.clientID",
                 "entitySelect4.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getTaskTypes_applicationtab",
+              "name": "getTaskTypes_applicationtab",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "Select10.selectedOptionLabel"
               ],
               "timeoutInMillisecond": 10000
             }
