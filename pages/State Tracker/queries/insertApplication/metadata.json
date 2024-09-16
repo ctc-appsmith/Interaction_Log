@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Applications (applicationName,entityID,portalAppID,applicationType,applicationStatus,initialScore,applicationRank,awardStatus,fundingRequest,referenceBudget,currentBudget,lastChangedBy) \n\tVALUES (\n\t\t'{{(insertApplication_form.formData || {}).applicationName}}',\n\t\t'{{(insertApplication_form.formData || {}).entityID}}',\n\t\t'{{(insertApplication_form.formData || {}).portalAppID}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationType}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).initialScore}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationRank}}',\n\t\t'{{(insertApplication_form.formData || {}).awardStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).fundingRequest}}',\n\t\t'{{(insertApplication_form.formData || {}).referenceBudget}}',\n\t\t'{{(insertApplication_form.formData || {}).currentBudget}}',\n\t\t'{{appsmith.user.email}}')\n;",
+      "body": "INSERT INTO Applications (applicationName,entityID,portalAppID,applicationType,applicationStatus,techType, initialScore,applicationRank,awardStatus,fundingRequest,referenceBudget,currentBudget,lastChangedBy) \n\tVALUES (\n\t\t'{{(insertApplication_form.formData || {}).applicationName}}',\n\t\t'{{(insertApplication_form.formData || {}).entityID}}',\n\t\t'{{(insertApplication_form.formData || {}).portalAppID}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationType}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).techType}}',\n\t\t'{{(insertApplication_form.formData || {}).initialScore}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationRank}}',\n\t\t'{{(insertApplication_form.formData || {}).awardStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).fundingRequest}}',\n\t\t'{{(insertApplication_form.formData || {}).referenceBudget}}',\n\t\t'{{(insertApplication_form.formData || {}).currentBudget}}',\n\t\t'{{appsmith.user.email}}')\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -47,6 +47,7 @@
       "(insertApplication_form.formData || {}).initialScore",
       "(insertApplication_form.formData || {}).portalAppID",
       "(insertApplication_form.formData || {}).referenceBudget",
+      "(insertApplication_form.formData || {}).techType",
       "appsmith.user.email"
     ],
     "userSetOnLoad": false,

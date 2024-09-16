@@ -1,4 +1,4 @@
-SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType
+SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Applications.techType, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.applicationRank, Applications.awardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType
 	FROM Clients INNER JOIN 
 		(Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
 	

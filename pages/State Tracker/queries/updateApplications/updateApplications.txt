@@ -3,6 +3,7 @@ UPDATE Applications SET
 		applicationName = '{{getApplications.data[0].applicationName}}',
 		applicationType = '{{update_formCopy.fieldState.applicationType.isVisible ? update_formCopy.formData.applicationType : update_formCopy.sourceData.applicationType}}',
 		applicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',
+		techType = '{{update_formCopy.fieldState.techType.isVisible ? update_formCopy.formData.techType : update_formCopy.sourceData.techType}}',
 		portalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',
 		lastChangedBy = '{{appsmith.user.email}}'
 		

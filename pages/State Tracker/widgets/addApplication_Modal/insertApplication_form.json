@@ -31,7 +31,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 11,
+                "position": 12,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -59,6 +59,29 @@
                 "sourceData": "",
                 "fieldType": "Select"
             },
+            "customField1": {
+                "labelTextSize": "0.875rem",
+                "identifier": "customField1",
+                "boxShadow": "none",
+                "isRequired": true,
+                "isFilterable": false,
+                "isCustomField": true,
+                "defaultValue": "",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insertApplication_form.sourceData, insertApplication_form.formData, insertApplication_form.fieldState)}}",
+                "dataType": "string",
+                "accessor": "techType",
+                "isVisible": true,
+                "label": "Tech Type",
+                "serverSideFiltering": false,
+                "originalIdentifier": "customField1",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insertApplication_form.sourceData, insertApplication_form.formData, insertApplication_form.fieldState)}}",
+                "children": {},
+                "options": "[\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  },\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  }\n]",
+                "position": 4,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Select"
+            },
             "currentBudget": {
                 "labelTextSize": "0.875rem",
                 "identifier": "currentBudget",
@@ -76,7 +99,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 13,
+                "position": 14,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -105,7 +128,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "closeOnSelection": false,
                 "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 8,
+                "position": 9,
                 "fieldType": "Datepicker"
             },
             "lastChanged": {
@@ -132,7 +155,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "closeOnSelection": false,
                 "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 9,
+                "position": 10,
                 "fieldType": "Datepicker"
             },
             "portalAppID": {
@@ -152,7 +175,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 4,
+                "position": 5,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -174,7 +197,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 5,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -220,7 +243,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insertApplication_form.sourceData, insertApplication_form.formData, insertApplication_form.fieldState)}}",
                 "children": {},
                 "options": "{{getAwardStatusTypes.data.map (u => ({label: u.statusType, value: u.statusType}) )}}",
-                "position": 7,
+                "position": 8,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -242,7 +265,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 12,
+                "position": 13,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -287,7 +310,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 6,
+                "position": 7,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -309,7 +332,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 10,
+                "position": 11,
                 "isDisabled": false,
                 "sourceData": "sthompson",
                 "fieldType": "Text Input"
@@ -371,7 +394,7 @@
     "onSubmit": "{{insertApplication.run(() => {\n  showAlert(\"undefined\");\n  getApplications.run();\n}, () => {\n  showAlert(\"Unable to create!\");\n});\ngetApplications_forUpdateForm.run().then(() => {\n  closeModal('addApplication_Modal');\n});}}",
     "displayName": "JSON Form",
     "topRow": 4,
-    "bottomRow": 60,
+    "bottomRow": 67,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "type": "JSON_FORM_WIDGET",
@@ -437,7 +460,9 @@
         {"key": "schema.__root_schema__.children.awardStatus.isVisible"},
         {"key": "schema.__root_schema__.children.fundingRequest.isVisible"},
         {"key": "schema.__root_schema__.children.referenceBudget.isVisible"},
-        {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
+        {"key": "schema.__root_schema__.children.currentBudget.isVisible"},
+        {"key": "schema.__root_schema__.children.customField1.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField1.accentColor"}
     ],
     "borderWidth": "",
     "sourceData": {
