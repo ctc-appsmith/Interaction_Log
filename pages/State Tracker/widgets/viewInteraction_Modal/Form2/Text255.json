@@ -37,7 +37,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "uy7xao6dk0",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,
