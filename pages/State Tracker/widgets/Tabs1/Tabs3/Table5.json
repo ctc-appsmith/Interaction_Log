@@ -89,7 +89,7 @@
     "displayName": "Table",
     "bottomRow": 58,
     "columnWidthMap": {
-        "taskStatusDefinition": 410,
+        "taskStatusDefinition": 468,
         "taskStatus": 259
     },
     "parentRowSpace": 10,
