@@ -1,0 +1,5 @@
+DELETE FROM taskTypes
+
+WHERE taskTypeID = {{Table4.selectedRow.taskTypeID}}
+
+;
