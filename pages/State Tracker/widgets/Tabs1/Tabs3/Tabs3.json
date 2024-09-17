@@ -168,7 +168,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "ofedb3hvyp",
     "accentColor": "#061041",
-    "defaultTab": "Status Types",
+    "defaultTab": "Task Settings",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
@@ -196,7 +196,7 @@
             "index": 1,
             "label": "Task Settings",
             "id": "tab2",
-            "isVisible": false
+            "isVisible": true
         }
     },
     "isVisible": true,
