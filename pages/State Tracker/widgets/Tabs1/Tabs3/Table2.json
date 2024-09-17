@@ -349,7 +349,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{showModal('updateEntityStatus_Modal');}}",
+    "onRowSelected": "{{showModal('updateEntityStatus_Modal').then(() => {\n  getApplicantStatus.run();\n});\ncloseModal('updateEntityStatus_Modal');}}",
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,

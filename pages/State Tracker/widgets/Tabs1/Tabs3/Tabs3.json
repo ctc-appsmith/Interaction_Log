@@ -178,7 +178,7 @@
             "index": 0,
             "id": "tabajz3mj71jr",
             "label": "Status Types",
-            "isVisible": false
+            "isVisible": true
         },
         "tab1": {
             "widgetId": "1yqafxngyo",

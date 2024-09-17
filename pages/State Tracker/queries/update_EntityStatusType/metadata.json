@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Update_entityStatus1",
+    "name": "update_EntityStatusType",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -15,9 +15,10 @@
     },
     "pageId": "State Tracker",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE entityStatus SET entityStatusType= '{{updateEntityStatus_form.formData.entityStatusType}}', definition= '{{updateEntityStatus_form.formData.definition}}', created= '{{updateEntityStatus_form.formData.created}}', lastChanged= '{{updateEntityStatus_form.formData.lastChanged}}', lastChangedBy= '{{updateEntityStatus_form.formData.lastChangedBy}}' WHERE recordID= '{{Table2.selectedRow.recordID}}';",
+      "body": "UPDATE entityStatus SET \nentityStatusType= '{{updateEntityStatus_form.formData.entityStatusType}}', \ndefinition= '{{updateEntityStatus_form.formData.definition}}', \n\n\nlastChangedBy= '{{appsmith.user.email}}'\nWHERE recordID= '{{Table2.selectedRow.recordID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,11 +37,9 @@
     "messages": [],
     "jsonPathKeys": [
       "Table2.selectedRow.recordID",
-      "updateEntityStatus_form.formData.created",
+      "appsmith.user.email",
       "updateEntityStatus_form.formData.definition",
-      "updateEntityStatus_form.formData.entityStatusType",
-      "updateEntityStatus_form.formData.lastChanged",
-      "updateEntityStatus_form.formData.lastChangedBy"
+      "updateEntityStatus_form.formData.entityStatusType"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -48,7 +47,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-16T20:01:50Z"
   },
-  "id": "State Tracker_Update_entityStatus1",
+  "id": "State Tracker_update_EntityStatusType",
   "deleted": false,
   "gitSyncId": "66df548a9579f243573899d9_30bb14de-037f-41c3-92c6-c31539a22dbc"
 }
