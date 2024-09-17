@@ -4,7 +4,7 @@
     "onSort": "{{\n            getTaskTypes_applicationtab.run();\n            Total_record_taskTypes1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 4,
+    "topRow": 5,
     "isSortable": true,
     "onPageChange": "{{\n            getTaskTypes_applicationtab.run();\n            Total_record_taskTypes1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -93,7 +93,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 58,
+    "bottomRow": 64,
     "columnWidthMap": {
         "appType": 172,
         "taskName": 319,
