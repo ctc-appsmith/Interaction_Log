@@ -82,7 +82,7 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 64,
-    "columnWidthMap": {"statusDefinition": 591},
+    "columnWidthMap": {"statusDefinition": 766},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 34,
