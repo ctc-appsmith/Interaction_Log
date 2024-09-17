@@ -109,7 +109,8 @@
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
         {"key": "onAddNewRowSave"},
-        {"key": "primaryColumns.customColumn1.onClick"}
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "onRowSelected"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -473,6 +474,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('updateTaskType_Modal');}}",
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,
