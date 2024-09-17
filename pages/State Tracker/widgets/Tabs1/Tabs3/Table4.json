@@ -108,7 +108,8 @@
         {"key": "onPageChange"},
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
-        {"key": "onAddNewRowSave"}
+        {"key": "onAddNewRowSave"},
+        {"key": "primaryColumns.customColumn1.onClick"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -307,6 +308,7 @@
         "customColumn1": {
             "boxShadow": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{showModal('Delete_TaskType_Modal');}}",
             "buttonColor": "#b91c1c",
             "isEditable": false,
             "notation": "standard",

@@ -1,0 +1,5 @@
+DELETE FROM taskStatusTypes
+
+WHERE taskStatusID = {{Table5.selectedRow.taskStatusID}}
+
+;
