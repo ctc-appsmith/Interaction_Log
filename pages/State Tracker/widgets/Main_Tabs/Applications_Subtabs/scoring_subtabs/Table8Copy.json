@@ -118,7 +118,7 @@
         {"key": "primaryColumns.newTechType.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 43,
     "columnWidthMap": {
         "newAwardStatus": 169,
         "notes": 303,

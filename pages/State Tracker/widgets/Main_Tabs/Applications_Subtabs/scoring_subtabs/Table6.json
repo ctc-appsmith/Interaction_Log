@@ -59,7 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1725906748119,
-    "originalBottomRow": 73,
+    "originalBottomRow": 43,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
@@ -72,7 +72,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 73,
+    "bottomRow": 43,
     "columnWidthMap": {
         "prop": 197,
         "categoryName": 181
