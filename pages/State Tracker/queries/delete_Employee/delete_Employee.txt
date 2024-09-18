@@ -1,0 +1,5 @@
+DELETE FROM taskTypes
+
+WHERE empID = {{Table3.selectedRow.empID}}
+
+;
