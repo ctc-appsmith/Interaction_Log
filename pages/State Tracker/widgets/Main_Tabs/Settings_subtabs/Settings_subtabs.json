@@ -168,7 +168,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "ofedb3hvyp",
     "accentColor": "#061041",
-    "defaultTab": "Personnel",
+    "defaultTab": "Status Types",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
