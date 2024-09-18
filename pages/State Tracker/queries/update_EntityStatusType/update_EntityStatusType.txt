@@ -4,4 +4,4 @@ definition= '{{updateEntityStatus_form.formData.definition}}',
 
 
 lastChangedBy= '{{appsmith.user.email}}'
-WHERE recordID= '{{Table2.selectedRow.recordID}}';
+WHERE recordID= '{{entityStatusType_Table.selectedRow.recordID}}';

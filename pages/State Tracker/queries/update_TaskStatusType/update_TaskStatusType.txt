@@ -3,4 +3,4 @@ taskStatus= '{{updateTaskStatusType_form.formData.taskStatus}}',
 taskStatusDefinition= '{{updateTaskStatusType_form.formData.taskStatusDefinition}}',  
 lastUpdatedBy= '{{appsmith.user.email}}' 
 
-WHERE taskStatusID= '{{Table5.selectedRow.taskStatusID}}';
+WHERE taskStatusID= '{{taskStatusType_Table.selectedRow.taskStatusID}}';

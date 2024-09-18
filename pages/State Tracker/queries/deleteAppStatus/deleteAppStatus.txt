@@ -1,5 +1,5 @@
 DELETE FROM applicationStatusTypes 
 
-WHERE appStatusID = {{Table9.selectedRow.appStatusID}}
+WHERE appStatusID = {{appStatusType_Table.selectedRow.appStatusID}}
 
 ;

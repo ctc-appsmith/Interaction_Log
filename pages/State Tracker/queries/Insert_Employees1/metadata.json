@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Employees (empLastName,empFirstName,empEmail,userName,created,lastChanged,lastChangedBy) VALUES ('{{(Table3.newRow || {}).empLastName}}','{{(Table3.newRow || {}).empFirstName}}','{{(Table3.newRow || {}).empEmail}}','{{(Table3.newRow || {}).userName}}','{{(Table3.newRow || {}).created}}','{{(Table3.newRow || {}).lastChanged}}','{{(Table3.newRow || {}).lastChangedBy}}')",
+      "body": "INSERT INTO Employees (empLastName,empFirstName,empEmail,userName,created,lastChanged,lastChangedBy) VALUES ('{{(employee_Table.newRow || {}).empLastName}}','{{(employee_Table.newRow || {}).empFirstName}}','{{(employee_Table.newRow || {}).empEmail}}','{{(employee_Table.newRow || {}).userName}}','{{(employee_Table.newRow || {}).created}}','{{(employee_Table.newRow || {}).lastChanged}}','{{(employee_Table.newRow || {}).lastChangedBy}}')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,13 +36,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(Table3.newRow || {}).created",
-      "(Table3.newRow || {}).empEmail",
-      "(Table3.newRow || {}).empFirstName",
-      "(Table3.newRow || {}).empLastName",
-      "(Table3.newRow || {}).lastChanged",
-      "(Table3.newRow || {}).lastChangedBy",
-      "(Table3.newRow || {}).userName"
+      "(employee_Table.newRow || {}).created",
+      "(employee_Table.newRow || {}).empEmail",
+      "(employee_Table.newRow || {}).empFirstName",
+      "(employee_Table.newRow || {}).empLastName",
+      "(employee_Table.newRow || {}).lastChanged",
+      "(employee_Table.newRow || {}).lastChangedBy",
+      "(employee_Table.newRow || {}).userName"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

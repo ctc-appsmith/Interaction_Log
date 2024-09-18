@@ -159,7 +159,7 @@
     "originalBottomRow": 115,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
-    "widgetName": "Tabs7",
+    "widgetName": "Applications_Subtabs",
     "dynamicPropertyPathList": [{"key": "tabsObj.tabcvi8narali.isVisible"}],
     "displayName": "Tabs",
     "bottomRow": 115,

@@ -394,7 +394,7 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "0",
-    "sourceData": "{{_.pick(Table4.selectedRow,'clientID','appType','taskName','taskDefinition','taskOrder','team','created','lastChanged','lastChangedBy')}}",
+    "sourceData": "{{_.pick(tasks_Table.selectedRow,'clientID','appType','taskName','taskDefinition','taskOrder','team','created','lastChanged','lastChangedBy')}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",

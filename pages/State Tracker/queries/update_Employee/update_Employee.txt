@@ -6,4 +6,4 @@ userName= '{{updateEmployee_form.formData.userName}}',
 primaryTeam= '{{updateEmployee_form.formData.primaryTeam}}', 
 lastChangedBy= '{{appsmith.user.email}}}' 
 
-WHERE empID= '{{Table3.selectedRow.empID}}';
+WHERE empID= '{{employee_Table.selectedRow.empID}}';

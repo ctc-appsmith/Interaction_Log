@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 15,
-    "widgetName": "Tabs3",
+    "widgetName": "Settings_subtabs",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "displayName": "Tabs",

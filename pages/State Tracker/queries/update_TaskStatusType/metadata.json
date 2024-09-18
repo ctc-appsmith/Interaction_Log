@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE taskStatusTypes SET \ntaskStatus= '{{updateTaskStatusType_form.formData.taskStatus}}', \ntaskStatusDefinition= '{{updateTaskStatusType_form.formData.taskStatusDefinition}}',  \nlastUpdatedBy= '{{appsmith.user.email}}' \n\nWHERE taskStatusID= '{{Table5.selectedRow.taskStatusID}}';",
+      "body": "UPDATE taskStatusTypes SET \ntaskStatus= '{{updateTaskStatusType_form.formData.taskStatus}}', \ntaskStatusDefinition= '{{updateTaskStatusType_form.formData.taskStatusDefinition}}',  \nlastUpdatedBy= '{{appsmith.user.email}}' \n\nWHERE taskStatusID= '{{taskStatusType_Table.selectedRow.taskStatusID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table5.selectedRow.taskStatusID",
       "appsmith.user.email",
+      "taskStatusType_Table.selectedRow.taskStatusID",
       "updateTaskStatusType_form.formData.taskStatus",
       "updateTaskStatusType_form.formData.taskStatusDefinition"
     ],

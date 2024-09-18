@@ -260,7 +260,7 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "0",
-    "sourceData": "{{_.pick(Table7.selectedRow,'teamName','created','lastChanged','lastChangedBy')}}",
+    "sourceData": "{{_.pick(team_Table.selectedRow,'teamName','created','lastChanged','lastChangedBy')}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",

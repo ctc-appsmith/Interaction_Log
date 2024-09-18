@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE taskStatusTypes SET taskStatus= '{{Table5.updatedRow.taskStatus}}', taskStatusDefinition= '{{Table5.updatedRow.taskStatusDefinition}}', created= '{{Table5.updatedRow.created}}', lastUpdated= '{{Table5.updatedRow.lastUpdated}}', lastUpdatedBy= '{{Table5.updatedRow.lastUpdatedBy}}' WHERE taskStatusID= '{{Table5.updatedRow.taskStatusID}}';",
+      "body": "UPDATE taskStatusTypes SET taskStatus= '{{taskStatusType_Table.updatedRow.taskStatus}}', taskStatusDefinition= '{{taskStatusType_Table.updatedRow.taskStatusDefinition}}', created= '{{taskStatusType_Table.updatedRow.created}}', lastUpdated= '{{taskStatusType_Table.updatedRow.lastUpdated}}', lastUpdatedBy= '{{taskStatusType_Table.updatedRow.lastUpdatedBy}}' WHERE taskStatusID= '{{taskStatusType_Table.updatedRow.taskStatusID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,12 +36,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table5.updatedRow.created",
-      "Table5.updatedRow.lastUpdated",
-      "Table5.updatedRow.lastUpdatedBy",
-      "Table5.updatedRow.taskStatus",
-      "Table5.updatedRow.taskStatusDefinition",
-      "Table5.updatedRow.taskStatusID"
+      "taskStatusType_Table.updatedRow.created",
+      "taskStatusType_Table.updatedRow.lastUpdated",
+      "taskStatusType_Table.updatedRow.lastUpdatedBy",
+      "taskStatusType_Table.updatedRow.taskStatus",
+      "taskStatusType_Table.updatedRow.taskStatusDefinition",
+      "taskStatusType_Table.updatedRow.taskStatusID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -283,7 +283,7 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "0",
-    "sourceData": "{{_.pick(Table2.selectedRow,'entityStatusType','definition','created','lastChanged','lastChangedBy')}}",
+    "sourceData": "{{_.pick(entityStatusType_Table.selectedRow,'entityStatusType','definition','created','lastChanged','lastChangedBy')}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",

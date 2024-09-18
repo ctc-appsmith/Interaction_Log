@@ -8,4 +8,4 @@ team= '{{updateTaskType_form.formData.team}}',
 
 lastChangedBy= '{{appsmith.user.email}}' 
 
-WHERE taskTypeID= '{{Table4.selectedRow.taskTypeID}}';
+WHERE taskTypeID= '{{tasks_Table.selectedRow.taskTypeID}}';

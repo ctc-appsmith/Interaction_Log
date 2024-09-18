@@ -4,4 +4,4 @@ statusDefinition= '{{updateAppStatus_form.formData.statusDefinition}}',
 
 lastUpdatedBy= '{{appsmith.user.email}}' 
 
-WHERE appStatusID= '{{Table9.selectedRow.appStatusID}}';
+WHERE appStatusID= '{{appStatusType_Table.selectedRow.appStatusID}}';

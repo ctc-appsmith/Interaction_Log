@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE entityStatus SET \nentityStatusType= '{{updateEntityStatus_form.formData.entityStatusType}}', \ndefinition= '{{updateEntityStatus_form.formData.definition}}', \n\n\nlastChangedBy= '{{appsmith.user.email}}'\nWHERE recordID= '{{Table2.selectedRow.recordID}}';",
+      "body": "UPDATE entityStatus SET \nentityStatusType= '{{updateEntityStatus_form.formData.entityStatusType}}', \ndefinition= '{{updateEntityStatus_form.formData.definition}}', \n\n\nlastChangedBy= '{{appsmith.user.email}}'\nWHERE recordID= '{{entityStatusType_Table.selectedRow.recordID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table2.selectedRow.recordID",
       "appsmith.user.email",
+      "entityStatusType_Table.selectedRow.recordID",
       "updateEntityStatus_form.formData.definition",
       "updateEntityStatus_form.formData.entityStatusType"
     ],

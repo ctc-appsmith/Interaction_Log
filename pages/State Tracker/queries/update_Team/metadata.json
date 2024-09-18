@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Teams SET \nteamName= '{{updateTeam_form.formData.teamName}}', \nlastChangedBy= '{{appsmith.user.email}}' \n\nWHERE teamID= '{{Table7.selectedRow.teamID}}';",
+      "body": "UPDATE Teams SET \nteamName= '{{updateTeam_form.formData.teamName}}', \nlastChangedBy= '{{appsmith.user.email}}' \n\nWHERE teamID= '{{team_Table.selectedRow.teamID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table7.selectedRow.teamID",
       "appsmith.user.email",
+      "team_Table.selectedRow.teamID",
       "updateTeam_form.formData.teamName"
     ],
     "userSetOnLoad": false,

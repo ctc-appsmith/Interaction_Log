@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE applicationStatusTypes SET \nappStatusType= '{{updateAppStatus_form.formData.appStatusType}}', \nstatusDefinition= '{{updateAppStatus_form.formData.statusDefinition}}', \n\nlastUpdatedBy= '{{appsmith.user.email}}' \n\nWHERE appStatusID= '{{Table9.selectedRow.appStatusID}}';",
+      "body": "UPDATE applicationStatusTypes SET \nappStatusType= '{{updateAppStatus_form.formData.appStatusType}}', \nstatusDefinition= '{{updateAppStatus_form.formData.statusDefinition}}', \n\nlastUpdatedBy= '{{appsmith.user.email}}' \n\nWHERE appStatusID= '{{appStatusType_Table.selectedRow.appStatusID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table9.selectedRow.appStatusID",
+      "appStatusType_Table.selectedRow.appStatusID",
       "appsmith.user.email",
       "updateAppStatus_form.formData.appStatusType",
       "updateAppStatus_form.formData.statusDefinition"

@@ -3,8 +3,8 @@ SELECT
 FROM
   Employees
 ORDER BY
-  {{Table3.sortOrder.column || 'empLastName'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+  {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table3.pageSize}}
+  {{employee_Table.pageSize}}
 OFFSET
-  {{Table3.pageOffset}}
+  {{employee_Table.pageOffset}}

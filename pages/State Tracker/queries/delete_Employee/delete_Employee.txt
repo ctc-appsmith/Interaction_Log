@@ -1,5 +1,5 @@
 DELETE FROM Employees
 
-WHERE empID = {{Table3.selectedRow.empID}}
+WHERE empID = {{employee_Table.selectedRow.empID}}
 
 ;

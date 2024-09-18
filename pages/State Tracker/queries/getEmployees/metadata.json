@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  Employees\nORDER BY\n  {{Table3.sortOrder.column || 'empLastName'}} {{Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table3.pageSize}}\nOFFSET\n  {{Table3.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  Employees\nORDER BY\n  {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{employee_Table.pageSize}}\nOFFSET\n  {{employee_Table.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,10 +36,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table3.pageOffset",
-      "Table3.pageSize",
-      "Table3.sortOrder.column || 'empLastName'",
-      "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "employee_Table.pageOffset",
+      "employee_Table.pageSize",
+      "employee_Table.sortOrder.column || 'empLastName'",
+      "employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

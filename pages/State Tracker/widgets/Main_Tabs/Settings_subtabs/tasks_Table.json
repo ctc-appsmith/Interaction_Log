@@ -76,7 +76,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 28,
-    "widgetName": "Table4",
+    "widgetName": "tasks_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "taskName",
@@ -115,7 +115,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "taskTypeID": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskTypeID\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskTypeID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "taskTypeID",
@@ -149,7 +149,7 @@
             "verticalAlignment": "CENTER"
         },
         "clientID": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"clientID\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"clientID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "clientID",
@@ -183,7 +183,7 @@
             "verticalAlignment": "CENTER"
         },
         "appType": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appType\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "appType",
@@ -214,7 +214,7 @@
             "verticalAlignment": "CENTER"
         },
         "created": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "created",
@@ -245,7 +245,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChanged": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChanged\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChanged",
@@ -276,7 +276,7 @@
             "verticalAlignment": "CENTER"
         },
         "taskName": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskName\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "taskName",
@@ -307,7 +307,7 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn1": {
-            "boxShadow": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+            "boxShadow": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
             "onClick": "{{showModal('Delete_TaskType_Modal');}}",
             "buttonColor": "#b91c1c",
@@ -335,7 +335,7 @@
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
-            "borderRadius": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "borderRadius": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
             "buttonVariant": "SECONDARY",
             "width": 150,
@@ -347,7 +347,7 @@
             "verticalAlignment": "CENTER"
         },
         "taskDefinition": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskDefinition\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskDefinition\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "taskDefinition",
@@ -378,7 +378,7 @@
             "verticalAlignment": "CENTER"
         },
         "team": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "team",
@@ -412,7 +412,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastChangedBy": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastChangedBy\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastChangedBy",
@@ -443,7 +443,7 @@
             "verticalAlignment": "CENTER"
         },
         "taskOrder": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskOrder\"]))}}",
+            "computedValue": "{{tasks_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskOrder\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "taskOrder",

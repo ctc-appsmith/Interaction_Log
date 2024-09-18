@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE taskTypes SET \n\nappType= '{{updateTaskType_form.formData.appType}}', \ntaskName= '{{updateTaskType_form.formData.taskName}}', \ntaskDefinition= '{{updateTaskType_form.formData.taskDefinition}}', \n\nteam= '{{updateTaskType_form.formData.team}}', \n\nlastChangedBy= '{{appsmith.user.email}}' \n\nWHERE taskTypeID= '{{Table4.selectedRow.taskTypeID}}';",
+      "body": "UPDATE taskTypes SET \n\nappType= '{{updateTaskType_form.formData.appType}}', \ntaskName= '{{updateTaskType_form.formData.taskName}}', \ntaskDefinition= '{{updateTaskType_form.formData.taskDefinition}}', \n\nteam= '{{updateTaskType_form.formData.team}}', \n\nlastChangedBy= '{{appsmith.user.email}}' \n\nWHERE taskTypeID= '{{tasks_Table.selectedRow.taskTypeID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table4.selectedRow.taskTypeID",
       "appsmith.user.email",
+      "tasks_Table.selectedRow.taskTypeID",
       "updateTaskType_form.formData.appType",
       "updateTaskType_form.formData.taskDefinition",
       "updateTaskType_form.formData.taskName",

@@ -289,7 +289,7 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "0",
-    "sourceData": "{{_.pick(Table9.selectedRow,'appStatusType','statusDefinition','created','lastUpdated','lastUpdatedBy')}}",
+    "sourceData": "{{_.pick(appStatusType_Table.selectedRow,'appStatusType','statusDefinition','created','lastUpdated','lastUpdatedBy')}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",

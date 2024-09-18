@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM Employees\n\nWHERE empID = {{Table3.selectedRow.empID}}\n\n;",
+      "body": "DELETE FROM Employees\n\nWHERE empID = {{employee_Table.selectedRow.empID}}\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table3.selectedRow.empID"
+      "employee_Table.selectedRow.empID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

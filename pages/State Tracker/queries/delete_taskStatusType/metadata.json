@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM taskStatusTypes\n\nWHERE taskStatusID = {{Table5.selectedRow.taskStatusID}}\n\n;",
+      "body": "DELETE FROM taskStatusTypes\n\nWHERE taskStatusID = {{taskStatusType_Table.selectedRow.taskStatusID}}\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table5.selectedRow.taskStatusID"
+      "taskStatusType_Table.selectedRow.taskStatusID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

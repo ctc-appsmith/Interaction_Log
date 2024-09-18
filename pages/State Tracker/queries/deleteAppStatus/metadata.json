@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM applicationStatusTypes \n\nWHERE appStatusID = {{Table9.selectedRow.appStatusID}}\n\n;",
+      "body": "DELETE FROM applicationStatusTypes \n\nWHERE appStatusID = {{appStatusType_Table.selectedRow.appStatusID}}\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table9.selectedRow.appStatusID"
+      "appStatusType_Table.selectedRow.appStatusID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

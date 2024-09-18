@@ -146,10 +146,10 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table9.sortOrder.column || 'appStatusID'",
-                "Table9.pageOffset",
-                "Table9.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table9.pageSize"
+                "appStatusType_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "appStatusType_Table.sortOrder.column || 'appStatusID'",
+                "appStatusType_Table.pageSize",
+                "appStatusType_Table.pageOffset"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -159,8 +159,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table2.sortOrder.column || 'recordID'"
+                "entityStatusType_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "entityStatusType_Table.sortOrder.column || 'recordID'"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -181,10 +181,10 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table3.pageOffset",
-                "Table3.sortOrder.column || 'empLastName'",
-                "Table3.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table3.pageSize"
+                "employee_Table.sortOrder.column || 'empLastName'",
+                "employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "employee_Table.pageSize",
+                "employee_Table.pageOffset"
               ],
               "timeoutInMillisecond": 10000
             },

@@ -361,7 +361,7 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "0",
-    "sourceData": "{{_.pick(Table3.selectedRow,'empLastName','empFirstName','empEmail','userName','primaryTeam','created','lastChanged','lastChangedBy')}}",
+    "sourceData": "{{_.pick(employee_Table.selectedRow,'empLastName','empFirstName','empEmail','userName','primaryTeam','created','lastChanged','lastChangedBy')}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
