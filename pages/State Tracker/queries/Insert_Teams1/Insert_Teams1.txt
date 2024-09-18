@@ -1,1 +1,0 @@
-INSERT INTO Teams (teamName,created,lastChanged,lastChangedBy) VALUES ('{{(team_Table.newRow || {}).teamName}}','{{(team_Table.newRow || {}).created}}','{{(team_Table.newRow || {}).lastChanged}}','{{(team_Table.newRow || {}).lastChangedBy}}')
