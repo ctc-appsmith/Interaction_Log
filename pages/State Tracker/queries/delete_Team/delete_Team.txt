@@ -1,0 +1,5 @@
+DELETE FROM Teams
+
+WHERE teamID = {{Table7.selectedRow.teamID}}
+
+;

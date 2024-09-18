@@ -70,7 +70,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726666360240,
+    "columnUpdatedAt": 1726666698800,
     "primaryColumnId": "empID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -82,8 +82,8 @@
         "empLastName",
         "empFirstName",
         "empEmail",
-        "customColumn1",
         "userName",
+        "customColumn1",
         "primaryTeam",
         "created",
         "lastChanged",
@@ -107,7 +107,8 @@
         {"key": "onPageChange"},
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
-        {"key": "onAddNewRowSave"}
+        {"key": "onAddNewRowSave"},
+        {"key": "primaryColumns.customColumn1.onClick"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -334,6 +335,7 @@
         "customColumn1": {
             "boxShadow": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{showModal('Delete_Employee_Modal');}}",
             "buttonColor": "#b91c1c",
             "isEditable": false,
             "notation": "standard",

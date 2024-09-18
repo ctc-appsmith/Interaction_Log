@@ -1,4 +1,4 @@
-DELETE FROM taskTypes
+DELETE FROM Employees
 
 WHERE empID = {{Table3.selectedRow.empID}}
 
