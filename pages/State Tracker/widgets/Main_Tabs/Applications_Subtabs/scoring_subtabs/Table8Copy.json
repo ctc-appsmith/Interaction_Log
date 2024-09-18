@@ -83,7 +83,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1718642121127,
-    "originalBottomRow": 64,
+    "originalBottomRow": 59,
     "primaryColumnId": "recordID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -118,7 +118,7 @@
         {"key": "primaryColumns.newTechType.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 43,
+    "bottomRow": 59,
     "columnWidthMap": {
         "newAwardStatus": 169,
         "notes": 303,

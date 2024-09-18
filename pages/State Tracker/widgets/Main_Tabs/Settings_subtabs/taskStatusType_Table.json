@@ -87,7 +87,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 59,
+    "bottomRow": 64,
     "columnWidthMap": {
         "taskStatusDefinition": 468,
         "taskStatus": 259
