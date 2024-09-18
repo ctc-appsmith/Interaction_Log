@@ -168,7 +168,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "ofedb3hvyp",
     "accentColor": "#061041",
-    "defaultTab": "Task Settings",
+    "defaultTab": "Personnel",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
@@ -187,7 +187,7 @@
             "index": 2,
             "label": "Personnel",
             "id": "tab1",
-            "isVisible": false
+            "isVisible": true
         },
         "tab2": {
             "widgetId": "5wp6jvkp12",
