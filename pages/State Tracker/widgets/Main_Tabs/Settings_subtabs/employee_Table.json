@@ -4,7 +4,7 @@
     "onSort": "{{\n            getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 4,
+    "topRow": 5,
     "isSortable": true,
     "onPageChange": "{{\n            getEmployees.run();\n            Total_record_Employees1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -91,7 +91,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 63,
+    "bottomRow": 64,
     "columnWidthMap": {
         "empLastName": 160,
         "empFirstName": 152,

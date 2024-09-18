@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 4,
-    "widgetName": "Button214Copy1Copy",
+    "widgetName": "addTaskStatusType_btn",
     "onClick": "{{showModal('addTaskStatusType_Modal').then(() => {});}}",
     "buttonColor": "#061041",
     "displayName": "Button",
