@@ -603,7 +603,7 @@
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 82,
+    "bottomRow": 50,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
