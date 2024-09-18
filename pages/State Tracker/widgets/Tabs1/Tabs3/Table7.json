@@ -27,7 +27,7 @@
     "needsHeightForContent": true,
     "leftColumn": 41,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -95,7 +95,8 @@
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
         {"key": "onAddNewRowSave"},
-        {"key": "primaryColumns.customColumn1.onClick"}
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "onRowSelected"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -310,6 +311,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('updateTeam_Modal');}}",
     "key": "t759dgnac6",
     "canFreezeColumn": true,
     "isDeprecated": false,
