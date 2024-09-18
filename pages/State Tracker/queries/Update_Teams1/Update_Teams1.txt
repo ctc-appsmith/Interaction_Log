@@ -1,1 +1,0 @@
-UPDATE Teams SET teamName= '{{Table7.updatedRow.teamName}}', created= '{{Table7.updatedRow.created}}', lastChanged= '{{Table7.updatedRow.lastChanged}}', lastChangedBy= '{{Table7.updatedRow.lastChangedBy}}' WHERE teamID= '{{Table7.updatedRow.teamID}}';

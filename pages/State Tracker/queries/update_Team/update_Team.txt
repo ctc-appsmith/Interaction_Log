@@ -1,0 +1,5 @@
+UPDATE Teams SET 
+teamName= '{{updateTeam_form.formData.teamName}}', 
+lastChangedBy= '{{appsmith.user.email}}' 
+
+WHERE teamID= '{{Table7.selectedRow.teamID}}';

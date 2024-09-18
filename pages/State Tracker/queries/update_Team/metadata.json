@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Update_Employees1",
+    "name": "update_Team",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Employees SET empLastName= '{{Table3.updatedRow.empLastName}}', empFirstName= '{{Table3.updatedRow.empFirstName}}', empEmail= '{{Table3.updatedRow.empEmail}}', userName= '{{Table3.updatedRow.userName}}', created= '{{Table3.updatedRow.created}}', lastChanged= '{{Table3.updatedRow.lastChanged}}', lastChangedBy= '{{Table3.updatedRow.lastChangedBy}}' WHERE empID= '{{Table3.updatedRow.empID}}';",
+      "body": "UPDATE Teams SET \nteamName= '{{updateTeam_form.formData.teamName}}', \nlastChangedBy= '{{appsmith.user.email}}' \n\nWHERE teamID= '{{Table7.selectedRow.teamID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,22 +36,17 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table3.updatedRow.created",
-      "Table3.updatedRow.empEmail",
-      "Table3.updatedRow.empFirstName",
-      "Table3.updatedRow.empID",
-      "Table3.updatedRow.empLastName",
-      "Table3.updatedRow.lastChanged",
-      "Table3.updatedRow.lastChangedBy",
-      "Table3.updatedRow.userName"
+      "Table7.selectedRow.teamID",
+      "appsmith.user.email",
+      "updateTeam_form.formData.teamName"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-05T17:02:14Z"
+    "createdAt": "2024-09-18T13:53:02Z"
   },
-  "id": "State Tracker_Update_Employees1",
+  "id": "State Tracker_update_Team",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_b4f4ed70-9b97-410c-b7a6-e9262656ee25"
+  "gitSyncId": "66df548a9579f243573899d9_d16f50a3-7dfe-4f9e-8675-5284fbf0e8aa"
 }

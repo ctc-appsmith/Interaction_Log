@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Insert_taskTypes1",
+    "name": "update_Employee",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO taskTypes (appType,taskName,taskDefinition,taskOrder,created,lastChanged,lastChangedBy) VALUES ('{{(Table4.newRow || {}).appType}}','{{(Table4.newRow || {}).taskName}}','{{(Table4.newRow || {}).taskDefinition}}','{{(Table4.newRow || {}).taskOrder}}','{{(Table4.newRow || {}).created}}','{{(Table4.newRow || {}).lastChanged}}','{{(Table4.newRow || {}).lastChangedBy}}')",
+      "body": "UPDATE Employees SET \nempLastName= '{{updateEmployee_form.formData.empLastName}}', \nempFirstName= '{{updateEmployee_form.formData.empFirstName}}', \nempEmail= '{{updateEmployee_form.formData.empEmail}}', \nuserName= '{{updateEmployee_form.formData.userName}}', \nprimaryTeam= '{{updateEmployee_form.formData.primaryTeam}}', \nlastChangedBy= '{{appsmith.user.email}}}' \n\nWHERE empID= '{{Table3.selectedRow.empID}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,21 +36,21 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(Table4.newRow || {}).appType",
-      "(Table4.newRow || {}).created",
-      "(Table4.newRow || {}).lastChanged",
-      "(Table4.newRow || {}).lastChangedBy",
-      "(Table4.newRow || {}).taskDefinition",
-      "(Table4.newRow || {}).taskName",
-      "(Table4.newRow || {}).taskOrder"
+      "Table3.selectedRow.empID",
+      "appsmith.user.email",
+      "updateEmployee_form.formData.empEmail",
+      "updateEmployee_form.formData.empFirstName",
+      "updateEmployee_form.formData.empLastName",
+      "updateEmployee_form.formData.primaryTeam",
+      "updateEmployee_form.formData.userName"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-05T17:02:58Z"
+    "createdAt": "2024-09-18T13:46:52Z"
   },
-  "id": "State Tracker_Insert_taskTypes1",
+  "id": "State Tracker_update_Employee",
   "deleted": false,
-  "gitSyncId": "66cfdd139579f24357386f16_42100545-3754-4b4e-adae-36e625419ee3"
+  "gitSyncId": "66df548a9579f243573899d9_51563dbb-3f83-4aeb-9097-c9a18acb24ac"
 }

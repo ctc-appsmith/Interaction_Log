@@ -84,7 +84,7 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 63,
-    "columnWidthMap": {"teamName": 238},
+    "columnWidthMap": {"teamName": 306},
     "parentRowSpace": 10,
     "hideCard": false,
     "onAddNewRowSave": "{{Insert_Teams1.run(() => {\n            showAlert(\"Successfully created!\");\n            getTeam.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
