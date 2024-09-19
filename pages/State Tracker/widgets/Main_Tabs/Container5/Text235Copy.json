@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 8.852783203125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Search Open Tasks",
     "key": "qmx5atr8k7",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 50,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",

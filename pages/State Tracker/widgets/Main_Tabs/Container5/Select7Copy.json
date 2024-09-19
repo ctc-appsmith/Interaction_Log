@@ -8,7 +8,7 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 12,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -33,10 +33,7 @@
     "mobileBottomRow": 7,
     "widgetName": "Select7Copy",
     "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 14,
@@ -51,7 +48,7 @@
     "key": "xceerbc2zm",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 50,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "5ijymi3wsu",
     "optionValue": "value",
@@ -65,6 +62,6 @@
     "originalTopRow": 9,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getMyTasks.run()}}",
+    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});}}",
     "minDynamicHeight": 4
 }

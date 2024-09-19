@@ -8,7 +8,7 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 12,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -32,10 +32,7 @@
     "mobileBottomRow": 11,
     "widgetName": "Select11",
     "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onOptionChange"}
-    ],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 9,
@@ -50,7 +47,7 @@
     "key": "g6xdxc6m5k",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 50,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "3it9mfmvv6",
     "optionValue": "code",
@@ -64,6 +61,6 @@
     "originalTopRow": 5,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getMyTasks.run()}}",
+    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});}}",
     "minDynamicHeight": 4
 }

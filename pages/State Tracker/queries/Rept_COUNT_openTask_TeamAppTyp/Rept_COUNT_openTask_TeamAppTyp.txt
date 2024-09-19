@@ -1,0 +1,11 @@
+SELECT Count(Tasks.taskID) AS CountOftaskID, Tasks.taskStatus, Tasks.assignedTeam, Applications.applicationType, Clients.clientID
+	FROM Clients 
+		INNER JOIN ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
+
+GROUP BY Tasks.taskStatus, Tasks.assignedTeam, Applications.applicationType, Clients.clientID
+
+HAVING (((Tasks.taskStatus)<>"Complete") 
+				AND ((Clients.clientID)={{appsmith.store.clientID}})
+			 	AND ((Applications.applicationType)='{{Select11.selectedOptionLabel}}')
+			 	AND ((Tasks.assignedTeam)='{{Select7Copy.selectedOptionLabel}}'));
+
