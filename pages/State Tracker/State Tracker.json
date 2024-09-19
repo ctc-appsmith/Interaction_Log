@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 920,
+          "bottomRow": 1010,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -209,16 +209,18 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getTasks_byApplication",
-              "name": "getTasks_byApplication",
+              "id": "State Tracker_getTasks_byApplication_2",
+              "name": "getTasks_byApplication_2",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select7.selectedOptionValue",
                 "appsmith.store.clientID",
+                "!Select10.selectedOptionValue",
                 "Select6.selectedOptionValue",
                 "!Select7.selectedOptionValue",
-                "Select10.selectedOptionValue"
+                "Select10.selectedOptionValue",
+                "Switch2.isSwitchedOn"
               ],
               "timeoutInMillisecond": 10000
             }

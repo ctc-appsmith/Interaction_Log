@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11Copy1",
-    "onClick": "{{updateTask_byApplication.run().then(() => {\n  getTasks_byApplication.run().then(() => {\n    if (getTasks_byApplication.data[0].taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\ncloseModal('updateTask_Modal');}}",
+    "onClick": "{{updateTask_byApplication.run().then(() => {\n  getTasks_byApplication_2.run().then(() => {\n    if (getTasks_byApplication_2.data[0].taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\ncloseModal('updateTask_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

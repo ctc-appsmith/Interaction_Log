@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 12,
+    "originalBottomRow": 13,
     "needsErrorInfo": false,
     "mobileBottomRow": 24,
     "widgetName": "Select3Copy",
@@ -57,7 +57,7 @@
     "mobileTopRow": 17,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 8,
+    "originalTopRow": 9,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
