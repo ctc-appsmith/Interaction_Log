@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 10,
+    "originalBottomRow": 12,
     "needsErrorInfo": false,
     "mobileBottomRow": 11,
     "widgetName": "Select11",
@@ -58,9 +58,9 @@
     "mobileTopRow": 4,
     "optionLabel": "name",
     "responsiveBehavior": "fill",
-    "originalTopRow": 6,
+    "originalTopRow": 8,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});}}",
+    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});\nRept_COUNT_unassignedTasks.run()}}",
     "minDynamicHeight": 4
 }

@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 14,
+    "originalBottomRow": 16,
     "needsErrorInfo": false,
     "mobileBottomRow": 7,
     "widgetName": "Select7Copy",
@@ -59,9 +59,9 @@
     "mobileTopRow": 0,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 10,
+    "originalTopRow": 12,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});}}",
+    "onOptionChange": "{{getMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});\nRept_COUNT_unassignedTasks.run()}}",
     "minDynamicHeight": 4
 }
