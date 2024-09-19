@@ -1,14 +1,14 @@
-SELECT Tasks.*, Applications.applicationType, Applications.applicationName, Clients.clientID, Entities.entityName, Tasks.assignedTeam, Tasks.assignedTeam, taskTypes.taskName
+SELECT Tasks.*, Applications.applicationType, Applications.applicationName, Clients.clientID, Entities.entityName, Tasks.assignedTeam, Tasks.assignedTeam, taskTypes.taskName, taskStatusTypes.sortOrder
 
-FROM (Clients INNER JOIN ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID) INNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)
+FROM (((Clients INNER JOIN taskTypes ON Clients.clientID = taskTypes.clientID) INNER JOIN (Applications INNER JOIN Tasks ON Applications.appID = Tasks.appID) ON taskTypes.taskTypeID = Tasks.taskTypeID) INNER JOIN taskStatusTypes ON Tasks.taskStatus = taskStatusTypes.taskStatus) INNER JOIN Entities ON (Clients.clientID = Entities.clientID) AND (Applications.entityID = Entities.entityID)
 			
 			
 WHERE Clients.clientID = {{appsmith.store.clientID}}
-AND ({{Switch1.isSwitchedOn}} OR taskStatus <> "Complete")
+AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
 AND ({{!Select11.selectedOptionValue}} OR (Applications.applicationType = '{{Select11.selectedOptionValue}}'))
 AND ({{!Select7Copy.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7Copy.selectedOptionValue}}'))
 
-ORDER BY startDate DESC;
+ORDER BY sortOrder ASC, startDate DESC;
 			
 
 
