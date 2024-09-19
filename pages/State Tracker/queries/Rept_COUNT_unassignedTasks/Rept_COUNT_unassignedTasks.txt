@@ -8,6 +8,7 @@ FROM
 WHERE 
     Tasks.taskStatus <> 'Complete' 
     AND Clients.clientID = {{appsmith.store.clientID}}
+		AND assignedTo = "unassigned@ctcnet.us"
     AND (
         -- If Select11 is null, include all application types
         ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')

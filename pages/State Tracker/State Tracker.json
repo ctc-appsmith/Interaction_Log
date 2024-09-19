@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 910,
+          "bottomRow": 930,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -275,6 +275,20 @@
             {
               "id": "State Tracker_Rept_COUNT_openTask_TeamAppTyp",
               "name": "Rept_COUNT_openTask_TeamAppTyp",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "Select7Copy.selectedOptionValue",
+                "!Select11.selectedOptionValue",
+                "Select11.selectedOptionLabel",
+                "!Select7Copy.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Rept_COUNT_unassignedTasks",
+              "name": "Rept_COUNT_unassignedTasks",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

@@ -8,12 +8,12 @@
     "buttonColor": "#061041",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "displayName": "Button",
-    "topRow": 16,
+    "topRow": 18,
     "searchTags": [
         "click",
         "submit"
     ],
-    "bottomRow": 21,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -42,11 +42,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "responsiveBehavior": "hug",
-    "originalTopRow": 16,
+    "originalTopRow": 18,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 21,
+    "originalBottomRow": 23,
     "buttonVariant": "PRIMARY",
     "iconAlign": "left",
     "placement": "CENTER"

@@ -10,8 +10,8 @@
     "displayName": "Switch",
     "iconSVG": "/static/media/icon.c0b4c50c8e9e6060b0525341b26d016d.svg",
     "searchTags": ["boolean"],
-    "topRow": 16,
-    "bottomRow": 21,
+    "topRow": 18,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "type": "SWITCH_WIDGET",
     "alignWidget": "LEFT",
@@ -44,9 +44,9 @@
     "isLoading": false,
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
+    "originalTopRow": 18,
     "mobileLeftColumn": 17,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 23,
     "minDynamicHeight": 4
 }
