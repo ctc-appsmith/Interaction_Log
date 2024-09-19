@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Team: {{Select7Copy.selectedOptionLabel}}",
+    "text": "Team: {{ Select7Copy.selectedOptionLabel ? Select7Copy.selectedOptionLabel : \"All teams\" }}\n",
     "key": "z9170y13a8",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -38,7 +38,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "a8s34hrxfd",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#061041",
     "version": 1,
@@ -56,6 +56,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 8,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

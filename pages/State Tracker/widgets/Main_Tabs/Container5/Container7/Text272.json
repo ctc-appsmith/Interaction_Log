@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Open Tasks: {{Rept_COUNT_openTask_TeamAppTyp.data[0].CountOftaskID}}",
+    "text": "Open Tasks: {{Rept_COUNT_openTask_TeamAppTyp.data[0].CountOfTaskID}}",
     "key": "z9170y13a8",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -38,7 +38,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "i3h184pkjr",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#061041",
     "version": 1,
@@ -56,6 +56,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 12,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

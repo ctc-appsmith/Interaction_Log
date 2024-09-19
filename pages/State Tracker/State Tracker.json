@@ -279,8 +279,10 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID",
+                "Select7Copy.selectedOptionValue",
+                "!Select11.selectedOptionValue",
                 "Select11.selectedOptionLabel",
-                "Select7Copy.selectedOptionLabel"
+                "!Select7Copy.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },

@@ -37,7 +37,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "u6k4lbsq8o",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#061041",
     "version": 1,
@@ -55,6 +55,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 5,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Rept_COUNT_openTask_TeamAppTyp",
+    "name": "Rept_COUNT_openTask_TeamApp2",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -22,11 +22,11 @@
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -46,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-19T14:46:56Z"
+    "createdAt": "2024-09-19T20:02:12Z"
   },
-  "id": "State Tracker_Rept_COUNT_openTask_TeamAppTyp",
+  "id": "State Tracker_Rept_COUNT_openTask_TeamApp2",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_df249907-692a-4664-906e-3c8d8ac0ed34"
+  "gitSyncId": "66df548a9579f243573899d9_6a095628-1ec1-4051-9b96-fe6e6d4b3879"
 }
