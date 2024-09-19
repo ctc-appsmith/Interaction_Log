@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getCOUNT_tasksByStatus_Scoring",
+    "name": "Rept_COUNT_taskStatus_Score",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-12T20:54:02Z"
   },
-  "id": "State Tracker_getCOUNT_tasksByStatus_Scoring",
+  "id": "State Tracker_Rept_COUNT_taskStatus_Score",
   "deleted": false,
   "gitSyncId": "66df548a9579f243573899d9_4729c93c-98f1-4d7f-bb7a-f1cd08b5ef43"
 }

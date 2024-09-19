@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button25Copy",
-    "onClick": "{{insertTasks_fromUpdate.run().then(() => {\n  getMyTasks.run();\n});\ngetTasks_byApplication_2.run().then(() => {\n  closeModal('addTask_fromUpdate_modal');\n});}}",
+    "onClick": "{{insertTasks_fromUpdate.run().then(() => {\n  getMyTasks.run();\n});\ngetTasks_byApplication_3.run().then(() => {\n  closeModal('addTask_fromUpdate_modal');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

@@ -152,7 +152,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "1dmtspxxsc",
     "minWidth": 450,
-    "tableData": "{{getCOUNT_tasksByStatus_Scoring.data}}",
+    "tableData": "{{Rept_COUNT_taskStatus_Score.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "vf6er65v71",

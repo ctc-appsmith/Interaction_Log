@@ -51,8 +51,8 @@
           ],
           [
             {
-              "id": "State Tracker_getCOUNT_tasksByStatus_Scoring",
-              "name": "getCOUNT_tasksByStatus_Scoring",
+              "id": "State Tracker_Rept_COUNT_taskStatus_Score",
+              "name": "Rept_COUNT_taskStatus_Score",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -209,8 +209,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getTasks_byApplication_2",
-              "name": "getTasks_byApplication_2",
+              "id": "State Tracker_getTasks_byApplication_3",
+              "name": "getTasks_byApplication_3",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

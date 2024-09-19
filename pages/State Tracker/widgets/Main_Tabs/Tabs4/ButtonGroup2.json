@@ -63,7 +63,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{storeValue('ScoringReport1', 'Yes').then(() => {\n  getCOUNT_tasksByStatus_Scoring.run();\n});}}",
+            "onClick": "{{storeValue('ScoringReport1', 'Yes').then(() => {\n  Rept_COUNT_taskStatus_Score.run();\n});}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
