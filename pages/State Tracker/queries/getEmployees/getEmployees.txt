@@ -4,7 +4,3 @@ FROM
   Employees
 ORDER BY
   {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== "desc" ? "" : "DESC"}}
-LIMIT
-  {{employee_Table.pageSize}}
-OFFSET
-  {{employee_Table.pageOffset}}
