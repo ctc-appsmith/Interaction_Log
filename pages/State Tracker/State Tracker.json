@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -55,7 +55,9 @@
               "name": "Rept_COUNT_taskStatus_Score",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -182,9 +184,7 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "employee_Table.sortOrder.column || 'empLastName'",
-                "employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "employee_Table.pageSize",
-                "employee_Table.pageOffset"
+                "employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
               ],
               "timeoutInMillisecond": 10000
             },

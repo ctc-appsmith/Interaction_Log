@@ -23,7 +23,7 @@
         {"key": "primaryColumns.customColumn1.boxShadow"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 27,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -324,7 +324,7 @@
     "key": "zqc7i4u6eq",
     "canFreezeColumn": false,
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "s2bqdz8bnl",

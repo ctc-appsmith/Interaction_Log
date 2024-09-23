@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "dal",
+    "pageId": "Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Login Page_dal",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_402873b4-beec-4239-926c-34fc18bfa69d"
+}

@@ -16,6 +16,8 @@ export default {
 			showAlert(`${signin.data.error_description}. Please try again.`, 'error') //Invalid login credentials
 		});
 	},
+	
+
 	signup_func: () => {
 		return signup.run()
 		.then(() => {

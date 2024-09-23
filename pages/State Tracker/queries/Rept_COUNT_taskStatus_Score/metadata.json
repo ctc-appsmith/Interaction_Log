@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Tasks.taskStatus, Count(Tasks.appID) AS CountOfappID\nFROM Tasks\nGROUP BY Tasks.taskStatus;\n ",
+      "body": "SELECT Count(Tasks.taskStatus) AS CountOftaskStatus, Tasks.taskStatus, Clients.clientID\n\tFROM Clients INNER JOIN (\n\t\t(Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\n\nGROUP BY Tasks.taskStatus, Clients.clientID\nHAVING (((Clients.clientID)={{appsmith.store.clientID}}));\n\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,11 +27,17 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
