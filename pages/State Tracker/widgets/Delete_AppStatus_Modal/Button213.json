@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button213",
-    "onClick": "{{deleteAppStatus.run().then(() => {\n  getAppStatusTypes.run();\n});}}",
+    "onClick": "{{deleteAppStatus.run().then(() => {\n  getAppStatusTypes.run();\n});\ncloseModal('Delete_AppStatus_Modal');}}",
     "buttonColor": "#fca5a5",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
