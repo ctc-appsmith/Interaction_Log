@@ -1,0 +1,6 @@
+SELECT * FROM entityType
+
+
+ORDER BY entityTypeName ASC
+
+;

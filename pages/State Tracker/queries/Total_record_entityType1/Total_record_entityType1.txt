@@ -1,0 +1,1 @@
+SELECT COUNT(*) from entityType WHERE entityTypeName LIKE '%{{entityType_Table.searchText}}%';
