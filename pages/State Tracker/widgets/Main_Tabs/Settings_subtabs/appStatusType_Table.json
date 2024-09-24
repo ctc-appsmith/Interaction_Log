@@ -23,7 +23,7 @@
         {"key": "primaryColumns.customColumn1.boxShadow"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 32,
+    "leftColumn": 20,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
