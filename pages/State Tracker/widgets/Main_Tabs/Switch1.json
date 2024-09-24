@@ -28,7 +28,7 @@
     "isDisabled": false,
     "key": "8rnue4d6ks",
     "isDeprecated": false,
-    "rightColumn": 9,
+    "rightColumn": 10,
     "thumbnailSVG": "/static/media/thumbnail.cd04c6d6a11266a806cebe39829607cb.svg",
     "onChange": "{{getMyTasks.run()}}",
     "dynamicHeight": "AUTO_HEIGHT",

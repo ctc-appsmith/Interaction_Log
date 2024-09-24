@@ -1,8 +1,8 @@
 UPDATE Tasks 
 	SET 
 		appID= '{{myTasks_tbl.selectedRow.appID}}', 
-		startDate= '{{(myTaskUpdateForm.data || {}).startDate}}', 
-		completedDate= '{{(myTaskUpdateForm.data || {}).completeDate}}', 
+		startDate= '{{myTaskUpdateForm.data.startDate}}', 
+		completedDate= '{{myTaskUpdateForm.data.completeDate}}', 
 		taskStatus= '{{(myTaskUpdateForm.data || {}).taskStatus}}', 
 		assignedTo= '{{(myTaskUpdateForm.data || {}).assignedTo}}', 
 		taskNotes= '{{(myTaskUpdateForm.data || {}).taskNotes}}', 
