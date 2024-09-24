@@ -31,7 +31,8 @@
         {"key": "schema.__root_schema__.children.lastChanged.accentColor"},
         {"key": "schema.__root_schema__.children.lastChangedBy.defaultValue"},
         {"key": "schema.__root_schema__.children.lastChangedBy.borderRadius"},
-        {"key": "schema.__root_schema__.children.lastChangedBy.accentColor"}
+        {"key": "schema.__root_schema__.children.lastChangedBy.accentColor"},
+        {"key": "schema.__root_schema__.children.clientID.isVisible"}
     ],
     "showReset": true,
     "dynamicHeight": "FIXED",
@@ -154,7 +155,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateAppStatus_formCopy.sourceData, updateAppStatus_formCopy.formData, updateAppStatus_formCopy.fieldState)}}",
                 "dataType": "number",
                 "accessor": "clientID",
-                "isVisible": false,
+                "isVisible": "{{((sourceData, formData, fieldState) => (false))(updateAppStatus_formCopy.sourceData, updateAppStatus_formCopy.formData, updateAppStatus_formCopy.fieldState)}}",
                 "label": "Client ID",
                 "originalIdentifier": "clientID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateAppStatus_formCopy.sourceData, updateAppStatus_formCopy.formData, updateAppStatus_formCopy.fieldState)}}",
@@ -277,7 +278,8 @@
     "dynamicPropertyPathList": [
         {"key": "schema.__root_schema__.children.date_of_birth.defaultValue"},
         {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.clientID.isVisible"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 30,
