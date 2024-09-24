@@ -9,7 +9,7 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
+    "topRow": 0,
     "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 38,
+    "leftColumn": 34,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,10 +31,10 @@
     "text": "Applicant Status Types",
     "key": "fqoneh4g0w",
     "isDeprecated": false,
-    "rightColumn": 56,
+    "rightColumn": 52,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "RIGHT",
-    "dynamicHeight": "AUTO_HEIGHT",
+    "dynamicHeight": "FIXED",
     "widgetId": "nq95f21yld",
     "minWidth": 450,
     "isVisible": true,
@@ -50,11 +50,9 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 38,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 42,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

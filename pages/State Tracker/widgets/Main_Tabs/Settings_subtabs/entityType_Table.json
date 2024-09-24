@@ -23,7 +23,7 @@
         {"key": "primaryColumns.lastChangedBy.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 8,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -64,7 +64,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1727190259019,
+    "columnUpdatedAt": 1727190692978,
     "primaryColumnId": "entityTypeID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -72,8 +72,8 @@
     "widgetName": "entityType_Table",
     "defaultPageSize": 0,
     "columnOrder": [
-        "entityTypeID",
         "entityTypeName",
+        "entityTypeID",
         "created",
         "lastChanged",
         "lastChangedBy"
@@ -254,7 +254,7 @@
     "key": "b0le4j0ryq",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 28,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "g1cm98f5nk",

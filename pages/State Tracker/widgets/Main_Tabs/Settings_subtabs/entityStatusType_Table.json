@@ -26,7 +26,7 @@
         {"key": "primaryColumns.definition.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 33,
+    "leftColumn": 29,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -353,7 +353,7 @@
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 60,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "togwrgfjmu",
