@@ -280,7 +280,7 @@
         {"key": "sourceData"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 28,
+    "bottomRow": 30,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
