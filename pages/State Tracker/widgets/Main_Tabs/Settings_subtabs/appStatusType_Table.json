@@ -23,7 +23,7 @@
         {"key": "primaryColumns.customColumn1.boxShadow"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 20,
+    "leftColumn": 24,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -81,7 +81,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 70,
     "columnWidthMap": {"statusDefinition": 766},
     "parentRowSpace": 10,
     "hideCard": false,
