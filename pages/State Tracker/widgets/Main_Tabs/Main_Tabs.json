@@ -197,7 +197,7 @@
             "widgetName": "Canvas38",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 790,
+            "bottomRow": 850,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -287,7 +287,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 92,
+    "originalBottomRow": 93,
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
     "widgetName": "Main_Tabs",
@@ -298,7 +298,7 @@
     "shouldScrollContents": true,
     "mobileRightColumn": 24,
     "parentColumnSpace": 19.234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onTabSelected"}],
     "borderWidth": 1,
     "key": "hgi7sxlt0j",
     "backgroundColor": "#FFFFFF",
@@ -307,6 +307,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qal6aq2p79",
     "defaultTab": "Applications",
+    "onTabSelected": "{{getAppType.run()}}",
     "minWidth": 450,
     "tabsObj": {
         "tab2xpoulqjzh": {
@@ -363,7 +364,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 25,
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
+    "originalTopRow": 17,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 10

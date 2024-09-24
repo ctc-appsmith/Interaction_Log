@@ -1,0 +1,1 @@
+UPDATE applicationType SET appTypeName= '{{appType_Table.updatedRow.appTypeName}}', clientID= '{{appType_Table.updatedRow.clientID}}', created= '{{appType_Table.updatedRow.created}}', lastChanged= '{{appType_Table.updatedRow.lastChanged}}', lastChangedBy= '{{appType_Table.updatedRow.lastChangedBy}}' WHERE appTypeID= '{{appType_Table.updatedRow.appTypeID}}';

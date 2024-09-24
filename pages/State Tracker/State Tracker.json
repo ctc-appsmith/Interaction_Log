@@ -61,6 +61,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_getAppType",
+              "name": "getAppType",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getTaskStatusType",
               "name": "getTaskStatusType",
               "confirmBeforeExecute": false,
@@ -297,6 +307,16 @@
                 "!Select11.selectedOptionValue",
                 "Select11.selectedOptionLabel",
                 "!Select7Copy.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Total_record_applicationType1",
+              "name": "Total_record_applicationType1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appType_Table.searchText"
               ],
               "timeoutInMillisecond": 10000
             },

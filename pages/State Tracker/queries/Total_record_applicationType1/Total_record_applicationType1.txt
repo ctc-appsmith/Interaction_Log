@@ -1,0 +1,1 @@
+SELECT COUNT(*) from applicationType WHERE lastChangedBy LIKE '%{{appType_Table.searchText}}%';
