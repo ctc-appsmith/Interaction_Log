@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button213Copy",
-    "onClick": "{{deleteApplicantStatus.run().then(() => {\n  getApplicantStatus.run();\n});}}",
+    "onClick": "{{deleteApplicantStatus.run().then(() => {\n  getApplicantStatus.run();\n});\ncloseModal('Delete_ApplicantStatus_Modal');}}",
     "buttonColor": "#fca5a5",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
