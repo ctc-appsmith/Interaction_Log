@@ -91,7 +91,8 @@
         {"key": "onPageChange"},
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
-        {"key": "onAddNewRowSave"}
+        {"key": "onAddNewRowSave"},
+        {"key": "onRowSelected"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -251,6 +252,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('updateEntityType_Modal');}}",
     "key": "b0le4j0ryq",
     "canFreezeColumn": true,
     "isDeprecated": false,
