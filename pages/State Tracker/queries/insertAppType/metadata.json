@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO applicationType (\n\tappTypeName,\n\tclientID,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{(appType_Table.newRow || {}).appTypeName}}',\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
+      "body": "INSERT INTO applicationType (\n\tappTypeName,\n\tclientID,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{(addAppType_Form.data || {}).Input3Copy1}}',\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{appsmith.user.email}}'\n\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(appType_Table.newRow || {}).appTypeName",
+      "(addAppType_Form.data || {}).Input3Copy1",
       "appsmith.store.clientID",
       "appsmith.user.email"
     ],

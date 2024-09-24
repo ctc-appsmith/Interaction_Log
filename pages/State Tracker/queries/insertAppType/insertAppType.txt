@@ -4,7 +4,7 @@ INSERT INTO applicationType (
 	lastChangedBy
 	) 
 	VALUES (
-		'{{(appType_Table.newRow || {}).appTypeName}}',
+		'{{(addAppType_Form.data || {}).Input3Copy1}}',
 		'{{appsmith.store.clientID}}',
 		'{{appsmith.user.email}}'
 	)

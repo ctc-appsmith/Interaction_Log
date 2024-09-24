@@ -18,9 +18,7 @@
         {"key": "primaryColumns.statusDefinition.computedValue"},
         {"key": "primaryColumns.created.computedValue"},
         {"key": "primaryColumns.lastUpdated.computedValue"},
-        {"key": "primaryColumns.lastUpdatedBy.computedValue"},
-        {"key": "primaryColumns.customColumn1.borderRadius"},
-        {"key": "primaryColumns.customColumn1.boxShadow"}
+        {"key": "primaryColumns.lastUpdatedBy.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 24,
@@ -63,7 +61,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1726515884934,
+    "columnUpdatedAt": 1727188895567,
     "originalBottomRow": 64,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -76,8 +74,7 @@
         "statusDefinition",
         "created",
         "lastUpdated",
-        "lastUpdatedBy",
-        "customColumn1"
+        "lastUpdatedBy"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -87,10 +84,7 @@
     "hideCard": false,
     "mobileRightColumn": 34,
     "parentColumnSpace": 18.609375,
-    "dynamicTriggerPathList": [
-        {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "onRowSelected"}
-    ],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "lastUpdated": {
@@ -246,46 +240,6 @@
             "sticky": "",
             "originalId": "created",
             "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "customColumn1": {
-            "boxShadow": "{{appStatusType_Table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-            "computedValue": "",
-            "onClick": "{{showModal('Delete_AppStatus_Modal');}}",
-            "buttonColor": "#b91c1c",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "Delete",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "customColumn1",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": false,
-            "isDerived": true,
-            "textSize": "0.875rem",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "allowCellWrapping": false,
-            "index": 7,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Delete",
-            "labelColor": "#FFFFFF",
-            "buttonLabel": "Delete",
-            "columnType": "button",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "borderRadius": "{{appStatusType_Table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-            "decimals": 0,
-            "buttonVariant": "SECONDARY",
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "customColumn1",
-            "currencyCode": "USD",
-            "customAlias": "",
             "verticalAlignment": "CENTER"
         },
         "appStatusType": {
