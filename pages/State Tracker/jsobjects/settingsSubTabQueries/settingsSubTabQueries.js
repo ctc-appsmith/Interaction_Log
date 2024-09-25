@@ -5,30 +5,27 @@ export default {
       // Run getAppType
       await getAppType.run();
       
-      // Run getApplications
-      await getApplications.run();
-      
       // Run getTeam
       await getTeam.run();
       
       // Run getAppstatusType
-      await getappstatustype.run();
+      await getApplicationStatusTypes.run();
       
       // Run getEmployees
       await getEmployees.run();
       
-      // Run getTasks_byApplication_3
-      await getTasks_byApplication_3.run();
-      
       // Run getTaskStatusType
       await getTaskStatusType.run();
       
-      // Run getTaskTypes_applicationtab
-      await getTaskTypes_applicationtab.run();
+      // Run getTaskTypes_Settings
+      await getTaskTypes_Settings.run();
       
-      // Run getApplicantsOnly
-      await getApplicantsOnly.run();
-      
+      // Run getEntityType
+      await getEntityType.run();
+			
+			// Run getApplicantStatus
+			await getApplicantStatus.run();
+
     } catch (error) {
       console.error("Error running queries:", error);
     }

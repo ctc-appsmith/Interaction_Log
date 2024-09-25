@@ -12,7 +12,7 @@ export default {
       await getTeam.run();
       
       // Run getAppstatusType
-      await getappstatustype.run();
+      await getApplicationStatusTypes.run();
       
       // Run getEmployees
       await getEmployees.run();
@@ -28,6 +28,19 @@ export default {
       
       // Run getApplicantsOnly
       await getApplicantsOnly.run();
+			
+			// Run getAppScores_overall
+			await getAppScores_overall.run();
+			
+			// Run getAppScores_ManualOverride
+			await getAppScores_ManualOverride.run();
+			
+			// Run getAppScores
+			await getAppScores.run();
+			
+			// Run getManualScores
+			await getManualScores.run();
+
       
     } catch (error) {
       console.error("Error running queries:", error);
