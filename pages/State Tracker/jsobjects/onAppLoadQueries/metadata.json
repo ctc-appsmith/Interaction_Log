@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "onAppLoadQueries",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_onAppLoadQueries",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_fa592653-fde5-48e5-852d-1d21b6f06430"
+}

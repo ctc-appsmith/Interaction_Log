@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 930,
+          "bottomRow": 1060,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -71,29 +71,11 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getEntityType",
-              "name": "getEntityType",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getTaskStatusType",
               "name": "getTaskStatusType",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getTaskTypes_Settings",
-              "name": "getTaskTypes_Settings",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -125,36 +107,13 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getApplications_byApplicant",
-              "name": "getApplications_byApplicant",
+              "id": "State Tracker_getEntities",
+              "name": "getEntities",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID",
-                "appsmith.store.entityID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getAwardStatusTypes",
-              "name": "getAwardStatusTypes",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getMyTasks",
-              "name": "getMyTasks",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "Select7Copy.selectedOptionValue",
-                "!Select11.selectedOptionValue",
-                "Select11.selectedOptionValue",
-                "Switch1.isSwitchedOn",
-                "!Select7Copy.selectedOptionValue"
+                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -174,28 +133,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_getApplicantStatus",
-              "name": "getApplicantStatus",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entityStatusType_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "entityStatusType_Table.sortOrder.column || 'recordID'"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getCallLog_applicantsTab",
-              "name": "getCallLog_applicantsTab",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "entitySelect4.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "State Tracker_getEmployees",
               "name": "getEmployees",
               "confirmBeforeExecute": false,
@@ -203,26 +140,6 @@
               "jsonPathKeys": [
                 "employee_Table.sortOrder.column || 'empLastName'",
                 "employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntityType_froEntitySelect2",
-              "name": "getEntityType_froEntitySelect2",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect2.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getManualScores",
-              "name": "getManualScores",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -263,17 +180,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select6.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntities",
-              "name": "getEntities",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -335,16 +241,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entityType_Table.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_getEntityType_fromEntitySelect",
-              "name": "getEntityType_fromEntitySelect",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

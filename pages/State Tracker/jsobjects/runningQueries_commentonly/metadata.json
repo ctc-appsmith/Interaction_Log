@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "runningQueries_commentonly",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_runningQueries_commentonly",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_475c2bd5-575b-4a31-91a5-54cda1d06916"
+}

@@ -39,7 +39,7 @@
       "appsmith.store.clientID",
       "entitySelect4.selectedOptionValue"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

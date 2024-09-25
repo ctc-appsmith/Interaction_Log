@@ -200,7 +200,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 75,
+    "originalBottomRow": 70,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Settings_subtabs",
