@@ -364,12 +364,11 @@
         {"key": "schema.__root_schema__.children.recordID.isVisible"},
         {"key": "schema.__root_schema__.children.created.isVisible"},
         {"key": "schema.__root_schema__.children.lastChanged.isVisible"},
-        {"key": "schema.__root_schema__.children.newTechType.isVisible"},
-        {"key": "onSubmit"}
+        {"key": "schema.__root_schema__.children.newTechType.isVisible"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{Insert_techtypeOverride_apps_1.run().then(() => {\n  Update_currentTechType_apps_1.run();\n});\ncloseModal('Insert_techTypeOverride_Modal');}}",
+    "onSubmit": "{{techType_manOverride.updateTech();\ncloseModal('Insert_techTypeOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,
@@ -437,7 +436,7 @@
         {"key": "schema.__root_schema__.children.appID.isVisible"}
     ],
     "borderWidth": "",
-    "sourceData": "{{Table8.selectedRow}}",
+    "sourceData": "{{manualOverride_Table.selectedRow}}",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",

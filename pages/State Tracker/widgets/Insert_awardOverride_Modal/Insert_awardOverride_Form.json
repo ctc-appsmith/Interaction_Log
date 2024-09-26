@@ -353,7 +353,6 @@
         "iconAlign": "left"
     },
     "dynamicPropertyPathList": [
-        {"key": "onSubmit"},
         {"key": "schema.__root_schema__.children.changeType.isVisible"},
         {"key": "schema.__root_schema__.children.appID.isVisible"},
         {"key": "schema.__root_schema__.children.newFunding.isVisible"},
@@ -365,7 +364,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{awardStatus_manOverride.awardStatus()}}",
+    "onSubmit": "{{awardStatus_manOverride.awardStatus();\ncloseModal('Insert_awardOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

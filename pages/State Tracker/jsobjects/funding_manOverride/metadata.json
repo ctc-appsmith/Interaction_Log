@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "funding_manOverride",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_funding_manOverride",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_0a024ba2-c693-43c7-b234-85034d989ea4"
+}

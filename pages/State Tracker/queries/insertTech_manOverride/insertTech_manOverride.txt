@@ -1,0 +1,19 @@
+INSERT INTO manualOverrideTable (
+	appID,
+	changeDate,
+	changeType, 
+	newTechType,
+	notes, 
+	emailLink, 
+	lastChangedBy
+	) 
+	VALUES (
+		{{Select6.selectedOptionValue}},
+		'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',
+		"Tech Type",
+		'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',
+		'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',
+		'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',
+		'{{appsmith.user.email}}'
+		)
+;

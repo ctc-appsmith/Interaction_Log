@@ -1,0 +1,20 @@
+UPDATE Applications a
+LEFT JOIN (
+    SELECT 
+        m1.appID,
+        m1.newTechType
+    FROM manualOverrideTable m1
+    JOIN (
+        SELECT 
+            appID,
+            MAX(changeDate) AS latestDate
+        FROM manualOverrideTable
+        WHERE changeType = 'Tech Type'
+        GROUP BY appID
+    ) m2 ON m1.appID = m2.appID AND m1.changeDate = m2.latestDate
+    WHERE m1.changeType = 'Tech Type'
+) latest ON a.appID = latest.appID
+SET a.techType = COALESCE(latest.newTechType, a.techType),
+		a.lastChangedBy = '{{appsmith.user.email}}'
+WHERE a.appID = {{Select6.selectedOptionValue}}
+;
