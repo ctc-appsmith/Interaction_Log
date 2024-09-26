@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Applications.techType, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType\n\tFROM Clients INNER JOIN \n\t\t(Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\n\t\n\tWHERE (((Clients.clientID)={{appsmith.store.clientID}}))\n\t\nAND ({{!Select10.selectedOptionValue}} OR (Applications.applicationType = '{{Select10.selectedOptionValue}}'))\n\t\n\nORDER BY entityName ASC, applicationName ASC;\n\n",
+      "body": "SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Applications.techType, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.bidSelectionAwardStatus, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType\n\tFROM Clients INNER JOIN \n\t\t(Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\n\t\n\tWHERE (((Clients.clientID)={{appsmith.store.clientID}}))\n\t\nAND ({{!Select10.selectedOptionValue}} OR (Applications.applicationType = '{{Select10.selectedOptionValue}}'))\n\t\n\nORDER BY entityName ASC, applicationName ASC;\n\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

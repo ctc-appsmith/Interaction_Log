@@ -365,7 +365,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{Insert_awardStatusOverride_1.run().then(() => {\n  Update_awardStatus_apps_2.run().then(() => {\n    Select_manualOverrideTable1.run().then(() => {\n      get_negotiationStatus.run();\n    });\n  });\n});\ncloseModal('Insert_awardOverride_Modal');}}",
+    "onSubmit": "{{insertAwardStatus_manOverride.run().then(() => {\n  Update_awardStatus_apps_2.run().then(() => {\n    Select_manualOverrideTable1.run().then(() => {\n      get_negotiationStatus.run();\n    });\n  });\n});\ncloseModal('Insert_awardOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,
@@ -430,7 +430,7 @@
         {"key": "schema.__root_schema__.children.recordID.isVisible"}
     ],
     "borderWidth": "",
-    "sourceData": "{{Table8.selectedRow}}",
+    "sourceData": "{{manualOverride_Table.selectedRow}}",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",
@@ -438,7 +438,7 @@
     "backgroundColor": "#fff",
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
-    "autoGenerateForm": true,
+    "autoGenerateForm": false,
     "widgetId": "z4v1ove751",
     "resetButtonStyles": {
         "boxShadow": "none",
