@@ -49,7 +49,7 @@
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 63,
-    "onChange": "{{Select_manualOverrideTable1.run().then(() => {\n  Total_record_manualOverrideTable1.run();\n});}}",
+    "onChange": "{{getManualOverrideTable.run()}}",
     "thumbnailSVG": "/static/media/thumbnail.7dfbc790de9ea8d5cb5f6329c2a0c143.svg",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "ta2z51oppp",
