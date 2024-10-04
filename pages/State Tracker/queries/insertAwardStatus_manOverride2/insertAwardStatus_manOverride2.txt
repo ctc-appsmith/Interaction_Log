@@ -1,16 +1,16 @@
 INSERT INTO manualOverrideTable (
 	appID,
 	changeDate,
-	changeType,
+	changeType, 
 	newAwardStatus,
-	notes,
-	emailLink,
+	notes, 
+	emailLink, 
 	lastChangedBy
 	) 
 	VALUES (
-		'{{Select6.selectedOptionValue}}',
+		{{Select6.selectedOptionValue}},
 		'{{(Insert_awardOverride_Form.formData || {}).changeDate}}',
-		'Negotiation Status',
+		"Negotiation Status",
 		'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',
 		'{{(Insert_awardOverride_Form.formData || {}).notes}}',
 		'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',

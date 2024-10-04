@@ -3,7 +3,7 @@ export default {
   awardStatus: async () => {
     try {
       // Run insertAwardStatus_manOverride
-      await insertAwardStatus_manOverride.run();
+      await insertAwardStatus_manOverride2.run();
       
       // Run updateAwardStatus_manOverride
       await updateAwardStatus_manOverride.run();

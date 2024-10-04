@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "insertAwardStatus_manOverride",
+    "name": "insertAwardStatus_manOverride2",
     "datasource": {
       "name": "BEADComprehensive_Production",
       "pluginId": "mysql-plugin",
@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewAwardStatus,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).changeDate}}',\n\t\t'Negotiation Status',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).notes}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
+      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType, \n\tnewAwardStatus,\n\tnotes, \n\temailLink, \n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t{{Select6.selectedOptionValue}},\n\t\t'{{(Insert_awardOverride_Form.formData || {}).changeDate}}',\n\t\t\"Negotiation Status\",\n\t\t'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).notes}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
@@ -47,9 +47,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-04T18:50:32Z"
+    "createdAt": "2024-09-26T17:54:11Z"
   },
-  "id": "State Tracker_insertAwardStatus_manOverride",
+  "id": "State Tracker_insertAwardStatus_manOverride2",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_017bf4de-4233-4344-a965-f07a302fcfac"
+  "gitSyncId": "66df548a9579f243573899d9_e35fffb0-7c44-44ab-ab9a-b15fca8e5ed9"
 }
