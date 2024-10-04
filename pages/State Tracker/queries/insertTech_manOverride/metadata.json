@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType, \n\tnewTechType,\n\tnotes, \n\temailLink, \n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t{{Select6.selectedOptionValue}},\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',\n\t\t\"Tech Type\",\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
+      "body": "INSERT INTO manualOverrideTable(\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewTechType,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -37,6 +37,7 @@
     "messages": [],
     "jsonPathKeys": [
       "(Insert_techTypeOverride_Fm.formData || {}).changeDate",
+      "(Insert_techTypeOverride_Fm.formData || {}).changeType",
       "(Insert_techTypeOverride_Fm.formData || {}).emailLink",
       "(Insert_techTypeOverride_Fm.formData || {}).newTechType",
       "(Insert_techTypeOverride_Fm.formData || {}).notes",
@@ -47,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-26T19:26:11Z"
+    "createdAt": "2024-10-04T17:12:06Z"
   },
   "id": "State Tracker_insertTech_manOverride",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_ff0810f8-b007-4af4-8a24-fa14fa251d2b"
+  "gitSyncId": "66df548a9579f243573899d9_7b8528fc-6641-4a57-9646-1235f6aa7ceb"
 }

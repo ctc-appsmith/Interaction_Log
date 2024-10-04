@@ -633,7 +633,7 @@
                 "originalIdentifier": "techType",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  },\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  }\n]",
+                "options": "[\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  },\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Licensed Fixed Wireless\",\n    \"value\": \"Licensed Fixed Wireless\"\n  },\n\t{\n\t\t\"label\":\"Unlicensed Fixed Wireless\",\n\t\t\"value\":\"Unlicensed Fixed Wireless\"\n\t}\n]",
                 "position": 6,
                 "isDisabled": false,
                 "fieldType": "Select"

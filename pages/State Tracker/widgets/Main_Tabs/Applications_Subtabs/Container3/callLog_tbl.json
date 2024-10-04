@@ -592,7 +592,7 @@
             "index": 18,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "entityName",
+            "label": "Entity",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
