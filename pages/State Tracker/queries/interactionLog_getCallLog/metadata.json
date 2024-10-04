@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM interactionLog\n\nWHERE clientID = '{{appsmith.store.clientID}}'\n\nAND (('{{Select6.selectedOptionValue}}' != 0 ) AND (applicationID = '{{Select6.selectedOptionValue}}'))\n\n\nAND archived = \"No\"\n\nORDER BY commsDate DESC\n\n;",
+      "body": "SELECT interactionLog.*, Entities.entityName\n\nFROM Entities INNER JOIN interactionLog ON Entities.entityID = interactionLog.entityID\n\nWHERE interactionLog.clientID = '{{appsmith.store.clientID}}'\n\nAND ((applicationID = '{{Select6.selectedOptionValue}}') OR (interactionLog.entityID = '{{Select6.selectedOptionValue}}'))\n\nAND archived = \"No\"\n\nORDER BY commsDate DESC\n\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

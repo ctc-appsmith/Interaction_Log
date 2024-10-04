@@ -1,9 +1,10 @@
-SELECT * FROM interactionLog
+SELECT interactionLog.*, Entities.entityName
 
-WHERE clientID = '{{appsmith.store.clientID}}'
+FROM Entities INNER JOIN interactionLog ON Entities.entityID = interactionLog.entityID
 
-AND (('{{Select6.selectedOptionValue}}' != 0 ) AND (applicationID = '{{Select6.selectedOptionValue}}'))
+WHERE interactionLog.clientID = '{{appsmith.store.clientID}}'
 
+AND ((applicationID = '{{Select6.selectedOptionValue}}') OR (interactionLog.entityID = '{{Select6.selectedOptionValue}}'))
 
 AND archived = "No"
 
