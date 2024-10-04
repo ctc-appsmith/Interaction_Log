@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1090,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -151,6 +151,16 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "entityType_Table.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getAppManualScores",
+              "name": "getAppManualScores",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

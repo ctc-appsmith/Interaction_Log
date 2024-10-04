@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Negotiation Status: {{getApplications.data[0].bidSelectionAwardStatus}}",
+    "text": "Negotiation Status: {{getAppManualScores.data[0].bidSelectionAwardStatus}}",
     "key": "jqaru9whhx",
     "isDeprecated": false,
     "rightColumn": 47,
@@ -51,7 +51,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 4,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

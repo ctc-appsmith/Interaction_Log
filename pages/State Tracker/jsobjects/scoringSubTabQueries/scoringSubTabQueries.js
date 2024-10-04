@@ -4,7 +4,7 @@ export default {
     try {
       
       // Run getApplications
-      await getApplications.run();
+      await getAppManualScores.run();
 			
 			// Run getAppScores_overall
 			await getAppScores_overall.run();
