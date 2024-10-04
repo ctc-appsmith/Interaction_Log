@@ -488,6 +488,7 @@
                 "identifier": "bidSelectionAwardStatus",
                 "boxShadow": "none",
                 "isRequired": false,
+                "onTextChanged": "{{showAlert('This field is uneditable. Go to Scoring/Bid Selection tab to edit.', 'warning');}}",
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.bidSelectionAwardStatus))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -603,7 +604,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "string",
                 "accessor": "applicationName",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Application Name",
                 "originalIdentifier": "applicationName",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -632,7 +633,7 @@
                 "originalIdentifier": "techType",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  },\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  }\n]",
+                "options": "[\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  },\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  }\n]",
                 "position": 6,
                 "isDisabled": false,
                 "fieldType": "Select"
@@ -679,7 +680,8 @@
         {"key": "schema.__root_schema__.children.initialScore.onTextChanged"},
         {"key": "schema.__root_schema__.children.fundingRequest.onTextChanged"},
         {"key": "schema.__root_schema__.children.referenceBudget.onTextChanged"},
-        {"key": "schema.__root_schema__.children.currentBudget.onTextChanged"}
+        {"key": "schema.__root_schema__.children.currentBudget.onTextChanged"},
+        {"key": "schema.__root_schema__.children.bidSelectionAwardStatus.onTextChanged"}
     ],
     "borderWidth": "0",
     "sourceData": "{{getApplications_forUpdateForm.data[0]}}",

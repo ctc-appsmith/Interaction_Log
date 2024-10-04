@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Applications (applicationName,entityID,portalAppID,applicationType,applicationStatus,techType, initialScore,applicationRank,awardStatus,fundingRequest,referenceBudget,currentBudget,lastChangedBy) \n\tVALUES (\n\t\t'{{(insertApplication_form.formData || {}).applicationName}}',\n\t\t'{{(insertApplication_form.formData || {}).entityID}}',\n\t\t'{{(insertApplication_form.formData || {}).portalAppID}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationType}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).techType}}',\n\t\t'{{(insertApplication_form.formData || {}).initialScore}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationRank}}',\n\t\t'{{(insertApplication_form.formData || {}).awardStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).fundingRequest}}',\n\t\t'{{(insertApplication_form.formData || {}).referenceBudget}}',\n\t\t'{{(insertApplication_form.formData || {}).currentBudget}}',\n\t\t'{{appsmith.user.email}}')\n;",
+      "body": "INSERT INTO Applications (\n\tapplicationName,\n\tentityID,\n\tportalAppID,\n\tapplicationType,\n\tapplicationStatus,\n\ttechType, \t \n\tinitialScore,\n\tbidSelectionAwardStatus,\n\tfundingRequest,\n\treferenceBudget,\n\tcurrentBudget,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{(insertApplication_form.formData || {}).applicationName}}',\n\t\t'{{(insertApplication_form.formData || {}).entityID}}',\n\t\t'{{(insertApplication_form.formData || {}).portalAppID}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationType}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).techType}}',\n\t\t'{{(insertApplication_form.formData || {}).initialScore}}',\n\t\t'{{(insertApplication_form.formData || {}).bidSelectionAwardStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).fundingRequest}}',\n\t\t'{{(insertApplication_form.formData || {}).referenceBudget}}',\n\t\t'{{(insertApplication_form.formData || {}).currentBudget}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,10 +37,9 @@
     "messages": [],
     "jsonPathKeys": [
       "(insertApplication_form.formData || {}).applicationName",
-      "(insertApplication_form.formData || {}).applicationRank",
       "(insertApplication_form.formData || {}).applicationStatus",
       "(insertApplication_form.formData || {}).applicationType",
-      "(insertApplication_form.formData || {}).awardStatus",
+      "(insertApplication_form.formData || {}).bidSelectionAwardStatus",
       "(insertApplication_form.formData || {}).currentBudget",
       "(insertApplication_form.formData || {}).entityID",
       "(insertApplication_form.formData || {}).fundingRequest",

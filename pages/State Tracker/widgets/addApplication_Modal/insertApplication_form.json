@@ -53,7 +53,7 @@
                 "originalIdentifier": "applicationType",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insertApplication_form.sourceData, insertApplication_form.formData, insertApplication_form.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Prequalification\",\n    \"value\": \"Prequalification\"\n  },\n  {\n    \"label\": \"Scoring\",\n    \"value\": \"Scoring\"\n  }\n]",
+                "options": "{{getAppType.data.map (u => ({label: u.appTypeName, value: u.appTypeName}) )}}",
                 "position": 2,
                 "isDisabled": false,
                 "sourceData": "",
@@ -76,7 +76,7 @@
                 "originalIdentifier": "customField1",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insertApplication_form.sourceData, insertApplication_form.formData, insertApplication_form.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  },\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  }\n]",
+                "options": "[\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  },\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Wireless\",\n    \"value\": \"Wireless\"\n  }\n]",
                 "position": 4,
                 "isDisabled": false,
                 "sourceData": "",
@@ -462,7 +462,8 @@
         {"key": "schema.__root_schema__.children.referenceBudget.isVisible"},
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"},
         {"key": "schema.__root_schema__.children.customField1.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField1.accentColor"}
+        {"key": "schema.__root_schema__.children.customField1.accentColor"},
+        {"key": "schema.__root_schema__.children.applicationType.options"}
     ],
     "borderWidth": "",
     "sourceData": {

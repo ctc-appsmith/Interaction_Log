@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11Copy1",
-    "onClick": "{{updateTask_byApplication.run().then(() => {\n  getTasks_byApplication_3.run().then(() => {\n    if (getTasks_byApplication_3.data[0].taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\ncloseModal('updateTask_Modal');}}",
+    "onClick": "{{updateTask_byApplication.run().then(() => {\n  getTasks_byApplication_3.run().then(() => {\n    if (getTasks_byApplication_3.data[0].taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\nRept_COUNT_openTask_TeamAppTyp.run().then(() => {\n  Rept_COUNT_unassignedTasks.run();\n});\ncloseModal('updateTask_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
