@@ -10,7 +10,7 @@ INSERT INTO manualOverrideTable(
 	VALUES (
 		'{{Select6.selectedOptionValue}}',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',
-		'{{(Insert_techTypeOverride_Fm.formData || {}).changeType}}',
+		'TechType',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',

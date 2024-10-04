@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType, \n\tnewFunding,\n\tnotes, \n\temailLink, \n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t{{Select6.selectedOptionValue}},\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).changeDate}}',\n\t\t\"Funding\",\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).newFunding}}',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
+      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewFunding,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).changeDate}}',\n\t\t'Funding',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).newFunding}}',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_fundingOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
@@ -47,9 +47,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-26T19:39:25Z"
+    "createdAt": "2024-10-04T18:37:24Z"
   },
   "id": "State Tracker_insertFunding_manOverride",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_10061675-7a00-4825-9613-acd7dc9e49d2"
+  "gitSyncId": "66df548a9579f243573899d9_d662c9b5-b604-4533-a273-43ad6c1afd7c"
 }

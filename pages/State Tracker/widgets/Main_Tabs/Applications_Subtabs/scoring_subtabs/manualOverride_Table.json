@@ -127,7 +127,7 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{Insert_manualOverrideTable1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_manualOverrideTable1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+    "onAddNewRowSave": "{{insertFunding_manOverride.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_manualOverrideTable1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
     "mobileRightColumn": 34,
     "parentColumnSpace": 12.009521484375,
     "dynamicTriggerPathList": [

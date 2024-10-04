@@ -1,16 +1,16 @@
 INSERT INTO manualOverrideTable (
 	appID,
 	changeDate,
-	changeType, 
+	changeType,
 	newFunding,
-	notes, 
-	emailLink, 
+	notes,
+	emailLink,
 	lastChangedBy
 	) 
 	VALUES (
-		{{Select6.selectedOptionValue}},
+		'{{Select6.selectedOptionValue}}',
 		'{{(Insert_fundingOverride_Fm.formData || {}).changeDate}}',
-		"Funding",
+		'Funding',
 		'{{(Insert_fundingOverride_Fm.formData || {}).newFunding}}',
 		'{{(Insert_fundingOverride_Fm.formData || {}).notes}}',
 		'{{(Insert_fundingOverride_Fm.formData || {}).emailLink}}',

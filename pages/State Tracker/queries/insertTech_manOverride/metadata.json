@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO manualOverrideTable(\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewTechType,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
+      "body": "INSERT INTO manualOverrideTable(\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewTechType,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).changeDate}}',\n\t\t'TechType',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',\n\t\t'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,6 @@
     "messages": [],
     "jsonPathKeys": [
       "(Insert_techTypeOverride_Fm.formData || {}).changeDate",
-      "(Insert_techTypeOverride_Fm.formData || {}).changeType",
       "(Insert_techTypeOverride_Fm.formData || {}).emailLink",
       "(Insert_techTypeOverride_Fm.formData || {}).newTechType",
       "(Insert_techTypeOverride_Fm.formData || {}).notes",

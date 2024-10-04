@@ -40,7 +40,7 @@
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 16,
+    "bottomRow": 13,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 21,
@@ -67,6 +67,6 @@
     "originalTopRow": 9,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getApplications_forUpdateForm.run().then(() => {\n  getTasks_byApplication_3.run();\n});\ngetAppScores_overall.run().then(() => {\n  getAppScores_ManualOverride.run();\n});\ninteractionLog_getCallLog.run();}}",
+    "onOptionChange": "{{getApplications_forUpdateForm.run().then(() => {\n  getTasks_byApplication_3.run();\n});\ngetAppScores_overall.run().then(() => {\n  getAppScores_ManualOverride.run();\n});\ninteractionLog_getCallLog.run().then(() => {\n  getManualOverrideTable.run();\n});}}",
     "minDynamicHeight": 4
 }
