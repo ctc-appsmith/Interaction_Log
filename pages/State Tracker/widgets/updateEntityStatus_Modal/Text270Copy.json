@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Update Status Type",
+    "text": "View/Update Status",
     "key": "3c3letev84",
     "isDeprecated": false,
     "rightColumn": 48,

@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Update Task Status Type",
+    "text": "View/Update Task Status",
     "key": "3c3letev84",
     "isDeprecated": false,
     "rightColumn": 45,

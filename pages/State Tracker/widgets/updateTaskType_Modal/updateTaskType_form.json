@@ -345,9 +345,9 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.taskOrder))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "taskOrder",
-                "isVisible": "{{((sourceData, formData, fieldState) => (false))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
+                "isVisible": true,
                 "label": "Task Order",
                 "originalIdentifier": "taskOrder",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
@@ -356,8 +356,8 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": 2,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             }
         },
         "position": -1,

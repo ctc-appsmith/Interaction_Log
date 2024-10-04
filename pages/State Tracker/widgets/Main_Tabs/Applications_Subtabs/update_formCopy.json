@@ -251,7 +251,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "null",
                 "accessor": "bid_ar_id",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Bid Ar Id",
                 "originalIdentifier": "bid_ar_id",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -260,7 +260,6 @@
                 "iconAlign": "left",
                 "position": 17,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "currentScore": {
@@ -282,7 +281,6 @@
                 "iconAlign": "left",
                 "position": 16,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "currentBudget": {
@@ -428,7 +426,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "null",
                 "accessor": "num_units",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Num Units",
                 "originalIdentifier": "num_units",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -437,7 +435,6 @@
                 "iconAlign": "left",
                 "position": 18,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "referenceBudget": {
@@ -563,7 +560,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "null",
                 "accessor": "reviewOrder",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Review Order",
                 "originalIdentifier": "reviewOrder",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -572,7 +569,6 @@
                 "iconAlign": "left",
                 "position": 19,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "lastChangedBy": {
