@@ -159,7 +159,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
-            "onSave": "{{Update_manualOverrideTable1.run(() => {\n            showAlert(\"Successfully saved!\");\n            Select_manualOverrideTable1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+            "onSave": "{{updateManualOverrideTable.run(() => {\n            showAlert(\"Successfully saved!\");\n            Select_manualOverrideTable1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,

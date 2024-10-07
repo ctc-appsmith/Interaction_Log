@@ -5,14 +5,14 @@ export default {
       // Run insertFunding_manOverride
       await insertFunding_manOverride.run();
       
-      // Run updateFunding_manOverride
-      await updateFunding_manOverride.isLoading.run();
+      // Run updateFundRequest_apptable to update the 'fundingRequest' field in the 'Applications' table.
+      await updateFundRequest_apptable.isLoading.run();
       
       // Run getManualOverrideTable
       await getManualOverrideTable.run();
       
-      // Run getApplications
-      await getApplications.run();
+      // Run getBidSelectionData_apptable to 
+      await getBidSelectionData_apptable.run();
 
     } catch (error) {
       console.error("Error running queries:", error);

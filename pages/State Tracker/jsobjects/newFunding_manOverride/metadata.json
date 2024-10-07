@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "newFunding_manOverride",
     "pageId": "State Tracker",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "State Tracker_JSObject1",
+  "id": "State Tracker_newFunding_manOverride",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_a4fef09d-0561-45e8-ad18-7a4f86be0a89"
+  "gitSyncId": "66df548a9579f243573899d9_0a024ba2-c693-43c7-b234-85034d989ea4"
 }

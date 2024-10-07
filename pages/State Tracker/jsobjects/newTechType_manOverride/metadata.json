@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "funding_manOverride",
+    "name": "newTechType_manOverride",
     "pageId": "State Tracker",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "State Tracker_funding_manOverride",
+  "id": "State Tracker_newTechType_manOverride",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_0a024ba2-c693-43c7-b234-85034d989ea4"
+  "gitSyncId": "66df548a9579f243573899d9_f9ba7823-ee63-4382-99ad-e899bb27923a"
 }

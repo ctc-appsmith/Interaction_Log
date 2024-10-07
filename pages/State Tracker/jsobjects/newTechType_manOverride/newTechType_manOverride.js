@@ -5,14 +5,14 @@ export default {
       // Run insertTech_manOverride
       await insertTech_manOverride.run();
       
-      // Run updateTech_manOverride
-      await updateTech_manOverride.isLoading.run();
+      // Run updateTechType_apptable to update the 'techType' field in the 'Applications' table.
+      await updateTechType_apptable.isLoading.run();
       
       // Run getManualOverrideTable
       await getManualOverrideTable.run();
       
-      // Run getApplications
-      await getApplications.run();
+      // Run getBidSelectionData_apptable to update the green 
+      await getBidSelectionData_apptable.run();
 
     } catch (error) {
       console.error("Error running queries:", error);

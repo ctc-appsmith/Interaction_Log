@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "techType_manOverride",
+    "name": "newAwardStatus_manOverride",
     "pageId": "State Tracker",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "State Tracker_techType_manOverride",
+  "id": "State Tracker_newAwardStatus_manOverride",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_f9ba7823-ee63-4382-99ad-e899bb27923a"
+  "gitSyncId": "66df548a9579f243573899d9_ed208856-adb1-43e8-9ad0-8abcd055eada"
 }
