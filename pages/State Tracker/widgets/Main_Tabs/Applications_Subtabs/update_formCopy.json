@@ -213,7 +213,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 11,
+                "position": 9,
                 "isDisabled": false,
                 "sourceData": 200,
                 "fieldType": "Number Input"
@@ -236,7 +236,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Prequalification\",\n    \"value\": \"Prequalification\"\n  },\n  {\n    \"label\": \"Scoring\",\n    \"value\": \"Scoring\"\n  }\n]",
-                "position": 4,
+                "position": 5,
                 "isDisabled": false,
                 "sourceData": "Prequalification",
                 "fieldType": "Select"
@@ -301,7 +301,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 13,
+                "position": 11,
                 "isDisabled": false,
                 "sourceData": 200,
                 "fieldType": "Number Input"
@@ -323,7 +323,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 14,
+                "position": 12,
                 "isDisabled": false,
                 "sourceData": "2024-09-05T16:20:44Z",
                 "fieldType": "Text Input"
@@ -345,7 +345,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 15,
+                "position": 13,
                 "isDisabled": false,
                 "sourceData": "2024-09-09T18:39:58Z",
                 "fieldType": "Text Input"
@@ -367,7 +367,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 7,
+                "position": 1,
                 "isDisabled": false,
                 "fieldType": "Text Input"
             },
@@ -411,7 +411,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 1,
+                "position": 2,
                 "isDisabled": false,
                 "sourceData": 68,
                 "fieldType": "Text Input"
@@ -455,7 +455,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 12,
+                "position": 10,
                 "isDisabled": false,
                 "sourceData": 200,
                 "fieldType": "Number Input"
@@ -478,7 +478,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
                 "options": "{{getApplicationStatusTypes.data.map (u => ({label: u.appStatusType, value: u.appStatusType}) )}}",
-                "position": 5,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": "Pending",
                 "fieldType": "Select"
@@ -501,7 +501,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 15,
+                "position": 14,
                 "isDisabled": false,
                 "sourceData": "Pending",
                 "fieldType": "Text Input"
@@ -524,7 +524,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
                 "options": "{{getApplicantsOnly.data.map (u => ({label: u.entityName, value: u.entityID}) )}}",
-                "position": 2,
+                "position": 3,
                 "isDisabled": false,
                 "sourceData": "Southern Montana Telephone",
                 "fieldType": "Select"
@@ -589,7 +589,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 16,
+                "position": 15,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -611,7 +611,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 3,
+                "position": 4,
                 "isDisabled": false,
                 "sourceData": "Darick Test",
                 "fieldType": "Text Input"
@@ -634,7 +634,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Cable\",\n    \"value\": \"Cable\"\n  },\n  {\n    \"label\": \"Fiber\",\n    \"value\": \"Fiber\"\n  },\n  {\n    \"label\": \"Licensed Fixed Wireless\",\n    \"value\": \"Licensed Fixed Wireless\"\n  },\n\t{\n\t\t\"label\":\"Unlicensed Fixed Wireless\",\n\t\t\"value\":\"Unlicensed Fixed Wireless\"\n\t}\n]",
-                "position": 6,
+                "position": 7,
                 "isDisabled": false,
                 "fieldType": "Select"
             }

@@ -49,7 +49,7 @@
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
     "labelTextColor": "#18181b",
-    "sourceData": "{{getApplications.data.map (u => ({label: u.applicationName + \"  :  \" + u.entityName, value: u.appID}) )}}",
+    "sourceData": "{{getApplications.data.map (u => ({label: u.portalAppID, value: u.appID}) )}}",
     "key": "xceerbc2zm",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
