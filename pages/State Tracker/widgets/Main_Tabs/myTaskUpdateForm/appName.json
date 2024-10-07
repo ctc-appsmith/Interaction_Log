@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{myTasks_tbl.selectedRow.applicationName}}",
+    "text": "{{myTasks_tbl.selectedRow.portalAppID}}",
     "key": "bpjgpmxica",
     "isDeprecated": false,
     "rightColumn": 59,
