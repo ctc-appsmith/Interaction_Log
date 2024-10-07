@@ -366,7 +366,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{insertAwardStatus_manOverride.run(() => {\n  getManualOverrideTable.run();\n}, () => {});\nupdateAward_apptable.run().then(() => {\n  closeModal('Insert_awardOverride_Modal');\n});}}",
+    "onSubmit": "{{newAwardStatus_manOverride.newAward();\ncloseModal('Insert_awardOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

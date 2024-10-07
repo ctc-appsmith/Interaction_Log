@@ -1,6 +1,6 @@
 export default {
   // Function to run all the queries sequentially
-  updateTech: async () => {
+  newTech: async () => {
     try {
       // Run insertTech_manOverride
       await insertTech_manOverride.run();

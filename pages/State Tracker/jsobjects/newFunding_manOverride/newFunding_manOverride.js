@@ -1,6 +1,6 @@
 export default {
   // Function to run all the queries sequentially
-  updateTech: async () => {
+  newFunding: async () => {
     try {
       // Run insertFunding_manOverride
       await insertFunding_manOverride.run();

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "updateTech",
-    "fullyQualifiedName": "newTechType_manOverride.updateTech",
+    "name": "newScore",
+    "fullyQualifiedName": "newScore_manOverride.newScore",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "State Tracker",
-    "collectionId": "State Tracker_newTechType_manOverride",
+    "collectionId": "State Tracker_newScore_manOverride",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-26T19:33:08Z"
+    "createdAt": "2024-10-07T16:00:11Z"
   },
-  "id": "State Tracker_newTechType_manOverride.updateTech",
+  "id": "State Tracker_newScore_manOverride.newScore",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_047c1da4-5071-4dd1-aef1-53e5951cb861"
+  "gitSyncId": "66df548a9579f243573899d9_c6bbafb5-0c63-4171-a75e-e293a49ac812"
 }

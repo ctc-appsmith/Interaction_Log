@@ -1,12 +1,12 @@
 export default {
   // Function to run all the queries sequentially
-  awardStatus: async () => {
+  newScore: async () => {
     try {
-      // Run insertAwardStatus_manOverride
+      // Run insertScore_manOverride
       await insertScore_manOverride.run();
       
-      // Run updateAward_apptable to update the 'bidSelectionAwardStatus' field in the 'Applications' table.
-      await updateAward_apptable.run();
+      // Run updateCurrentScore_apptable to update the 'currentScore' field in the 'Applications' table.
+      await updateCurrentScore_apptable.run();
       
       // Run getManualOverrideTable
       await getManualOverrideTable.run();

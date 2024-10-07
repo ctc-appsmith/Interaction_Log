@@ -162,7 +162,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{insertFunding_manOverride.run(() => {\n  getManualOverrideTable.run();\n}, () => {});\nupdateFundRequest_apptable.run().then(() => {\n  closeModal('Insert_fundingOverride_Modal');\n});}}",
+    "onSubmit": "{{newFunding_manOverride.newFunding();\ncloseModal('Insert_fundingOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

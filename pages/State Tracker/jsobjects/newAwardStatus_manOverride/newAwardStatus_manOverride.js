@@ -1,6 +1,6 @@
 export default {
   // Function to run all the queries sequentially
-  awardStatus: async () => {
+  newAward: async () => {
     try {
       // Run insertAwardStatus_manOverride
       await insertAwardStatus_manOverride.run();

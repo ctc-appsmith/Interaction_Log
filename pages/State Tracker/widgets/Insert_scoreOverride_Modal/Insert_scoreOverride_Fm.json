@@ -136,7 +136,7 @@
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{insertScore_manOverride.run().then(() => {\n  getManualOverrideTable.run();\n});\nupdateCurrentScore_apptable.run().then(() => {\n  closeModal('Insert_scoreOverride_Modal');\n});}}",
+    "onSubmit": "{{newScore_manOverride.updateScore();\ncloseModal('Insert_scoreOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,
