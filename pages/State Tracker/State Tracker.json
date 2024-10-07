@@ -163,6 +163,16 @@
                 "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getBidSelectionData_apptable",
+              "name": "getBidSelectionData_apptable",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],

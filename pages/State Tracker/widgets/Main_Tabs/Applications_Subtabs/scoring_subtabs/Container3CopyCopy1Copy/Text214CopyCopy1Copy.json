@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "${{getAppManualScores.data[0].currentBudget.toLocaleString()}}",
+    "text": "${{getBidSelectionData_apptable.data[0].currentBudget.toLocaleString()}}",
     "key": "o5gl6zhgae",
     "isDeprecated": false,
     "rightColumn": 64,
