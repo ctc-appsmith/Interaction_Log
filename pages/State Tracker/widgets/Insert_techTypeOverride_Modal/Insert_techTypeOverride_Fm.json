@@ -163,7 +163,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{insertTech_manOverride.run(() => {\n  getManualOverrideTable.run();\n}, () => {});\ncloseModal('Insert_techTypeOverride_Modal');}}",
+    "onSubmit": "{{insertTech_manOverride.run(() => {\n  getManualOverrideTable.run();\n}, () => {});\nupdateTechType_apptable.run().then(() => {\n  closeModal('Insert_techTypeOverride_Modal');\n});}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,
