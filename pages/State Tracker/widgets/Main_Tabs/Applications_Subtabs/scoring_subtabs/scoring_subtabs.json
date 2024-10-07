@@ -132,7 +132,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qla816de0b",
-    "defaultTab": "Bid Selection Workspace",
+    "defaultTab": "Scoring",
     "onTabSelected": "{{scoringSubTabQueries.runQueries()}}",
     "minWidth": 450,
     "tabsObj": {
