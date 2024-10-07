@@ -120,8 +120,9 @@
         "spokeWith": 156,
         "subject": 314,
         "importance": 202.4375,
+        "CTCstaff": 176,
         "ApplicantName": 219,
-        "portalAppID": 175,
+        "portalAppID": 217,
         "applicationName": 394
     },
     "parentRowSpace": 10,
