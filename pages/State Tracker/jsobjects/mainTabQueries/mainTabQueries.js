@@ -49,6 +49,9 @@ export default {
 			
 			// Run getApplicantStatus
 			await getApplicantStatus.run();
+			
+			// Run getApplicantsOnly
+			await getApplicantsOnly.run();
 
       
     } catch (error) {

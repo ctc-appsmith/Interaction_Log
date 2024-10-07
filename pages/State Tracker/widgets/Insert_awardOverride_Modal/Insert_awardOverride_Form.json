@@ -362,7 +362,8 @@
         {"key": "schema.__root_schema__.children.recordID.isVisible"},
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
         {"key": "sourceData"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",

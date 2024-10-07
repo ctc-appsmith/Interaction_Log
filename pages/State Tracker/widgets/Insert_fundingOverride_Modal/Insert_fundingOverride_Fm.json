@@ -158,11 +158,12 @@
     },
     "dynamicPropertyPathList": [
         {"key": "schema.__root_schema__.children.appID.isVisible"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newFunding_manOverride.newFunding();\ncloseModal('Insert_fundingOverride_Modal');}}",
+    "onSubmit": "{{newFunding_manOverride.newFunding();\ncloseModal('Insert_fundingOverride_Modal');}}/",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

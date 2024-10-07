@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "updateOverrideRecords",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_updateOverrideRecords",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_df410f66-b283-4ec2-a6b4-812bd425afab"
+}

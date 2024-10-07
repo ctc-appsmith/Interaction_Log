@@ -346,7 +346,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{updateManualOverrideTable.run(() => {\n  getManualOverrideTable.run();\n}, () => {});\nupdateCurrentScore_apptable.run().then(() => {\n  updateFundRequest_apptable.run();\n});\nupdateTechType_apptable.run()}}",
+    "onSubmit": "{{updateOverrideRecords.updateRecords();\ncloseModal('Update_ManualOverride_Modal');}}",
     "topRow": 0,
     "bottomRow": 58,
     "fieldLimitExceeded": false,

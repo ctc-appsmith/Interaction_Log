@@ -6,7 +6,7 @@ export default {
       await insertFunding_manOverride.run();
       
       // Run updateFundRequest_apptable to update the 'fundingRequest' field in the 'Applications' table.
-      await updateFundRequest_apptable.isLoading.run();
+      await updateFundRequest_apptable.run();
       
       // Run getManualOverrideTable
       await getManualOverrideTable.run();

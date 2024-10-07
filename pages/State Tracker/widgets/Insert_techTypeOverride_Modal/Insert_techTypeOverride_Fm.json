@@ -163,7 +163,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newTechType_manOverride.updateTech();\ncloseModal('Insert_techTypeOverride_Modal');}}",
+    "onSubmit": "{{newTechType_manOverride.newTech();\ncloseModal('Insert_techTypeOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

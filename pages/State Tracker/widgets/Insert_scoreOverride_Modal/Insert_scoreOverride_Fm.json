@@ -133,10 +133,13 @@
         "buttonVariant": "PRIMARY",
         "iconAlign": "left"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "onSubmit"}
+    ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newScore_manOverride.updateScore();\ncloseModal('Insert_scoreOverride_Modal');}}",
+    "onSubmit": "{{newScore_manOverride.newScore();\ncloseModal('Insert_scoreOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

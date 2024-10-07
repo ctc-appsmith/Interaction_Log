@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "addTask_fromTaskTab",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_addTask_fromTaskTab",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_ce1c47a9-8f36-4b93-8808-7c8d5f4a03be"
+}
