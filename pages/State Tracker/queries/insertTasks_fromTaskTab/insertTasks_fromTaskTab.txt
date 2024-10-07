@@ -1,19 +1,16 @@
 INSERT INTO Tasks (
 	appID,
 	startDate,
-  assignedTeam,
 	taskTypeID,
 	taskStatus,
 	assignedTo,
 	taskNotes,
 	filePath,
-
 	lastChangedBy
 ) 
 	VALUES (
 		'{{(addTask_fromTaskTab_form.data || {}).Select8}}',
 		'{{(addTask_fromTaskTab_form.data || {}).DatePicker1}}',
-		'{{getTaskTeam_TaskTab.data[0].team}}',
 		'{{(addTask_fromTaskTab_form.data || {}).Select2}}',
 		'{{(addTask_fromTaskTab_form.data || {}).Select4}}',
 		'{{(addTask_fromTaskTab_form.data || {}).Select3}}',

@@ -33,7 +33,7 @@
     "iconName": "add",
     "widgetId": "spz47h3s3v",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "recaptchaType": "V3",
     "parentId": "ay5j49mnn8",

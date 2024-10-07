@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button25",
-    "onClick": "{{addTask_fromTaskTab.addTask();\nremoveValue('appID').then(() => {\n  removeValue('entityID');\n});\nRept_COUNT_taskStatus_Score.run();}}",
+    "onClick": "{{addTask_fromTaskTab.addTask();\nremoveValue('appID').then(() => {\n  removeValue('entityID');\n});\ncloseModal('addTask_fromTaskTab_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
