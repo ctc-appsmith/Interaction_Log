@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 9.1484375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20,
+    "leftColumn": 23,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "{{myTasks_tbl.selectedRow.entityName}}",
     "key": "qrgn1dro7s",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

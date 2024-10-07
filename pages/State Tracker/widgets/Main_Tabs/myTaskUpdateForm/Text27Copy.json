@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 9,
-    "bottomRow": 14,
+    "bottomRow": 13,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Portal Application ID",
     "key": "bpjgpmxica",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 23,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 13,
+    "originalBottomRow": 14,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

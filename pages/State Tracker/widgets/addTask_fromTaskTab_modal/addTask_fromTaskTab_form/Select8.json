@@ -41,7 +41,7 @@
     "parentColumnSpace": 6.5166015625,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
-    "sourceData": "{{getApplications_byApplicant.data.map (u => ({label: u.applicationName, value: u.appID}) )}}",
+    "sourceData": "{{getApplications_byApplicant.data.map (u => ({label: u.portalAppID, value: u.appID}) )}}",
     "key": "xceerbc2zm",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
