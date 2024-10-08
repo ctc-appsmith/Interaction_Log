@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "{{storeValue('taskStatus', taskStatus.selectedOptionValue).then(() => {\n  myTasks_updateTasks.run().then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\ngetMyTasks.run().then(() => {\n  Rept_COUNT_openTask_TeamAppTyp.run();\n});\nRept_COUNT_unassignedTasks.run()}}",
+    "onClick": "storeValue('taskStatus', taskStatus.selectedOptionValue)\n  .then(() => {\n    return myTasks_updateTasks.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  \n    }\n    return getMyTasks.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
