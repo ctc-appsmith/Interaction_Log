@@ -5,7 +5,7 @@ FROM((Clients INNER JOIN taskTypes ON Clients.clientID = taskTypes.clientID) INN
 		AND ((Tasks.appID= '{{Select6.selectedOptionValue}}'))
 		AND ({{Switch2.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
 		AND ({{!Select10.selectedOptionValue}} OR (Applications.applicationType = 		'{{Select10.selectedOptionValue}}'))
-		AND ({{!Select7.selectedOptionValue}} OR (Tasks.assignedTeam = '{{Select7.selectedOptionValue}}'))
+		AND ({{!Select7.selectedOptionValue}} OR (taskTypes.team = '{{Select7.selectedOptionValue}}'))
 
 	ORDER BY sortOrder ASC, startDate DESC
 ;
