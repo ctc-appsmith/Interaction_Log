@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11Copy1",
-    "onClick": "storeValue('taskStatus', taskStatus.selectedOptionValue)\n  .then(() => {\n    return updateTask_byApplication.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  \n    }\n    return getTasks_byApplication_3.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });",
+    "onClick": "{{storeValue('taskStatus', taskStatusCopy1.selectedOptionValue)\n  .then(() => {\n    return updateTask_byApplication.run();  // Run this after storing taskStatus\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  // Show the modal if taskStatus is 'Complete'\n    }\n    return getTasks_byApplication_3.run();  // Run getMyTasks next\n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  // Run Rept_COUNT after getMyTasks\n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  // Run Rept_COUNT_unassignedTasks last\n  })\n  .then(() => {\n    closeModal('updateTask_Modal');  // Close the modal after all functions have successfully run\n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  // Show an error message if any query fails\n  });\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
