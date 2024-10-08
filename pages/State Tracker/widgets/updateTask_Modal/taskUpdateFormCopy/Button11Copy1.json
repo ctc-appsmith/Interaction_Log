@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11Copy1",
-    "onClick": "{{updateTask_byApplication.run().then(() => {\n  getTasks_byApplication_3.run().then(() => {\n    if (getTasks_byApplication_3.data[0].taskStatus === \"Complete\") {\n      showModal('Modal1');\n    }\n  });\n});\nRept_COUNT_openTask_TeamAppTyp.run().then(() => {\n  Rept_COUNT_unassignedTasks.run();\n});\ncloseModal('updateTask_Modal');}}",
+    "onClick": "storeValue('taskStatus', taskStatus.selectedOptionValue)\n  .then(() => {\n    return updateTask_byApplication.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  \n    }\n    return getTasks_byApplication_3.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
