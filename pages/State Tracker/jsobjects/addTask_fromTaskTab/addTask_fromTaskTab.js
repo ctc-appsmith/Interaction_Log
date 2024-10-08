@@ -14,8 +14,8 @@ export default {
       // Run Rept_COUNT_openTask_TeamAppTyp
       await Rept_COUNT_openTask_TeamAppTyp.run();
 			
-			// Run Rept_
-			await rept_count_
+			// Run Rept_COUNT_taskStatus_Score
+			await Rept_COUNT_taskStatus_Score.run();
       
     } catch (error) {
       console.error("Error running queries:", error);

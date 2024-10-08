@@ -55,19 +55,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  try {\n    await getAppType.run();\n    await getApplications.run();\n    await getTeam.run();\n    await getappstatus.run();\n    await getEmployees.run();\n    await getTasks_byApplication_3.run();\n    await getTaskStatusType.run();\n    await getTaskTypes_applicationtab.run();\n    await getApplicantsOnly.run();\n  } catch (error) {\n    console.error(\"Error running queries:\", error);\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "State Tracker_Rept_COUNT_taskStatus_Score",
-              "name": "Rept_COUNT_taskStatus_Score",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
+                "async () => {\n  try {\n    await getAppType.run();\n    await getApplications.run();\n    await getTeam.run();\n    await getAppStatusTypes.run();\n    await getEmployees.run();\n    await getTasks_byApplication_3.run();\n    await getTaskStatusType.run();\n    await getTaskTypes_applicationtab.run();\n    await getApplicantsOnly.run();\n  } catch (error) {\n    console.error(\"Error running queries:\", error);\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -106,34 +94,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Rept_COUNT_openTask_TeamAppTyp",
-              "name": "Rept_COUNT_openTask_TeamAppTyp",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "Select7Copy.selectedOptionValue",
-                "!Select11.selectedOptionValue",
-                "Select11.selectedOptionLabel",
-                "!Select7Copy.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Rept_COUNT_unassignedTasks",
-              "name": "Rept_COUNT_unassignedTasks",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID",
-                "Select7Copy.selectedOptionValue",
-                "!Select11.selectedOptionValue",
-                "Select11.selectedOptionLabel",
-                "!Select7Copy.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Total_record_applicationType1",
               "name": "Total_record_applicationType1",
