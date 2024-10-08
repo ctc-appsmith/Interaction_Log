@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button26Copy",
-    "onClick": "{{closeModal('addTask_ModalCopy');}}",
+    "onClick": "{{closeModal('addTask_fromUpdate_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
