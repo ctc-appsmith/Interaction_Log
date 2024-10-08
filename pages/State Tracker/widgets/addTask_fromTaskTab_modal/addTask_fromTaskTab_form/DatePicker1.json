@@ -9,7 +9,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultDate"}
     ],
     "isDisabled": false,
     "isRequired": false,
@@ -41,7 +42,7 @@
     "labelPosition": "Left",
     "key": "s21ltb5lra",
     "labelTextSize": "0.875rem",
-    "defaultDate": "",
+    "defaultDate": "{{moment()}}",
     "isDeprecated": false,
     "rightColumn": 41,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
