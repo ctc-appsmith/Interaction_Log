@@ -8,4 +8,4 @@ AND (
 
 ('{{CategorySlider1.value}}' = "All") OR (manualOverrideTable.changeType = '{{CategorySlider1.value}}')
 	)
-;
+ ORDER BY changeDate DESC;

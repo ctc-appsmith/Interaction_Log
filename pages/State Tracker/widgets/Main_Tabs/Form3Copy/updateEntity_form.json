@@ -507,8 +507,8 @@
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateEntity.run().then(() => {\n  getEntities.run();\n});}}",
     "displayName": "JSON Form",
-    "topRow": 4,
-    "bottomRow": 49,
+    "topRow": 6,
+    "bottomRow": 51,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "type": "JSON_FORM_WIDGET",
@@ -696,10 +696,10 @@
         }
     },
     "fixedFooter": false,
-    "originalTopRow": 6,
+    "originalTopRow": 4,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 51,
+    "originalBottomRow": 49,
     "minDynamicHeight": 4
 }

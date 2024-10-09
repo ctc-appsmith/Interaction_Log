@@ -82,7 +82,10 @@
         {"key": "schema.__root_schema__.children.num_units.accentColor"},
         {"key": "schema.__root_schema__.children.reviewOrder.defaultValue"},
         {"key": "schema.__root_schema__.children.reviewOrder.borderRadius"},
-        {"key": "schema.__root_schema__.children.reviewOrder.accentColor"}
+        {"key": "schema.__root_schema__.children.reviewOrder.accentColor"},
+        {"key": "schema.__root_schema__.children.initialBudget.defaultValue"},
+        {"key": "schema.__root_schema__.children.initialBudget.borderRadius"},
+        {"key": "schema.__root_schema__.children.initialBudget.accentColor"}
     ],
     "showReset": true,
     "dynamicHeight": "FIXED",
@@ -260,6 +263,28 @@
                 "iconAlign": "left",
                 "position": 17,
                 "isDisabled": false,
+                "fieldType": "Text Input"
+            },
+            "initialBudget": {
+                "labelTextSize": "0.875rem",
+                "identifier": "initialBudget",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.initialBudget))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
+                "dataType": "null",
+                "accessor": "initialBudget",
+                "isVisible": true,
+                "label": "Initial Budget",
+                "originalIdentifier": "initialBudget",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 20,
+                "isDisabled": false,
+                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "currentScore": {
