@@ -284,7 +284,6 @@
                 "iconAlign": "left",
                 "position": 20,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "currentScore": {
