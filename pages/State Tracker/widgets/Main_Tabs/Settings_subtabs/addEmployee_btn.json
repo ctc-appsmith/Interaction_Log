@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 15.140625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 36,
+    "leftColumn": 35,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add Employee",
     "isDisabled": false,
