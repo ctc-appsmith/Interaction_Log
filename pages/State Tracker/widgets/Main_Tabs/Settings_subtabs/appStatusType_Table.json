@@ -62,7 +62,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1728401127690,
+    "columnUpdatedAt": 1728567782116,
     "originalBottomRow": 64,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -199,7 +199,7 @@
             "allowCellWrapping": false,
             "index": 3,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "clientID",
             "fontStyle": "",
             "textColor": "",
