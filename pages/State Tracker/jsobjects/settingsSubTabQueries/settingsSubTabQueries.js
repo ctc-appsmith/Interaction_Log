@@ -9,7 +9,7 @@ export default {
       await getTeam.run();
       
       // Run getAppstatusType
-      await getApplicationStatusTypes.run();
+      await getAppstatusType.run();
       
       // Run getEmployees
       await getEmployees.run();
