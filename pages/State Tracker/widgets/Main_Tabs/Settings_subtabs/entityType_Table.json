@@ -23,7 +23,7 @@
         {"key": "primaryColumns.lastChangedBy.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 8,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
