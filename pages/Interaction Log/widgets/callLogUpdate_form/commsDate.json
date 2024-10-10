@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
+    "dateFormat": "MM-DD-YYYY",
     "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
     "topRow": 4,
     "labelWidth": "10",
@@ -33,7 +33,8 @@
     "dynamicPropertyPathList": [
         {"key": "defaultDate"},
         {"key": "isRequired"},
-        {"key": "labelWidth"}
+        {"key": "labelWidth"},
+        {"key": "dateFormat"}
     ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],

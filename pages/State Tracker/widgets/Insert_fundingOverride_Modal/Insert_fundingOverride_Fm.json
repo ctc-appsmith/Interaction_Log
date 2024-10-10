@@ -61,7 +61,8 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD",
+                "dateFormat": "MM-DD-YYYY",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_fundingOverride_Fm.sourceData, Insert_fundingOverride_Fm.formData, Insert_fundingOverride_Fm.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
                 "tooltip": "If there are more than one override in a day, please specify the time.",
@@ -159,7 +160,9 @@
     "dynamicPropertyPathList": [
         {"key": "schema.__root_schema__.children.appID.isVisible"},
         {"key": "sourceData"},
-        {"key": "onSubmit"}
+        {"key": "onSubmit"},
+        {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -196,7 +199,8 @@
         {"key": "schema.__root_schema__.children.appID.accentColor"},
         {"key": "schema.__root_schema__.children.newFunding.borderRadius"},
         {"key": "schema.__root_schema__.children.newFunding.accentColor"},
-        {"key": "schema.__root_schema__.children.appID.isVisible"}
+        {"key": "schema.__root_schema__.children.appID.isVisible"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "borderWidth": "",
     "sourceData": "{\n  \"appID\": \"\",\n  \"changeDate\": \"\",\n  \"newFunding\": \"\",\n  \"notes\": \"\",\n  \"emailLink\": \"\"\n}",

@@ -152,6 +152,7 @@
             "isVisible": true,
             "label": "Date",
             "fontStyle": "",
+            "inputFormat": "YYYY-MM-DD HH:mm",
             "textColor": "",
             "columnType": "date",
             "thousandSeparator": true,

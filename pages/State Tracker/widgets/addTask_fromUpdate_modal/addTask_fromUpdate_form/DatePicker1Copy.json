@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
+    "dateFormat": "MM-DD-YYYY",
     "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
     "topRow": 12,
     "labelWidth": "16",
@@ -29,10 +29,13 @@
     "mobileBottomRow": 24,
     "widgetName": "DatePicker1Copy",
     "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "defaultDate"}],
+    "dynamicPropertyPathList": [
+        {"key": "defaultDate"},
+        {"key": "dateFormat"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
-    "bottomRow": 17,
+    "bottomRow": 16,
     "shortcuts": false,
     "parentRowSpace": 10,
     "hideCard": false,

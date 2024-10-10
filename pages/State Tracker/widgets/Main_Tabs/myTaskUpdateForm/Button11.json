@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button11",
-    "onClick": "storeValue('taskStatus', taskStatus.selectedOptionValue)\n  .then(() => {\n    return myTasks_updateTasks.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  \n    }\n    return getMyTasks.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });\n",
+    "onClick": "{{storeValue('taskStatus', taskStatus.selectedOptionValue)\n  .then(() => {\n    return myTasks_updateTasks.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  \n    }\n    return getMyTasks.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });\n}}\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 55,
-    "bottomRow": 59,
+    "topRow": 59,
+    "bottomRow": 63,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 62,
@@ -43,11 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
-    "originalTopRow": 61,
+    "originalTopRow": 59,
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
-    "originalBottomRow": 65,
+    "originalBottomRow": 63,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

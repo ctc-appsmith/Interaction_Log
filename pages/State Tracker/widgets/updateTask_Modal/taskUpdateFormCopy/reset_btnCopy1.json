@@ -18,7 +18,7 @@
     "mobileRightColumn": 46,
     "animateLoading": true,
     "dynamicTriggerPathList": [],
-    "leftColumn": 30,
+    "leftColumn": 28,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "isDisabled": false,
     "key": "opm9616o38",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 44,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "iconName": "reset",

@@ -278,13 +278,14 @@
                 "isVisible": true,
                 "label": "Initial Budget",
                 "originalIdentifier": "initialBudget",
+                "decimalsInCurrency": 2,
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
-                "iconAlign": "left",
                 "position": 20,
+                "currencyCountryCode": "USD",
                 "isDisabled": false,
-                "fieldType": "Text Input"
+                "fieldType": "Currency Input"
             },
             "currentScore": {
                 "labelTextSize": "0.875rem",

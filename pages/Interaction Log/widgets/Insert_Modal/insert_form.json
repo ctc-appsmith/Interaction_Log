@@ -17,8 +17,8 @@
             "commsDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD HH:mm",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.commsDate))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "dateFormat": "MM-DD-YYYY",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "accessor": "commsDate",
                 "shortcuts": false,
                 "convertToISO": false,
@@ -367,7 +367,9 @@
         {"key": "schema.__root_schema__.children.inReferenceTo.isVisible"},
         {"key": "schema.__root_schema__.children.entityID.onOptionChange"},
         {"key": "schema.__root_schema__.children.entityID.isVisible"},
-        {"key": "schema.__root_schema__.children.portalAppID.isVisible"}
+        {"key": "schema.__root_schema__.children.portalAppID.isVisible"},
+        {"key": "schema.__root_schema__.children.commsDate.dateFormat"},
+        {"key": "schema.__root_schema__.children.commsDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",

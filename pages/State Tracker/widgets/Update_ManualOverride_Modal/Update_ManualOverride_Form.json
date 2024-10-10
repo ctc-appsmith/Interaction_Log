@@ -269,7 +269,7 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD HH:mm",
+                "dateFormat": "MM-DD-YYYY",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Update_ManualOverride_Form.sourceData, Update_ManualOverride_Form.formData, Update_ManualOverride_Form.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
@@ -342,7 +342,8 @@
         {"key": "schema.__root_schema__.children.newFunding.isVisible"},
         {"key": "schema.__root_schema__.children.newBudget.isVisible"},
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.changeDate.dateFormat"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",

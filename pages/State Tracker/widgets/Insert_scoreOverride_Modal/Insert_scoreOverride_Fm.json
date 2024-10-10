@@ -61,7 +61,8 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD",
+                "dateFormat": "MM-DD-YYYY",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_scoreOverride_Fm.sourceData, Insert_scoreOverride_Fm.formData, Insert_scoreOverride_Fm.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
                 "tooltip": "If there are more than one override in a day, please specify the time.",
@@ -135,7 +136,9 @@
     },
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "onSubmit"}
+        {"key": "onSubmit"},
+        {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -168,7 +171,8 @@
         {"key": "schema.__root_schema__.children.emailLink.borderRadius"},
         {"key": "schema.__root_schema__.children.emailLink.accentColor"},
         {"key": "schema.__root_schema__.children.newScore.borderRadius"},
-        {"key": "schema.__root_schema__.children.newScore.accentColor"}
+        {"key": "schema.__root_schema__.children.newScore.accentColor"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "borderWidth": "",
     "sourceData": "{\n  \"changeDate\": \"\",\n   \"newScore\": \"\",\n  \"notes\": \"\",\n  \"emailLink\": \"\"\n}",

@@ -280,7 +280,8 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD",
+                "dateFormat": "MM-DD-YYYY",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_awardOverride_Form.sourceData, Insert_awardOverride_Form.formData, Insert_awardOverride_Form.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
                 "tooltip": "If there are more than one override in a day, please specify the time.",
@@ -363,7 +364,9 @@
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
         {"key": "sourceData"},
         {"key": "sourceData"},
-        {"key": "onSubmit"}
+        {"key": "onSubmit"},
+        {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -428,7 +431,8 @@
         {"key": "schema.__root_schema__.children.newScore.isVisible"},
         {"key": "schema.__root_schema__.children.newBudget.isVisible"},
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
-        {"key": "schema.__root_schema__.children.recordID.isVisible"}
+        {"key": "schema.__root_schema__.children.recordID.isVisible"},
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "borderWidth": "",
     "sourceData": "{\n  \"changeDate\": \"\",\n  \"newAwardStatus\": \"\",\n  \"notes\": \"\",\n  \"emailLink\": \"\"\n\t}",

@@ -2,6 +2,7 @@ UPDATE Tasks
 	SET 
 		appID= '{{applicationTasks_tbl.selectedRow.appID}}', 
 		startDate= '{{(taskUpdateFormCopy.data || {}).startDateCopy1}}', 
+		dueDate = '{{(taskUpdateFormCopy.data || {}).dueDateCopy1}}',
 		completedDate= '{{(taskUpdateFormCopy.data || {}).completeDateCopy1}}', 
 		taskStatus= '{{(taskUpdateFormCopy.data || {}).taskStatusCopy1}}', 
 		assignedTo= '{{(taskUpdateFormCopy.data || {}).assignedToCopy1}}', 

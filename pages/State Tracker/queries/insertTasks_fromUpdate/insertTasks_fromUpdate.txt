@@ -1,6 +1,7 @@
 INSERT INTO Tasks (
 	appID,
 	startDate,
+	dueDate,
 	taskTypeID,
 	taskStatus,
 	assignedTo,
@@ -11,6 +12,7 @@ INSERT INTO Tasks (
 	VALUES (
 		'{{Select6.selectedOptionValue}}',
 		'{{(addTask_fromUpdate_form.data || {}).DatePicker1Copy}}',
+		'{{(addTask_fromUpdate_form.data || {}).DatePicker3}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select2Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select4Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select3Copy}}',

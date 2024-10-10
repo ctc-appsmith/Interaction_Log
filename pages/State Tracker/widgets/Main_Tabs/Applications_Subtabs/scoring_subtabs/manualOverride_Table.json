@@ -581,6 +581,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Date",
+            "inputFormat": "YYYY-MM-DD HH:mm",
             "columnType": "date",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
