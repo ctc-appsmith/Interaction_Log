@@ -88,7 +88,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 65,
     "columnWidthMap": {
         "empLastName": 160,
         "empFirstName": 152,
@@ -396,7 +396,7 @@
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 40,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "d4vvh3fq4x",

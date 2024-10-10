@@ -85,7 +85,7 @@
     "bottomRow": 64,
     "columnWidthMap": {
         "definition": 315,
-        "entityStatusType": 157
+        "entityStatusType": 225
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -309,7 +309,7 @@
     "key": "ik8857k0ee",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "togwrgfjmu",

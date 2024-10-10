@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 15.140625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59,
+    "leftColumn": 60,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add Status",
     "isDisabled": false,
