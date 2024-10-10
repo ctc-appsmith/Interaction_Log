@@ -21,7 +21,7 @@
     "isLoading": false,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 22,
+    "originalBottomRow": 16,
     "placement": "CENTER",
     "needsErrorInfo": false,
     "mobileBottomRow": 20,
@@ -50,7 +50,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 16,
     "responsiveBehavior": "hug",
-    "originalTopRow": 17,
+    "originalTopRow": 11,
     "mobileLeftColumn": 41,
     "buttonVariant": "PRIMARY",
     "iconAlign": "left"

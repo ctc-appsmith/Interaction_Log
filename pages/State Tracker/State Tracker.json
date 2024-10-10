@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -94,26 +94,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Total_record_applicationType1",
-              "name": "Total_record_applicationType1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appType_Table.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_Total_record_entityType1",
-              "name": "Total_record_entityType1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "entityType_Table.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_getBidSelectionData_apptable",
               "name": "getBidSelectionData_apptable",
