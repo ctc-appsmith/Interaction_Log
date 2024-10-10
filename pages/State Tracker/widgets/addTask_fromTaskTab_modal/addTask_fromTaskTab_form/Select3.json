@@ -3,7 +3,7 @@
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Assigned To",
     "topRow": 14,
-    "labelWidth": "16",
+    "labelWidth": "21",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "defaultOptionValue": "unassigned@ctcnet.us",

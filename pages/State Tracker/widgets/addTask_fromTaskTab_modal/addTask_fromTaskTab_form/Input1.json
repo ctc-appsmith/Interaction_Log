@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
     "topRow": 33,
-    "labelWidth": "16",
+    "labelWidth": "21",
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,

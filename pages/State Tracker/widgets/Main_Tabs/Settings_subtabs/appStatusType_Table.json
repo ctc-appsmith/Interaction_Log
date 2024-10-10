@@ -171,7 +171,7 @@
             "index": 7,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "processOrder",
+            "label": "Process Order",
             "fontStyle": "",
             "textColor": "",
             "columnType": "number",

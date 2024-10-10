@@ -1,6 +1,11 @@
-INSERT INTO applicationStatusTypes 
-(appStatusType,statusDefinition,lastUpdatedBy) 
-VALUES (
-	'{{(Form1.data || {}).Input3}}',
-	'{{(Form1.data || {}).Input4}}',
-	'{{appsmith.user.email}}');
+INSERT INTO applicationStatusTypes (
+	appStatusType,
+	statusDefinition,
+	processOrder,
+	lastUpdatedBy
+	) 
+	VALUES (
+		'{{(Form1.data || {}).Input3}}',
+		'{{(Form1.data || {}).Input4}}',
+		'{{(Form1.data || {}).processOrderCopy}}',
+		'{{appsmith.user.email}}');

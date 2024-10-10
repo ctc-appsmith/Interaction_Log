@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Application Name",
+    "text": "Portal Application ID",
     "key": "86r5eyu839",
     "isDeprecated": false,
     "rightColumn": 19,
