@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -77,6 +77,19 @@
               "jsonPathKeys": [
                 "appsmith.store.clientID",
                 "entitySelect4.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_getCallLog2",
+              "name": "getCallLog2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "Select6.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

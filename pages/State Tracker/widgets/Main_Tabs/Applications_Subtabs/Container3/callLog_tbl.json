@@ -33,7 +33,8 @@
         {"key": "primaryColumns.applicationID.computedValue"},
         {"key": "primaryColumns.portalAppID.computedValue"},
         {"key": "primaryColumns.CTCstaff.computedValue"},
-        {"key": "primaryColumns.entityName.computedValue"}
+        {"key": "primaryColumns.entityName.computedValue"},
+        {"key": "primaryColumns.portalID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -77,7 +78,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1728061239156,
+    "columnUpdatedAt": 1728659327633,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -103,7 +104,8 @@
         "lastChangedBy",
         "entityID",
         "applicationID",
-        "entityName"
+        "entityName",
+        "portalID"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -643,6 +645,40 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
+        "portalID": {
+            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"portalID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "portalID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "portalID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 19,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "portalID",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "portalID",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
         "commsType": {
             "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsType\"]))}}",
             "isEditable": false,
@@ -788,7 +824,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "eeg572a6ei",
     "minWidth": 450,
-    "tableData": "{{interactionLog_getCallLog.data}}",
+    "tableData": "{{getCallLog2.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "ltns9uukuj",
