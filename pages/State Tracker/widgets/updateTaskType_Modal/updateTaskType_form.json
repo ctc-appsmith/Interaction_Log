@@ -32,9 +32,6 @@
         {"key": "schema.__root_schema__.children.taskDefinition.defaultValue"},
         {"key": "schema.__root_schema__.children.taskDefinition.borderRadius"},
         {"key": "schema.__root_schema__.children.taskDefinition.accentColor"},
-        {"key": "schema.__root_schema__.children.taskOrder.defaultValue"},
-        {"key": "schema.__root_schema__.children.taskOrder.borderRadius"},
-        {"key": "schema.__root_schema__.children.taskOrder.accentColor"},
         {"key": "schema.__root_schema__.children.team.defaultValue"},
         {"key": "schema.__root_schema__.children.team.borderRadius"},
         {"key": "schema.__root_schema__.children.team.accentColor"},
@@ -45,8 +42,7 @@
         {"key": "schema.__root_schema__.children.lastChangedBy.borderRadius"},
         {"key": "schema.__root_schema__.children.lastChangedBy.accentColor"},
         {"key": "schema.__root_schema__.children.team.options"},
-        {"key": "schema.__root_schema__.children.clientID.isVisible"},
-        {"key": "schema.__root_schema__.children.taskOrder.isVisible"}
+        {"key": "schema.__root_schema__.children.clientID.isVisible"}
     ],
     "showReset": true,
     "dynamicHeight": "FIXED",
@@ -336,28 +332,6 @@
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
-            },
-            "taskOrder": {
-                "labelTextSize": "0.875rem",
-                "identifier": "taskOrder",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.taskOrder))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "taskOrder",
-                "isVisible": true,
-                "label": "Task Order",
-                "originalIdentifier": "taskOrder",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateTaskType_form.sourceData, updateTaskType_form.formData, updateTaskType_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 5,
-                "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
             }
         },
         "position": -1,
@@ -382,8 +356,7 @@
     },
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "schema.__root_schema__.children.clientID.isVisible"},
-        {"key": "schema.__root_schema__.children.taskOrder.isVisible"}
+        {"key": "schema.__root_schema__.children.clientID.isVisible"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 55,

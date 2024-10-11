@@ -33,7 +33,7 @@
     "iconName": "delete",
     "widgetId": "26q7yr196e",
     "minWidth": 120,
-    "isVisible": true,
+    "isVisible": false,
     "recaptchaType": "V3",
     "version": 1,
     "parentId": "bw69lsx954",
