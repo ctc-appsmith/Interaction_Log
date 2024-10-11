@@ -53,7 +53,7 @@
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "rziz80s7r5",
     "minWidth": 450,
-    "label": "Portal Application ID\t",
+    "label": "Project Name\t",
     "parentId": "hr1s52x8sj",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
@@ -63,6 +63,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{getPortalAppID.data[0].portalAppID}}",
+    "defaultText": "{{getAppName3.data[0].applicationName}}",
     "minDynamicHeight": 4
 }

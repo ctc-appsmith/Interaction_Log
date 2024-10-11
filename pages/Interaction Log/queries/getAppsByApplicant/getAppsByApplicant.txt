@@ -1,4 +1,4 @@
-SELECT applicationName, appID FROM Applications
+SELECT applicationName, portalAppID, appID FROM Applications
 
 WHERE entityID = {{entitySelect.selectedOptionValue}}
 

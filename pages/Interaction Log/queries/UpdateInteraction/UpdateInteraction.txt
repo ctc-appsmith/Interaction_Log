@@ -4,7 +4,7 @@ UPDATE interactionLog SET
 		commsDate = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsDate : callLogUpdate_form.data.commsDate}}',  
 		commsType = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsType : callLogUpdate_form.data.commsType}}',		
 		commsSubject = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.commsSubject : callLogUpdate_form.data.commsSubject}}',		
-		applicationID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.applicationID : callLogUpdate_form.data.applicationID}}',		
+		applicationID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.appID : callLogUpdate_form.data.appID}}',		
 		importance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',	
 		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 CTCstaff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.CTCstaff : callLogUpdate_form.data.CTCstaff}}',
 		inReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}'

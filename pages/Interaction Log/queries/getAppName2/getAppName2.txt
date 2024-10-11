@@ -1,0 +1,4 @@
+SELECT applicationName FROM Applications
+
+WHERE appID = {{callLog_tbl.selectedRow.applicationID}}
+;

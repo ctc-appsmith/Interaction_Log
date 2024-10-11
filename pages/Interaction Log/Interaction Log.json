@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 920,
+          "bottomRow": 980,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -66,6 +66,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Interaction Log_getappName",
+              "name": "getappName",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "insert_form.formData.portalAppID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

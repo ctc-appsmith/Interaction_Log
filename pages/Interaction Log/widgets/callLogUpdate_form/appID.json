@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "Application Name (if applicable)",
+    "labelText": "Portal Application ID (if applicable)",
     "topRow": 47,
     "labelWidth": "15",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.applicationID))(applicationName.options, applicationName.serverSideFiltering) }}",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( callLog_tbl.selectedRow.applicationID))(appID.options, appID.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 2,
     "dynamicBindingPathList": [
@@ -31,7 +31,7 @@
     "originalBottomRow": 48,
     "needsErrorInfo": false,
     "mobileBottomRow": 48,
-    "widgetName": "applicationName",
+    "widgetName": "appID",
     "isFilterable": true,
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
@@ -49,7 +49,7 @@
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{getAppsByApplicant.data.map( p => ({label: p.applicationName, value: p.appID}))}}",
+    "sourceData": "{{getAppsByApplicant.data.map( p => ({label: p.portalAppID, value: p.appID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -67,6 +67,6 @@
     "originalTopRow": 41,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getPortalAppID.run()}}",
+    "onOptionChange": "{{getAppName3.run()}}",
     "minDynamicHeight": 4
 }
