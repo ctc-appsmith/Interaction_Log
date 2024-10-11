@@ -78,7 +78,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1728659327633,
+    "columnUpdatedAt": 1728659507464,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -90,6 +90,7 @@
         "inReferenceTo",
         "spokeWith",
         "commsSubject",
+        "portalID",
         "importance",
         "portalAppID",
         "CTCstaff",
@@ -104,8 +105,7 @@
         "lastChangedBy",
         "entityID",
         "applicationID",
-        "entityName",
-        "portalID"
+        "entityName"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -123,6 +123,7 @@
         "subject": 314,
         "importance": 202.4375,
         "CTCstaff": 176,
+        "portalID": 182,
         "ApplicantName": 219,
         "portalAppID": 217,
         "applicationName": 394
@@ -356,7 +357,7 @@
             "allowCellWrapping": false,
             "index": 10,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Portal Application ID",
             "fontStyle": "",
             "textColor": "",
@@ -663,7 +664,7 @@
             "index": 19,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "portalID",
+            "label": "Portal Application ID",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
