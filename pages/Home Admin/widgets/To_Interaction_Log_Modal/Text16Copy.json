@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "You are navigating away from this application to the ",
+    "text": "You are navigating away from this page to the ",
     "key": "a8v6sby2q2",
     "isDeprecated": false,
     "rightColumn": 50,
