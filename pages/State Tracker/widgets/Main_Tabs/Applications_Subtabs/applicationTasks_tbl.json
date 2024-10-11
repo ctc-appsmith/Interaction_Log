@@ -34,8 +34,7 @@
         {"key": "primaryColumns.team.computedValue"},
         {"key": "primaryColumns.dueDate.computedValue"},
         {"key": "primaryColumns.portalAppID.computedValue"},
-        {"key": "primaryColumns.dueDate.outputFormat"},
-        {"key": "primaryColumns.startDate.outputFormat"}
+        {"key": "primaryColumns.dueDate.outputFormat"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 31,
@@ -111,8 +110,7 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
-        {"key": "primaryColumns.dueDate.outputFormat"},
-        {"key": "primaryColumns.startDate.outputFormat"}
+        {"key": "primaryColumns.dueDate.outputFormat"}
     ],
     "displayName": "Table",
     "bottomRow": 56,
@@ -733,7 +731,7 @@
             "id": "startDate",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
-            "outputFormat": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( MM-DD-YYYY))}}",
+            "outputFormat": "MM-DD-YYYY",
             "validation": {},
             "isCellVisible": true,
             "isDerived": false,
