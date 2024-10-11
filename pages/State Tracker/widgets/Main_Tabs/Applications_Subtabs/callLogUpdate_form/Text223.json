@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 25,
-    "bottomRow": 29,
+    "topRow": 24,
+    "bottomRow": 28,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.841297149658203,
     "dynamicTriggerPathList": [],
-    "leftColumn": 25,
+    "leftColumn": 23,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "{{callLog_tbl.selectedRow.commsSubject}}",
     "key": "c06hvt2p6f",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
