@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button4",
-    "onClick": "{{UpdateInteraction.run().then(() => {\n  getApplicantCallLog.run();\n});}}",
+    "onClick": "{{UpdateInteraction.run().then(() => {\n  getApplicantCallLog.run();\n});\nremoveValue('appID');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

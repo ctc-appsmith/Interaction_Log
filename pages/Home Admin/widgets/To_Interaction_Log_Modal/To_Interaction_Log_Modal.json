@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 79,
-    "bottomRow": 319,
+    "bottomRow": 259,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
         "widgetName": "Canvas7Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 170,
+        "bottomRow": 180,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -67,12 +67,12 @@
         "flexLayers": []
     }],
     "key": "55ymi397hp",
-    "height": 176,
+    "height": 180,
     "isDeprecated": false,
     "rightColumn": 59,
     "detachFromLayout": true,
     "thumbnailSVG": "/static/media/thumbnail.c20e144182d9af35cde59e39d9afe632.svg",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "osp0wu7z0j",
     "canOutsideClickClose": true,
     "canEscapeKeyClose": true,
@@ -83,9 +83,11 @@
     "isLoading": false,
     "mobileTopRow": 30,
     "onClose": "{{closeModal('To_MT_Log_Modal');}}",
+    "originalTopRow": 79,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 319,
     "width": 734,
-    "minDynamicHeight": 24
+    "minDynamicHeight": 10
 }
