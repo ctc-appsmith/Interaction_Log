@@ -2,12 +2,12 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 46,
     "widgetName": "Divider1",
-    "thickness": 2,
+    "thickness": "4",
     "displayName": "Divider",
     "iconSVG": "/static/media/icon.2d8f0568561ab85a8d38356420942b62.svg",
     "searchTags": ["line"],
     "topRow": 20,
-    "bottomRow": 79,
+    "bottomRow": 101,
     "parentRowSpace": 10,
     "type": "DIVIDER_WIDGET",
     "capType": "nc",
@@ -38,5 +38,5 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 20,
     "mobileLeftColumn": 23,
-    "originalBottomRow": 79
+    "originalBottomRow": 101
 }

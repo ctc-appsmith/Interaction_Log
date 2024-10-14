@@ -18,7 +18,7 @@
     "isLoading": false,
     "disabledWhenInvalid": false,
     "borderRadius": "0.375rem",
-    "originalBottomRow": 38,
+    "originalBottomRow": 39,
     "placement": "CENTER",
     "needsErrorInfo": false,
     "mobileBottomRow": 13,
@@ -30,7 +30,7 @@
         "click",
         "submit"
     ],
-    "bottomRow": 38,
+    "bottomRow": 39,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 53,

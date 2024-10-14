@@ -18,7 +18,7 @@
     "isLoading": false,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 47,
+    "originalBottomRow": 48,
     "placement": "CENTER",
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
@@ -30,7 +30,7 @@
         "click",
         "submit"
     ],
-    "bottomRow": 47,
+    "bottomRow": 48,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 24,
