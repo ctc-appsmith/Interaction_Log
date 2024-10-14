@@ -27,7 +27,10 @@
     "mobileBottomRow": 30,
     "widgetName": "DatePicker4",
     "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [{"key": "dateFormat"}],
+    "dynamicPropertyPathList": [
+        {"key": "dateFormat"},
+        {"key": "defaultDate"}
+    ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
     "bottomRow": 28,
@@ -40,7 +43,7 @@
     "labelPosition": "Left",
     "key": "dso2ty1ktc",
     "labelTextSize": "0.875rem",
-    "defaultDate": "2024-10-09T19:25:32.634Z",
+    "defaultDate": "",
     "isDeprecated": false,
     "rightColumn": 41,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
