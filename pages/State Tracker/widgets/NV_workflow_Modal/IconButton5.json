@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton5",
-    "onClick": "{{closeModal('NV_workflow_Modal').then(() => {\n  showModal('addTask_fromUpdate_modal');\n});\nshowModal('addTask_fromTaskTab_modal');}}",
+    "onClick": "{{closeModal('NV_workflow_Modal').then(() => {\n  showModal('addTask_fromUpdate_modal');\n});}}",
     "buttonColor": "#b91c1c",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
