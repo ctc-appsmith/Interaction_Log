@@ -6,7 +6,7 @@
     "topRow": 41,
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
-    "leftColumn": 35,
+    "leftColumn": 36,
     "dynamicBindingPathList": [],
     "text": "New Mexico ",
     "isDisabled": false,
