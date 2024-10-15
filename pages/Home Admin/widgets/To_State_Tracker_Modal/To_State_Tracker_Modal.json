@@ -18,7 +18,7 @@
     "hideCard": false,
     "shouldScrollContents": true,
     "mobileRightColumn": 59,
-    "minHeight": 150,
+    "minHeight": 160,
     "animateLoading": true,
     "parentColumnSpace": 13.234375,
     "dynamicTriggerPathList": [],
@@ -37,7 +37,7 @@
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 180,
+        "minHeight": 160,
         "mobileRightColumn": 317.625,
         "parentColumnSpace": 1,
         "leftColumn": 0,
@@ -87,6 +87,6 @@
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 319,
-    "width": 940,
+    "width": 896,
     "minDynamicHeight": 10
 }
