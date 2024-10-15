@@ -30,7 +30,7 @@ export default {
 			await getApplicantsOnly.run();
 
 			// Run getApplications_forUpdateForm
-			// await getApplications_forUpdateForm.run();
+			await getApplications_forUpdateForm.run();
 
 		} catch (error) {
 			console.error("Error running queries:", error);
