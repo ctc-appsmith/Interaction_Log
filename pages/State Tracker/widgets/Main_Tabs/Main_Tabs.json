@@ -28,7 +28,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas8",
             "displayName": "Canvas",
-            "bottomRow": 860,
+            "bottomRow": 830,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -74,7 +74,7 @@
             "widgetName": "Canvas11",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -118,7 +118,7 @@
             "widgetName": "Canvas12",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -162,7 +162,7 @@
             "widgetName": "Canvas13",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -206,7 +206,7 @@
             "widgetName": "Canvas38",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -250,7 +250,7 @@
             "widgetName": "Canvas45",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -294,7 +294,7 @@
             "widgetName": "Canvas60",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -339,7 +339,7 @@
             "widgetName": "Canvas61",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -383,7 +383,7 @@
             "widgetName": "Canvas62",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -427,7 +427,7 @@
             "widgetName": "Canvas63",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -471,7 +471,7 @@
             "widgetName": "Canvas64",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -515,7 +515,7 @@
             "widgetName": "Canvas65",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -559,7 +559,7 @@
             "widgetName": "Canvas66",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -603,7 +603,7 @@
             "widgetName": "Canvas67",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -647,7 +647,7 @@
             "widgetName": "Canvas68",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 860,
+            "bottomRow": 830,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -693,7 +693,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 106,
+    "originalBottomRow": 79,
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
     "widgetName": "Main_Tabs",
@@ -709,7 +709,7 @@
         {"key": "tabsObj.tab7x0axpccgh.isVisible"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 106,
+    "bottomRow": 103,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -730,7 +730,7 @@
         "tabbruf7hgtn3": {
             "widgetId": "3ikvpisi2d",
             "isDuplicateLabel": false,
-            "index": 9,
+            "index": 7,
             "id": "tabbruf7hgtn3",
             "label": "Illinois Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Illinois\"}}"
@@ -738,15 +738,15 @@
         "tabkbzms8qhvt": {
             "widgetId": "k8g2y2sjdv",
             "isDuplicateLabel": false,
-            "index": 4,
+            "index": 13,
             "id": "tabkbzms8qhvt",
             "label": "Reports",
-            "isVisible": false
+            "isVisible": true
         },
         "tabzexl1ckaew": {
             "widgetId": "c14367z9pc",
             "isDuplicateLabel": false,
-            "index": 13,
+            "index": 11,
             "id": "tabzexl1ckaew",
             "label": "Oregon Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Oregon\"}}"
@@ -759,26 +759,26 @@
             "label": "Applicants",
             "isVisible": true
         },
-        "tabmpqf6qofns": {
-            "widgetId": "5mqz8vehey",
-            "isDuplicateLabel": false,
-            "index": 5,
-            "id": "tabmpqf6qofns",
-            "label": "Settings",
-            "isVisible": true
-        },
         "tabdjaavko6d2": {
             "widgetId": "9h7i49pwzs",
             "isDuplicateLabel": false,
-            "index": 8,
+            "index": 6,
             "id": "tabdjaavko6d2",
             "label": "Delaware Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Delaware\"}}"
         },
+        "tabmpqf6qofns": {
+            "widgetId": "5mqz8vehey",
+            "isDuplicateLabel": false,
+            "index": 14,
+            "id": "tabmpqf6qofns",
+            "label": "Settings",
+            "isVisible": true
+        },
         "tab7x0axpccgh": {
             "widgetId": "17qhxedehv",
             "isDuplicateLabel": false,
-            "index": 14,
+            "index": 12,
             "id": "tab7x0axpccgh",
             "label": "Wyoming Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Wyoming\"}}"
@@ -795,7 +795,7 @@
         "tabnbi1chhzbi": {
             "widgetId": "wx8vy1m5q4",
             "isDuplicateLabel": false,
-            "index": 11,
+            "index": 9,
             "id": "tabnbi1chhzbi",
             "label": "Nevada Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Nevada\"}}"
@@ -803,7 +803,7 @@
         "tabe93aapn17m": {
             "widgetId": "t12cbh3mws",
             "isDuplicateLabel": false,
-            "index": 12,
+            "index": 10,
             "id": "tabe93aapn17m",
             "label": "New Mexico Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"New Mexico\"}}"
@@ -819,7 +819,7 @@
         "tabderqdkf0me": {
             "widgetId": "6evh2514ci",
             "isDuplicateLabel": false,
-            "index": 7,
+            "index": 5,
             "id": "tabderqdkf0me",
             "label": "Connecticut Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Connecticut\"}}"
@@ -835,7 +835,7 @@
         "tabeoz229o91r": {
             "widgetId": "2i67l773ek",
             "isDuplicateLabel": false,
-            "index": 6,
+            "index": 4,
             "id": "tabeoz229o91r",
             "label": "Alabama Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Alabama\"}}"
@@ -843,7 +843,7 @@
         "tab82kzd106wy": {
             "widgetId": "el5udfklk5",
             "isDuplicateLabel": false,
-            "index": 10,
+            "index": 8,
             "id": "tab82kzd106wy",
             "label": "Montana Workflow",
             "isVisible": "{{appsmith.store.clientName ===\"Montana\"}}"
