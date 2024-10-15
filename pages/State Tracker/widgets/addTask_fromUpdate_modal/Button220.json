@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button220",
-    "onClick": "{{showModal('NV_workflow_Modal');}}",
+    "onClick": "{{appsmith.store.clientID === 1 ? showModal('MT_workflow_Modal') : appsmith.store.clientID === 9 ? showModal('DE_workflow_Modal'): appsmith.store.clientID === 10 ? showModal('IL_workflow_Modal') :appsmith.store.clientID === 11 ? showModal('WY_workflow_Modal') :appsmith.store.clientID === 12 ? showModal('NV_workflow_Modal') :appsmith.store.clientID === 13 ? showModal('AL_workflow_Modal') :appsmith.store.clientID === 14 ? showModal('CT_workflow_Modal') :appsmith.store.clientID === 15 ? showModal('OR_workflow_Modal') :appsmith.store.clientID === 1 ? showModal('NM_workflow_Modal') :showModal('Modal1')}}\n\t",
     "buttonColor": "#061041",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

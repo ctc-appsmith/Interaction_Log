@@ -32,7 +32,7 @@
     "text": "{{appsmith.store.clientName}} Application Tracker. ",
     "key": "a8v6sby2q2",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 30,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "RIGHT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 8,
+    "originalBottomRow": 10,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
