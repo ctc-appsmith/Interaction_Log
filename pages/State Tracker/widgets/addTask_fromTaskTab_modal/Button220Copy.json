@@ -4,8 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button220Copy",
-    "onClick": "{{showModal('NV_workflow_ModalCopy');}}",
+    "onClick": "{{appsmith.store.clientID === 1 ? showModal('MT_workflow_ModalCopy') : appsmith.store.clientID === 9 ? showModal('DE_workflow_ModalCopy'): appsmith.store.clientID === 10 ? showModal('IL_workflow_ModalCopy') :appsmith.store.clientID === 11 ? showModal('WY_workflow_ModalCopy') :appsmith.store.clientID === 12 ? showModal('NV_workflow_ModalCopy') :appsmith.store.clientID === 13 ? showModal('AL_workflow_ModalCopy') :appsmith.store.clientID === 14 ? showModal('CT_workflow_ModalCopy') :appsmith.store.clientID === 15 ? showModal('OR_workflow_ModalCopy') :appsmith.store.clientID === 16 ? showModal('NM_workflow_ModalCopy') :showModal('Modal1')}}",
     "buttonColor": "#061041",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
