@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 31,
+    "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "{{appsmith.store.clientName}} Application Tracker. ",
     "key": "a8v6sby2q2",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 59,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
