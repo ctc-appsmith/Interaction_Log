@@ -32,7 +32,7 @@
     "text": "Client ID: {{appsmith.store.clientID}} ({{appsmith.store.clientName}})",
     "key": "csmnky1ooi",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 36,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

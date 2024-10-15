@@ -6,7 +6,7 @@
     "topRow": 11,
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
-    "leftColumn": 42,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -41,7 +41,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "key": "ab4zcza81i",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 56,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "widgetId": "bhe931reaa",
     "minWidth": 120,

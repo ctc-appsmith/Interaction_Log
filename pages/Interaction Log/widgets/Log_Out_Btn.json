@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 20.109375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54,
+    "leftColumn": 56,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Log Out",
     "isDisabled": false,

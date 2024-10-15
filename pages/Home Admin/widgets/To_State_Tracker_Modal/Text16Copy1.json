@@ -29,7 +29,7 @@
     "text": "You are navigating away from this page to the ",
     "key": "a8v6sby2q2",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 30,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 7,
+    "originalBottomRow": 4,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 79,
-    "bottomRow": 259,
+    "bottomRow": 219,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -31,13 +31,13 @@
         "widgetName": "Canvas7Copy1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 180,
+        "bottomRow": 140,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 176,
+        "minHeight": 180,
         "mobileRightColumn": 317.625,
         "parentColumnSpace": 1,
         "leftColumn": 0,
@@ -67,7 +67,7 @@
         "flexLayers": []
     }],
     "key": "55ymi397hp",
-    "height": 180,
+    "height": 140,
     "isDeprecated": false,
     "rightColumn": 59,
     "detachFromLayout": true,
@@ -87,6 +87,6 @@
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 319,
-    "width": 758,
+    "width": 940,
     "minDynamicHeight": 10
 }
