@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.3e8abdb084ce856a43fb2ae1354bf17a.svg",
     "searchTags": ["pdf"],
     "topRow": 5,
-    "bottomRow": 68,
+    "bottomRow": 69,
     "parentRowSpace": 10,
     "type": "DOCUMENT_VIEWER_WIDGET",
     "hideCard": false,
@@ -31,8 +31,8 @@
     "isLoading": false,
     "mobileTopRow": 12,
     "responsiveBehavior": "fill",
-    "originalTopRow": 5,
+    "originalTopRow": 10,
     "mobileLeftColumn": 15,
-    "originalBottomRow": 68,
+    "originalBottomRow": 73,
     "docUrl": "https://ctc1.s3.amazonaws.com/Nevada+Scoring+Phase+Process+Flow+v4+20241008.pdf"
 }
