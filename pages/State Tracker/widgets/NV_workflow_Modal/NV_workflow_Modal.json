@@ -18,7 +18,7 @@
     "hideCard": false,
     "shouldScrollContents": true,
     "mobileRightColumn": 49,
-    "minHeight": 750,
+    "minHeight": 710,
     "animateLoading": true,
     "parentColumnSpace": 8.08544921875,
     "leftColumn": 25,

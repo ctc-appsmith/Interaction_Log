@@ -31,8 +31,8 @@
     "isLoading": false,
     "mobileTopRow": 12,
     "responsiveBehavior": "fill",
-    "originalTopRow": 10,
+    "originalTopRow": 5,
     "mobileLeftColumn": 15,
-    "originalBottomRow": 73,
+    "originalBottomRow": 69,
     "docUrl": "https://ctc1.s3.amazonaws.com/Nevada+Scoring+Phase+Process+Flow+v4+20241008.pdf"
 }
