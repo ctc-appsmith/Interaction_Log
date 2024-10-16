@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.3e8abdb084ce856a43fb2ae1354bf17a.svg",
     "searchTags": ["pdf"],
     "topRow": 0,
-    "bottomRow": 60,
+    "bottomRow": 67,
     "parentRowSpace": 10,
     "type": "DOCUMENT_VIEWER_WIDGET",
     "hideCard": false,

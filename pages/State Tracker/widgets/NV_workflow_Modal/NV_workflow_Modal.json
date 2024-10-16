@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 32,
-    "bottomRow": 782,
+    "bottomRow": 742,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
         "widgetName": "Canvas59",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 750,
+        "bottomRow": 710,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
@@ -66,7 +66,7 @@
         "flexLayers": []
     }],
     "key": "2kk6am0rwd",
-    "height": 750,
+    "height": 710,
     "isDeprecated": false,
     "rightColumn": 49,
     "detachFromLayout": true,
