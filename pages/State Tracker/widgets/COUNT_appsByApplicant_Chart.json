@@ -12,8 +12,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 116,
-    "bottomRow": 177,
+    "topRow": 138,
+    "bottomRow": 199,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -189,11 +189,11 @@
     "mobileTopRow": 29,
     "responsiveBehavior": "fill",
     "yAxisName": "Count",
-    "originalTopRow": 95,
+    "originalTopRow": 138,
     "chartName": "Number of Applications per Applicant",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 18,
     "xAxisName": "Applicant",
-    "originalBottomRow": 156,
+    "originalBottomRow": 199,
     "chartType": "BAR_CHART"
 }

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Rept_getTaskStatusByTeam",
+    "name": "Rept_COUNT_Applications",
     "datasource": {
       "name": "BEADComprehensive_ReadOnly",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.team, Tasks.taskStatus, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tGROUP BY taskTypes.team, Tasks.taskStatus;",
+      "body": "SELECT Count(Applications.appID) AS CountOfappID\n\tFROM (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\tINNER JOIN Clients ON Entities.clientID = Clients.clientID\n\nWHERE Clients.clientID = {{appsmith.store.clientID}}\n;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,19 +26,25 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-17T13:58:40Z"
+    "createdAt": "2024-10-17T17:02:25Z"
   },
-  "id": "State Tracker_Rept_getTaskStatusByTeam",
+  "id": "State Tracker_Rept_COUNT_Applications",
   "deleted": false,
-  "gitSyncId": "67110ea19579f243573962b1_660c259b-e355-44f9-be6b-ec47e1d4ad6a"
+  "gitSyncId": "67110ea19579f243573962b1_14772a7d-fc7a-43b1-b8ed-4a7ed5d07f0d"
 }
