@@ -110,7 +110,7 @@
             "widgetName": "Canvas69",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 560,
+            "bottomRow": 580,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -211,7 +211,7 @@
     "shouldScrollContents": true,
     "mobileRightColumn": 24,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onTabSelected"}],
     "borderWidth": 1,
     "key": "g73z3361cr",
     "backgroundColor": "#FFFFFF",
@@ -220,6 +220,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "kyh6inf1mv",
     "defaultTab": "Scoring Round Dashboard",
+    "onTabSelected": "{{reportSubTabQueries.newTech();}}",
     "minWidth": 450,
     "tabsObj": {
         "tabptb6fd6iyc": {
@@ -235,8 +236,8 @@
             "isDuplicateLabel": false,
             "index": 2,
             "id": "tabux4vj09uzr",
-            "label": "Scoring Round Dashboard_DAL",
-            "isVisible": true
+            "label": "Scoring Dash - DAL",
+            "isVisible": false
         },
         "tab1": {
             "widgetId": "1mvrwoyb8n",
