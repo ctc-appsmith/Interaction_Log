@@ -1,6 +1,7 @@
 SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID
 FROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
-WHERE (((Tasks.taskStatus)="Pending"))
+
+
 AND clientID = {{appsmith.store.clientID}}
-GROUP BY taskTypes.team
+GROUP BY taskTypes.team, Tasks.taskStatus
 ORDER BY taskTypes.team;
