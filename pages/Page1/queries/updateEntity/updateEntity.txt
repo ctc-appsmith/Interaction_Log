@@ -1,0 +1,10 @@
+UPDATE Entities SET
+
+		entityName = '{{updateEntity_form.fieldState.entityName.isVisible ? updateEntity_form.formData.entityName : updateEntity_form.sourceData.entityName}}',
+		entityType = '{{updateEntity_form.fieldState.entityType.isVisible ? updateEntity_form.formData.entityType : updateEntity_form.sourceData.entityType}}',
+		entityStatus = '{{updateEntity_form.fieldState.entityStatus.isVisible ? updateEntity_form.formData.entityStatus : updateEntity_form.sourceData.entityStatus}}',
+		folderLink = '{{updateEntity_form.fieldState.folderLink.isVisible ? updateEntity_form.formData.folderLink : updateEntity_form.sourceData.folderLink}}',
+		lastchangedBy = '{{appsmith.user.email}}'
+		
+		WHERE entityID = {{entitySelect4.selectedOptionValue}}
+;

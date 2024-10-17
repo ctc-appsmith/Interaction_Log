@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "scoringSubTabQueries",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_scoringSubTabQueries",
+  "deleted": false,
+  "gitSyncId": "67110ea19579f243573962b1_c7caaa33-71e4-45d0-8797-bdb06de6844a"
+}

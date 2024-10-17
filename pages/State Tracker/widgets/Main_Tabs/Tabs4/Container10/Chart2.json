@@ -19,7 +19,7 @@
     "hideCard": false,
     "mobileRightColumn": 32,
     "chartData": {"3pmhzl5rsp": {
-        "data": "{{Select_ReviewStatus_Query.data.map( p => ({x: p.Status, y: p.Count}))}}",
+        "data": "{{Rept_getTaskStatusByTeam.data.map( p => ({x: p.team, y: p.CountOftaskID}))}}",
         "seriesName": "Status"
     }},
     "animateLoading": true,

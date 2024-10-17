@@ -1,0 +1,13 @@
+SELECT interactionLog.*, Entities.entityName, Applications.portalAppID AS portalID
+	FROM Applications INNER JOIN (
+		interactionLog INNER JOIN Entities ON interactionLog.entityID = Entities.entityID
+		) 
+		ON Applications.appID = interactionLog.applicationID
+WHERE interactionLog.clientID = '{{appsmith.store.clientID}}'
+
+AND ((applicationID = '{{Select6.selectedOptionValue}}') OR (interactionLog.entityID = '{{Select6.selectedOptionValue}}'))
+
+AND archived = "No"
+
+ORDER BY commsDate DESC
+;

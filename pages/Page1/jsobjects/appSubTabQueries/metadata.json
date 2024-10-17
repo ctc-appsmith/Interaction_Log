@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "appSubTabQueries",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_appSubTabQueries",
+  "deleted": false,
+  "gitSyncId": "67110ea19579f243573962b1_59a02d77-1644-4e30-8c3f-0836b0e4afdf"
+}

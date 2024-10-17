@@ -1,0 +1,19 @@
+INSERT INTO manualOverrideTable (
+	appID,
+	changeDate,
+	changeType,
+	newFunding,
+	notes,
+	emailLink,
+	lastChangedBy
+	) 
+	VALUES (
+		'{{Select6.selectedOptionValue}}',
+		'{{(Insert_fundingOverride_Fm.formData || {}).changeDate}}',
+		'Funding',
+		'{{(Insert_fundingOverride_Fm.formData || {}).newFunding}}',
+		'{{(Insert_fundingOverride_Fm.formData || {}).notes}}',
+		'{{(Insert_fundingOverride_Fm.formData || {}).emailLink}}',
+		'{{appsmith.user.email}}'
+		)
+;

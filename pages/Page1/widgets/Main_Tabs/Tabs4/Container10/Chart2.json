@@ -1,0 +1,153 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 94,
+    "setAdaptiveYMin": true,
+    "widgetName": "Chart2",
+    "allowScroll": false,
+    "dynamicPropertyPathList": [],
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 12,
+    "bottomRow": 57,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 32,
+    "chartData": {"3pmhzl5rsp": {
+        "data": "{{Rept_getTaskStatusByTeam.data.map( p => ({x: p.team, y: p.CountOftaskID}))}}",
+        "seriesName": "Status"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 20.078125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"},
+        {"key": "chartData.3pmhzl5rsp.data"},
+        {"key": "customFusionChartConfig"}
+    ],
+    "customFusionChartConfig": "{\n  \"type\": \"pie3d\",\n  \"dataSource\": {\n     \"chart\": {\n      \"caption\": \"Status Review\",\n      \"xAxisName\": \"Count\",\n      \"yAxisName\": \"Status\",\n      \"theme\": \"fusion\"\n    },\n    \"data\": [\n      {\n        \"label\": \"Pending\",\n        \"value\": {{Select_ReviewStatus_Query.data[1].Count}}\n      },\n      {\n        \"label\": \"Passed\",\n        \"value\": {{Select_ReviewStatus_Query.data[0].Count}}\n      }\n    ]\n  }\n}",
+    "customEChartConfig": {
+        "yAxis": [{"type": "value"}],
+        "xAxis": [{"type": "category"}],
+        "legend": {
+            "top": 40,
+            "type": "scroll"
+        },
+        "grid": {
+            "top": 100,
+            "left": 15,
+            "bottom": 30,
+            "right": 15,
+            "containLabel": true
+        },
+        "series": [
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            }
+        ],
+        "tooltip": {
+            "axisPointer": {"type": "shadow"},
+            "trigger": "axis"
+        },
+        "title": {
+            "left": "center",
+            "text": "Search Engine Usage",
+            "textStyle": {
+                "overflow": "truncate",
+                "width": 200
+            }
+        },
+        "dataset": {"source": [
+            [
+                "Day",
+                "Baidu",
+                "Google",
+                "Bing"
+            ],
+            [
+                "Mon",
+                620,
+                120,
+                60
+            ],
+            [
+                "Tue",
+                732,
+                132,
+                72
+            ],
+            [
+                "Wed",
+                701,
+                101,
+                71
+            ],
+            [
+                "Thu",
+                734,
+                134,
+                74
+            ],
+            [
+                "Fri",
+                1090,
+                290,
+                190
+            ],
+            [
+                "Sat",
+                1130,
+                230,
+                130
+            ],
+            [
+                "Sun",
+                1120,
+                220,
+                110
+            ]
+        ]}
+    },
+    "key": "1e3dut7u3h",
+    "showDataPointLabel": false,
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "widgetId": "1015bo5va9",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "sx0b0xtv2b",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 62,
+    "responsiveBehavior": "fill",
+    "yAxisName": "",
+    "originalTopRow": 12,
+    "chartName": "Status Review",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 8,
+    "xAxisName": "",
+    "originalBottomRow": 57,
+    "chartType": "CUSTOM_ECHART"
+}

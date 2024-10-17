@@ -1,0 +1,5 @@
+SELECT * FROM taskTypes
+
+WHERE clientID = {{appsmith.store.clientID}}
+
+;

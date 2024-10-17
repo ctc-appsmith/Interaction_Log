@@ -1,0 +1,7 @@
+SELECT
+  *
+FROM
+  taskStatusTypes
+
+ORDER BY
+  sortOrder ASC;

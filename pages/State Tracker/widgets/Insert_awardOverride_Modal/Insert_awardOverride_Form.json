@@ -280,7 +280,7 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
+                "dateFormat": "YYYY-MM-DD",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_awardOverride_Form.sourceData, Insert_awardOverride_Form.formData, Insert_awardOverride_Form.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
@@ -364,13 +364,12 @@
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
         {"key": "sourceData"},
         {"key": "sourceData"},
-        {"key": "onSubmit"},
         {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
         {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newAwardStatus_manOverride.newAward();\ncloseModal('Insert_awardOverride_Modal');}}",
+    "onSubmit": "{{bidSelection_overrides.newAward();\ncloseModal('Insert_awardOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

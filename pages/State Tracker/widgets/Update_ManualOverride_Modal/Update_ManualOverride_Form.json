@@ -270,7 +270,7 @@
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
                 "dateFormat": "MM-DD-YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Update_ManualOverride_Form.sourceData, Update_ManualOverride_Form.formData, Update_ManualOverride_Form.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (manualOverride_Table.selectedRow.changeDate))(Update_ManualOverride_Form.sourceData, Update_ManualOverride_Form.formData, Update_ManualOverride_Form.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
                 "convertToISO": false,

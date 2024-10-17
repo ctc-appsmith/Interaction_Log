@@ -1,0 +1,11 @@
+INSERT INTO applicationType (
+	appTypeName,
+	clientID,
+	lastChangedBy
+	) 
+	VALUES (
+		'{{(addAppType_Form.data || {}).Input3Copy1}}',
+		'{{appsmith.store.clientID}}',
+		'{{appsmith.user.email}}'
+	)
+;

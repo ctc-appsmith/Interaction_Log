@@ -1,0 +1,3 @@
+SELECT taskTypes.team, Tasks.taskStatus, Count(Tasks.taskID) AS CountOftaskID
+	FROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
+	GROUP BY taskTypes.team, Tasks.taskStatus;

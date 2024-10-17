@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  entityStatus
+ORDER BY
+  {{entityStatusType_Table.sortOrder.column || 'recordID'}} {{entityStatusType_Table.sortOrder.order !== "desc" ? "" : "DESC"}}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "onAppLoadQueries",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_onAppLoadQueries",
+  "deleted": false,
+  "gitSyncId": "67110ea19579f243573962b1_97a8284c-5916-437a-b88b-5168050c193c"
+}

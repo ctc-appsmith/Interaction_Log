@@ -1,0 +1,6 @@
+SELECT * FROM manualOverrideTable
+WHERE appID = {{Select6.selectedOptionValue}}
+AND changeType = "Scoring"
+ORDER BY
+  manualOverrideTable.recordID DESC
+;

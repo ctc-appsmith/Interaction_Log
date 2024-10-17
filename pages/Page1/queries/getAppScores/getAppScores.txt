@@ -1,0 +1,6 @@
+SELECT applicationScores.categoryName, applicationScores.categoryScore, applicationScores.lastChangedBy
+FROM applicationScores
+
+WHERE appID = {{Select6.selectedOptionValue}}
+ORDER BY applicationScores.scoreID;
+

@@ -84,8 +84,8 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_techTypeOverride_Fm.sourceData, Insert_techTypeOverride_Fm.formData, Insert_techTypeOverride_Fm.fieldState)}}",
+                "dateFormat": "YYYY-MM-DD",
+                "defaultValue": "",
                 "accessor": "changeDate",
                 "shortcuts": false,
                 "tooltip": "If there are more than one override in a day, please specify the time.",
@@ -161,12 +161,12 @@
         {"key": "schema.__root_schema__.children.appID.isVisible"},
         {"key": "schema.__root_schema__.children.newTechType.isVisible"},
         {"key": "sourceData"},
-        {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
-        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
+        {"key": "schema.__root_schema__.children.changeDate.defaultValue"},
+        {"key": "schema.__root_schema__.children.changeDate.dateFormat"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newTechType_manOverride.newTech();\ncloseModal('Insert_techTypeOverride_Modal');}}",
+    "onSubmit": "{{bidSelection_overrides.newTech();\ncloseModal('Insert_techTypeOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,
@@ -199,8 +199,7 @@
         {"key": "schema.__root_schema__.children.newTechType.borderRadius"},
         {"key": "schema.__root_schema__.children.newTechType.accentColor"},
         {"key": "schema.__root_schema__.children.appID.defaultValue"},
-        {"key": "schema.__root_schema__.children.appID.isVisible"},
-        {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
+        {"key": "schema.__root_schema__.children.appID.isVisible"}
     ],
     "borderWidth": "",
     "sourceData": "{\n  \"appID\": \"\",\n  \"changeDate\": \"\",\n  \"newTechType\": \"\",\n  \"notes\": \"\",\n  \"emailLink\": \"\"\n}",

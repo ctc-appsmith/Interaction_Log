@@ -1,0 +1,12 @@
+SELECT * FROM interactionLog
+
+WHERE clientID = '{{appsmith.store.clientID}}'
+
+AND entityID = {{entitySelect4.selectedOptionValue}}
+
+
+AND archived = "No"
+
+ORDER BY commsDate DESC
+
+;

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "newFunding_manOverride",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_newFunding_manOverride",
+  "deleted": false,
+  "gitSyncId": "67110ea19579f243573962b1_ef61917f-7e3c-4ed8-8ca7-ac49de247c5d"
+}

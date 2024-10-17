@@ -1,0 +1,11 @@
+SELECT
+  *
+FROM
+  BidSelectionHistory
+WHERE appID = {{Select6.selectedOptionValue}}
+ORDER BY
+  BidSelectionHistory.runDate DESC
+LIMIT
+  {{tasks_Table.pageSize}}
+OFFSET
+  {{tasks_Table.pageOffset}}

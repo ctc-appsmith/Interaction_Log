@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "addTask_fromTaskTab",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_addTask_fromTaskTab",
+  "deleted": false,
+  "gitSyncId": "67110ea19579f243573962b1_be41ed9a-b5fc-4e1d-81e0-4cd9a0d9eec3"
+}

@@ -1,0 +1,7 @@
+UPDATE applicationType 
+	SET 
+	appTypeName= '{{updateAppStatus_formCopy.formData.appTypeName}}', 
+	lastChangedBy= '{{appsmith.user.email}}' 
+	
+	WHERE appTypeID= '{{appType_Table.selectedRow.appTypeID}}'
+;

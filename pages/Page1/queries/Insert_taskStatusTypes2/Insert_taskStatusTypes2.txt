@@ -1,0 +1,6 @@
+INSERT INTO taskStatusTypes (taskStatus,taskStatusDefinition,lastUpdatedBy) 
+VALUES (
+	'{{(addTaskStatusType_form.formData || {}).taskStatus}}',
+	'{{(addTaskStatusType_form.formData || {}).taskStatusDefinition}}',
+
+	'{{appsmith.user.email}}')

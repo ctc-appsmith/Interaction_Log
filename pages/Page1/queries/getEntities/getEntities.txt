@@ -1,0 +1,6 @@
+SELECT * FROM Entities
+
+WHERE clientID = {{appsmith.store.clientID}}
+
+AND entityID = {{entitySelect4.selectedOptionValue}}
+;

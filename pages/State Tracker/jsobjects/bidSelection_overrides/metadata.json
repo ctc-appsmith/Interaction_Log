@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "bidSelection_overrides",
+    "pageId": "State Tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "State Tracker_bidSelection_overrides",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_ed208856-adb1-43e8-9ad0-8abcd055eada"
+}

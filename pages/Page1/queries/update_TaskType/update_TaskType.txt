@@ -1,0 +1,11 @@
+UPDATE taskTypes SET 
+
+appType= '{{updateTaskType_form.formData.appType}}', 
+taskName= '{{updateTaskType_form.formData.taskName}}', 
+taskDefinition= '{{updateTaskType_form.formData.taskDefinition}}', 
+
+team= '{{updateTaskType_form.formData.team}}', 
+
+lastChangedBy= '{{appsmith.user.email}}' 
+
+WHERE taskTypeID= '{{tasks_Table.selectedRow.taskTypeID}}';

@@ -61,7 +61,7 @@
             "changeDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
+                "dateFormat": "YYYY-MM-DD",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(Insert_scoreOverride_Fm.sourceData, Insert_scoreOverride_Fm.formData, Insert_scoreOverride_Fm.fieldState)}}",
                 "accessor": "changeDate",
                 "shortcuts": false,
@@ -136,13 +136,12 @@
     },
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "onSubmit"},
         {"key": "schema.__root_schema__.children.changeDate.dateFormat"},
         {"key": "schema.__root_schema__.children.changeDate.defaultValue"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{newScore_manOverride.newScore();\ncloseModal('Insert_scoreOverride_Modal');}}",
+    "onSubmit": "{{bidSelection_overrides.newScore();\ncloseModal('Insert_scoreOverride_Modal');}}",
     "topRow": 1,
     "bottomRow": 53,
     "fieldLimitExceeded": false,

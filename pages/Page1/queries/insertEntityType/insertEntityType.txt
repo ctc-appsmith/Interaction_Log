@@ -1,0 +1,9 @@
+INSERT INTO entityType (
+	entityTypeName,
+	lastChangedBy
+	) 
+	VALUES (
+		'{{(addEntityType_Form.data || {}).Input3CopyCopy}}',
+		'{{appsmith.user.email}}'
+	)
+;

@@ -1,0 +1,9 @@
+SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType, Entities.entityID
+	FROM Clients 
+		INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 	Clients.clientID = Entities.clientID
+
+	WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
+		AND entityType = "Applicant"
+		AND (((Entities.entityID)={{appsmith.store.entityID}}))
+
+ORDER BY entityName ASC, applicationName ASC;

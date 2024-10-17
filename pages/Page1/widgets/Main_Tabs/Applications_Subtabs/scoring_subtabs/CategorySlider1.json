@@ -1,0 +1,71 @@
+{
+    "needsErrorInfo": false,
+    "mobileBottomRow": 17,
+    "widgetName": "CategorySlider1",
+    "dynamicPropertyPathList": [],
+    "iconSVG": "/static/media/icon.7615ff4a5f55a5c7a3eb377a653a028b.svg",
+    "displayName": "Category Slider",
+    "labelText": "Select Type of Records to Review",
+    "topRow": 16,
+    "searchTags": ["range"],
+    "bottomRow": 22,
+    "parentRowSpace": 10,
+    "labelWidth": 5,
+    "type": "CATEGORY_SLIDER_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 55,
+    "defaultOptionValue": "All",
+    "animateLoading": true,
+    "parentColumnSpace": 12.009521484375,
+    "dynamicTriggerPathList": [{"key": "onChange"}],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "shouldTruncate": false,
+    "labelPosition": "Top",
+    "options": [
+        {
+            "label": "Negotiation Status",
+            "value": "Negotiation Status"
+        },
+        {
+            "label": "Funding",
+            "value": "Funding"
+        },
+        {
+            "label": "Tech Type",
+            "value": "Tech Type"
+        },
+        {
+            "label": "Scoring",
+            "value": "Scoring"
+        },
+        {
+            "label": "All Records",
+            "value": "All"
+        }
+    ],
+    "isDisabled": false,
+    "key": "7kf0v4jsf8",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "onChange": "{{getManualOverrideTable.run()}}",
+    "thumbnailSVG": "/static/media/thumbnail.7dfbc790de9ea8d5cb5f6329c2a0c143.svg",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "widgetId": "eill0olvxz",
+    "isVisible": true,
+    "sliderSize": "m",
+    "version": 1,
+    "shouldScroll": false,
+    "parentId": "zshzu2qwiu",
+    "tags": ["Sliders"],
+    "isLoading": false,
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 9,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 16,
+    "mobileLeftColumn": 15,
+    "originalBottomRow": 22,
+    "showMarksLabel": true
+}

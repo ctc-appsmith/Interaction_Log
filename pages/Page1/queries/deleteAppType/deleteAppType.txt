@@ -1,0 +1,5 @@
+DELETE FROM applicationType 
+
+WHERE appTypeID = {{appType_Table.selectedRow.appTypeID}}
+
+;

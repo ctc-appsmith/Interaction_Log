@@ -1,0 +1,7 @@
+SELECT Entities.entityName AS Applicant, Count(Applications.appID) AS Count
+
+FROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID
+
+WHERE Entities.entityType = "Applicant"
+GROUP BY Entities.entityName
+ORDER BY Count(Applications.appID);

@@ -1,0 +1,16 @@
+UPDATE manualOverrideTable 
+	SET 
+		changeDate= '{{Update_ManualOverride_Form.formData.changeDate}}', 
+		changeType= '{{Update_ManualOverride_Form.formData.changeType}}', 
+		newScore= '{{Update_ManualOverride_Form.formData.newScore}}', 
+		newAwardStatus= '{{Update_ManualOverride_Form.formData.newAwardStatus}}', 
+		newFunding= '{{Update_ManualOverride_Form.formData.newFunding}}', 
+		newBudget= '{{Update_ManualOverride_Form.formData.newBudget}}', 
+		newTechType= '{{Update_ManualOverride_Form.formData.newTechType}}', 
+		notes= '{{Update_ManualOverride_Form.formData.notes}}', 
+		emailLink= '{{Update_ManualOverride_Form.formData.emailLink}}', 
+		created= '{{Update_ManualOverride_Form.formData.created}}', 
+		lastChanged= '{{Update_ManualOverride_Form.formData.lastChanged}}', 
+		lastChangedBy= '{{Update_ManualOverride_Form.formData.lastChangedBy}}' 
+	WHERE recordID= '{{manualOverride_Table.selectedRow.recordID}}'
+;
