@@ -18,20 +18,26 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.team, Tasks.taskStatus, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tGROUP BY taskTypes.team, Tasks.taskStatus;",
+      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tWHERE Tasks.taskStatus <> \"Complete\"\n\tAND clientID = {{appsmith.store.clientID}}\n\tGROUP BY taskTypes.team\n\t\n\tORDER BY taskTypes.team;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

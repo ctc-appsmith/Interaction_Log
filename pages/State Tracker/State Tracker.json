@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1990,
+          "bottomRow": 830,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -62,11 +62,13 @@
           ],
           [
             {
-              "id": "State Tracker_getAppsByApplicant",
-              "name": "getAppsByApplicant",
+              "id": "State Tracker_Rept_getTaskStatusByTeam",
+              "name": "Rept_getTaskStatusByTeam",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
