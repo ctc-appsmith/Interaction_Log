@@ -1,8 +1,8 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 61,
-    "setAdaptiveYMin": false,
-    "widgetName": "Chart1",
+    "mobileBottomRow": 94,
+    "setAdaptiveYMin": true,
+    "widgetName": "Chart2",
     "allowScroll": false,
     "dynamicPropertyPathList": [],
     "displayName": "Chart",
@@ -12,16 +12,15 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 0,
-    "bottomRow": 61,
+    "topRow": 12,
+    "bottomRow": 57,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 42,
+    "mobileRightColumn": 32,
     "chartData": {"3pmhzl5rsp": {
-        "data": "{{Apps_by_applicant.data.map( p => ({x: p.Applicant, y: p.Count}))}}",
-        "color": "#054587",
-        "seriesName": "Applications"
+        "data": "{{Select_ReviewStatus_Query.data.map( p => ({x: p.Status, y: p.Count}))}}",
+        "seriesName": "Status"
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -33,55 +32,10 @@
         {"key": "boxShadow"},
         {"key": "accentColor"},
         {"key": "fontFamily"},
-        {"key": "chartData.3pmhzl5rsp.data"}
+        {"key": "chartData.3pmhzl5rsp.data"},
+        {"key": "customFusionChartConfig"}
     ],
-    "customFusionChartConfig": {
-        "type": "column2d",
-        "dataSource": {
-            "data": [
-                {
-                    "label": "Product1",
-                    "value": 20000
-                },
-                {
-                    "label": "Product2",
-                    "value": 22000
-                },
-                {
-                    "label": "Product3",
-                    "value": 32000
-                }
-            ],
-            "chart": {
-                "legendIconSides": "4",
-                "canvasPadding": "0",
-                "captionAlignment": "center",
-                "yAxisNameFontSize": "14",
-                "caption": "Sales Report",
-                "labelFontColor": "#716e6e",
-                "chartLeftMargin": "20",
-                "captionFontSize": "24",
-                "chartTopMargin": "10",
-                "theme": "fusion",
-                "legendIconAlpha": "100",
-                "chartBottomMargin": "10",
-                "labelFontSize": "12",
-                "xAxisNameFontColor": "#716e6e",
-                "yAxisNameFontColor": "#716e6e",
-                "captionFontColor": "#231F20",
-                "yAxisValueFontColor": "#716e6e",
-                "captionPadding": "20",
-                "yAxisName": "Revenue($)",
-                "legendIconBgAlpha": "100",
-                "xAxisName": "Product Line",
-                "alignCaptionWithCanvas": 1,
-                "chartRightMargin": "40",
-                "legendPosition": "top",
-                "xAxisNameFontSize": "14",
-                "yAxisValueFontSize": "12"
-            }
-        }
-    },
+    "customFusionChartConfig": "{\n  \"type\": \"pie3d\",\n  \"dataSource\": {\n     \"chart\": {\n      \"caption\": \"Status Review\",\n      \"xAxisName\": \"Count\",\n      \"yAxisName\": \"Status\",\n      \"theme\": \"fusion\"\n    },\n    \"data\": [\n      {\n        \"label\": \"Pending\",\n        \"value\": {{Select_ReviewStatus_Query.data[1].Count}}\n      },\n      {\n        \"label\": \"Passed\",\n        \"value\": {{Select_ReviewStatus_Query.data[0].Count}}\n      }\n    ]\n  }\n}",
     "customEChartConfig": {
         "yAxis": [{"type": "value"}],
         "xAxis": [{"type": "category"}],
@@ -176,24 +130,24 @@
     "key": "1e3dut7u3h",
     "showDataPointLabel": false,
     "isDeprecated": false,
-    "rightColumn": 34,
-    "widgetId": "irx8dqjkp8",
+    "rightColumn": 64,
+    "widgetId": "h1cvco00ja",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "y75bbu10t6",
+    "parentId": "aqv63987l5",
     "labelOrientation": "auto",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 29,
+    "mobileTopRow": 62,
     "responsiveBehavior": "fill",
-    "yAxisName": "Count",
-    "originalTopRow": 80,
-    "chartName": "Number of Applications per Applicant",
+    "yAxisName": "",
+    "originalTopRow": 12,
+    "chartName": "Status Review",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 18,
-    "xAxisName": "Applicant",
-    "originalBottomRow": 141,
-    "chartType": "BAR_CHART"
+    "mobileLeftColumn": 8,
+    "xAxisName": "",
+    "originalBottomRow": 57,
+    "chartType": "CUSTOM_ECHART"
 }

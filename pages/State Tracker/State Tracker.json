@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 1560,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -57,6 +57,16 @@
               "jsonPathKeys": [
                 "async () => {\n  try {\n    await getAppType.run();\n    await getApplications.run();\n    await getTeam.run();\n    await getAppStatusTypes.run();\n    await getEmployees.run();\n    await getTasks_byApplication_3.run();\n    await getTaskStatusType.run();\n    await getTaskTypes_applicationtab.run();\n    await getApplicantsOnly.run();\n    await getApplications_forUpdateForm.run();\n  } catch (error) {\n    console.error(\"Error running queries:\", error);\n  }\n}"
               ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_getAppsByApplicant",
+              "name": "getAppsByApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

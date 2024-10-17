@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getAppsByApplicant",
+    "name": "Rept_getTaskStatusByTeam",
     "datasource": {
       "name": "BEADComprehensive_ReadOnly",
       "pluginId": "mysql-plugin",
@@ -18,15 +18,15 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Entities.entityName AS Applicant, Count(Applications.appID) AS Count\n\nFROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID\n\nWHERE Entities.entityType = \"Applicant\"\nGROUP BY Entities.entityName\nORDER BY Count(Applications.appID);",
+      "body": "SELECT taskTypes.team, Tasks.taskStatus, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tGROUP BY taskTypes.team, Tasks.taskStatus;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-17T13:46:13Z"
+    "createdAt": "2024-10-17T13:58:40Z"
   },
-  "id": "State Tracker_getAppsByApplicant",
+  "id": "State Tracker_Rept_getTaskStatusByTeam",
   "deleted": false,
-  "gitSyncId": "67110ea19579f243573962b1_3e692e1f-e9dc-49d6-80a0-22053adca205"
+  "gitSyncId": "67110ea19579f243573962b1_660c259b-e355-44f9-be6b-ec47e1d4ad6a"
 }
