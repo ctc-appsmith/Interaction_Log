@@ -693,7 +693,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 74,
+    "originalBottomRow": 84,
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
     "widgetName": "Main_Tabs",
@@ -723,7 +723,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qal6aq2p79",
-    "defaultTab": "Reports",
+    "defaultTab": "Applications",
     "onTabSelected": "{{mainTabQueries.runQueries();}}",
     "minWidth": 450,
     "tabsObj": {

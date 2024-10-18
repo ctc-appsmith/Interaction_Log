@@ -13,8 +13,8 @@
     "displayName": "Custom",
     "iconSVG": "/static/media/icon.ff37253a5ce2f5284c42ede26ce165f9.svg",
     "searchTags": ["external"],
-    "topRow": 14,
-    "bottomRow": 58,
+    "topRow": 12,
+    "bottomRow": 56,
     "parentRowSpace": 10,
     "type": "CUSTOM_WIDGET",
     "hideCard": false,
@@ -53,10 +53,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 46,
-    "originalTopRow": 14,
+    "originalTopRow": 12,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 9,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 58,
+    "originalBottomRow": 56,
     "minDynamicHeight": 4
 }
