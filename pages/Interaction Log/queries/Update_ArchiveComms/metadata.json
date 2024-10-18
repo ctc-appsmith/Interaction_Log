@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE interactionLog\n\nSET archived = \"Yes\"\n\nWHERE recordID = {{callLog_tbl.selectedRow.recordID}}\n;",
+      "body": "UPDATE interactionLog\n\nSET archived = \"Yes\",\n\t\tlastChangedBy = '{{appsmith.user.email}}'\n\nWHERE recordID = {{callLog_tbl.selectedRow.recordID}}\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,6 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "appsmith.user.email",
       "callLog_tbl.selectedRow.recordID"
     ],
     "userSetOnLoad": false,

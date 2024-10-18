@@ -7,5 +7,6 @@ UPDATE interactionLog SET
 		applicationID = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.appID : callLogUpdate_form.data.appID}}',		
 		importance = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.importance : callLogUpdate_form.data.importance}}',	
 		notes = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.notes : callLogUpdate_form.data.notes}}',		 CTCstaff = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.CTCstaff : callLogUpdate_form.data.CTCstaff}}',
-		inReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}'
+		inReferenceTo = '{{callLogUpdate_form.isVisible ? callLogUpdate_form.data.inReferenceTo : callLogUpdate_form.data.inReferenceTo}}',
+		lastChangedBy = '{{appsmith.user.email}}'
 		WHERE recordID = {{callLog_tbl.selectedRow.recordID}};

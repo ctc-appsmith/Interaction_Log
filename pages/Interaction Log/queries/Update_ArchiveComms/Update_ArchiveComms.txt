@@ -1,6 +1,7 @@
 UPDATE interactionLog
 
-SET archived = "Yes"
+SET archived = "Yes",
+		lastChangedBy = '{{appsmith.user.email}}'
 
 WHERE recordID = {{callLog_tbl.selectedRow.recordID}}
 ;
