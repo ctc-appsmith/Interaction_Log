@@ -200,7 +200,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 62,
+    "originalBottomRow": 52,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "ReportSubTabs",
@@ -220,7 +220,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "kyh6inf1mv",
     "defaultTab": "Scoring Round Dashboard",
-    "onTabSelected": "{{reportSubTabQueries.newTech();}}",
+    "onTabSelected": "{{reportSubTabQueries.reportQueries();}}",
     "minWidth": 450,
     "tabsObj": {
         "tabptb6fd6iyc": {
