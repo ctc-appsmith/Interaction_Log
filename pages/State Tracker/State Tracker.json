@@ -72,6 +72,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_Rept_AppsByApplicant",
+              "name": "Rept_AppsByApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_Rept_getTaskStatusByTeam",
               "name": "Rept_getTaskStatusByTeam",
               "confirmBeforeExecute": false,
@@ -83,14 +91,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Rept_AppsByApplicant",
-              "name": "Rept_AppsByApplicant",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_dash_appsbyAward",
               "name": "dash_appsbyAward",
