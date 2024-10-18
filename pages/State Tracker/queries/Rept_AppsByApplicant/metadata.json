@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Entities.entityName AS Applicant, Count(Applications.appID) AS Count\n\nFROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID\n\nWHERE Entities.entityType = \"Applicant\"\nGROUP BY Entities.entityName\nORDER BY Count(Applications.appID);",
+      "body": "SELECT Entities.entityName AS Applicant, Count(Applications.appID) AS Count\n\nFROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID\n\nWHERE Entities.entityType = \"Applicant\"\nGROUP BY Entities.entityName\nORDER BY Count(Applications.appID) DESC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

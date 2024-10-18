@@ -4,4 +4,4 @@ FROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entity
 
 WHERE Entities.entityType = "Applicant"
 GROUP BY Entities.entityName
-ORDER BY Count(Applications.appID);
+ORDER BY Count(Applications.appID) DESC;

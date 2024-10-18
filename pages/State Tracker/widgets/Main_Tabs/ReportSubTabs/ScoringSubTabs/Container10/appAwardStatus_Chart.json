@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 48,
+    "topRow": 50,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyAward.data.map (u => ({x: u.bidSelectionAwardStatus, y: u.CountOfappID}) )}}",
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 87,
+    "bottomRow": 89,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
