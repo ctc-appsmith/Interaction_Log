@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 8,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,10 +27,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Pending Tasks",
+    "text": "Total Incomplete Tasks",
     "key": "ykl1jno36k",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 64,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "me1y1kpxym",
@@ -48,7 +48,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 36,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 30,
+    "originalBottomRow": 6,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
