@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -84,8 +84,46 @@
           ],
           [
             {
-              "id": "State Tracker_dash_TaskbyStatus",
-              "name": "dash_TaskbyStatus",
+              "id": "State Tracker_Rept_AppsByApplicant",
+              "name": "Rept_AppsByApplicant",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_dash_appsbyAward",
+              "name": "dash_appsbyAward",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_dash_appsbyTech",
+              "name": "dash_appsbyTech",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_dash_incompleteTaskbyType",
+              "name": "dash_incompleteTaskbyType",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_dash_unassignedByTeam",
+              "name": "dash_unassignedByTeam",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

@@ -1,0 +1,8 @@
+SELECT Applications.bidSelectionAwardStatus, Count(Applications.appID) AS CountOfappID
+	FROM Clients INNER JOIN (
+		Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 	Clients.clientID = Entities.clientID
+		
+	WHERE Clients.clientID = {{appsmith.store.clientID}}
+	GROUP BY Applications.bidSelectionAwardStatus
+	ORDER BY CountofappID
+;

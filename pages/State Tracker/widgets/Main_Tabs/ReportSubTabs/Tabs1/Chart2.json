@@ -1,0 +1,111 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "allowScroll": false,
+    "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
+    "topRow": 15,
+    "type": "CHART_WIDGET",
+    "chartData": {"4od1u9smc4": {
+        "data": "{{dash_unassignedByTeam.data.map (u => ({x: u.team, y: u.CountOfTaskID}) )}}",
+        "seriesName": ""
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicBindingPathList": [
+        {"key": "customEChartConfig"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"},
+        {"key": "chartData.4od1u9smc4.data"}
+    ],
+    "leftColumn": 24,
+    "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
+    "flexVerticalAlignment": "start",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Display"],
+    "isLoading": false,
+    "chartName": "Unassigned Tasks by Team",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "",
+    "originalBottomRow": 50,
+    "needsErrorInfo": true,
+    "mobileBottomRow": 45,
+    "widgetName": "Chart2",
+    "displayName": "Chart",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "bottomRow": 50,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 37,
+    "parentColumnSpace": 18.609375,
+    "dynamicTriggerPathList": [],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "showDataPointLabel": false,
+    "key": "eyhy4xzjjj",
+    "isDeprecated": false,
+    "rightColumn": 47,
+    "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
+    "widgetId": "ru9xvkktbz",
+    "minWidth": 450,
+    "parentId": "94i88ktzoo",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 13,
+    "responsiveBehavior": "fill",
+    "yAxisName": "",
+    "originalTopRow": 15,
+    "mobileLeftColumn": 13,
+    "chartType": "COLUMN_CHART"
+}

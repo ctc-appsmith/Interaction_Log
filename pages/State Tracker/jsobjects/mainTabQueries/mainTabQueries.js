@@ -62,7 +62,7 @@ export default {
       await Rept_COUNT_Applications.run();
       
       // Run dash_TaskbyStatus
-      await dash_TaskbyStatus.run();
+      await dash_incompleteTaskbyType.run();
       
       // Run Rept_getTaskStatusByTeam
       await Rept_getTaskStatusByTeam.run();

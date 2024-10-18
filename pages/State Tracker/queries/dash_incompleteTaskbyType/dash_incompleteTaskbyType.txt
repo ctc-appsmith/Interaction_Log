@@ -1,0 +1,8 @@
+SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID
+	FROM ((Entities INNER JOIN (Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON 		Entities.entityID = Applications.entityID) 
+				INNER JOIN Clients ON Entities.clientID = Clients.clientID) 
+				INNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)
+
+WHERE Tasks.taskStatus<>"Complete"
+			 AND Clients.clientID = {{appsmith.store.clientID}}
+GROUP BY taskTypes.taskName;
