@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 44,
+    "topRow": 48,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyAward.data.map (u => ({x: u.bidSelectionAwardStatus, y: u.CountOfappID}) )}}",
@@ -29,7 +29,7 @@
     "chartName": "Applications per Negotiation Status",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 79,
+    "originalBottomRow": 87,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "appAwardStatus_Chart",
@@ -39,7 +39,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 79,
+    "bottomRow": 87,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -105,7 +105,7 @@
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 44,
+    "originalTopRow": 48,
     "mobileLeftColumn": 13,
     "chartType": "BAR_CHART"
 }
