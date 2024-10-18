@@ -6,6 +6,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_incompleteTaskbyType.data.map (u => ({x: u.taskName, y: u.CountOftaskID}) )}}",
+        "color": "#061041",
         "seriesName": ""
     }},
     "animateLoading": true,

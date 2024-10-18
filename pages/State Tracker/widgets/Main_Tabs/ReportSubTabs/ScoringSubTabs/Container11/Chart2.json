@@ -6,6 +6,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_unassignedByTeam.data.map (u => ({x: u.team, y: u.CountOfTaskID}) )}}",
+        "color": "#061041",
         "seriesName": ""
     }},
     "animateLoading": true,

@@ -112,7 +112,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 95,
+    "originalBottomRow": 96,
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
     "widgetName": "ScoringSubTabs",

@@ -6,6 +6,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyAward.data.map (u => ({x: u.bidSelectionAwardStatus, y: u.CountOfappID}) )}}",
+        "color": "#061041",
         "seriesName": ""
     }},
     "animateLoading": true,
