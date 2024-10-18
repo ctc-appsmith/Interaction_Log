@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Pending Tasks by Team",
+    "text": "Incomplete Tasks by Team",
     "key": "rj32wj7313",
     "isDeprecated": false,
     "rightColumn": 64,
