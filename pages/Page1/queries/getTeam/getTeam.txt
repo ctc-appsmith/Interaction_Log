@@ -1,6 +1,0 @@
-SELECT
-  *
-FROM
-  Teams
-	ORDER BY teamName ASC
-;

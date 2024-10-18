@@ -1,5 +1,0 @@
-DELETE FROM taskStatusTypes
-
-WHERE taskStatusID = {{taskStatusType_Table.selectedRow.taskStatusID}}
-
-;

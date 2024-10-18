@@ -1,5 +1,0 @@
-SELECT * FROM applicationScores
-
-WHERE appID = {{Select6.selectedOptionValue}}
-
-AND categoryName = "currentScore";

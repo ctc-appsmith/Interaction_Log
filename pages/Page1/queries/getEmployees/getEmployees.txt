@@ -1,6 +1,0 @@
-SELECT
-  *
-FROM
-  Employees
-ORDER BY
-  {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== "desc" ? "" : "DESC"}}

@@ -1,5 +1,0 @@
-DELETE FROM entityStatus
-
-WHERE recordID = {{entityStatusType_Table.selectedRow.recordID}}
-
-;

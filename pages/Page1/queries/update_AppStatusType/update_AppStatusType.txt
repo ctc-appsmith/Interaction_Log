@@ -1,7 +1,0 @@
-UPDATE applicationStatusTypes SET 
-appStatusType= '{{updateAppStatus_form.formData.appStatusType}}', 
-statusDefinition= '{{updateAppStatus_form.formData.statusDefinition}}', 
-
-lastUpdatedBy= '{{appsmith.user.email}}' 
-
-WHERE appStatusID= '{{appStatusType_Table.selectedRow.appStatusID}}';

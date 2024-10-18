@@ -1,6 +1,0 @@
-INSERT INTO entityStatus 
-(entityStatusType,definition,lastChangedBy) 
-VALUES (
-	'{{(Form1Copy.data || {}).Input3Copy}}',
-	'{{(Form1Copy.data || {}).Input4Copy}}',
-	'{{appsmith.user.email}}');

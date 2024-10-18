@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "newScore",
-    "fullyQualifiedName": "bidSelection_overrides.newScore",
+    "name": "runAction",
+    "fullyQualifiedName": "reportSubTabQueries.runAction",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "State Tracker",
-    "collectionId": "State Tracker_bidSelection_overrides",
+    "collectionId": "State Tracker_reportSubTabQueries",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-17T16:09:44Z"
+    "createdAt": "2024-10-17T21:02:55Z"
   },
-  "id": "State Tracker_bidSelection_overrides.newScore",
+  "id": "State Tracker_reportSubTabQueries.runAction",
   "deleted": false,
-  "gitSyncId": "67110ea19579f243573962b1_f8691f30-f035-4369-a17c-ea42a984f79c"
+  "gitSyncId": "67110ea19579f243573962b1_90404149-2606-4c4a-b384-9e6fd7039c10"
 }

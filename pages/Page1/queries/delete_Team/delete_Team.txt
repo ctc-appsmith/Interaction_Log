@@ -1,5 +1,0 @@
-DELETE FROM Teams
-
-WHERE teamID = {{team_Table.selectedRow.teamID}}
-
-;

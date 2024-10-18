@@ -1,5 +1,0 @@
-SELECT * FROM Applications 
-
-WHERE appID = {{Select6.selectedOptionValue}}
-
-;

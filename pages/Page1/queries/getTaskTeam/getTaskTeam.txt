@@ -1,3 +1,0 @@
-SELECT taskTypeID, team FROM taskTypes
-
-WHERE taskTypeID = '{{addTask_fromUpdate_form.data.Select2Copy}}';

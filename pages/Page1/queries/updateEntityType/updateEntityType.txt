@@ -1,7 +1,0 @@
-UPDATE entityType 
-	SET 
-	entityTypeName= '{{updateEntityType_Form.formData.entityTypeName}}', 
-	lastChangedBy= '{{appsmith.user.email}}' 
-	
-	WHERE entityTypeID= '{{entityType_Table.selectedRow.entityTypeID}}'
-;

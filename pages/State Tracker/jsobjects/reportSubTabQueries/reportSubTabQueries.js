@@ -1,6 +1,6 @@
 export default {
   // Function to run all the queries sequentially
-  reportQueries: async () => {
+  runAction: async () => {
     try {
       // Run Rept_COUNT_pendingTasks
       await Rept_COUNT_pendingTasks.run();
