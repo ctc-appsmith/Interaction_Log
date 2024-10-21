@@ -186,7 +186,7 @@
             "index": 2,
             "id": "tabux4vj09uzr",
             "label": "Scoring Dash - DAL",
-            "isVisible": true
+            "isVisible": false
         },
         "tab1": {
             "widgetId": "1mvrwoyb8n",
