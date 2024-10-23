@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 910,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -150,6 +150,17 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getApps_byApplicantTab",
+              "name": "getApps_byApplicantTab",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
