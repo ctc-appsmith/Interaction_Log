@@ -1,5 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "setAdaptiveYMin": false,
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
     "topRow": 51,
@@ -28,7 +29,7 @@
     "isLoading": false,
     "chartName": "Applications per State",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "xAxisName": "Product Line",
+    "xAxisName": "State",
     "originalBottomRow": 83,
     "needsErrorInfo": true,
     "mobileBottomRow": 83,
@@ -104,7 +105,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 51,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
+    "yAxisName": "Count of Applications",
     "originalTopRow": 51,
     "mobileLeftColumn": 2,
     "chartType": "COLUMN_CHART"
