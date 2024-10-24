@@ -92,6 +92,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_dash_appsbyStatus",
+              "name": "dash_appsbyStatus",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_dash_appsbyTech",
               "name": "dash_appsbyTech",
               "confirmBeforeExecute": false,

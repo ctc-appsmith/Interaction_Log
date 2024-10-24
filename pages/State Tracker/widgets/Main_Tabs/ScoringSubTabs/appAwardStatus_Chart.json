@@ -30,7 +30,7 @@
     "chartName": "Applications per Negotiation Status",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 150,
+    "originalBottomRow": 152,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "appAwardStatus_Chart",
@@ -106,7 +106,7 @@
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 111,
+    "originalTopRow": 113,
     "mobileLeftColumn": 13,
     "chartType": "BAR_CHART"
 }
