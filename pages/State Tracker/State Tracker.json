@@ -68,7 +68,9 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "State Tracker_Rept_getTaskStatusByTeam",
               "name": "Rept_getTaskStatusByTeam",
@@ -78,9 +80,7 @@
                 "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "State Tracker_dash_appsbyAward",
               "name": "dash_appsbyAward",
