@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 6,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,14 +23,15 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Open Tasks",
+    "text": "Total Open Tasks: {{Rept_COUNT_pendingTasks.data[0].CountOfTaskID}}",
     "key": "ykl1jno36k",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 64,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "5gl82661j2",

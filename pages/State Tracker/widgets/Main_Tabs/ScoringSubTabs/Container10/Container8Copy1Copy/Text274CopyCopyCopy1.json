@@ -23,14 +23,15 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Active Applications",
+    "text": "Active Applications: {{Rept_COUNT_Applications.data[0].CountOfappID}}",
     "key": "ykl1jno36k",
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 61,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ugiwbujq6s",

@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 39,
+    "bottomRow": 40,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -96,7 +96,7 @@
     "showDataPointLabel": true,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 29,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "lzrbvd5zqg",
     "minWidth": 450,
