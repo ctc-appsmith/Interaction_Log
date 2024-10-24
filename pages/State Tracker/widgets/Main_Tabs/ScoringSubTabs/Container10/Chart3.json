@@ -11,8 +11,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 40,
-    "bottomRow": 80,
+    "topRow": 39,
+    "bottomRow": 86,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -34,7 +34,7 @@
         {"key": "fontFamily"},
         {"key": "chartData.ivqmdv906l.data"}
     ],
-    "leftColumn": 34,
+    "leftColumn": 0,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -87,7 +87,7 @@
     "showDataPointLabel": true,
     "key": "jil40elxhg",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 50,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "awp3qpnkg7",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
