@@ -3,7 +3,7 @@
     "tabId": "",
     "boxShadow": "NONE",
     "widgetName": "Container11",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#061041",
     "isCanvas": true,
     "displayName": "Container",
     "iconSVG": "/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 91,
+    "bottomRow": 82,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "30l305vwec",
         "containerStyle": "none",
-        "bottomRow": 910,
+        "bottomRow": 820,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,
@@ -52,7 +52,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "riqv7hiio0",
-    "backgroundColor": "#c4d6f2",
+    "backgroundColor": "#ffffff",
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
@@ -69,6 +69,6 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 91,
+    "originalBottomRow": 82,
     "minDynamicHeight": 10
 }
