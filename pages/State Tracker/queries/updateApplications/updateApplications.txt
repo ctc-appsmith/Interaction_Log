@@ -4,6 +4,7 @@ UPDATE Applications SET
 		applicationStatus = '{{update_formCopy.fieldState.applicationStatus.isVisible ? update_formCopy.formData.applicationStatus : update_formCopy.sourceData.applicationStatus}}',
 		techType = '{{update_formCopy.fieldState.techType.isVisible ? update_formCopy.formData.techType : update_formCopy.sourceData.techType}}',
 		portalAppID = '{{update_formCopy.fieldState.portalAppID.isVisible ? update_formCopy.formData.portalAppID : update_formCopy.sourceData.portalAppID}}',
+		reviewOrder = '{{update_formCopy.fieldState.reviewOrder.isVisible ? update_formCopy.formData.reviewOrder : update_formCopy.sourceData.reviewOrder}}',
 		lastChangedBy = '{{appsmith.user.email}}'
 		
 WHERE appID = {{Select6.selectedOptionValue}};

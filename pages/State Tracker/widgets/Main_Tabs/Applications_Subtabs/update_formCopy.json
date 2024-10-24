@@ -499,7 +499,7 @@
                 "originalIdentifier": "applicationStatus",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
-                "options": "{{getApplicationStatusTypes.data.map (u => ({label: u.appStatusType, value: u.appStatusType}) )}}",
+                "options": "{{getAppStatusTypes.data.map (u => ({label: u.appStatusType, value: u.appStatusType}) )}}",
                 "position": 6,
                 "isDisabled": false,
                 "sourceData": "Pending",
@@ -583,7 +583,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "dataType": "null",
                 "accessor": "reviewOrder",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Review Order",
                 "originalIdentifier": "reviewOrder",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
@@ -592,7 +592,7 @@
                 "iconAlign": "left",
                 "position": 19,
                 "isDisabled": false,
-                "fieldType": "Text Input"
+                "fieldType": "Number Input"
             },
             "lastChangedBy": {
                 "labelTextSize": "0.875rem",
