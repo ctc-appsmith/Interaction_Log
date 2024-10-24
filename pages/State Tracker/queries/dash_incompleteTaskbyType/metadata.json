@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID\n\tFROM ((Entities INNER JOIN (Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON \t\tEntities.entityID = Applications.entityID) \n\t\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID) \n\t\t\t\tINNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)\n\nWHERE Tasks.taskStatus<>\"Complete\"\n\t\t\t AND Clients.clientID = {{appsmith.store.clientID}}\nGROUP BY taskTypes.taskName;",
+      "body": "SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID\n\tFROM ((Entities INNER JOIN (Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON \t\tEntities.entityID = Applications.entityID) \n\t\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID) \n\t\t\t\tINNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)\n\nWHERE Tasks.taskStatus<>\"Complete\"\n\t\t\t AND Clients.clientID = {{appsmith.store.clientID}}\nGROUP BY taskTypes.taskName\nORDER BY CountOftaskID;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

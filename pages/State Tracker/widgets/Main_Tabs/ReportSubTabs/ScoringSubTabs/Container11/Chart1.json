@@ -108,5 +108,5 @@
     "yAxisName": "",
     "originalTopRow": 13,
     "mobileLeftColumn": 13,
-    "chartType": "COLUMN_CHART"
+    "chartType": "BAR_CHART"
 }

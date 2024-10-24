@@ -5,4 +5,5 @@ SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID
 
 WHERE Tasks.taskStatus<>"Complete"
 			 AND Clients.clientID = {{appsmith.store.clientID}}
-GROUP BY taskTypes.taskName;
+GROUP BY taskTypes.taskName
+ORDER BY CountOftaskID;
