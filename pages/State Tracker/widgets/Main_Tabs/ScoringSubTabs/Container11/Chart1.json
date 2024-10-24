@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 36,
+    "topRow": 43,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_incompleteTaskbyType.data.map (u => ({x: u.taskName, y: u.CountOftaskID}) )}}",
@@ -30,7 +30,7 @@
     "chartName": "Open Tasks by Type",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 196,
+    "originalBottomRow": 83,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "Chart1",
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 67,
+    "bottomRow": 83,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -106,7 +106,7 @@
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 123,
+    "originalTopRow": 43,
     "mobileLeftColumn": 13,
     "chartType": "BAR_CHART"
 }
