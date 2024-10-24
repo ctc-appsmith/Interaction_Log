@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 2.119140625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 39,
+    "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -34,7 +34,7 @@
         "widgetName": "Canvas70Copy1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 50,
+        "bottomRow": 60,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -73,7 +73,7 @@
     "key": "sdo1onx0gx",
     "backgroundColor": "#ffffff",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 59,
     "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
     "dynamicHeight": "FIXED",
     "widgetId": "1qamrivqt2",
