@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 0,
+    "topRow": 4,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_incompleteTaskbyType.data.map (u => ({x: u.taskName, y: u.CountOftaskID}) )}}",
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 67,
+    "bottomRow": 31,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -96,7 +96,7 @@
     "showDataPointLabel": true,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "n5mvebg4kg",
     "minWidth": 450,
