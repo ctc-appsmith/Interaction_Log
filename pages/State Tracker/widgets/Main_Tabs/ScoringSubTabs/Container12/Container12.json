@@ -60,7 +60,7 @@
     "widgetId": "uf9p4z20gn",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "parentId": "nz2nd587tc",
     "tags": ["Layout"],
