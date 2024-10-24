@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 49,
+    "topRow": 123,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_unassignedByTeam.data.map (u => ({x: u.team, y: u.CountOftaskID}) )}}",
@@ -30,7 +30,7 @@
     "chartName": "Unassigned Tasks by Team",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 85,
+    "originalBottomRow": 159,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "Chart2",
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 85,
+    "bottomRow": 159,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -106,7 +106,7 @@
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 49,
+    "originalTopRow": 123,
     "mobileLeftColumn": 13,
     "chartType": "BAR_CHART"
 }
