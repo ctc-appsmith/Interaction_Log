@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.2d8f0568561ab85a8d38356420942b62.svg",
     "searchTags": ["line"],
     "topRow": 20,
-    "bottomRow": 83,
+    "bottomRow": 88,
     "parentRowSpace": 10,
     "type": "DIVIDER_WIDGET",
     "capType": "nc",
@@ -38,5 +38,5 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 20,
     "mobileLeftColumn": 23,
-    "originalBottomRow": 83
+    "originalBottomRow": 88
 }
