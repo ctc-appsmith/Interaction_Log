@@ -6,7 +6,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyTech.data.map (u => ({x: u.techType, y: u.CountOfappID}) )}}",
-        "color": "#C19A6B",
+        "color": "#134463",
         "seriesName": ""
     }},
     "animateLoading": true,
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 39,
+    "bottomRow": 33,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -96,7 +96,7 @@
     "showDataPointLabel": true,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "0tk6zsvmph",
     "minWidth": 450,
