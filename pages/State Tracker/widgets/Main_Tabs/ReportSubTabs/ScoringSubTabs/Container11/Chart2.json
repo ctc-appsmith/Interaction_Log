@@ -93,7 +93,7 @@
             }
         }
     },
-    "showDataPointLabel": false,
+    "showDataPointLabel": true,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -108,5 +108,5 @@
     "yAxisName": "",
     "originalTopRow": 49,
     "mobileLeftColumn": 13,
-    "chartType": "COLUMN_CHART"
+    "chartType": "BAR_CHART"
 }

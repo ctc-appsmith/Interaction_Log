@@ -93,7 +93,7 @@
             }
         }
     },
-    "showDataPointLabel": false,
+    "showDataPointLabel": true,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
     "rightColumn": 40,
