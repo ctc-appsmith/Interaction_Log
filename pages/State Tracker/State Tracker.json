@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1590,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -61,16 +61,6 @@
             }
           ],
           [
-            {
-              "id": "State Tracker_Dash_getPendingTaskbyTeam",
-              "name": "Dash_getPendingTaskbyTeam",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "State Tracker_Rept_AppsByApplicant",
               "name": "Rept_AppsByApplicant",
