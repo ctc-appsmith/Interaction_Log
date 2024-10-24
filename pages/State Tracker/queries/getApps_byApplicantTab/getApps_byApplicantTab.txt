@@ -1,9 +1,10 @@
-SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType, Entities.entityID
-	FROM Clients 
-		INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 	Clients.clientID = Entities.clientID
+SELECT Applications.appID, Applications.applicationName, Applications.applicationType, Applications.applicationStatus, Entities.entityName, Clients.clientName, Applications.portalAppID, Applications.initialScore, Applications.fundingRequest, Applications.referenceBudget, Applications.currentBudget, Entities.entityType, applicationStatusTypes.appStatusType, Entities.entityID
+	FROM applicationStatusTypes INNER JOIN (Clients INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID) ON applicationStatusTypes.appStatusID = Applications.applicationStatus
 
 	WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
 		AND entityType = "Applicant"
 		AND (((Entities.entityID)={{entitySelect4.selectedOptionValue}}))
 
 ORDER BY entityName ASC, applicationName ASC;
+
+
