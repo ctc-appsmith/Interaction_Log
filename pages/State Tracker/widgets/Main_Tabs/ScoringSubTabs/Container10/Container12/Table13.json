@@ -70,7 +70,7 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 79,
-    "columnWidthMap": {"Applicant": 256},
+    "columnWidthMap": {"Applicant": 326},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 20,

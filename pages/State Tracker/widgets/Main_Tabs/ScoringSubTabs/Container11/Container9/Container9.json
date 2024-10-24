@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 12,
-    "bottomRow": 50,
+    "bottomRow": 52,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "r8vu5ve1bi",
         "containerStyle": "none",
-        "bottomRow": 380,
+        "bottomRow": 400,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,
@@ -69,6 +69,6 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 12,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 50,
+    "originalBottomRow": 52,
     "minDynamicHeight": 10
 }
