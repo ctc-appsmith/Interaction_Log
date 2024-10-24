@@ -499,7 +499,7 @@
                 "originalIdentifier": "applicationStatus",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
-                "options": "{{getAppStatusTypes.data.map (u => ({label: u.appStatusType, value: u.appStatusType}) )}}",
+                "options": "{{getAppStatusTypes.data.map (u => ({label: u.appStatusType, value: u.appStatusID}) )}}",
                 "position": 6,
                 "isDisabled": false,
                 "sourceData": "Pending",
