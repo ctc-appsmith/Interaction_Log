@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
     "topRow": 0,
@@ -14,7 +14,6 @@
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "accentColor"},
         {"key": "fontFamily"},
         {"key": "chartData.4od1u9smc4.data"}

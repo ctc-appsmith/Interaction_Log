@@ -6,7 +6,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyTech.data.map (u => ({x: u.techType, y: u.CountOfappID}) )}}",
-        "color": "#134463",
+        "color": "#C19A6B",
         "seriesName": ""
     }},
     "animateLoading": true,
