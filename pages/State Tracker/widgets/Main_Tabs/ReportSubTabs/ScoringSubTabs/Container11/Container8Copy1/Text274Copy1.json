@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Incomplete Tasks",
+    "text": "Total Open Tasks",
     "key": "ykl1jno36k",
     "isDeprecated": false,
     "rightColumn": 64,

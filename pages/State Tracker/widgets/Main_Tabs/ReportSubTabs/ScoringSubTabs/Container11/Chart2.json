@@ -5,7 +5,7 @@
     "topRow": 51,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
-        "data": "{{dash_unassignedByTeam.data.map (u => ({x: u.team, y: u.CountOfTaskID}) )}}",
+        "data": "{{dash_unassignedByTeam.data.map (u => ({x: u.team, y: u.CountOftaskID}) )}}",
         "color": "#061041",
         "seriesName": ""
     }},
@@ -96,7 +96,7 @@
     "showDataPointLabel": false,
     "key": "eyhy4xzjjj",
     "isDeprecated": false,
-    "rightColumn": 39.225806451612904,
+    "rightColumn": 44,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "lzrbvd5zqg",
     "minWidth": 450,

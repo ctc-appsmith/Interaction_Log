@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n  taskTypes.team, COUNT(Tasks.taskID) AS CountOfTaskID\n\tFROM (\n\t\t(Entities INNER JOIN Clients ON Entities.clientID = Clients.clientID) \n\t\tINNER JOIN (\n\t\t\tTasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON Entities.entityID = Applications.entityID) \n\t\t\tINNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)\nWHERE \n    Tasks.taskStatus <> 'Complete' \n    AND Clients.clientID = {{appsmith.store.clientID}}\n\t\tAND assignedTo = \"unassigned@ctcnet.us\"\n    AND Applications.applicationType = \"Scoring\";",
+      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Clients, (Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) \tINNER JOIN Applications ON Tasks.appID = Applications.appID\n\tWHERE (((Tasks.taskStatus)<>\"Complete\") \n\t\t\t AND ((Clients.clientID)={{appsmith.store.clientID}}) \n\t\t\t AND ((Tasks.assignedTo)=\"unassigned@ctcnet.us\"))\nGROUP BY taskTypes.team\n;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 51,
-    "bottomRow": 89,
+    "bottomRow": 87,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 2.119140625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 39.225806451612904,
+    "leftColumn": 44,
     "dynamicBindingPathList": [],
     "children": [{
         "rightColumn": 70,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "r8vu5ve1bi",
         "containerStyle": "none",
-        "bottomRow": 380,
+        "bottomRow": 360,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,
@@ -69,6 +69,6 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 51,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 89,
+    "originalBottomRow": 87,
     "minDynamicHeight": 10
 }

@@ -1,12 +1,7 @@
-SELECT 
-  taskTypes.team, COUNT(Tasks.taskID) AS CountOfTaskID
-	FROM (
-		(Entities INNER JOIN Clients ON Entities.clientID = Clients.clientID) 
-		INNER JOIN (
-			Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON Entities.entityID = Applications.entityID) 
-			INNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)
-WHERE 
-    Tasks.taskStatus <> 'Complete' 
-    AND Clients.clientID = {{appsmith.store.clientID}}
-		AND assignedTo = "unassigned@ctcnet.us"
-    AND Applications.applicationType = "Scoring";
+SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID
+	FROM Clients, (Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) 	INNER JOIN Applications ON Tasks.appID = Applications.appID
+	WHERE (((Tasks.taskStatus)<>"Complete") 
+			 AND ((Clients.clientID)={{appsmith.store.clientID}}) 
+			 AND ((Tasks.assignedTo)="unassigned@ctcnet.us"))
+GROUP BY taskTypes.team
+;

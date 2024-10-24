@@ -27,7 +27,7 @@
     "version": 1,
     "tags": ["Display"],
     "isLoading": false,
-    "chartName": "Incomplete Tasks by Type",
+    "chartName": "Open Tasks by Type",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
     "originalBottomRow": 50,
