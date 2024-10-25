@@ -41,6 +41,12 @@ export default {
 			// Run Rept_COUNT_unassignedTasks
 			await Rept_COUNT_unassignedTasks.run();
 			
+			// Run dash_appsbyTech
+			await dash_appsbyTech.run();
+			
+			//Run dash_unassignedByTeam
+			await dash_unassignedByTeam.run();
+			
 			// Run interactionLog_getEntityList
 			await interactionLog_getEntityList.run();
 			

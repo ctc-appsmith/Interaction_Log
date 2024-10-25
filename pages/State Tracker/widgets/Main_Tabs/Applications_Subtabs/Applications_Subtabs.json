@@ -156,7 +156,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 84,
+    "originalBottomRow": 81,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Applications_Subtabs",
@@ -210,7 +210,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 19,
+    "originalTopRow": 16,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 10
