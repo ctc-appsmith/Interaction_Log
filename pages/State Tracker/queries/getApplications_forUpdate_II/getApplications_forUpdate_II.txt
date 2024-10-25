@@ -1,0 +1,6 @@
+SELECT Applications.*, Entities.entityName
+	FROM Applications INNER JOIN
+		Entities ON Applications.entityID = Entities.entityID
+		
+		WHERE appID = '{{Table14.selectedRow.appID}}'
+;

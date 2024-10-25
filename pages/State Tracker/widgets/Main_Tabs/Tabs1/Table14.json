@@ -31,7 +31,7 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "-1",
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": false,
@@ -99,7 +99,7 @@
     "hideCard": false,
     "mobileRightColumn": 44,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "fundingRequest": {
@@ -579,6 +579,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{getApplications_forUpdate_II.run()}}",
     "key": "zp5pmnhlet",
     "canFreezeColumn": true,
     "isDeprecated": false,

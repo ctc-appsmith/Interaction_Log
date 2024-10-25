@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 980,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -161,6 +161,18 @@
               "jsonPathKeys": [
                 "appsmith.store.clientID",
                 "entitySelect4.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_getApplications_forUpdate_II",
+              "name": "getApplications_forUpdate_II",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table14.selectedRow.appID"
               ],
               "timeoutInMillisecond": 10000
             }

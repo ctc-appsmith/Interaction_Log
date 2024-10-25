@@ -54,6 +54,8 @@ export default {
 			await getApplicantsOnly.run();
 			      // Run Rept_COUNT_pendingTasks
       await Rept_COUNT_pendingTasks.run();
+			// Run getApplications_forUpdateForm
+			await getApplications_forUpdateForm.run();
       
       // Run Rept_COUNT_taskStatus_Score
       await Rept_COUNT_taskStatus_Score.run();
