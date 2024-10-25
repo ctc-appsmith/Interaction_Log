@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1030,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -137,6 +137,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_Rept_appsStatusEntity_Summit",
+              "name": "Rept_appsStatusEntity_Summit",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
