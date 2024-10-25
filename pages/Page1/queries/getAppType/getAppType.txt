@@ -1,9 +1,0 @@
-SELECT
-  *
-FROM
-  applicationType
-WHERE
-  clientID = {{appsmith.store.clientID}}
-ORDER BY appTypeName ASC
-
-;

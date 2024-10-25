@@ -1,5 +1,0 @@
-DELETE FROM entityType 
-
-WHERE entityTypeID = {{entityType_Table.selectedRow.entityTypeID}}
-
-;
