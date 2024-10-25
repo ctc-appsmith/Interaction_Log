@@ -185,7 +185,7 @@
             "index": 1,
             "id": "tabpjebagy12y",
             "label": "Reports",
-            "isVisible": false
+            "isVisible": true
         },
         "tab1": {
             "widgetId": "nz2nd587tc",
