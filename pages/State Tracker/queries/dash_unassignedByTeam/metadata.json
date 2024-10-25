@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\n\tFROM Clients, (Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) \tINNER JOIN Applications ON Tasks.appID = Applications.appID\n\tWHERE (((Tasks.taskStatus)<>\"Complete\") \n\t\t\t AND ((Clients.clientID)={{appsmith.store.clientID}}) \n\t\t\t AND ((Tasks.assignedTo)=\"unassigned@ctcnet.us\"))\nGROUP BY taskTypes.team\n;\n",
+      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\nFROM Clients INNER JOIN (((Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\nWHERE (((Tasks.taskStatus)<>\"Complete\") AND ((Tasks.assignedTo)=\"unassigned@ctcnet.us\") AND ((Clients.clientID)={{appsmith.store.clientID}}))\nGROUP BY taskTypes.team;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
