@@ -198,7 +198,7 @@
             "index": 5,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "timeframe_days",
+            "label": "Timeframe in Days",
             "fontStyle": "",
             "textColor": "",
             "columnType": "number",
