@@ -29,14 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home Admin_COUNT_appsPerState",
-              "name": "COUNT_appsPerState",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Home Admin_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
@@ -44,6 +36,16 @@
               "jsonPathKeys": [
                 "appsmith.store.access_token"
               ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home Admin_COUNT_appsPerState",
+              "name": "COUNT_appsPerState",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
