@@ -200,7 +200,7 @@
             "index": 2,
             "id": "tabfhe9t877tp",
             "label": "MT Reports",
-            "isVisible": "{{appsmith.store.clientID===\"1\"}}"
+            "isVisible": "{{false}}"
         }
     },
     "parentId": "k8g2y2sjdv",

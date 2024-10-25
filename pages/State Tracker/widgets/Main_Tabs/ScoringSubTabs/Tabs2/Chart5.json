@@ -32,11 +32,12 @@
                 "y": 32000
             }
         ],
-        "seriesName": "2023"
+        "seriesName": ""
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.296875,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
@@ -112,7 +113,7 @@
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "chartName": "Sales Report",
+    "chartName": "Applications by Status",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "xAxisName": "Product Line",
