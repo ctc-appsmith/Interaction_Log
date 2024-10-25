@@ -2,6 +2,8 @@ SELECT
   *
 FROM
   applicationStatusTypes
+	
+	WHERE clientID = {{appsmith.store.clientID}}
 
 ORDER BY
   {{appStatusType_Table.sortOrder.column || 'processOrder'}} 
