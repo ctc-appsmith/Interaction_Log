@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "UPDATE FORM",
+    "text": "Application Information",
     "key": "jrq24ede06",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -55,6 +55,6 @@
     "mobileLeftColumn": 26,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 9,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

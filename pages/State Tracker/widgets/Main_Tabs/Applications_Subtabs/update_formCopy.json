@@ -84,7 +84,8 @@
         {"key": "schema.__root_schema__.children.reviewOrder.accentColor"},
         {"key": "schema.__root_schema__.children.initialBudget.defaultValue"},
         {"key": "schema.__root_schema__.children.initialBudget.borderRadius"},
-        {"key": "schema.__root_schema__.children.initialBudget.accentColor"}
+        {"key": "schema.__root_schema__.children.initialBudget.accentColor"},
+        {"key": "schema.__root_schema__.children.applicationStatus.options"}
     ],
     "showReset": true,
     "dynamicHeight": "FIXED",
@@ -486,22 +487,23 @@
                 "identifier": "applicationStatus",
                 "boxShadow": "none",
                 "isRequired": false,
+                "isFilterable": false,
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.applicationStatus))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "applicationStatus",
                 "isVisible": true,
                 "label": "Application Status",
+                "serverSideFiltering": false,
                 "originalIdentifier": "applicationStatus",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_formCopy.sourceData, update_formCopy.formData, update_formCopy.fieldState)}}",
                 "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
+                "options": "{{getAppStatusTypes.data.map( p => ({label: p.appStatusType, value: p.appStatusType}))}}",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": 3,
-                "fieldType": "Number Input"
+                "sourceData": "Application",
+                "fieldType": "Select"
             },
             "bidSelectionAwardStatus": {
                 "labelTextSize": "0.875rem",

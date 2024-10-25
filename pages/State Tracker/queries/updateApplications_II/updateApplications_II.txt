@@ -1,0 +1,10 @@
+UPDATE Applications SET
+		applicationName = '{{update_form_AppsII.fieldState.applicationName.isVisible ? 		update_form_AppsII.formData.applicationName : update_form_AppsII.sourceData.applicationName}}',
+		applicationType = '{{update_form_AppsII.fieldState.applicationType.isVisible ? update_form_AppsII.formData.applicationType : update_form_AppsII.sourceData.applicationType}}',
+		applicationStatus = '{{update_form_AppsII.fieldState.applicationStatus.isVisible ? update_form_AppsII.formData.applicationStatus : update_form_AppsII.sourceData.applicationStatus}}',
+		techType = '{{update_form_AppsII.fieldState.techType.isVisible ? update_form_AppsII.formData.techType : update_form_AppsII.sourceData.techType}}',
+		portalAppID = '{{update_form_AppsII.fieldState.portalAppID.isVisible ? update_form_AppsII.formData.portalAppID : update_form_AppsII.sourceData.portalAppID}}',
+		reviewOrder = '{{update_form_AppsII.fieldState.reviewOrder.isVisible ? update_form_AppsII.formData.reviewOrder : update_form_AppsII.sourceData.reviewOrder}}',
+		lastChangedBy = '{{appsmith.user.email}}'
+		
+WHERE appID = {{Select6.selectedOptionValue}};
