@@ -18,7 +18,7 @@
     "hideCard": false,
     "mobileRightColumn": 58,
     "chartData": {"ivqmdv906l": {
-        "data": "{{dash_appsbyStatus.data.map (u => ({x: u.appStatusType, y: u.CountOfappID}) )}}",
+        "data": "{{dash_appsbyStatus.data.map (u => ({x: u.applicationStatus, y: u.CountOfappID}) )}}",
         "color": "#134463",
         "seriesName": ""
     }},

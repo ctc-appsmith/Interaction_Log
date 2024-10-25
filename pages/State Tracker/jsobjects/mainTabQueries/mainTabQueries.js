@@ -68,6 +68,8 @@ export default {
       
       // Run Rept_getTaskStatusByTeam
       await Rept_getTaskStatusByTeam.run();
+			// Run dash_appsbyStatus
+			await dash_appsbyStatus.run();
 
       
     } catch (error) {

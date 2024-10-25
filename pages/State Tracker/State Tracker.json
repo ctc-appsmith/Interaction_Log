@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 910,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -74,56 +74,6 @@
             {
               "id": "State Tracker_Rept_getTaskStatusByTeam",
               "name": "Rept_getTaskStatusByTeam",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_appsbyAward",
-              "name": "dash_appsbyAward",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_appsbyStatus",
-              "name": "dash_appsbyStatus",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_appsbyTech",
-              "name": "dash_appsbyTech",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_incompleteTaskbyType",
-              "name": "dash_incompleteTaskbyType",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_unassignedByTeam",
-              "name": "dash_unassignedByTeam",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

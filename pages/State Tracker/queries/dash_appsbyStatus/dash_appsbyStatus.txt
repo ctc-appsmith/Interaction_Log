@@ -1,6 +1,5 @@
-SELECT applicationStatusTypes.appStatusType, Count(Applications.appID) AS CountOfappID
-	FROM Clients INNER JOIN (
-		(applicationStatusTypes INNER JOIN Applications ON applicationStatusTypes.appStatusID = Applications.applicationStatus) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID
+SELECT Applications.applicationStatus, Count(Applications.appID) AS CountOfappID
+FROM (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID
 WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
-GROUP BY applicationStatusTypes.appStatusType
+GROUP BY Applications.applicationStatus
 ORDER BY CountOfappID DESC;
