@@ -69,7 +69,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 52,
+    "bottomRow": 51,
     "columnWidthMap": {"Applicant": 326},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -156,10 +156,10 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 12,
     "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
+    "isVisibleSearch": false,
     "responsiveBehavior": "fill",
     "originalTopRow": 6,
     "mobileLeftColumn": 0,
-    "isVisiblePagination": true,
+    "isVisiblePagination": false,
     "verticalAlignment": "CENTER"
 }
