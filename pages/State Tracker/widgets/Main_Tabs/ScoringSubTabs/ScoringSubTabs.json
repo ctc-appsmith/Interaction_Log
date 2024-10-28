@@ -11,7 +11,8 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
+        {"key": "tabsObj.tabpjebagy12y.isVisible"}
     ],
     "children": [
         {
@@ -160,7 +161,10 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
     "widgetName": "ScoringSubTabs",
-    "dynamicPropertyPathList": [{"key": "tabsObj.tabfhe9t877tp.isVisible"}],
+    "dynamicPropertyPathList": [
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
+        {"key": "tabsObj.tabpjebagy12y.isVisible"}
+    ],
     "displayName": "Tabs",
     "bottomRow": 131,
     "parentRowSpace": 10,
@@ -185,7 +189,7 @@
             "index": 1,
             "id": "tabpjebagy12y",
             "label": "Reports",
-            "isVisible": true
+            "isVisible": "{{appsmith.store.clientID=== 12}}"
         },
         "tab1": {
             "widgetId": "nz2nd587tc",
