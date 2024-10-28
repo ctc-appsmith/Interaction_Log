@@ -15,7 +15,7 @@ LEFT JOIN (
     WHERE m1.changeType = 'Negotiation Status'
 ) latest ON a.appID = latest.appID
 SET a.bidSelectionAwardStatus = COALESCE(latest.newAwardStatus, a.bidSelectionAwardStatus),
-		a.lastChangedBy = '{{appsmith.user.email}}'
+		a.lastChangedBy = '{{get_user.data.email}}'
 WHERE a.appID = '{{Select6.selectedOptionValue}}'
 ;
 

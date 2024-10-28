@@ -1,6 +1,7 @@
-UPDATE taskStatusTypes SET 
-taskStatus= '{{updateTaskStatusType_form.formData.taskStatus}}', 
-taskStatusDefinition= '{{updateTaskStatusType_form.formData.taskStatusDefinition}}',  
-lastUpdatedBy= '{{appsmith.user.email}}' 
-
-WHERE taskStatusID= '{{taskStatusType_Table.selectedRow.taskStatusID}}';
+UPDATE taskStatusTypes 
+	SET 
+		taskStatus = '{{updateTaskStatusType_form.formData.taskStatus}}', 
+		taskStatusDefinition = '{{updateTaskStatusType_form.formData.taskStatusDefinition}}',  
+		lastUpdatedBy = '{{get_user.data.email}}' 
+	WHERE taskStatusID = '{{taskStatusType_Table.selectedRow.taskStatusID}}'
+;

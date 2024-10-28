@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Tasks \n\tSET \n\t\tappID= '{{myTasks_tbl.selectedRow.appID}}', \n\t\tstartDate= '{{myTaskUpdateForm.data.startDate}}', \n\t\tdueDate = '{{myTaskUpdateForm.data.dueDate}}',\n\t\tcompletedDate= '{{myTaskUpdateForm.data.completeDate}}', \n\t\ttaskStatus= '{{(myTaskUpdateForm.data || {}).taskStatus}}', \n\t\tassignedTo= '{{(myTaskUpdateForm.data || {}).assignedTo}}', \n\t\ttaskNotes= '{{(myTaskUpdateForm.data || {}).taskNotes}}', \n\t\tfilePath= '{{(myTaskUpdateForm.data || {}).filePath}}', \n\n\t\tlastChangedBy= '{{appsmith.user.email}}' \n\t\n\tWHERE taskID= '{{myTasks_tbl.selectedRow.taskID}}';",
+      "body": "UPDATE Tasks \n\tSET \n\t\tappID= '{{myTasks_tbl.selectedRow.appID}}', \n\t\tstartDate= '{{myTaskUpdateForm.data.startDate}}', \n\t\tdueDate = '{{myTaskUpdateForm.data.dueDate}}',\n\t\tcompletedDate= '{{myTaskUpdateForm.data.completeDate}}', \n\t\ttaskStatus= '{{(myTaskUpdateForm.data || {}).taskStatus}}', \n\t\tassignedTo= '{{(myTaskUpdateForm.data || {}).assignedTo}}', \n\t\ttaskNotes= '{{(myTaskUpdateForm.data || {}).taskNotes}}', \n\t\tfilePath= '{{(myTaskUpdateForm.data || {}).filePath}}', \n\t\tlastChangedBy= '{{get_user.data.email}}' \n\t\n\tWHERE taskID= '{{myTasks_tbl.selectedRow.taskID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,7 +40,7 @@
       "(myTaskUpdateForm.data || {}).filePath",
       "(myTaskUpdateForm.data || {}).taskNotes",
       "(myTaskUpdateForm.data || {}).taskStatus",
-      "appsmith.user.email",
+      "get_user.data.email",
       "myTaskUpdateForm.data.completeDate",
       "myTaskUpdateForm.data.dueDate",
       "myTaskUpdateForm.data.startDate",

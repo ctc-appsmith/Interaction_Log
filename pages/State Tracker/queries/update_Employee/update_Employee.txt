@@ -1,9 +1,10 @@
-UPDATE Employees SET 
-empLastName= '{{updateEmployee_form.formData.empLastName}}', 
-empFirstName= '{{updateEmployee_form.formData.empFirstName}}', 
-empEmail= '{{updateEmployee_form.formData.empEmail}}', 
-userName= '{{updateEmployee_form.formData.userName}}', 
-primaryTeam= '{{updateEmployee_form.formData.primaryTeam}}', 
-lastChangedBy= '{{appsmith.user.email}}}' 
-
-WHERE empID= '{{employee_Table.selectedRow.empID}}';
+UPDATE Employees 
+	SET 
+		empLastName = '{{updateEmployee_form.formData.empLastName}}', 
+		empFirstName = '{{updateEmployee_form.formData.empFirstName}}', 
+		empEmail= '{{updateEmployee_form.formData.empEmail}}', 
+		userName = '{{updateEmployee_form.formData.userName}}', 
+		primaryTeam = '{{updateEmployee_form.formData.primaryTeam}}', 
+		lastChangedBy = '{{get_user.data.emaill}}' 
+	WHERE empID = '{{employee_Table.selectedRow.empID}}'
+;

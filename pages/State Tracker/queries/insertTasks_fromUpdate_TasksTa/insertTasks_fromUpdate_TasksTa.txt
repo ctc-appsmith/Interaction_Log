@@ -7,7 +7,7 @@ INSERT INTO Tasks (
 	taskNotes,
 	filePath,
 	lastChangedBy
-) 
+	) 
 	VALUES (
 		'{{myTasks_tbl.selectedRow.appID}}',
 		'{{(addTask_fromUpdate_form.data || {}).DatePicker1Copy}}',
@@ -16,6 +16,6 @@ INSERT INTO Tasks (
 		'{{(addTask_fromUpdate_form.data || {}).Select3Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Input1Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Input2Copy}}',
-		'{{appsmith.user.email}}'
-	)
+		'{{get_user.data.email}}'
+		)
 ;

@@ -15,6 +15,6 @@ LEFT JOIN (
     WHERE m1.changeType = 'Tech Type'
 ) latest ON a.appID = latest.appID
 SET a.techType = COALESCE(latest.newTechType, a.techType),
-		a.lastChangedBy = '{{appsmith.user.email}}'
+		a.lastChangedBy = '{{get_user.data.email}}'
 WHERE a.appID = '{{Select6.selectedOptionValue}}'
 ;

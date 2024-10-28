@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Applications a\nLEFT JOIN (\n    SELECT \n        m1.appID,\n        m1.newTechType\n    FROM manualOverrideTable m1\n    JOIN (\n        SELECT \n            appID,\n            MAX(changeDate) AS latestDate\n        FROM manualOverrideTable\n        WHERE changeType = 'Tech Type'\n        GROUP BY appID\n    ) m2 ON m1.appID = m2.appID AND m1.changeDate = m2.latestDate\n    WHERE m1.changeType = 'Tech Type'\n) latest ON a.appID = latest.appID\nSET a.techType = COALESCE(latest.newTechType, a.techType),\n\t\ta.lastChangedBy = '{{appsmith.user.email}}'\nWHERE a.appID = '{{Select6.selectedOptionValue}}'\n;\n",
+      "body": "UPDATE Applications a\nLEFT JOIN (\n    SELECT \n        m1.appID,\n        m1.newTechType\n    FROM manualOverrideTable m1\n    JOIN (\n        SELECT \n            appID,\n            MAX(changeDate) AS latestDate\n        FROM manualOverrideTable\n        WHERE changeType = 'Tech Type'\n        GROUP BY appID\n    ) m2 ON m1.appID = m2.appID AND m1.changeDate = m2.latestDate\n    WHERE m1.changeType = 'Tech Type'\n) latest ON a.appID = latest.appID\nSET a.techType = COALESCE(latest.newTechType, a.techType),\n\t\ta.lastChangedBy = '{{get_user.data.email}}'\nWHERE a.appID = '{{Select6.selectedOptionValue}}'\n;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,7 @@
     "messages": [],
     "jsonPathKeys": [
       "Select6.selectedOptionValue",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Employees (\n\tempLastName,\n\tempFirstName,\n\tempEmail,\n\tuserName,\n\tprimaryTeam,\n\tlastChangedBy\n) \n\tVALUES (\n\t\t'{{(addEmployee_form.formData || {}).empLastName}}',\n\t\t'{{(addEmployee_form.formData || {}).empFirstName}}',\n\t\t'{{(addEmployee_form.formData || {}).empEmail}}',\n\t\t'{{(addEmployee_form.formData || {}).userName}}',\n\t\t'{{(addEmployee_form.formData || {}).primaryTeam}}',\n\t\t'{{appsmith.user.email}}'\n\t)",
+      "body": "INSERT INTO Employees (\n\tempLastName,\n\tempFirstName,\n\tempEmail,\n\tuserName,\n\tprimaryTeam,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{(addEmployee_form.formData || {}).empLastName}}',\n\t\t'{{(addEmployee_form.formData || {}).empFirstName}}',\n\t\t'{{(addEmployee_form.formData || {}).empEmail}}',\n\t\t'{{(addEmployee_form.formData || {}).userName}}',\n\t\t'{{(addEmployee_form.formData || {}).primaryTeam}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,7 +41,7 @@
       "(addEmployee_form.formData || {}).empLastName",
       "(addEmployee_form.formData || {}).primaryTeam",
       "(addEmployee_form.formData || {}).userName",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

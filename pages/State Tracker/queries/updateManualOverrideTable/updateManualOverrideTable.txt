@@ -11,6 +11,6 @@ UPDATE manualOverrideTable
 		emailLink= '{{Update_ManualOverride_Form.formData.emailLink}}', 
 		created= '{{Update_ManualOverride_Form.formData.created}}', 
 		lastChanged= '{{Update_ManualOverride_Form.formData.lastChanged}}', 
-		lastChangedBy= '{{Update_ManualOverride_Form.formData.lastChangedBy}}' 
+		lastChangedBy= '{{get_user.data.email}}' 
 	WHERE recordID= '{{manualOverride_Table.selectedRow.recordID}}'
 ;

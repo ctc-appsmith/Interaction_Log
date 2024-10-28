@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE entityType \n\tSET \n\tentityTypeName= '{{updateEntityType_Form.formData.entityTypeName}}', \n\tlastChangedBy= '{{appsmith.user.email}}' \n\t\n\tWHERE entityTypeID= '{{entityType_Table.selectedRow.entityTypeID}}'\n;",
+      "body": "UPDATE entityType \n\tSET \n\t\tentityTypeName = '{{updateEntityType_Form.formData.entityTypeName}}', \n\t\tlastChangedBy = '{{get_user.data.email}}' \n\tWHERE entityTypeID = '{{entityType_Table.selectedRow.entityTypeID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.user.email",
       "entityType_Table.selectedRow.entityTypeID",
+      "get_user.data.email",
       "updateEntityType_Form.formData.entityTypeName"
     ],
     "userSetOnLoad": false,

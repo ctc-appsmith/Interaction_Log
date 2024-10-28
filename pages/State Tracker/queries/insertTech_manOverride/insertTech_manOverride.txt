@@ -14,6 +14,6 @@ INSERT INTO manualOverrideTable(
 		'{{(Insert_techTypeOverride_Fm.formData || {}).newTechType}}',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).notes}}',
 		'{{(Insert_techTypeOverride_Fm.formData || {}).emailLink}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 		)
 ;

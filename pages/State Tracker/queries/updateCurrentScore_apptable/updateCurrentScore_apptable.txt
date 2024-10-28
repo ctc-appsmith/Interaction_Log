@@ -15,6 +15,6 @@ LEFT JOIN (
     WHERE m1.changeType = 'Scoring'
 ) latest ON a.appID = latest.appID
 SET a.currentScore = COALESCE(latest.newScore, a.currentScore),
-		a.lastChangedBy = '{{appsmith.user.email}}'
+		a.lastChangedBy = '{{get_user.data.email}}'
 WHERE a.appID = {{Select6.selectedOptionValue}}
 ;

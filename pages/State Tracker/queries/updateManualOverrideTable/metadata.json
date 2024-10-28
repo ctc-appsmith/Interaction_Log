@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE manualOverrideTable \n\tSET \n\t\tchangeDate= '{{Update_ManualOverride_Form.formData.changeDate}}', \n\t\tchangeType= '{{Update_ManualOverride_Form.formData.changeType}}', \n\t\tnewScore= '{{Update_ManualOverride_Form.formData.newScore}}', \n\t\tnewAwardStatus= '{{Update_ManualOverride_Form.formData.newAwardStatus}}', \n\t\tnewFunding= '{{Update_ManualOverride_Form.formData.newFunding}}', \n\t\tnewBudget= '{{Update_ManualOverride_Form.formData.newBudget}}', \n\t\tnewTechType= '{{Update_ManualOverride_Form.formData.newTechType}}', \n\t\tnotes= '{{Update_ManualOverride_Form.formData.notes}}', \n\t\temailLink= '{{Update_ManualOverride_Form.formData.emailLink}}', \n\t\tcreated= '{{Update_ManualOverride_Form.formData.created}}', \n\t\tlastChanged= '{{Update_ManualOverride_Form.formData.lastChanged}}', \n\t\tlastChangedBy= '{{Update_ManualOverride_Form.formData.lastChangedBy}}' \n\tWHERE recordID= '{{manualOverride_Table.selectedRow.recordID}}'\n;",
+      "body": "UPDATE manualOverrideTable \n\tSET \n\t\tchangeDate= '{{Update_ManualOverride_Form.formData.changeDate}}', \n\t\tchangeType= '{{Update_ManualOverride_Form.formData.changeType}}', \n\t\tnewScore= '{{Update_ManualOverride_Form.formData.newScore}}', \n\t\tnewAwardStatus= '{{Update_ManualOverride_Form.formData.newAwardStatus}}', \n\t\tnewFunding= '{{Update_ManualOverride_Form.formData.newFunding}}', \n\t\tnewBudget= '{{Update_ManualOverride_Form.formData.newBudget}}', \n\t\tnewTechType= '{{Update_ManualOverride_Form.formData.newTechType}}', \n\t\tnotes= '{{Update_ManualOverride_Form.formData.notes}}', \n\t\temailLink= '{{Update_ManualOverride_Form.formData.emailLink}}', \n\t\tcreated= '{{Update_ManualOverride_Form.formData.created}}', \n\t\tlastChanged= '{{Update_ManualOverride_Form.formData.lastChanged}}', \n\t\tlastChangedBy= '{{get_user.data.email}}' \n\tWHERE recordID= '{{manualOverride_Table.selectedRow.recordID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,13 +41,13 @@
       "Update_ManualOverride_Form.formData.created",
       "Update_ManualOverride_Form.formData.emailLink",
       "Update_ManualOverride_Form.formData.lastChanged",
-      "Update_ManualOverride_Form.formData.lastChangedBy",
       "Update_ManualOverride_Form.formData.newAwardStatus",
       "Update_ManualOverride_Form.formData.newBudget",
       "Update_ManualOverride_Form.formData.newFunding",
       "Update_ManualOverride_Form.formData.newScore",
       "Update_ManualOverride_Form.formData.newTechType",
       "Update_ManualOverride_Form.formData.notes",
+      "get_user.data.email",
       "manualOverride_Table.selectedRow.recordID"
     ],
     "userSetOnLoad": false,

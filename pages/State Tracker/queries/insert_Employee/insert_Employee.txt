@@ -5,12 +5,13 @@ INSERT INTO Employees (
 	userName,
 	primaryTeam,
 	lastChangedBy
-) 
+	) 
 	VALUES (
 		'{{(addEmployee_form.formData || {}).empLastName}}',
 		'{{(addEmployee_form.formData || {}).empFirstName}}',
 		'{{(addEmployee_form.formData || {}).empEmail}}',
 		'{{(addEmployee_form.formData || {}).userName}}',
 		'{{(addEmployee_form.formData || {}).primaryTeam}}',
-		'{{appsmith.user.email}}'
-	)
+		'{{get_user.data.email}}'
+		)
+;

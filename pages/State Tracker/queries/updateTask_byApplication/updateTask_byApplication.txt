@@ -9,6 +9,6 @@ UPDATE Tasks
 		taskNotes= '{{(taskUpdateFormCopy.data || {}).taskNotesCopy1}}', 
 		filePath= '{{(taskUpdateFormCopy.data || {}).filePathCopy1}}', 
 		
-		lastChangedBy= '{{appsmith.user.email}}' 
+		lastChangedBy= '{{get_user.data.email}}' 
 	
 	WHERE taskID= '{{applicationTasks_tbl.selectedRow.taskID}}';

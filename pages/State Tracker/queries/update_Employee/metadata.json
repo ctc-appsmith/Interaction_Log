@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Employees SET \nempLastName= '{{updateEmployee_form.formData.empLastName}}', \nempFirstName= '{{updateEmployee_form.formData.empFirstName}}', \nempEmail= '{{updateEmployee_form.formData.empEmail}}', \nuserName= '{{updateEmployee_form.formData.userName}}', \nprimaryTeam= '{{updateEmployee_form.formData.primaryTeam}}', \nlastChangedBy= '{{appsmith.user.email}}}' \n\nWHERE empID= '{{employee_Table.selectedRow.empID}}';",
+      "body": "UPDATE Employees \n\tSET \n\t\tempLastName = '{{updateEmployee_form.formData.empLastName}}', \n\t\tempFirstName = '{{updateEmployee_form.formData.empFirstName}}', \n\t\tempEmail= '{{updateEmployee_form.formData.empEmail}}', \n\t\tuserName = '{{updateEmployee_form.formData.userName}}', \n\t\tprimaryTeam = '{{updateEmployee_form.formData.primaryTeam}}', \n\t\tlastChangedBy = '{{get_user.data.emaill}}' \n\tWHERE empID = '{{employee_Table.selectedRow.empID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.user.email",
       "employee_Table.selectedRow.empID",
+      "get_user.data.emaill",
       "updateEmployee_form.formData.empEmail",
       "updateEmployee_form.formData.empFirstName",
       "updateEmployee_form.formData.empLastName",

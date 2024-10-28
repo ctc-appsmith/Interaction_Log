@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Applications SET\n\t\tapplicationName = '{{update_form_AppsII.fieldState.applicationName.isVisible ? \t\tupdate_form_AppsII.formData.applicationName : update_form_AppsII.sourceData.applicationName}}',\n\t\tapplicationType = '{{update_form_AppsII.fieldState.applicationType.isVisible ? update_form_AppsII.formData.applicationType : update_form_AppsII.sourceData.applicationType}}',\n\t\tapplicationStatus = '{{update_form_AppsII.fieldState.applicationStatus.isVisible ? update_form_AppsII.formData.applicationStatus : update_form_AppsII.sourceData.applicationStatus}}',\n\t\ttechType = '{{update_form_AppsII.fieldState.techType.isVisible ? update_form_AppsII.formData.techType : update_form_AppsII.sourceData.techType}}',\n\t\tportalAppID = '{{update_form_AppsII.fieldState.portalAppID.isVisible ? update_form_AppsII.formData.portalAppID : update_form_AppsII.sourceData.portalAppID}}',\n\t\treviewOrder = '{{update_form_AppsII.fieldState.reviewOrder.isVisible ? update_form_AppsII.formData.reviewOrder : update_form_AppsII.sourceData.reviewOrder}}',\n\t\tlastChangedBy = '{{appsmith.user.email}}'\n\t\t\nWHERE appID = {{Select6.selectedOptionValue}};",
+      "body": "UPDATE Applications \n\tSET\n\t\tapplicationName = '{{update_form_AppsII.fieldState.applicationName.isVisible ? \t\tupdate_form_AppsII.formData.applicationName : update_form_AppsII.sourceData.applicationName}}',\n\t\tapplicationType = '{{update_form_AppsII.fieldState.applicationType.isVisible ? update_form_AppsII.formData.applicationType : update_form_AppsII.sourceData.applicationType}}',\n\t\tapplicationStatus = '{{update_form_AppsII.fieldState.applicationStatus.isVisible ? update_form_AppsII.formData.applicationStatus : update_form_AppsII.sourceData.applicationStatus}}',\n\t\ttechType = '{{update_form_AppsII.fieldState.techType.isVisible ? update_form_AppsII.formData.techType : update_form_AppsII.sourceData.techType}}',\n\t\tportalAppID = '{{update_form_AppsII.fieldState.portalAppID.isVisible ? update_form_AppsII.formData.portalAppID : update_form_AppsII.sourceData.portalAppID}}',\n\t\treviewOrder = '{{update_form_AppsII.fieldState.reviewOrder.isVisible ? update_form_AppsII.formData.reviewOrder : update_form_AppsII.sourceData.reviewOrder}}',\n\t\tlastChangedBy = '{{get_user.data.email}}'\n\t\t\nWHERE appID = {{Select6.selectedOptionValue}}\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,7 @@
     "messages": [],
     "jsonPathKeys": [
       "Select6.selectedOptionValue",
-      "appsmith.user.email",
+      "get_user.data.email",
       "update_form_AppsII.fieldState.applicationName.isVisible ? \t\tupdate_form_AppsII.formData.applicationName : update_form_AppsII.sourceData.applicationName",
       "update_form_AppsII.fieldState.applicationStatus.isVisible ? update_form_AppsII.formData.applicationStatus : update_form_AppsII.sourceData.applicationStatus",
       "update_form_AppsII.fieldState.applicationType.isVisible ? update_form_AppsII.formData.applicationType : update_form_AppsII.sourceData.applicationType",
