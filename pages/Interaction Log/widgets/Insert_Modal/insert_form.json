@@ -17,7 +17,7 @@
             "commsDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
+                "dateFormat": "YYYY-MM-DD",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (moment()))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "accessor": "commsDate",
                 "shortcuts": false,
