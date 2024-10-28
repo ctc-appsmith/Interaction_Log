@@ -87,7 +87,7 @@
     "showDataPointLabel": true,
     "key": "jil40elxhg",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 45,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "awp3qpnkg7",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
