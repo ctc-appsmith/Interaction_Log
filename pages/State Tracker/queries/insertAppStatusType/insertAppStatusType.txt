@@ -8,4 +8,4 @@ INSERT INTO applicationStatusTypes (
 		'{{(Form1.data || {}).Input3}}',
 		'{{(Form1.data || {}).Input4}}',
 		'{{(Form1.data || {}).processOrderCopy}}',
-		'{{appsmith.user.email}}');
+		'{{get_user.data.email}}');

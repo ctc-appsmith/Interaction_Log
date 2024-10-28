@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO taskStatusTypes (taskStatus,taskStatusDefinition,lastUpdatedBy) \nVALUES (\n\t'{{(addTaskStatusType_form.formData || {}).taskStatus}}',\n\t'{{(addTaskStatusType_form.formData || {}).taskStatusDefinition}}',\n\n\t'{{appsmith.user.email}}')",
+      "body": "INSERT INTO taskStatusTypes (\n\ttaskStatus,\n\ttaskStatusDefinition,\n\tlastUpdatedBy\n\t) \n\tVALUES (\n\t\t'{{(addTaskStatusType_form.formData || {}).taskStatus}}',\n\t\t'{{(addTaskStatusType_form.formData || {}).taskStatusDefinition}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,7 +38,7 @@
     "jsonPathKeys": [
       "(addTaskStatusType_form.formData || {}).taskStatus",
       "(addTaskStatusType_form.formData || {}).taskStatusDefinition",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

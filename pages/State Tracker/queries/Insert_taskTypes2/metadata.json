@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO taskTypes (clientID,appType,taskName,taskDefinition,team,lastChangedBy) \nVALUES \n('{{appsmith.store.clientID}}',\n '{{(addTaskType_form.formData || {}).appType}}',\n '{{(addTaskType_form.formData || {}).taskName}}',\n '{{(addTaskType_form.formData || {}).taskDefinition}}',\n\n '{{(addTaskType_form.formData || {}).team}}',\n\n '{{appsmith.user.email}}'\n)\n ;",
+      "body": "INSERT INTO taskTypes (\n\tclientID,\n\tappType,\n\ttaskName,\n\ttaskDefinition,\n\tteam,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{(addTaskType_form.formData || {}).appType}}',\n \t\t'{{(addTaskType_form.formData || {}).taskName}}',\n \t\t'{{(addTaskType_form.formData || {}).taskDefinition}}',\n\t\t'{{(addTaskType_form.formData || {}).team}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,7 +41,7 @@
       "(addTaskType_form.formData || {}).taskName",
       "(addTaskType_form.formData || {}).team",
       "appsmith.store.clientID",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

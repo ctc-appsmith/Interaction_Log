@@ -18,7 +18,6 @@ INSERT INTO Tasks (
 		'{{(addTask_fromTaskTab_form.data || {}).Select3}}',
 		'{{(addTask_fromTaskTab_form.data || {}).Input1}}',
 		'{{(addTask_fromTaskTab_form.data || {}).Input2}}',
-
-		'{{appsmith.user.email}}'
-	)
+		'{{get_user.data.email}}'
+		)
 ;

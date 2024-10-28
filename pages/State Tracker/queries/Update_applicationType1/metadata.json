@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE applicationType SET appTypeName= '{{appType_Table.updatedRow.appTypeName}}', clientID= '{{appType_Table.updatedRow.clientID}}', created= '{{appType_Table.updatedRow.created}}', lastChanged= '{{appType_Table.updatedRow.lastChanged}}', lastChangedBy= '{{appType_Table.updatedRow.lastChangedBy}}' WHERE appTypeID= '{{appType_Table.updatedRow.appTypeID}}';",
+      "body": "UPDATE applicationType \n\tSET \n\t\tappTypeName= '{{appType_Table.updatedRow.appTypeName}}', \n\t\tclientID= '{{appType_Table.updatedRow.clientID}}', \n\t\tcreated= '{{appType_Table.updatedRow.created}}', \n\t\tlastChanged= '{{appType_Table.updatedRow.lastChanged}}', \n\t\tlastChangedBy= '{{get_user.data.email}}' \n\tWHERE appTypeID= '{{appType_Table.updatedRow.appTypeID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,7 +41,7 @@
       "appType_Table.updatedRow.clientID",
       "appType_Table.updatedRow.created",
       "appType_Table.updatedRow.lastChanged",
-      "appType_Table.updatedRow.lastChangedBy"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

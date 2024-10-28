@@ -14,6 +14,6 @@ INSERT INTO manualOverrideTable (
 		'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',
 		'{{(Insert_awardOverride_Form.formData || {}).notes}}',
 		'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 		)
 ;

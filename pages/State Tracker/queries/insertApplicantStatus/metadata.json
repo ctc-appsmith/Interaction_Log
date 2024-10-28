@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO entityStatus \n(entityStatusType,definition,lastChangedBy) \nVALUES (\n\t'{{(Form1Copy.data || {}).Input3Copy}}',\n\t'{{(Form1Copy.data || {}).Input4Copy}}',\n\t'{{appsmith.user.email}}');",
+      "body": "INSERT INTO entityStatus (\n\tentityStatusType,\n\tdefinition,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{(Form1Copy.data || {}).Input3Copy}}',\n\t\t'{{(Form1Copy.data || {}).Input4Copy}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,7 +38,7 @@
     "jsonPathKeys": [
       "(Form1Copy.data || {}).Input3Copy",
       "(Form1Copy.data || {}).Input4Copy",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

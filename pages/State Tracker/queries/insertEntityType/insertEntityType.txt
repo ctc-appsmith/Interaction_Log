@@ -4,6 +4,6 @@ INSERT INTO entityType (
 	) 
 	VALUES (
 		'{{(addEntityType_Form.data || {}).Input3CopyCopy}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 	)
 ;

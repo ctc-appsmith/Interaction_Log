@@ -1,12 +1,17 @@
-INSERT INTO taskTypes (clientID,appType,taskName,taskDefinition,team,lastChangedBy) 
-VALUES 
-('{{appsmith.store.clientID}}',
- '{{(addTaskType_form.formData || {}).appType}}',
- '{{(addTaskType_form.formData || {}).taskName}}',
- '{{(addTaskType_form.formData || {}).taskDefinition}}',
-
- '{{(addTaskType_form.formData || {}).team}}',
-
- '{{appsmith.user.email}}'
-)
- ;
+INSERT INTO taskTypes (
+	clientID,
+	appType,
+	taskName,
+	taskDefinition,
+	team,
+	lastChangedBy
+	) 
+	VALUES (
+		'{{appsmith.store.clientID}}',
+		'{{(addTaskType_form.formData || {}).appType}}',
+ 		'{{(addTaskType_form.formData || {}).taskName}}',
+ 		'{{(addTaskType_form.formData || {}).taskDefinition}}',
+		'{{(addTaskType_form.formData || {}).team}}',
+		'{{get_user.data.email}}'
+		)
+;

@@ -6,6 +6,6 @@ INSERT INTO applicationType (
 	VALUES (
 		'{{(addAppType_Form.data || {}).Input3Copy1}}',
 		'{{appsmith.store.clientID}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 	)
 ;

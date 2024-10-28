@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO taskTypes (clientID, appType, taskName, taskDefinition, team,lastChangedBy) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{(addTaskType_form.data || {}).}}',\n\t\t'{{(insertApplication_form.formData || {}).entityID}}',\n\t\t'{{(insertApplication_form.formData || {}).portalAppID}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationType}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).techType}}',\n\t\t'{{(insertApplication_form.formData || {}).initialScore}}',\n\t\t'{{(insertApplication_form.formData || {}).applicationRank}}',\n\t\t'{{(insertApplication_form.formData || {}).awardStatus}}',\n\t\t'{{(insertApplication_form.formData || {}).fundingRequest}}',\n\t\t'{{(insertApplication_form.formData || {}).referenceBudget}}',\n\t\t'{{(insertApplication_form.formData || {}).currentBudget}}',\n\t\t'{{appsmith.user.email}}')\n;",
+      "body": "INSERT INTO taskTypes (\n\tclientID, \n\tappType, \n\ttaskName, \n\ttaskDefinition, \n\tteam,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{(addTaskType_form.formData || {}).appType}}',\n\t\t'{{(addTaskType_form.formData || {}).taskName}}',\n\t\t'{{(addTaskType_form.formData || {}).taskDefinition}}',\n\t\t'{{(addTaskType_form.formData || {}).team}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,20 +36,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(addTaskType_form.data || {}).",
-      "(insertApplication_form.formData || {}).applicationRank",
-      "(insertApplication_form.formData || {}).applicationStatus",
-      "(insertApplication_form.formData || {}).applicationType",
-      "(insertApplication_form.formData || {}).awardStatus",
-      "(insertApplication_form.formData || {}).currentBudget",
-      "(insertApplication_form.formData || {}).entityID",
-      "(insertApplication_form.formData || {}).fundingRequest",
-      "(insertApplication_form.formData || {}).initialScore",
-      "(insertApplication_form.formData || {}).portalAppID",
-      "(insertApplication_form.formData || {}).referenceBudget",
-      "(insertApplication_form.formData || {}).techType",
+      "(addTaskType_form.formData || {}).appType",
+      "(addTaskType_form.formData || {}).taskDefinition",
+      "(addTaskType_form.formData || {}).taskName",
+      "(addTaskType_form.formData || {}).team",
       "appsmith.store.clientID",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

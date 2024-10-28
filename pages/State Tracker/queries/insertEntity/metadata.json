@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Entities (clientID,entityName,entityType,entityStatus,folderLink,lastChangedBy) \nVALUES \n('{{appsmith.store.clientID}}',\n '{{(insertEntity_form.formData || {}).entityName}}',\n '{{(insertEntity_form.formData || {}).entityType}}',\n '{{(insertEntity_form.formData || {}).entityStatus}}',\n\n '{{(insertEntity_form.formData || {}).folderLink}}',\n\n '{{appsmith.user.email}}')\n ;",
+      "body": "INSERT INTO Entities (\n\tclientID,\n\tentityName,\n\tentityType,\n\tentityStatus,\n\tfolderLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n \t\t'{{(insertEntity_form.formData || {}).entityName}}',\n \t\t'{{(insertEntity_form.formData || {}).entityType}}',\n \t\t'{{(insertEntity_form.formData || {}).entityStatus}}',\n\t\t'{{(insertEntity_form.formData || {}).folderLink}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,7 +41,7 @@
       "(insertEntity_form.formData || {}).entityType",
       "(insertEntity_form.formData || {}).folderLink",
       "appsmith.store.clientID",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

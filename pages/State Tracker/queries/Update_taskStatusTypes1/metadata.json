@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE taskStatusTypes SET taskStatus= '{{taskStatusType_Table.updatedRow.taskStatus}}', taskStatusDefinition= '{{taskStatusType_Table.updatedRow.taskStatusDefinition}}', created= '{{taskStatusType_Table.updatedRow.created}}', lastUpdated= '{{taskStatusType_Table.updatedRow.lastUpdated}}', lastUpdatedBy= '{{taskStatusType_Table.updatedRow.lastUpdatedBy}}' WHERE taskStatusID= '{{taskStatusType_Table.updatedRow.taskStatusID}}';",
+      "body": "UPDATE taskStatusTypes \n\tSET \n\t\ttaskStatus = '{{taskStatusType_Table.updatedRow.taskStatus}}', \n\t\ttaskStatusDefinition = '{{taskStatusType_Table.updatedRow.taskStatusDefinition}}', \n\t\tcreated = '{{taskStatusType_Table.updatedRow.created}}', \n\t\tlastUpdated = '{{taskStatusType_Table.updatedRow.lastUpdated}}', \n\t\tlastUpdatedBy = '{{get_user.data.email}}' \n\tWHERE taskStatusID= '{{taskStatusType_Table.updatedRow.taskStatusID}}'\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "get_user.data.email",
       "taskStatusType_Table.updatedRow.created",
       "taskStatusType_Table.updatedRow.lastUpdated",
-      "taskStatusType_Table.updatedRow.lastUpdatedBy",
       "taskStatusType_Table.updatedRow.taskStatus",
       "taskStatusType_Table.updatedRow.taskStatusDefinition",
       "taskStatusType_Table.updatedRow.taskStatusID"

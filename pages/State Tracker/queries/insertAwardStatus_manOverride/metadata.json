@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewAwardStatus,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).changeDate}}',\n\t\t'Negotiation Status',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).notes}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',\n\t\t'{{appsmith.user.email}}'\n\t\t)\n;",
+      "body": "INSERT INTO manualOverrideTable (\n\tappID,\n\tchangeDate,\n\tchangeType,\n\tnewAwardStatus,\n\tnotes,\n\temailLink,\n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{Select6.selectedOptionValue}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).changeDate}}',\n\t\t'Negotiation Status',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).newAwardStatus}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).notes}}',\n\t\t'{{(Insert_awardOverride_Form.formData || {}).emailLink}}',\n\t\t'{{get_user.data.email}}'\n\t\t)\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,7 +41,7 @@
       "(Insert_awardOverride_Form.formData || {}).newAwardStatus",
       "(Insert_awardOverride_Form.formData || {}).notes",
       "Select6.selectedOptionValue",
-      "appsmith.user.email"
+      "get_user.data.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

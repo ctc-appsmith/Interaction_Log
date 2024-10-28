@@ -14,6 +14,6 @@ INSERT INTO manualOverrideTable (
 		'{{(Insert_scoreOverride_Fm.formData || {}).newScore}}',
 		'{{(Insert_scoreOverride_Fm.formData || {}).notes}}',
 		'{{(Insert_scoreOverride_Fm.formData || {}).emailLink}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 		)
 ;

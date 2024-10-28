@@ -24,6 +24,6 @@ INSERT INTO Applications (
 		'{{(insertApplication_form.formData || {}).fundingRequest}}',
 		'{{(insertApplication_form.formData || {}).referenceBudget}}',
 		'{{(insertApplication_form.formData || {}).currentBudget}}',
-		'{{appsmith.user.email}}'
+		'{{get_user.data.email}}'
 		)
 ;
