@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "dateFormat": "MM-DD-YYYY",
+    "dateFormat": "YYYY-MM-DD",
     "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
     "topRow": 4,
     "labelWidth": "10",
@@ -10,8 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultDate"},
-        {"key": "isRequired"}
+        {"key": "isRequired"},
+        {"key": "defaultDate"}
     ],
     "isDisabled": false,
     "isRequired": "{{true}}",
@@ -33,8 +33,7 @@
     "dynamicPropertyPathList": [
         {"key": "defaultDate"},
         {"key": "isRequired"},
-        {"key": "labelWidth"},
-        {"key": "dateFormat"}
+        {"key": "labelWidth"}
     ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],

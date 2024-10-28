@@ -134,7 +134,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "commsDate": {
-            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsDate\"]))}}",
+            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( moment(currentRow.date).format('YYYY-MM-DD')))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "commsDate",
@@ -143,7 +143,7 @@
             "id": "commsDate",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
-            "outputFormat": "MM-DD-YYYY",
+            "outputFormat": "YYYY-MM-DD",
             "validation": {},
             "isCellVisible": true,
             "isDerived": false,
