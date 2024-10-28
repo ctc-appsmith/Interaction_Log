@@ -884,7 +884,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "defaultSearchText": "{{appsmith.user.email}}",
+    "defaultSearchText": "{{get_user.data.email}}",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,
     "isDeprecated": false,
