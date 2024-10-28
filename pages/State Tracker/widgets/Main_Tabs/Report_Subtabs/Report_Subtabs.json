@@ -160,7 +160,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
-    "widgetName": "ScoringSubTabs",
+    "widgetName": "Report_Subtabs",
     "dynamicPropertyPathList": [
         {"key": "tabsObj.tabfhe9t877tp.isVisible"},
         {"key": "tabsObj.tabpjebagy12y.isVisible"}
