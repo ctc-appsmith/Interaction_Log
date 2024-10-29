@@ -8,7 +8,7 @@
     "iconSVG": "/static/media/icon.c0b4c50c8e9e6060b0525341b26d016d.svg",
     "searchTags": ["boolean"],
     "topRow": 5,
-    "bottomRow": 10,
+    "bottomRow": 13,
     "parentRowSpace": 10,
     "type": "SWITCH_WIDGET",
     "alignWidget": "LEFT",
