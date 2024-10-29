@@ -1,10 +1,9 @@
-SELECT Tasks.*, Applications.appID, taskTypes.taskName, Tasks.taskStatus, taskTypes.team, taskStatusTypes.sortOrder
-FROM taskStatusTypes INNER JOIN ((((Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN Tasks ON Applications.appID = Tasks.appID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) ON taskStatusTypes.taskStatus = Tasks.taskStatus
+SELECT Tasks.*, Applications.applicationName, Applications.portalAppID, Applications.applicationType, Applications.reviewOrder, Entities.entityName, taskTypes.taskName, Tasks.taskStatus, taskStatusTypes.sortOrder
+FROM taskStatusTypes INNER JOIN ((((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) ON taskStatusTypes.taskStatus = Tasks.taskStatus
 
-	WHERE Clients.clientID = {{appsmith.store.clientID}}
-		AND ((Tasks.appID= '{{Select6.selectedOptionValue}}'))
-		AND ({{Switch2.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
-		AND ({{!Select10.selectedOptionValue}} OR (Applications.applicationType = 		'{{Select10.selectedOptionValue}}'))
-		AND ({{!Select7.selectedOptionValue}} OR (taskTypes.team = '{{Select7.selectedOptionValue}}'))
+WHERE Clients.clientID = {{appsmith.store.clientID}}
+AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
+AND ({{!Select11.selectedOptionValue}} OR (Applications.applicationType = '{{Select11.selectedOptionValue}}'))
+AND ({{!Select7Copy.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy.selectedOptionValue}}'))
 
-	ORDER BY sortOrder ASC, startDate DESC;
+ORDER BY reviewOrder ASC, sortOrder ASC, startDate DESC;
