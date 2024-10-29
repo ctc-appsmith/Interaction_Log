@@ -94,7 +94,7 @@
             }
         }
     },
-    "showDataPointLabel": false,
+    "showDataPointLabel": true,
     "key": "5nktq10s2a",
     "isDeprecated": false,
     "rightColumn": 28,
