@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n    Applications.appID, \n    Applications.entityID, \n    Applications.applicationName, \n    Applications.portalAppID, \n    Applications.applicationStatus, \n    Entities.entityName, \n    Tasks.taskTypeID, \n    Tasks.completedDate\nFROM \n    Clients\nINNER JOIN \n    Entities ON Clients.clientID = Entities.clientID\nINNER JOIN \n    Applications ON Entities.entityID = Applications.entityID\nLEFT JOIN \n    Tasks ON Applications.appID = Tasks.appID AND Tasks.completedDate IS NULL\nWHERE \n    Clients.clientID = 12\n    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')\n    AND Tasks.appID IS NULL;\n",
+      "body": "SELECT \n    Applications.appID, \n    Applications.entityID, \n    Applications.applicationName, \n    Applications.portalAppID, \n    Applications.applicationStatus, \n    Entities.entityName, \n    Tasks.taskTypeID, \n    Tasks.completedDate\nFROM \n    Clients\nINNER JOIN \n    Entities ON Clients.clientID = Entities.clientID\nINNER JOIN \n    Applications ON Entities.entityID = Applications.entityID\nLEFT JOIN \n    Tasks ON Applications.appID = Tasks.appID AND Tasks.completedDate IS NULL\nWHERE \n    Clients.clientID = {{appsmith.store.clientID}}\n    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')\n    AND Tasks.appID IS NULL;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,11 +27,17 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

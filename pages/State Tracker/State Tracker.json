@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -83,9 +83,7 @@
               "name": "dash_incompleteTaskbyType",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -136,7 +134,9 @@
               "name": "Rept_AppsByApplicant",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -144,7 +144,9 @@
               "name": "Rept_appsNoTasks",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -178,9 +180,7 @@
               "name": "Rept_getTaskStatusByTeam",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ],

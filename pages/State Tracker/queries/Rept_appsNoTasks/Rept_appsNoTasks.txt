@@ -16,6 +16,6 @@ INNER JOIN
 LEFT JOIN 
     Tasks ON Applications.appID = Tasks.appID AND Tasks.completedDate IS NULL
 WHERE 
-    Clients.clientID = 12
+    Clients.clientID = {{appsmith.store.clientID}}
     AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')
     AND Tasks.appID IS NULL;

@@ -11,8 +11,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
-        {"key": "tabsObj.tabpjebagy12y.isVisible"}
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
     ],
     "children": [
         {
@@ -189,7 +188,7 @@
             "index": 1,
             "id": "tabpjebagy12y",
             "label": "Reports",
-            "isVisible": "{{appsmith.store.clientID=== 12}}"
+            "isVisible": "true"
         },
         "tab1": {
             "widgetId": "nz2nd587tc",

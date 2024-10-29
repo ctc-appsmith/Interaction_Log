@@ -1,8 +1,10 @@
-SELECT Entities.entityName AS Applicant, Count(Applications.appID) AS Count
-
-FROM Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID
-
-WHERE Entities.entityType = "Applicant"
-GROUP BY Entities.entityName
-ORDER BY Count(Applications.appID) DESC
-LIMIT 10;
+SELECT 
+	Entities.entityName AS Applicant, Count(Applications.appID) AS countOfAppID
+		FROM (Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID) 
+		INNER JOIN Clients ON Entities.clientID = Clients.clientID
+	WHERE (((Entities.entityType)="Applicant") 
+				 AND ((Clients.clientID)={{appsmith.store.clientID}}))
+	GROUP BY Entities.entityName
+	ORDER BY Count(Applications.appID) DESC
+		LIMIT 10
+;

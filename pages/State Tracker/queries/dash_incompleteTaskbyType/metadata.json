@@ -18,26 +18,20 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID\n\tFROM ((Entities INNER JOIN (Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON \t\tEntities.entityID = Applications.entityID) \n\t\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID) \n\t\t\t\tINNER JOIN taskTypes ON (Clients.clientID = taskTypes.clientID) AND (Tasks.taskTypeID = taskTypes.taskTypeID)\n\nWHERE Tasks.taskStatus<>\"Complete\"\n\t\t\t AND Clients.clientID = {{appsmith.store.clientID}}\nGROUP BY taskTypes.taskName\nORDER BY CountOftaskID;",
+      "body": "SELECT taskTypes.taskName, Count(Tasks.taskID) AS CountOftaskID\nFROM ((Entities INNER JOIN (Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) ON Entities.entityID = Applications.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\nWHERE (((Tasks.taskStatus)<>\"Complete\") AND ((Clients.clientID)=9))\nGROUP BY taskTypes.taskName\n\nORDER BY CountOftaskID;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "appsmith.store.clientID"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
