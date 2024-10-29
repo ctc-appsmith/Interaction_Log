@@ -1,0 +1,21 @@
+SELECT 
+    Applications.appID, 
+    Applications.entityID, 
+    Applications.applicationName, 
+    Applications.portalAppID, 
+    Applications.applicationStatus, 
+    Entities.entityName, 
+    Tasks.taskTypeID, 
+    Tasks.completedDate
+FROM 
+    Clients
+INNER JOIN 
+    Entities ON Clients.clientID = Entities.clientID
+INNER JOIN 
+    Applications ON Entities.entityID = Applications.entityID
+LEFT JOIN 
+    Tasks ON Applications.appID = Tasks.appID AND Tasks.completedDate IS NULL
+WHERE 
+    Clients.clientID = 12
+    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')
+    AND Tasks.appID IS NULL;

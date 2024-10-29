@@ -35,7 +35,7 @@
         {"key": "primaryColumns.lastChangedBy.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 32,
+    "leftColumn": 25,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -107,7 +107,7 @@
     "bottomRow": 71,
     "columnWidthMap": {
         "applicationStatus": 167,
-        "portalAppID": 186
+        "portalAppID": 179
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -746,7 +746,7 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Project",
+            "label": "Project Name",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -800,7 +800,7 @@
     "key": "9vo2hrulua",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 43,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "yv2s2oq8yb",
