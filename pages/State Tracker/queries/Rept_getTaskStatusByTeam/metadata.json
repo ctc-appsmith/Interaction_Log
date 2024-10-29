@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\nFROM Clients INNER JOIN (((Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\nWHERE (((Tasks.taskStatus)<>\"Complete\") AND ((Clients.clientID)=9))\nGROUP BY taskTypes.team\nORDER BY taskTypes.team;\n",
+      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\nFROM Clients INNER JOIN (((Tasks INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON Clients.clientID = Entities.clientID\nWHERE (((Tasks.taskStatus)<>\"Complete\") AND ((Clients.clientID)={{appsmith.store.clientID}}))\nGROUP BY taskTypes.team\nORDER BY taskTypes.team;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,11 +27,17 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.clientID"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
