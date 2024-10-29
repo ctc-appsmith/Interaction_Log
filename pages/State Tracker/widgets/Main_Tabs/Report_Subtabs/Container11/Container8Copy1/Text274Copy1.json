@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Open Tasks: {{Rept_COUNT_pendingTasks.data[0].CountOfTaskID}}",
+    "text": "Total Open Tasks: {{Rept_COUNT_pendingTasks.data[0].CountOftaskID}}",
     "key": "ykl1jno36k",
     "isDeprecated": false,
     "rightColumn": 64,
