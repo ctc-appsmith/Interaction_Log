@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": true,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "mobileBottomRow": 67,
     "widgetName": "Chart3",
     "allowScroll": false,
@@ -29,7 +29,6 @@
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "accentColor"},
         {"key": "fontFamily"},
         {"key": "chartData.ivqmdv906l.data"}
