@@ -83,7 +83,7 @@
     "displayName": "Table",
     "bottomRow": 55,
     "columnWidthMap": {
-        "applicationStatus": 170,
+        "applicationStatus": 166,
         "portalAppID": 181,
         "applicationName": 225
     },
@@ -346,7 +346,7 @@
     "key": "c960tj8iih",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 27,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "i2w7emzy4s",
