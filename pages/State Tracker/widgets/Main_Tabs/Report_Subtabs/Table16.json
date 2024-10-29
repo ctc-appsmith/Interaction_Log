@@ -36,7 +36,7 @@
         {"key": "primaryColumns.sortOrder.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 30,
+    "leftColumn": 20,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -107,7 +107,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 71,
+    "bottomRow": 55,
     "columnWidthMap": {
         "portalAppID": 181,
         "taskName": 263,
@@ -842,7 +842,7 @@
     "key": "9vo2hrulua",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "tkxqitavhb",
