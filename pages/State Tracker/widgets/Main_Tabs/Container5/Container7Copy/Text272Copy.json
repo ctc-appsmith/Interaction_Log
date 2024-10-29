@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 10,
-    "bottomRow": 16,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Unassigned Tasks: {{Rept_COUNT_unassignedTasks.data[0].CountOfTaskID}}",
+    "text": "Unassigned Tasks: {{Rept_COUNT_unassignedTasks.data[0].CountOftaskID}}",
     "key": "z9170y13a8",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 14,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 6,
-    "bottomRow": 10,
+    "topRow": 5,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.01806640625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "Team: {{ Select7Copy.selectedOptionLabel ? Select7Copy.selectedOptionLabel : \"All teams\" }}\n",
     "key": "z9170y13a8",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "originalTopRow": 6,
+    "originalTopRow": 4,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 10,
+    "originalBottomRow": 8,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
