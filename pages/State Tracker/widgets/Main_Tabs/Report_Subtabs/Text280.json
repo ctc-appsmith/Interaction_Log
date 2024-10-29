@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.140625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 28,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "All Tasks Report",
     "key": "du65r5n5sa",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 53,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",

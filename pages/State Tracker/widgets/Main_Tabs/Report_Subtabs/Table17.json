@@ -35,7 +35,7 @@
         {"key": "primaryColumns.lastChangedBy.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 25,
+    "leftColumn": 60,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -75,6 +75,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1730136716003,
+    "originalBottomRow": 72,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 32,
@@ -800,7 +801,7 @@
     "key": "9vo2hrulua",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "yv2s2oq8yb",
@@ -814,6 +815,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 5,
     "mobileLeftColumn": 31,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

@@ -23,7 +23,7 @@
         {"key": "primaryColumns.completedDate.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 43,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -62,7 +62,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1730215284444,
+    "columnUpdatedAt": 1730215451411,
+    "originalBottomRow": 56,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
@@ -71,17 +72,18 @@
     "columnOrder": [
         "portalAppID",
         "applicationName",
+        "applicationStatus",
         "entityName",
         "appID",
         "entityID",
-        "applicationStatus",
         "taskTypeID",
         "completedDate"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 54,
+    "bottomRow": 55,
     "columnWidthMap": {
+        "applicationStatus": 170,
         "portalAppID": 181,
         "applicationName": 225
     },
@@ -141,7 +143,7 @@
             "index": 4,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "application Status",
+            "label": "Application Status",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -344,7 +346,7 @@
     "key": "c960tj8iih",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 35,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "i2w7emzy4s",
@@ -358,6 +360,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 6,
     "mobileLeftColumn": 30,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
