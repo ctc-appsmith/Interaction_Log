@@ -25,6 +25,7 @@
                 "children": {},
                 "isDisabled": false,
                 "sourceData": "",
+                "onDateSelected": "{{ commsDate.setValue(moment(commsDate.selectedDate).utc().format(\"YYYY-MM-DD HH:mm:ss\")) }}\n",
                 "labelTextSize": "0.875rem",
                 "identifier": "commsDate",
                 "isRequired": false,
@@ -369,7 +370,8 @@
         {"key": "schema.__root_schema__.children.entityID.onOptionChange"},
         {"key": "schema.__root_schema__.children.entityID.isVisible"},
         {"key": "schema.__root_schema__.children.portalAppID.isVisible"},
-        {"key": "schema.__root_schema__.children.commsDate.defaultValue"}
+        {"key": "schema.__root_schema__.children.commsDate.defaultValue"},
+        {"key": "schema.__root_schema__.children.commsDate.onDateSelected"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
@@ -385,7 +387,8 @@
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [
         {"key": "onSubmit"},
-        {"key": "schema.__root_schema__.children.applicationID.onOptionChange"}
+        {"key": "schema.__root_schema__.children.applicationID.onOptionChange"},
+        {"key": "schema.__root_schema__.children.commsDate.onDateSelected"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
