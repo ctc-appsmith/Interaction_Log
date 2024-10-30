@@ -1,21 +1,13 @@
 SELECT 
-    Applications.appID, 
-    Applications.entityID, 
-    Applications.applicationName, 
-    Applications.portalAppID, 
-    Applications.applicationStatus, 
-    Entities.entityName, 
-    Tasks.taskTypeID, 
-    Tasks.completedDate
-FROM 
-    Clients
-INNER JOIN 
-    Entities ON Clients.clientID = Entities.clientID
-INNER JOIN 
-    Applications ON Entities.entityID = Applications.entityID
-LEFT JOIN 
-    Tasks ON Applications.appID = Tasks.appID AND Tasks.completedDate IS NULL
-WHERE 
+	Applications.appID, 
+	Applications.entityID, 
+	Applications.applicationName, 
+	Applications.portalAppID, 
+	Applications.applicationStatus
+		FROM (
+			Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) 
+			INNER JOIN Clients ON Entities.clientID = Clients.clientID
+	WHERE 
     Clients.clientID = {{appsmith.store.clientID}}
     AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')
-    AND Tasks.appID IS NULL;
+    AND Applications.appID NOT IN (select appID from Tasks);
