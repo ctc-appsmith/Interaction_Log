@@ -17,7 +17,6 @@
         {"key": "primaryColumns.clientID.computedValue"},
         {"key": "primaryColumns.spokeWith.computedValue"},
         {"key": "primaryColumns.title.computedValue"},
-        {"key": "primaryColumns.commsDate.computedValue"},
         {"key": "primaryColumns.commsType.computedValue"},
         {"key": "primaryColumns.importance.computedValue"},
         {"key": "primaryColumns.notes.computedValue"},
@@ -33,7 +32,8 @@
         {"key": "primaryColumns.portalAppID.computedValue"},
         {"key": "primaryColumns.CTCstaff.computedValue"},
         {"key": "primaryColumns.inReferenceTo.isCellVisible"},
-        {"key": "primaryColumns.spokeWith.isCellVisible"}
+        {"key": "primaryColumns.spokeWith.isCellVisible"},
+        {"key": "primaryColumns.commsDate.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -77,7 +77,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1725632941853,
+    "columnUpdatedAt": 1730311745940,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -113,7 +113,7 @@
     "displayName": "Table",
     "bottomRow": 67,
     "columnWidthMap": {
-        "commsDate": 107,
+        "commsDate": 133,
         "EditActions1": 160,
         "notes": 334,
         "inReferenceTo": 238,
@@ -134,7 +134,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "commsDate": {
-            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( moment(currentRow.commsDate).format('YYYY-MM-DD')))}}",
+            "computedValue": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "commsDate",
@@ -154,6 +154,7 @@
             "isVisible": true,
             "label": "Date",
             "fontStyle": "",
+            "inputFormat": "YYYY-MM-DD hh:mm:ss",
             "textColor": "",
             "columnType": "date",
             "thousandSeparator": true,

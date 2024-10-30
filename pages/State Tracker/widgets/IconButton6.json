@@ -17,7 +17,7 @@
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 4,
-    "animateLoading": true,
+    "animateLoading": false,
     "parentColumnSpace": 19.234375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 2,

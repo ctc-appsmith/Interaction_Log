@@ -1,4 +1,4 @@
-SELECT Applications.applicationStatus, Count(Applications.appID) AS CountOfappID
+SELECT Applications.applicationStatus, Count(Applications.appID) AS CountOfappID, Applications.reviewOrder
 FROM (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID
 WHERE (((Clients.clientID)={{appsmith.store.clientID}}))
 GROUP BY Applications.applicationStatus
