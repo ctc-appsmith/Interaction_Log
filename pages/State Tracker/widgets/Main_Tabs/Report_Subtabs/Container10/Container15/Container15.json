@@ -75,7 +75,7 @@
     "isDeprecated": false,
     "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "bz20keu5o3",
     "containerStyle": "card",
     "minWidth": 450,
@@ -87,8 +87,10 @@
     "isLoading": false,
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
+    "originalTopRow": 33,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 86,
     "minDynamicHeight": 10
 }
