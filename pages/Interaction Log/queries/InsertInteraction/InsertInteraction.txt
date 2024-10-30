@@ -18,7 +18,7 @@ INSERT INTO interactionLog(
 		'{{appsmith.store.clientID}}',
 		'{{entitySelect.selectedOptionValue}}',
 		'{{(insert_form.formData || {}).spokeWith}}',
-		('{{ moment.tz(commsDate.selectedDate, 'America/New_York').utc().format("YYYY-MM-DD HH:mm:ss") }}'),
+		'{{(insert_form.formData || {}).commsDate}}',
 		'{{(insert_form.formData || {}).commsType}}',
 		'{{(insert_form.formData || {}).commsSubject}}',
 		'{{(insert_form.formData || {}).applicationID}}',

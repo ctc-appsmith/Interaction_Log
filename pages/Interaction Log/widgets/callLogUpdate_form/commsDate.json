@@ -48,7 +48,7 @@
     "labelTextColor": "#231f20",
     "key": "525cuz3xcl",
     "labelTextSize": "0.875rem",
-    "defaultDate": "{{callLog_tbl.selectedRow.commsDate}}",
+    "defaultDate": "{{callLog_tbl.selectedRow.commsDate.replace(/T.+/, '')}}",
     "isDeprecated": false,
     "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
