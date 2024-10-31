@@ -368,11 +368,12 @@
         {"key": "schema.__root_schema__.children.inReferenceTo.isVisible"},
         {"key": "schema.__root_schema__.children.entityID.onOptionChange"},
         {"key": "schema.__root_schema__.children.entityID.isVisible"},
-        {"key": "schema.__root_schema__.children.portalAppID.isVisible"}
+        {"key": "schema.__root_schema__.children.portalAppID.isVisible"},
+        {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{InsertInteraction.run().then(() => showAlert(\"Query ran successfully!\")).catch(error => showAlert(\"Query failed: \" + error.message, \"error\"));\ncloseModal('Insert_Modal');}}",
+    "onSubmit": "{{InsertInteraction.run().then(() => showAlert(\"Query ran successfully!\")).catch(error => showAlert(\"Detailed Error: \" + JSON.stringify(error), \"error\"));\ncloseModal('Insert_Modal');}}",
     "topRow": 0,
     "bottomRow": 57,
     "fieldLimitExceeded": false,
