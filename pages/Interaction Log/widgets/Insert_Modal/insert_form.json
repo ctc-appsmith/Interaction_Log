@@ -36,7 +36,7 @@
                 "originalIdentifier": "commsDate",
                 "timePrecision": "None",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                "closeOnSelection": false,
+                "closeOnSelection": true,
                 "maxDate": "2121-12-31T18:29:00.000Z",
                 "position": 0,
                 "fieldType": "Datepicker"
