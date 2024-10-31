@@ -372,7 +372,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{InsertInteraction.run(() => {\n  getApplicantCallLog.run();\n}, () => {\n  showAlert('Unable to create! ' + console.log());\n});\ncloseModal('Insert_Modal');}}",
+    "onSubmit": "{{InsertInteraction.run().then(() => showAlert(\"Query ran successfully!\")).catch(error => showAlert(\"Query failed: \" + error.message, \"error\"));\ncloseModal('Insert_Modal');}}",
     "topRow": 0,
     "bottomRow": 57,
     "fieldLimitExceeded": false,
