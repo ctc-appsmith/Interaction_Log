@@ -17,7 +17,7 @@
             "commsDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD",
+                "dateFormat": "MM/DD/YYYY",
                 "accessor": "commsDate",
                 "shortcuts": false,
                 "convertToISO": false,
@@ -368,12 +368,11 @@
         {"key": "schema.__root_schema__.children.inReferenceTo.isVisible"},
         {"key": "schema.__root_schema__.children.entityID.onOptionChange"},
         {"key": "schema.__root_schema__.children.entityID.isVisible"},
-        {"key": "schema.__root_schema__.children.portalAppID.isVisible"},
-        {"key": "onSubmit"}
+        {"key": "schema.__root_schema__.children.portalAppID.isVisible"}
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{InsertInteraction.run().then(() => showAlert(\"Query ran successfully!\")).catch(error => showAlert(\"Detailed Error: \" + JSON.stringify(error), \"error\"));\ncloseModal('Insert_Modal');}}",
+    "onSubmit": "{{InsertInteraction.run().then(() => showAlert(\"Query ran successfully!\")).catch(error => showAlert(\"Detailed Error: \" + JSON.stringify(error), \"error\"));\ncloseModal('Insert_Modal').then(() => {\n  getApplicantCallLog.run();\n});}}",
     "topRow": 0,
     "bottomRow": 57,
     "fieldLimitExceeded": false,
@@ -443,7 +442,7 @@
         {"key": "schema.__root_schema__.children.portalAppID.defaultValue"}
     ],
     "borderWidth": "",
-    "sourceData": "{\n  \"clientID\": \"\",\n  \"entityID\": \"\",\n\t\"entityName\":\"\",\n  \"spokeWith\": \"\",\n  \"commsDate\": \"\",\n  \"commsType\": \"\",\n  \"commsSubject\": \"\",\n  \"applicationID\": \"\",\n\t\"portalAppID\": \"\",\n  \"importance\": \"\",\n  \"notes\": \"\",\n  \"CTCstaff\": \"\",\n  \"inReferenceTo\": \"\",\n  \"lastChangedBy\": \"\"\n}",
+    "sourceData": "",
     "showReset": true,
     "resetButtonLabel": "Reset",
     "key": "h9l9ozr8op",

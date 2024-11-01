@@ -7,12 +7,15 @@
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
     "leftColumn": 52,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
+    ],
     "text": "Add Interaction",
     "isDisabled": false,
     "isDefaultClickDisabled": true,
     "iconName": "add",
-    "isVisible": true,
+    "isVisible": "{{entitySelect.selectedOptionValue > 0}}",
     "version": 1,
     "tags": ["Buttons"],
     "isLoading": false,
@@ -24,7 +27,7 @@
     "mobileBottomRow": 12,
     "widgetName": "Button2",
     "buttonColor": "#fca5a5",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Button",
     "searchTags": [
         "click",
