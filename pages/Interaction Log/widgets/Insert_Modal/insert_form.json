@@ -17,7 +17,7 @@
             "commsDate": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM/DD/YYYY",
+                "dateFormat": "YYYY-MM-DD",
                 "accessor": "commsDate",
                 "shortcuts": false,
                 "convertToISO": false,
@@ -228,7 +228,8 @@
                 "labelTextSize": "0.875rem",
                 "identifier": "entityName",
                 "boxShadow": "none",
-                "isRequired": false,
+                "isRequired": true,
+                "onTextChanged": "{{showAlert('This field is not editable. Please close popup and select an Entity from the dropdown.', '');}}",
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (entitySelect.selectedOptionLabel))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -385,7 +386,8 @@
     "dynamicTriggerPathList": [
         {"key": "onSubmit"},
         {"key": "schema.__root_schema__.children.applicationID.onOptionChange"},
-        {"key": "schema.__root_schema__.children.commsDate.onDateSelected"}
+        {"key": "schema.__root_schema__.children.commsDate.onDateSelected"},
+        {"key": "schema.__root_schema__.children.entityName.onTextChanged"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [

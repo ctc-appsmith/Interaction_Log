@@ -3,5 +3,6 @@ SELECT Clients.clientName, Count(Applications.appID) AS CountOfappID
 		Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID
 		) ON Clients.clientID = Entities.clientID
 
+WHERE Applications.applicationType = "Scoring"
 GROUP BY Clients.clientName
 ORDER BY CountofappID DESC;
