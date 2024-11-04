@@ -13,9 +13,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"},
-        {"key": "optionValue"},
-        {"key": "optionLabel"}
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "",
     "isDisabled": false,
@@ -37,9 +35,7 @@
     "isFilterable": true,
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "optionLabel"},
-        {"key": "labelWidth"},
-        {"key": "optionValue"}
+        {"key": "labelWidth"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -58,13 +54,13 @@
     "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "w9j5h5bsya",
-    "optionValue": "{{appID.sourceData.map((item) => (value))}}",
+    "optionValue": "value",
     "minWidth": 450,
     "parentId": "hr1s52x8sj",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 41,
-    "optionLabel": "{{appID.sourceData.map((item) => (label))}}",
+    "optionLabel": "label",
     "responsiveBehavior": "fill",
     "originalTopRow": 46,
     "mobileLeftColumn": 2,

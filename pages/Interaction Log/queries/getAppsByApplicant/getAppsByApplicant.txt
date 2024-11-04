@@ -1,5 +1,4 @@
-SELECT applicationName, portalAppID, appID FROM Applications
-
-WHERE entityID = {{entitySelect.selectedOptionValue}}
-
-ORDER BY applicationName ASC;
+SELECT Applications.applicationName, Applications.portalAppID, Applications.appID, Entities.entityName, Clients.clientID
+FROM (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID
+WHERE (((Entities.entityName)={{inReferenceTo.selectedOptionValue}}) AND ((Clients.clientID)={{appsmith.store.clientID}}))
+ORDER BY Applications.applicationName;
