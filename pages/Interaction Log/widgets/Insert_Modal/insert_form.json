@@ -91,7 +91,7 @@
                 "identifier": "inReferenceTo",
                 "boxShadow": "none",
                 "isRequired": false,
-                "isFilterable": false,
+                "isFilterable": true,
                 "isCustomField": false,
                 "defaultValue": "",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
