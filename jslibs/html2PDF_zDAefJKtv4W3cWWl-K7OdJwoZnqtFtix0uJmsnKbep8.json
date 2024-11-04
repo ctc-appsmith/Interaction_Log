@@ -1,0 +1,11 @@
+{
+  "name": "html2PDF",
+  "uidString": "html2PDF_https://cdn.jsdelivr.net/npm/jspdf-html2canvas@1.5.2/dist/jspdf-html2canvas.min.js",
+  "accessor": [
+    "html2PDF"
+  ],
+  "url": "https://cdn.jsdelivr.net/npm/jspdf-html2canvas@1.5.2/dist/jspdf-html2canvas.min.js",
+  "version": "1.5.2",
+  "defs": "{\"!name\":\"LIB/html2PDF\",\"html2PDF\":{\"!type\":\"fn()\",\"prototype\":{}}}",
+  "deleted": false
+}

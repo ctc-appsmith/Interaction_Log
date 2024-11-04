@@ -21,7 +21,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas74",
             "displayName": "Canvas",
-            "bottomRow": 1900,
+            "bottomRow": 1860,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -179,7 +179,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "2p012v1vxu",
-    "defaultTab": "Dashboard",
+    "defaultTab": "Reports",
     "onTabSelected": "{{reportSubTabQueries.reportQueries();}}",
     "minWidth": 450,
     "tabsObj": {

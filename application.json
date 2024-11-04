@@ -56,6 +56,12 @@
     },
     {
       "uidString": "dcodeIO_https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"
+    },
+    {
+      "uidString": "html2canvas_https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"
+    },
+    {
+      "uidString": "html2PDF_https://cdn.jsdelivr.net/npm/jspdf-html2canvas@1.5.2/dist/jspdf-html2canvas.min.js"
     }
   ],
   "publishedCustomJSLibs": [],
