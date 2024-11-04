@@ -81,12 +81,13 @@
           ],
           [
             {
-              "id": "Interaction Log_getAppsByApplicant",
-              "name": "getAppsByApplicant",
+              "id": "Interaction Log_getappsbyapplicant_insert",
+              "name": "getappsbyapplicant_insert",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "inReferenceTo.selectedOptionValue"
+                "insert_form.formData.inReferenceTo",
+                "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -27,7 +27,7 @@
                 "onDateSelected": "\n",
                 "labelTextSize": "0.875rem",
                 "identifier": "commsDate",
-                "isRequired": false,
+                "isRequired": true,
                 "isCustomField": false,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "dataType": "string",
@@ -103,7 +103,8 @@
                 "originalIdentifier": "inReferenceTo",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "children": {},
-                "options": "{{getApplicantsOnly.data.map( p => ({label: p.entityName, value: p.entityID}))}}",
+                "options": "{{getApplicantsOnly.data.map( p => ({label: p.entityName, value: p.entityName}))}}",
+                "onOptionChange": "{{getappsbyapplicant_insert.run()}}",
                 "position": 2,
                 "isDisabled": false,
                 "sourceData": "",
@@ -333,7 +334,7 @@
                 "originalIdentifier": "applicationID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "children": {},
-                "options": "{{getAppsByApplicant.data.map( p => ({label: p.portalAppID, value: p.appID}))}}",
+                "options": "{{getappsbyapplicant_insert.data.map( p => ({label: p.portalAppID, value: p.appID}))}}",
                 "onOptionChange": "{{getappName.run()}}",
                 "position": 6,
                 "isDisabled": false,
@@ -387,7 +388,8 @@
         {"key": "onSubmit"},
         {"key": "schema.__root_schema__.children.applicationID.onOptionChange"},
         {"key": "schema.__root_schema__.children.commsDate.onDateSelected"},
-        {"key": "schema.__root_schema__.children.entityName.onTextChanged"}
+        {"key": "schema.__root_schema__.children.entityName.onTextChanged"},
+        {"key": "schema.__root_schema__.children.inReferenceTo.onOptionChange"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
