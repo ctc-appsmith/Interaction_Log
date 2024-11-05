@@ -180,7 +180,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
     "defaultTab": "Details",
-    "onTabSelected": "{{appSubTabQueries.runQueries()}}",
+    "onTabSelected": "{{subTabQueries.runQueries()}}",
     "minWidth": 450,
     "tabsObj": {
         "tabcvi8narali": {
