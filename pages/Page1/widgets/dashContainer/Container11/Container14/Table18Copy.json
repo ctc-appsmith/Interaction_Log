@@ -1,9 +1,9 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "isVisibleDownload": true,
+    "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 4,
+    "topRow": 5,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -28,7 +28,7 @@
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
+    "isVisibleFilters": false,
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
@@ -62,17 +62,17 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1730216173459,
-    "originalBottomRow": 56,
+    "columnUpdatedAt": 1730215931451,
+    "originalBottomRow": 42,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
-    "widgetName": "Table18",
+    "widgetName": "Table18Copy",
     "defaultPageSize": 0,
     "columnOrder": [
         "portalAppID",
-        "applicationName",
         "applicationStatus",
+        "applicationName",
         "entityName",
         "appID",
         "entityID",
@@ -81,21 +81,21 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 55,
+    "bottomRow": 42,
     "columnWidthMap": {
-        "applicationStatus": 166,
+        "applicationStatus": 170,
         "portalAppID": 181,
         "applicationName": 225
     },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
-    "parentColumnSpace": 18.609375,
+    "parentColumnSpace": 2.1796875,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "taskTypeID": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskTypeID\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"taskTypeID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "taskTypeID",
@@ -126,7 +126,7 @@
             "verticalAlignment": "CENTER"
         },
         "applicationStatus": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationStatus\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationStatus\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "applicationStatus",
@@ -157,7 +157,7 @@
             "verticalAlignment": "CENTER"
         },
         "entityName": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityName\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "entityName",
@@ -188,7 +188,7 @@
             "verticalAlignment": "CENTER"
         },
         "appID": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"appID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "appID",
@@ -219,7 +219,7 @@
             "verticalAlignment": "CENTER"
         },
         "portalAppID": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"portalAppID\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"portalAppID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "portalAppID",
@@ -250,7 +250,7 @@
             "verticalAlignment": "CENTER"
         },
         "entityID": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityID\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "entityID",
@@ -281,7 +281,7 @@
             "verticalAlignment": "CENTER"
         },
         "applicationName": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationName\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "applicationName",
@@ -297,7 +297,7 @@
             "allowCellWrapping": false,
             "index": 2,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Project Name",
             "columnType": "text",
             "thousandSeparator": true,
@@ -312,7 +312,7 @@
             "verticalAlignment": "CENTER"
         },
         "completedDate": {
-            "computedValue": "{{Table18.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"completedDate\"]))}}",
+            "computedValue": "{{Table18Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"completedDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "completedDate",
@@ -344,24 +344,24 @@
         }
     },
     "key": "c960tj8iih",
-    "canFreezeColumn": true,
+    "canFreezeColumn": false,
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "i2w7emzy4s",
+    "widgetId": "uh8xl367id",
     "minWidth": 450,
     "tableData": "{{Rept_appsNoTasks.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "6wy5okpugw",
+    "parentId": "fphgql980s",
     "renderMode": "CANVAS",
     "mobileTopRow": 9,
     "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
+    "isVisibleSearch": false,
     "responsiveBehavior": "fill",
     "originalTopRow": 5,
     "mobileLeftColumn": 30,
-    "isVisiblePagination": true,
+    "isVisiblePagination": false,
     "verticalAlignment": "CENTER"
 }

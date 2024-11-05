@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 60,
+    "topRow": 59,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -79,7 +79,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1730808214069,
-    "originalBottomRow": 126,
+    "originalBottomRow": 127,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 32,
@@ -113,7 +113,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 127,
+    "bottomRow": 126,
     "columnWidthMap": {
         "applicationStatus": 167,
         "portalAppID": 179
@@ -959,7 +959,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 59,
+    "originalTopRow": 60,
     "mobileLeftColumn": 31,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

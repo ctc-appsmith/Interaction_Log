@@ -115,7 +115,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "scoring_subtabs",
-    "dynamicPropertyPathList": [{"key": "onTabSelected"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Tabs",
     "bottomRow": 56,
     "parentRowSpace": 10,
@@ -132,7 +132,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qla816de0b",
     "defaultTab": "Scoring",
-    "onTabSelected": "{{scoringSubTabQueries.runQueries()}}",
+    "onTabSelected": "{{handleSubTabSelection.scoringBidTabSelection();}}",
     "minWidth": 450,
     "tabsObj": {
         "tab1": {

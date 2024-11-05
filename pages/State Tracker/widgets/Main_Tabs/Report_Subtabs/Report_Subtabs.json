@@ -21,7 +21,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas74",
             "displayName": "Canvas",
-            "bottomRow": 1880,
+            "bottomRow": 1850,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -162,7 +162,8 @@
     "widgetName": "Report_Subtabs",
     "dynamicPropertyPathList": [
         {"key": "tabsObj.tabfhe9t877tp.isVisible"},
-        {"key": "tabsObj.tabpjebagy12y.isVisible"}
+        {"key": "tabsObj.tabpjebagy12y.isVisible"},
+        {"key": "onTabSelected"}
     ],
     "displayName": "Tabs",
     "bottomRow": 131,
@@ -180,7 +181,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "2p012v1vxu",
     "defaultTab": "Dashboard",
-    "onTabSelected": "{{subTabSelection.reportQueries();}}",
+    "onTabSelected": "{{handleSubTabSelection.reportsTabSelection();}}",
     "minWidth": 450,
     "tabsObj": {
         "tabpjebagy12y": {

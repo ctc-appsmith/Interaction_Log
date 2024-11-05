@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 88,
+    "bottomRow": 86,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "989ugoykwf",
         "containerStyle": "none",
-        "bottomRow": 880,
+        "bottomRow": 860,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,
