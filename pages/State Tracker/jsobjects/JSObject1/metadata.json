@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "settingsSubTabQueries",
+    "name": "JSObject1",
     "pageId": "State Tracker",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "State Tracker_settingsSubTabQueries",
+  "id": "State Tracker_JSObject1",
   "deleted": false,
   "gitSyncId": "66df548a9579f243573899d9_475c2bd5-575b-4a31-91a5-54cda1d06916"
 }
