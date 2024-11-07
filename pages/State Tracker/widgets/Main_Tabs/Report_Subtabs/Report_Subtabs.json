@@ -21,7 +21,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas74",
             "displayName": "Canvas",
-            "bottomRow": 1850,
+            "bottomRow": 900,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -67,7 +67,7 @@
             "widgetName": "Canvas76",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1600,
+            "bottomRow": 1260,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -111,7 +111,7 @@
             "widgetName": "Canvas83",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1600,
+            "bottomRow": 900,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -149,7 +149,7 @@
         }
     ],
     "flexVerticalAlignment": "stretch",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "shouldShowTabs": true,
     "isVisible": true,
@@ -157,6 +157,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 164,
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
     "widgetName": "Report_Subtabs",
@@ -166,7 +167,7 @@
         {"key": "onTabSelected"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 164,
+    "bottomRow": 94,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -211,7 +212,8 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
+    "originalTopRow": 0,
     "mobileLeftColumn": 14,
     "maxDynamicHeight": 9000,
-    "minDynamicHeight": 15
+    "minDynamicHeight": 10
 }
