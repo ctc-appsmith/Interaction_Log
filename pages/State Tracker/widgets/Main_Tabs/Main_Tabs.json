@@ -693,7 +693,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 94,
+    "originalBottomRow": 95,
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
     "widgetName": "Main_Tabs",
@@ -706,7 +706,8 @@
         {"key": "tabsObj.tab82kzd106wy.isVisible"},
         {"key": "tabsObj.tabe93aapn17m.isVisible"},
         {"key": "tabsObj.tabzexl1ckaew.isVisible"},
-        {"key": "tabsObj.tab7x0axpccgh.isVisible"}
+        {"key": "tabsObj.tab7x0axpccgh.isVisible"},
+        {"key": "onTabSelected"}
     ],
     "displayName": "Tabs",
     "bottomRow": 94,
@@ -723,8 +724,8 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qal6aq2p79",
-    "defaultTab": "Tasks",
-    "onTabSelected": "{{mainTabQueries.runQueries();}}",
+    "defaultTab": "Reports",
+    "onTabSelected": "{{mainTabQueries.handleTabSelection();}}",
     "minWidth": 450,
     "tabsObj": {
         "tabbruf7hgtn3": {
@@ -853,7 +854,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 25,
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
+    "originalTopRow": 17,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 10

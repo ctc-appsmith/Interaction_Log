@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "scoringSubTabQueries",
+    "name": "handleSubTabSelection",
     "pageId": "State Tracker",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "State Tracker_scoringSubTabQueries",
+  "id": "State Tracker_handleSubTabSelection",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_9b1a2c55-8697-40ce-9504-5eea0a6c68a2"
+  "gitSyncId": "66df548a9579f243573899d9_274822be-96fc-44da-a716-485f6ed8d377"
 }

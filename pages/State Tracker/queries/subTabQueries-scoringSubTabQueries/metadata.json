@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "runQueries",
-    "fullyQualifiedName": "appSubTabQueries.runQueries",
+    "name": "scoringSubTabQueries",
+    "fullyQualifiedName": "subTabQueries.scoringSubTabQueries",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "State Tracker",
-    "collectionId": "State Tracker_appSubTabQueries",
+    "collectionId": "State Tracker_subTabQueries",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-25T16:29:02Z"
+    "createdAt": "2024-11-07T19:30:23Z"
   },
-  "id": "State Tracker_appSubTabQueries.runQueries",
+  "id": "State Tracker_subTabQueries.scoringSubTabQueries",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_fbaf264f-fe3f-4dac-be35-6d12b66950b0"
+  "gitSyncId": "672d12b09579f243573a233d_0021106d-185c-42f9-bcfd-81fd25f4644c"
 }

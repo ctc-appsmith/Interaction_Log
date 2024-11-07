@@ -221,7 +221,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "ofedb3hvyp",
     "defaultTab": "Application Settings",
-    "onTabSelected": "{{settingsSubTabQueries.runQueries()}}",
+    "onTabSelected": "",
     "minWidth": 450,
     "tabsObj": {
         "tab39tc6g386m": {
