@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 25,
+    "originalBottomRow": 26,
     "needsErrorInfo": false,
     "mobileBottomRow": 21,
     "widgetName": "assignedToCopy1",
@@ -62,7 +62,7 @@
     "mobileTopRow": 14,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 20,
+    "originalTopRow": 21,
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

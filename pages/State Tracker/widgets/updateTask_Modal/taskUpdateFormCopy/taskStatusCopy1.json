@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 30,
+    "originalBottomRow": 31,
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
     "widgetName": "taskStatusCopy1",
@@ -62,7 +62,7 @@
     "mobileTopRow": 30,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 25,
+    "originalTopRow": 26,
     "mobileLeftColumn": 12,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
