@@ -404,7 +404,6 @@
                 "iconAlign": "left",
                 "position": 24,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "matchProposed": {
@@ -426,7 +425,6 @@
                 "iconAlign": "left",
                 "position": 22,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "referenceBudget": {
@@ -627,7 +625,6 @@
                 "iconAlign": "left",
                 "position": 23,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "num_units": {
@@ -715,7 +712,6 @@
                 "iconAlign": "left",
                 "position": 21,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "reviewOrder": {

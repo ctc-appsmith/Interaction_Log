@@ -127,7 +127,7 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "applicationType": {
@@ -848,6 +848,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{storeValue('taskappID', myTasks_tbl.selectedRow.appID).then(() => {\n  showAlert('success', 'success');\n});\nstoreValue('taskportalappid', myTasks_tbl.selectedRow.portalAppID);}}",
     "defaultSearchText": "{{get_user.data.email}}",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,

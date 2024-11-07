@@ -9,13 +9,13 @@ INSERT INTO Tasks (
 	lastChangedBy
 	) 
 	VALUES (
-		'{{myTasks_tbl.selectedRow.appID}}',
-		'{{(addTask_fromUpdate_form.data || {}).DatePicker1Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Select2Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Select4Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Select3Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Input1Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Input2Copy}}',
+		'{{appsmith.store.taskappID}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).DatePicker1CopyCopy}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).Select2CopyCopy}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).Select4CopyCopy}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).Select3CopyCopy}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).Input1CopyCopy}}',
+		'{{(addTask_fromUpdate_formCopy.data || {}).Input2CopyCopy}}',
 		'{{get_user.data.email}}'
 		)
 ;
