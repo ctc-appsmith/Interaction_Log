@@ -7,7 +7,7 @@
     "displayName": "Iframe",
     "iconSVG": "/static/media/icon.99e0e6020fd949e060892f1c6a291b5a.svg",
     "searchTags": ["embed"],
-    "topRow": 133,
+    "topRow": 115,
     "bottomRow": 185,
     "parentRowSpace": 10,
     "source": "",
@@ -18,7 +18,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -38,7 +38,7 @@
     "isLoading": false,
     "mobileTopRow": 142,
     "responsiveBehavior": "fill",
-    "originalTopRow": 133,
+    "originalTopRow": 115,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
     "originalBottomRow": 185
