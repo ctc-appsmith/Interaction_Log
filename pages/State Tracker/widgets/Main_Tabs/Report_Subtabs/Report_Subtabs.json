@@ -21,7 +21,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas74",
             "displayName": "Canvas",
-            "bottomRow": 1850,
+            "bottomRow": 1860,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -67,7 +67,7 @@
             "widgetName": "Canvas76",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1600,
+            "bottomRow": 1270,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -111,7 +111,7 @@
             "widgetName": "Canvas83",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1600,
+            "bottomRow": 1270,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -162,11 +162,10 @@
     "widgetName": "Report_Subtabs",
     "dynamicPropertyPathList": [
         {"key": "tabsObj.tabfhe9t877tp.isVisible"},
-        {"key": "tabsObj.tabpjebagy12y.isVisible"},
-        {"key": "onTabSelected"}
+        {"key": "tabsObj.tabpjebagy12y.isVisible"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 164,
+    "bottomRow": 131,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -181,7 +180,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "2p012v1vxu",
     "defaultTab": "Dashboard",
-    "onTabSelected": "{{handleSubTabSelection.reportsTabSelection();}}",
+    "onTabSelected": "{{reportSubTabQueries.reportQueries();}}",
     "minWidth": 450,
     "tabsObj": {
         "tabpjebagy12y": {

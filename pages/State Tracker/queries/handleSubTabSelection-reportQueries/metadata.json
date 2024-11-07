@@ -16,7 +16,7 @@
     "pageId": "State Tracker",
     "collectionId": "State Tracker_handleSubTabSelection",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-18T14:50:51Z"
+    "createdAt": "2024-11-07T16:30:11Z"
   },
   "id": "State Tracker_handleSubTabSelection.reportQueries",
   "deleted": false,
-  "gitSyncId": "66df548a9579f243573899d9_ed9431ad-f5ff-42ee-96e8-bd8b7a954962"
+  "gitSyncId": "66df548a9579f243573899d9_7c1208eb-7ce4-4c6d-a1eb-0516832d49a6"
 }

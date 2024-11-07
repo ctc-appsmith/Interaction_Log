@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "dateFormat": "MM-DD-YYYY",
     "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
-    "topRow": 37,
+    "topRow": 36,
     "labelWidth": "14",
     "type": "DATE_PICKER_WIDGET2",
     "animateLoading": true,
@@ -11,11 +11,10 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "defaultDate"},
-        {"key": "isVisible"},
-        {"key": "isRequired"}
+        {"key": "isVisible"}
     ],
     "isDisabled": false,
-    "isRequired": "{{taskStatus.selectedOptionLabel === \"Complete\"}}",
+    "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": "{{taskStatus.selectedOptionLabel === \"Complete\"}}",
@@ -34,12 +33,11 @@
     "dynamicPropertyPathList": [
         {"key": "defaultDate"},
         {"key": "isVisible"},
-        {"key": "dateFormat"},
-        {"key": "isRequired"}
+        {"key": "dateFormat"}
     ],
     "displayName": "DatePicker",
     "searchTags": ["calendar"],
-    "bottomRow": 41,
+    "bottomRow": 40,
     "shortcuts": false,
     "parentRowSpace": 10,
     "hideCard": false,
