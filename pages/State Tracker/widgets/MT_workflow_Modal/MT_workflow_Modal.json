@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 104,
-    "bottomRow": 344,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
         "widgetName": "Canvas59Copy1Copy3",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 240,
+        "bottomRow": 690,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
