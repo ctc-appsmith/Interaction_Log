@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JWTGenerator",
+    "pageId": "Home Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home Admin_JWTGenerator",
+  "deleted": false,
+  "gitSyncId": "672d18129579f243573a2852_1ff52267-731b-4014-b256-3ac8ddcbc821"
+}
