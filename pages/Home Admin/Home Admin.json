@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 960,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -43,6 +43,19 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.access_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home Admin_JSObject2.authenticateTableau",
+              "name": "JSObject2.authenticateTableau",
+              "collectionId": "Home Admin_JSObject2",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  try {\n    const jwtToken = await JSObject2.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(jwtToken)}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
