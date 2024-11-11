@@ -3,6 +3,7 @@
     "widgetName": "Container1",
     "borderColor": "",
     "isCanvas": true,
+    "dynamicPropertyPathList": [],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
     "searchTags": [
