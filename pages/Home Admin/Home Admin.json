@@ -49,13 +49,13 @@
           ],
           [
             {
-              "id": "Home Admin_JWGenerator.authenticateTableau",
-              "name": "JWGenerator.authenticateTableau",
-              "collectionId": "Home Admin_JWGenerator",
+              "id": "Home Admin_JWTGenerator.authenticateTableau",
+              "name": "JWTGenerator.authenticateTableau",
+              "collectionId": "Home Admin_JWTGenerator",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  try {\n    const jwtToken = await JWGenerator.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(await JWGenerator.generateJWT())}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
+                "async () => {\n  try {\n    const jwtToken = await JWTGenerator.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(await JWTGenerator.generateJWT())}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

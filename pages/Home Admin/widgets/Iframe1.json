@@ -9,7 +9,7 @@
     "topRow": 92,
     "bottomRow": 124,
     "parentRowSpace": 10,
-    "source": "{{ JWGenerator.authenticateTableau.data}}",
+    "source": "{{ JWTGenerator.authenticateTableau.data}}",
     "type": "IFRAME_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 34,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "authenticateTableau",
-    "fullyQualifiedName": "JWGenerator.authenticateTableau",
+    "name": "generateJWT",
+    "fullyQualifiedName": "JWTGenerator.generateJWT",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Home Admin",
-    "collectionId": "Home Admin_JWGenerator",
+    "collectionId": "Home Admin_JWTGenerator",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2024-11-11T18:38:23Z"
   },
-  "id": "Home Admin_JWGenerator.authenticateTableau",
+  "id": "Home Admin_JWTGenerator.generateJWT",
   "deleted": false,
-  "gitSyncId": "67324eb09579f243573a441a_3a8793b6-e353-4aed-838f-3989d027df18"
+  "gitSyncId": "67324eb09579f243573a441a_568e9160-5323-485b-befe-3068607176d9"
 }

@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "<tsRequest>\n  <credentials jwt=\"{{ JWGenerator.generateJWT.data.jwt }}\">\n    <site contentUrl=\"{{ JWGenerator.authenticateTableau.datal }}\" />\n  </credentials>\n</tsRequest>",
+      "body": "<tsRequest>\n  <credentials jwt=\"{{ JWTGenerator.generateJWT.data.jwt }}\">\n    <site contentUrl=\"{{ JWTGenerator.authenticateTableau.datal }}\" />\n  </credentials>\n</tsRequest>",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -51,8 +51,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " JWGenerator.authenticateTableau.datal ",
-      " JWGenerator.generateJWT.data.jwt "
+      " JWTGenerator.authenticateTableau.datal ",
+      " JWTGenerator.generateJWT.data.jwt "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
