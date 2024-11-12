@@ -5,7 +5,7 @@
     "mobileBottomRow": 9,
     "onClick": "{{showModal('addTask_fromTaskTab_modal');}}",
     "widgetName": "Button31Copy",
-    "buttonColor": "#061041",
+    "buttonColor": "#252d55",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "displayName": "Button",
     "topRow": 18,
