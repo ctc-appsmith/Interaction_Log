@@ -40,7 +40,7 @@
     "needsHeightForContent": true,
     "leftColumn": 1,
     "delimiter": ",",
-    "defaultSelectedRowIndex": "0",
+    "defaultSelectedRowIndex": "-1",
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": false,
@@ -848,7 +848,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{storeValue('taskappID', myTasks_tbl.selectedRow.appID).then(() => {\n  showAlert('success', 'success');\n});\nstoreValue('taskportalappid', myTasks_tbl.selectedRow.portalAppID);}}",
+    "onRowSelected": "{{storeValue('taskappID', myTasks_tbl.selectedRow.appID).then(() => {});\nstoreValue('taskportalappid', myTasks_tbl.selectedRow.portalAppID).then(() => {});}}",
     "defaultSearchText": "{{get_user.data.email}}",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,
