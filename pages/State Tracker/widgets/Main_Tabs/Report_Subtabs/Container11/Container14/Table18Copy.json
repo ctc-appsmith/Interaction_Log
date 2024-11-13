@@ -362,6 +362,6 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 5,
     "mobileLeftColumn": 30,
-    "isVisiblePagination": false,
+    "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
