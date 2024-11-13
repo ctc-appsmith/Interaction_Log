@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1240,
+          "bottomRow": 1790,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -29,11 +29,14 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home Admin_COUNT_appsPerState",
-              "name": "COUNT_appsPerState",
+              "id": "Home Admin_JWTGenerator.authenticateTableau",
+              "name": "JWTGenerator.authenticateTableau",
+              "collectionId": "Home Admin_JWTGenerator",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  try {\n    const jwtToken = await JWTGenerator.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(await JWTGenerator.generateJWT())}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -49,13 +52,34 @@
           ],
           [
             {
-              "id": "Home Admin_JWTGenerator.authenticateTableau",
-              "name": "JWTGenerator.authenticateTableau",
-              "collectionId": "Home Admin_JWTGenerator",
+              "id": "Home Admin_COUNT_appsPerState",
+              "name": "COUNT_appsPerState",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home Admin_auth_Tableau",
+              "name": "auth_Tableau",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " JWTGenerator.authenticateTableau.datal ",
+                " JWTGenerator.generateJWT.data.jwt "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home Admin_TableauAuth.embedTableau",
+              "name": "TableauAuth.embedTableau",
+              "collectionId": "Home Admin_TableauAuth",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  try {\n    const jwtToken = await JWTGenerator.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(await JWTGenerator.generateJWT())}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
+                "async function () {\n  try {\n    const jwt = await TableauAuth.generateJWT();\n    return `\n                <div id=\"tableauEmbed\" style=\"width:100%; height:100%; margin:0; padding:0;\">\n                    <script type=\"module\" src=\"https://embedding.tableauusercontent.com/tableau.embedding.3.1.0.min.js\"></script>\n                    <tableau-viz \n                        id=\"tableauViz\"\n                        src=\"https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\"\n                        token=\"${jwt}\"\n                        hide-tabs\n                        toolbar=\"hidden\"\n                        style=\"width:100%; height:100%;\">\n                    </tableau-viz>\n                </div>\n            `;\n  } catch (error) {\n    console.error('Embedding Error:', error);\n    throw error;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
