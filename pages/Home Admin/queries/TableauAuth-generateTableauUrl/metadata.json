@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "TableauSignIn.myFun2",
+    "name": "generateTableauUrl",
+    "fullyQualifiedName": "TableauAuth.generateTableauUrl",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,9 +14,9 @@
       "userPermissions": []
     },
     "pageId": "Home Admin",
-    "collectionId": "Home Admin_TableauSignIn",
+    "collectionId": "Home Admin_TableauAuth",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-11T18:59:50Z"
+    "createdAt": "2024-11-14T14:50:47Z"
   },
-  "id": "Home Admin_TableauSignIn.myFun2",
+  "id": "Home Admin_TableauAuth.generateTableauUrl",
   "deleted": false,
-  "gitSyncId": "67324eb09579f243573a441a_660332ac-6353-4d14-b286-d2dc1dfe2eb5"
+  "gitSyncId": "67324eb09579f243573a441a_9393512e-d88f-48e2-a8d6-64a65d7a5f2a"
 }

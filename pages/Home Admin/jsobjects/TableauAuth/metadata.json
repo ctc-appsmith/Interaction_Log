@@ -6,7 +6,12 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [],
+    "variables": [
+      {
+        "name": "credentials",
+        "value": "{\n  secretId: \"YOUR_SECRET_ID\",\n  clientId: \"YOUR_CLIENT_ID\",\n  secretValue: \"YOUR_SECRET_VALUE\",\n  userEmail: \"YOUR_USER_EMAIL\",\n  siteName: \"YOUR_SITE_NAME\",\n  vizUrl: \"YOUR_VIZ_URL\"\n}"
+      }
+    ],
     "userPermissions": []
   },
   "id": "Home Admin_TableauAuth",
