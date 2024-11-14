@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "generateEmbedHtml",
-    "fullyQualifiedName": "TableauAuth.generateEmbedHtml",
+    "name": "generateEmbedUrl",
+    "fullyQualifiedName": "TableauAuth.generateEmbedUrl",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,7 +16,7 @@
     "pageId": "Home Admin",
     "collectionId": "Home Admin_TableauAuth",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-14T16:07:34Z"
+    "createdAt": "2024-11-14T16:35:59Z"
   },
-  "id": "Home Admin_TableauAuth.generateEmbedHtml",
+  "id": "Home Admin_TableauAuth.generateEmbedUrl",
   "deleted": false,
-  "gitSyncId": "67324eb09579f243573a441a_c3f55dd3-5112-4138-b855-e083d3cc3007"
+  "gitSyncId": "67324eb09579f243573a441a_a7398881-d2cd-45d6-9a41-c9436558adcd"
 }
