@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1940,
+          "bottomRow": 1790,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -37,18 +37,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Home Admin_get_user",
-              "name": "get_user",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.access_token"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Home Admin_TableauSignIn.onPageLoad",
               "name": "TableauSignIn.onPageLoad",
               "collectionId": "Home Admin_TableauSignIn",
@@ -56,6 +44,16 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async function () {\n  await storeValue('TableauAuth', TableauAuth);\n  return TableauAuth.generateEmbedUrl();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home Admin_get_user",
+              "name": "get_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.access_token"
               ],
               "timeoutInMillisecond": 10000
             }
