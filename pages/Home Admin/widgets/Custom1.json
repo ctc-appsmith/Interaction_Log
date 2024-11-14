@@ -24,11 +24,10 @@
     "dynamicBindingPathList": [
         {"key": "theme"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "defaultModel"}
+        {"key": "boxShadow"}
     ],
     "leftColumn": 22,
-    "defaultModel": "{{TableauAuth.embedTableau.data}}/",
+    "defaultModel": "",
     "borderWidth": "1",
     "theme": "{{appsmith.theme}}",
     "onResetClick": "{{showAlert('Successfully reset!!', '');}}",

@@ -6,12 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "credentials",
-        "value": "{\n  kid: \"8f0de1b5-d935-4841-a4e6-e1f7c6b1da99\",\n  iss: \"76ea0738-83d1-47dd-88ed-8eee8f79e6bf\",\n  sub: \"dluongo@ctcnet.us\",\n  secretValue: \"cGYOCH+a2SDtSRJd8ZUK5dJgjO8KsZNc7zSpGWvHWn0=\"\n}"
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
   "id": "Home Admin_TableauAuth",
