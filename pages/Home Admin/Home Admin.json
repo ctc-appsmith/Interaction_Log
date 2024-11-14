@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1790,
+          "bottomRow": 1940,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -29,14 +29,11 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home Admin_JWTGenerator.authenticateTableau",
-              "name": "JWTGenerator.authenticateTableau",
-              "collectionId": "Home Admin_JWTGenerator",
+              "id": "Home Admin_COUNT_appsPerState",
+              "name": "COUNT_appsPerState",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  try {\n    const jwtToken = await JWTGenerator.generateJWT();\n    console.log(\"Generated JWT Token:\", jwtToken);\n    const tableauURL = `https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\n?:embed=y&:showVizHome=no&:auth=${encodeURIComponent(await JWTGenerator.generateJWT())}`;\n    console.log(\"Final Iframe URL: \", tableauURL);\n    return tableauURL;\n  } catch (error) {\n    console.error(\"Error generating JWT or URL:\", error);\n    return null;\n  }\n}"
-              ],
+              "pluginType": "DB",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -52,21 +49,13 @@
           ],
           [
             {
-              "id": "Home Admin_COUNT_appsPerState",
-              "name": "COUNT_appsPerState",
+              "id": "Home Admin_TableauSignIn.onPageLoad",
+              "name": "TableauSignIn.onPageLoad",
+              "collectionId": "Home Admin_TableauSignIn",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Home Admin_auth_Tableau",
-              "name": "auth_Tableau",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                " JWTGenerator.authenticateTableau.datal ",
-                " JWTGenerator.generateJWT.data.jwt "
+                "async function () {\n  await storeValue('TableauAuth', TableauAuth);\n  return TableauAuth.testEmbed();\n}"
               ],
               "timeoutInMillisecond": 10000
             }

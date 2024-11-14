@@ -1,5 +1,0 @@
-<tsRequest>
-  <credentials jwt="{{ JWTGenerator.generateJWT.data.jwt }}">
-    <site contentUrl="{{ JWTGenerator.authenticateTableau.datal }}" />
-  </credentials>
-</tsRequest>
