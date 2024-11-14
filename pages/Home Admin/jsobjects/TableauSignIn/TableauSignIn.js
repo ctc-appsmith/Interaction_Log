@@ -1,6 +1,6 @@
 export default {
 	async onPageLoad() {
 		await storeValue('TableauAuth', TableauAuth);
-return TableauAuth.testEmbed();
+return TableauAuth.generateEmbedUrl();
 	}
 }

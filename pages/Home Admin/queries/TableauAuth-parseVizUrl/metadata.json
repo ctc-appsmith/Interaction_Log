@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "testEmbed",
-    "fullyQualifiedName": "TableauAuth.testEmbed",
+    "name": "parseVizUrl",
+    "fullyQualifiedName": "TableauAuth.parseVizUrl",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -31,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-14T15:23:54Z"
+    "createdAt": "2024-11-14T15:54:23Z"
   },
-  "id": "Home Admin_TableauAuth.testEmbed",
+  "id": "Home Admin_TableauAuth.parseVizUrl",
   "deleted": false,
-  "gitSyncId": "67324eb09579f243573a441a_aa6f3fa1-4570-4689-bd49-a5583c2bd435"
+  "gitSyncId": "67324eb09579f243573a441a_e93376eb-f0a9-4246-9fc4-42beb46a4eef"
 }
