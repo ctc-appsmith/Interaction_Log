@@ -827,7 +827,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 51,
+    "bottomRow": 74,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",

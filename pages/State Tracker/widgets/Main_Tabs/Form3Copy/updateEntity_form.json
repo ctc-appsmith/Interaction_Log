@@ -507,7 +507,7 @@
     "onSubmit": "{{updateEntity.run().then(() => {\n  getEntities.run();\n});}}",
     "displayName": "JSON Form",
     "topRow": 0,
-    "bottomRow": 51,
+    "bottomRow": 75,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "type": "JSON_FORM_WIDGET",

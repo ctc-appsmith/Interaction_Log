@@ -80,7 +80,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 77,
     "columnWidthMap": {"teamName": 306},
     "parentRowSpace": 10,
     "hideCard": false,
