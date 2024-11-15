@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Entities\n\tWHERE clientID = {{appsmith.store.clientID}}\n\tORDER BY entityName ASC\n;",
+      "body": "SELECT Entities.entityID, Entities.clientID, Entities.entityName, Entities.entityType FROM Entities\n\tWHERE clientID = {{appsmith.store.clientID}}\n\tORDER BY entityName ASC\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

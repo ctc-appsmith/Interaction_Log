@@ -1,4 +1,4 @@
-SELECT Tasks.*, Applications.appID, Applications.portalAppID, Applications.applicationName, taskTypes.taskName, Tasks.taskStatus, taskTypes.team, taskStatusTypes.sortOrder
+SELECT Tasks.taskID, Tasks.appID, Tasks.startDate, Tasks.completedDate, Tasks.dueDate, Tasks.taskTypeID, Tasks.assignedTo, Tasks.taskNotes, Tasks.filePath, Applications.appID, Applications.portalAppID, Applications.applicationName, taskTypes.taskName, Tasks.taskStatus, taskTypes.team, taskStatusTypes.sortOrder
 FROM taskStatusTypes INNER JOIN ((((Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN Tasks ON Applications.appID = Tasks.appID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) ON taskStatusTypes.taskStatus = Tasks.taskStatus
 			
 	WHERE Clients.clientID = {{appsmith.store.clientID}}

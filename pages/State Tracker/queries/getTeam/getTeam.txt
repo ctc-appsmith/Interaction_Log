@@ -1,5 +1,6 @@
 SELECT
-  *
+  Teams.teamID,
+	Teams.teamName
 FROM
   Teams
 	ORDER BY teamName ASC

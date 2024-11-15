@@ -1,4 +1,4 @@
-SELECT * FROM Entities
+SELECT Entities.entityID, Entities.clientID, Entities.entityName, Entities.entityType FROM Entities
 	WHERE clientID = {{appsmith.store.clientID}}
 	ORDER BY entityName ASC
 ;
