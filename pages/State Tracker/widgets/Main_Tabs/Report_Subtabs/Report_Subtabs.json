@@ -160,9 +160,9 @@
     "mobileBottomRow": 16,
     "widgetName": "Report_Subtabs",
     "dynamicPropertyPathList": [
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
         {"key": "tabsObj.tabpjebagy12y.isVisible"},
-        {"key": "onTabSelected"}
+        {"key": "onTabSelected"},
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
     ],
     "displayName": "Tabs",
     "bottomRow": 131,

@@ -71,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 46,
+    "bottomRow": 59,
     "columnWidthMap": {
         "entityName": 266,
         "portalAppID": 271
@@ -189,7 +189,7 @@
     "key": "5f50mjgt2y",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 58,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "zi47fksvb6",
