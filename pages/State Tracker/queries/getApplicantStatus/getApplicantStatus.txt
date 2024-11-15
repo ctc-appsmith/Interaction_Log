@@ -1,5 +1,7 @@
 SELECT
-  *
+  recordID,
+	entityStatusType,
+	definition
 FROM
   entityStatus
 ORDER BY

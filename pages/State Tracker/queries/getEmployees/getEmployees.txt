@@ -1,5 +1,9 @@
 SELECT
-  *
+  empID,
+	empLastName,
+	empFirstName,
+	empEmail,
+	userName
 FROM
   Employees
 ORDER BY

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  applicationStatusTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\n\nORDER BY\n  {{appStatusType_Table.sortOrder.column || 'processOrder'}} \nLIMIT\n  {{appStatusType_Table.pageSize}}\nOFFSET\n  {{appStatusType_Table.pageOffset}}",
+      "body": "SELECT\n  appStatusID,\n\tappStatusType,\n\tstatusDefinition,\n\tprocessOrder,\n\tclientID\nFROM\n  applicationStatusTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\n\nORDER BY\n  {{appStatusType_Table.sortOrder.column || 'processOrder'}} \nLIMIT\n  {{appStatusType_Table.pageSize}}\nOFFSET\n  {{appStatusType_Table.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  Employees\nORDER BY\n  {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\n",
+      "body": "SELECT\n  empID,\n\tempLastName,\n\tempFirstName,\n\tempEmail,\n\tuserName\nFROM\n  Employees\nORDER BY\n  {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

@@ -1,5 +1,7 @@
 SELECT
-  *
+  appTypeID,
+	appTypeName,
+	clientID
 FROM
   applicationType
 WHERE

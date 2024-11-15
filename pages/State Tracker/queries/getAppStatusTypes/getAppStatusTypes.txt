@@ -1,5 +1,9 @@
 SELECT
-  *
+  appStatusID,
+	appStatusType,
+	statusDefinition,
+	processOrder,
+	clientID
 FROM
   applicationStatusTypes
 	

@@ -1,4 +1,7 @@
-SELECT * FROM entityType
+SELECT 
+	entityTypeID,
+	entityTypeName
+	FROM entityType
 
 
 ORDER BY entityTypeName ASC
