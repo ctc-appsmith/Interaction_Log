@@ -4,7 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 15,
     "widgetName": "Button221",
+    "onClick": "{{() => {\n  if (appsmith.store.client === 1) {\n    navigateTo('https://site-for-client-1.com', true);\n  } else if (appsmith.store.clientID === 12) {\n    navigateTo('https://ctcnetapps.us/app/nevada/login-page-67321d749579f243573a3882?branch=master', true);\n  } else {\n    showAlert('No matching client found!', 'warning');\n  }\n}\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
@@ -19,7 +21,7 @@
     "mobileRightColumn": 46,
     "animateLoading": true,
     "parentColumnSpace": 19.234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
