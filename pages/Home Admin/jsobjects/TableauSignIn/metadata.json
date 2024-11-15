@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TableauSignIn",
+    "pageId": "Home Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home Admin_TableauSignIn",
+  "deleted": false,
+  "gitSyncId": "67324eb09579f243573a441a_8cf699ce-86c8-4c39-827a-4787725a34eb"
+}

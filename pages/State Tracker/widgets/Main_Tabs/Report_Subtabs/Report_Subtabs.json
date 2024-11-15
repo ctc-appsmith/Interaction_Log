@@ -8,7 +8,6 @@
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tabsObj.tabfhe9t877tp.isVisible"}
@@ -150,7 +149,7 @@
     ],
     "flexVerticalAlignment": "stretch",
     "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "accentColor": "#252d55",
     "shouldShowTabs": true,
     "isVisible": true,
     "version": 3,
@@ -161,9 +160,9 @@
     "mobileBottomRow": 16,
     "widgetName": "Report_Subtabs",
     "dynamicPropertyPathList": [
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
         {"key": "tabsObj.tabpjebagy12y.isVisible"},
-        {"key": "onTabSelected"}
+        {"key": "onTabSelected"},
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
     ],
     "displayName": "Tabs",
     "bottomRow": 131,

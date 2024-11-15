@@ -7,7 +7,7 @@
     "type": "CHART_WIDGET",
     "chartData": {"ve5e83og22": {
         "data": "{{COUNT_appsPerState.data.map (u => ({x: u.clientName, y: u.CountOfappID}) )}}",
-        "color": "#061041",
+        "color": "#252d55",
         "seriesName": ""
     }},
     "animateLoading": true,

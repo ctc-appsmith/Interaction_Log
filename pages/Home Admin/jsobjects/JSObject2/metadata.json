@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Home Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "credentials",
+        "value": "{\n  secretId: \"8f0de1b5-d935-4841-a4e6-e1f7c6b1da99\",\n  clientId: \"76ea0738-83d1-47dd-88ed-8eee8f79e6bf\",\n  secretValue: \"cGYOCH+a2SDtSRJd8ZUK5dJgjO8KsZNc7zSpGWvHWn0=\",\n  userEmail: \"dluongo@ctcnet.us\",\n  siteName: \"ctcanalytics\",\n  vizUrl: \"https://prod-useast-a.online.tableau.com/t/ctcanalytics/views/ARPAProgressDashboard/ConnectMTARPABroadbandDevelopment_1\"\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Home Admin_JSObject2",
+  "deleted": false,
+  "gitSyncId": "67324eb09579f243573a441a_b46e91af-3bc8-4091-bc61-2e8039f3cff3"
+}
