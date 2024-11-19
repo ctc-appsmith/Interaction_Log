@@ -51,6 +51,16 @@
           ],
           [
             {
+              "id": "Interaction Log_getAppName3",
+              "name": "getAppName3",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "callLogUpdate_form.data.appID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Interaction Log_getApplicantsOnly",
               "name": "getApplicantsOnly",
               "confirmBeforeExecute": false,

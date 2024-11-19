@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7CopyCopyCopyCopy1CopyCopyCopyCopy",
-    "onClick": "{{clearStore()\n;\nstoreValue('clientName', 'Oregon').then(() => {\n  storeValue('clientID', '15');\n});\ngetEntityList.run().then(() => {\n  getApplicantCallLog.run();\n});\ngetApplicantsOnly.run();\ncloseModal('To_OR_Log_Modal');}}",
+    "onClick": "{{clearStore();\nstoreValue('clientName', 'Oregon').then(() => {\n  storeValue('clientID', '15');\n});\ngetEntityList.run().then(() => {\n  getApplicantCallLog.run();\n});\ngetApplicantsOnly.run().then(() => {\n  getAppName3.run();\n});\ncloseModal('To_OR_Log_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
