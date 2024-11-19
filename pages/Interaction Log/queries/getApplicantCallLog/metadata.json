@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Entities.entityName, interactionLog.*\nFROM interactionLog INNER JOIN Entities ON interactionLog.entityID = Entities.entityID\nWHERE interactionLog.entityID = {{entitySelect.selectedOptionValue}}\nAND archived = \"No\"\nORDER BY commsDate DESC\n;",
+      "body": "SELECT Entities.entityName, interactionLog.*\nFROM interactionLog \nINNER JOIN Entities ON interactionLog.entityID = Entities.entityID\nWHERE interactionLog.entityID = '{{entitySelect.selectedOptionValue}}'\nAND archived = \"No\"\nORDER BY commsDate DESC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "onClientChange",
+    "name": "JSObject1",
     "pageId": "Interaction Log",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Interaction Log_onClientChange",
+  "id": "Interaction Log_JSObject1",
   "deleted": false,
-  "gitSyncId": "673cac529579f243573a95b1_44af28ae-e364-4ec9-9ed1-38fb79c0eb18"
+  "gitSyncId": "673cac529579f243573a95b1_b838d205-cce0-46e0-b288-1b323095faa0"
 }

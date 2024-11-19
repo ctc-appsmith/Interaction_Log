@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button7CopyCopyCopyCopy1",
-    "onClick": "{{clearStore();\nstoreValue('clientName', 'Alabama').then(() => {\n  storeValue('clientID', '13');\n});\nonClientChange.onChange();}}",
+    "onClick": "{{clearStore();\nstoreValue('clientName', 'Alabama').then(() => {\n  storeValue('clientID', '13');\n});\nresetWidget(\"entitySelect\", true).then(() => {\n  JSObject1.handleClick();\n});\ncloseModal('To_AL_Log_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [

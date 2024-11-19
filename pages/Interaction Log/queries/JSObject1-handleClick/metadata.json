@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "onChange",
-    "fullyQualifiedName": "onClientChange.onChange",
+    "name": "handleClick",
+    "fullyQualifiedName": "JSObject1.handleClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Interaction Log",
-    "collectionId": "Interaction Log_onClientChange",
+    "collectionId": "Interaction Log_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-19T16:28:50Z"
+    "createdAt": "2024-11-19T17:19:21Z"
   },
-  "id": "Interaction Log_onClientChange.onChange",
+  "id": "Interaction Log_JSObject1.handleClick",
   "deleted": false,
-  "gitSyncId": "673cac529579f243573a95b1_7ff32250-290a-4b0d-b6e4-ac8c5290246f"
+  "gitSyncId": "673cac529579f243573a95b1_2005817b-55b4-4f50-9f6d-777f92c5615d"
 }

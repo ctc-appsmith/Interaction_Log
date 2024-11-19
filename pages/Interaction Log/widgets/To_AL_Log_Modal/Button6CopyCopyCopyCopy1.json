@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button6CopyCopyCopyCopy1",
-    "onClick": "{{closeModal('To_IL_Log_ModalCopy');}}",
+    "onClick": "{{closeModal('To_AL_Log_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",

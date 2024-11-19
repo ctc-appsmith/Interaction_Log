@@ -63,6 +63,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{getAppName3.data[0].applicationName}}",
+    "defaultText": "{{getAppName3.data?.[0]?.applicationName || \"\"}}",
     "minDynamicHeight": 4
 }
