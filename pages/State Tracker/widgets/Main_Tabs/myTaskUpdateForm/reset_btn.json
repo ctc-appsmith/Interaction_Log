@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 62,
-    "bottomRow": 66,
+    "topRow": 63,
+    "bottomRow": 67,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
