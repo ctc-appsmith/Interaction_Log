@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  taskTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\n\t\n\tAND taskTypes.appType = '{{Select10.selectedOptionLabel}}';\n",
+      "body": "SELECT\n  *\nFROM\n  taskTypes\n\t\n\tWHERE clientID = {{appsmith.store.clientID}}\n\t\n\tAND taskTypes.appType = '{{Select10.selectedOptionLabel}}'\n\t\n\tORDER BY taskName ASC;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

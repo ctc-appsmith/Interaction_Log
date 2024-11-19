@@ -2,4 +2,6 @@ SELECT * FROM taskTypes
 
 WHERE clientID = {{appsmith.store.clientID}}
 
+ORDER BY taskName ASC
+
 ;
