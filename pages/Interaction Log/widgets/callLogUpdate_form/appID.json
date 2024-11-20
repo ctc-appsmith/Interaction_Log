@@ -12,8 +12,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "sourceData"}
     ],
     "placeholderText": "",
     "isDisabled": false,
@@ -34,8 +34,8 @@
     "widgetName": "appID",
     "isFilterable": true,
     "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "labelWidth"}
+        {"key": "labelWidth"},
+        {"key": "sourceData"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -47,7 +47,7 @@
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "labelTextColor": "#231f20",
-    "sourceData": "{{getAppsByApplicant.data.map( p => ({label: p.portalAppID, value: p.appID}))}}",
+    "sourceData": "{{getAppsByApplicant.data.map( p => ({label: p.portalAppID + \":  \" + p.applicationName, value: p.appID}))}}",
     "key": "1orclqa9qv",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
