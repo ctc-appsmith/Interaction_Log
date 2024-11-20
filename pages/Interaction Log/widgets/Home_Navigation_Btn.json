@@ -203,7 +203,7 @@
             "label": "Reports",
             "placement": "CENTER",
             "isDisabled": false,
-            "isVisible": true
+            "isVisible": false
         },
         "groupButton3": {
             "onClick": "{{utils.setCurrentPage('AdminPage')}}",

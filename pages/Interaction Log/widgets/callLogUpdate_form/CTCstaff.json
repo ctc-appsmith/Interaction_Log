@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 85,
+    "originalBottomRow": 79,
     "needsErrorInfo": false,
     "mobileBottomRow": 72,
     "widgetName": "CTCstaff",
@@ -62,7 +62,7 @@
     "mobileTopRow": 65,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 78,
+    "originalTopRow": 72,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
