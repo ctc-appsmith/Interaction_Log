@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "InteractionLog_Report1",
+    "pageId": "Report_AllInteractions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-04T17:33:59Z"
   },
-  "id": "InteractionLog_Report1_getClients",
+  "id": "Report_AllInteractions_getClients",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_b05fd455-fbf3-49dd-8a29-db4e34ee3651"
 }

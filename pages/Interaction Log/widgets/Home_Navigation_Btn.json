@@ -190,12 +190,12 @@
             "iconName": "annotation",
             "widgetId": "ns3kvp5lfq",
             "menuItems": {"menuItemzio04syxtu": {
-                "onClick": "{{utils.setCurrentPage('InteractionLog_Report1')}}",
+                "onClick": "{{utils.setCurrentPage('Report_AllInteractions')}}",
                 "widgetId": "mty1eqm9pi",
                 "index": 0,
                 "id": "menuItemzio04syxtu",
-                "label": "Report 1",
-                "isDisabled": "{{utils.isCurrentPage('InteractionLog_Report1')}}",
+                "label": "All Interactions Report",
+                "isDisabled": "{{utils.isCurrentPage('Report_AllInteractions')}}",
                 "isVisible": true
             }},
             "index": 1,
@@ -203,7 +203,7 @@
             "label": "Reports",
             "placement": "CENTER",
             "isDisabled": false,
-            "isVisible": false
+            "isVisible": true
         },
         "groupButton3": {
             "onClick": "{{utils.setCurrentPage('AdminPage')}}",

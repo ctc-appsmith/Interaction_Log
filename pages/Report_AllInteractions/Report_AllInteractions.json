@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "InteractionLog_Report1",
-    "slug": "interactionlog-report1",
+    "name": "Report_AllInteractions",
+    "slug": "report-allinteractions",
     "layouts": [
       {
         "viewMode": false,
@@ -29,15 +29,17 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "InteractionLog_Report1_getClients",
-              "name": "getClients",
+              "id": "Report_AllInteractions_getInteractionLogbyClient",
+              "name": "getInteractionLogbyClient",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "InteractionLog_Report1_get_user",
+              "id": "Report_AllInteractions_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -46,23 +48,11 @@
               ],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "InteractionLog_Report1_getInteractionLogbyClient",
-              "name": "getInteractionLogbyClient",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "clientSelect.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "InteractionLog_Report1",
+        "id": "Report_AllInteractions",
         "deleted": false,
         "policies": [],
         "userPermissions": []

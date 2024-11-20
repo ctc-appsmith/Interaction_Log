@@ -1,0 +1,19 @@
+SELECT 
+    i.spokeWith,
+    i.inReferenceTo,
+    i.portalAppID,
+    i.commsDate,
+    i.commsType,
+    i.commsSubject,
+    i.importance,
+    i.notes,
+    i.CTCstaff,
+    i.clientID,
+    e.entityName,
+    a.applicationName
+FROM interactionLog i
+LEFT JOIN Entities e ON i.entityID = e.entityID 
+LEFT JOIN Applications a ON i.applicationID = a.appID
+	WHERE i.clientID = {{appsmith.store.clientID}}
+	ORDER BY commsDate DESC
+;

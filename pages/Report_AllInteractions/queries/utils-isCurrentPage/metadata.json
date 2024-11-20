@@ -14,8 +14,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "InteractionLog_Report1",
-    "collectionId": "InteractionLog_Report1_utils",
+    "pageId": "Report_AllInteractions",
+    "collectionId": "Report_AllInteractions_utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "userPermissions": [],
     "createdAt": "2024-08-08T16:43:20Z"
   },
-  "id": "InteractionLog_Report1_utils.isCurrentPage",
+  "id": "Report_AllInteractions_utils.isCurrentPage",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_e02a3718-27a7-423a-86c4-dfba1ff10988"
 }

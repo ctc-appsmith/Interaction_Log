@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "InteractionLog_Report1",
+    "pageId": "Report_AllInteractions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM interactionLog\n\tWHERE clientID = {{clientSelect.selectedOptionValue}}\n\tORDER BY commsDate DESC\n;",
+      "body": "SELECT \n    i.spokeWith,\n    i.inReferenceTo,\n    i.portalAppID,\n    i.commsDate,\n    i.commsType,\n    i.commsSubject,\n    i.importance,\n    i.notes,\n    i.CTCstaff,\n    i.clientID,\n    e.entityName,\n    a.applicationName\nFROM interactionLog i\nLEFT JOIN Entities e ON i.entityID = e.entityID \nLEFT JOIN Applications a ON i.applicationID = a.appID\n\tWHERE i.clientID = {{appsmith.store.clientID}}\n\tORDER BY commsDate DESC\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "clientSelect.selectedOptionValue"
+      "appsmith.store.clientID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -44,7 +44,7 @@
     "userPermissions": [],
     "createdAt": "2024-09-04T17:37:56Z"
   },
-  "id": "InteractionLog_Report1_getInteractionLogbyClient",
+  "id": "Report_AllInteractions_getInteractionLogbyClient",
   "deleted": false,
   "gitSyncId": "66cfdd139579f24357386f16_05a1d553-0634-4e7a-8923-63e5e0dc1a2e"
 }
