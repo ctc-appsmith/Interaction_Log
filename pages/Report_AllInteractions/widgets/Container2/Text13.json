@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.store.clientName}} BEAD Interaction Log Reporting",
+    "text": "{{appsmith.store.clientName}} Reporting: All Interactions",
     "key": "iriebyc2p6",
     "isDeprecated": false,
     "rightColumn": 64,

@@ -71,7 +71,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 54,
-    "widgetName": "Table1",
+    "widgetName": "Report_allInteractions",
     "defaultPageSize": 0,
     "columnOrder": [
         "entityName",
@@ -104,7 +104,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "commsDate": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsDate\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "commsDate",
@@ -138,7 +138,7 @@
             "verticalAlignment": "CENTER"
         },
         "clientID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"clientID\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"clientID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "clientID",
@@ -172,7 +172,7 @@
             "verticalAlignment": "CENTER"
         },
         "notes": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"notes\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"notes\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "notes",
@@ -206,7 +206,7 @@
             "verticalAlignment": "CENTER"
         },
         "inReferenceTo": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"inReferenceTo\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"inReferenceTo\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "inReferenceTo",
@@ -240,7 +240,7 @@
             "verticalAlignment": "CENTER"
         },
         "importance": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"importance\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"importance\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "importance",
@@ -274,7 +274,7 @@
             "verticalAlignment": "CENTER"
         },
         "spokeWith": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"spokeWith\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"spokeWith\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "spokeWith",
@@ -308,7 +308,7 @@
             "verticalAlignment": "CENTER"
         },
         "entityName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityName\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "entityName",
@@ -342,7 +342,7 @@
             "verticalAlignment": "CENTER"
         },
         "CTCstaff": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CTCstaff\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CTCstaff\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CTCstaff",
@@ -376,7 +376,7 @@
             "verticalAlignment": "CENTER"
         },
         "portalAppID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"portalAppID\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"portalAppID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "portalAppID",
@@ -410,7 +410,7 @@
             "verticalAlignment": "CENTER"
         },
         "commsSubject": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsSubject\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsSubject\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "commsSubject",
@@ -444,7 +444,7 @@
             "verticalAlignment": "CENTER"
         },
         "commsType": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsType\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"commsType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "commsType",
@@ -478,7 +478,7 @@
             "verticalAlignment": "CENTER"
         },
         "applicationName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationName\"]))}}",
+            "computedValue": "{{Report_allInteractions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"applicationName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "applicationName",
