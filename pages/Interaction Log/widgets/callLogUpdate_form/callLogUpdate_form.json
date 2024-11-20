@@ -5,6 +5,7 @@
     "borderColor": "#E0DEDE",
     "widgetName": "callLogUpdate_form",
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Form",
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",
     "searchTags": ["group"],
@@ -21,7 +22,8 @@
     "leftColumn": 38,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "needsErrorInfo": false,
@@ -75,7 +77,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "wcnpu7zu5g",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{callLog_tbl.selectedRow !== undefined}}",
     "parentId": "0",
     "tags": ["Layout"],
     "renderMode": "CANVAS",
