@@ -1,45 +1,46 @@
 export default {
   formatErrorMessage: (error) => {
     try {
-      // Parse error if it's a string
-      const errorObj = typeof error === 'string' ? JSON.parse(error) : error;
+      console.log("Raw Error:", error);
       
-      // Extract common error properties
-      const {
-        message,
-        status,
-        statusText,
-        code,
-        name,
-        stack,
-        response,
-        request,
-        config
-      } = errorObj;
+      // Try to get the selected entity and action details
+      const entityInfo = {
+        selectedEntity: select_entity.selectedOptionValue, // Update this to match your actual select widget name
+        operationType: 'INSERT', // Since we know it's failing on insert/log records
+        timestamp: new Date().toLocaleString()
+      };
 
       const formattedError = `
-🚨 QUERY ERROR DETAILS 🚨
+🚨 ENTITY-SPECIFIC ERROR DETAILS 🚨
 
-${message ? `Error Message: ${message}` : ''}
-${status ? `Status: ${status} ${statusText || ''}` : ''}
-${code ? `Error Code: ${code}` : ''}
-${name ? `Error Type: ${name}` : ''}
+Operation Details:
+----------------
+Entity: ${entityInfo.selectedEntity}
+Operation Type: ${entityInfo.operationType}
+User: ${appsmith.user.email}
+Timestamp: ${entityInfo.timestamp}
 
-${response?.data ? `Response Data: ${JSON.stringify(response.data, null, 2)}` : ''}
-${config?.url ? `Endpoint: ${config.url}` : ''}
-${config?.method ? `Method: ${config.method.toUpperCase()}` : ''}
+Error Details:
+-------------
+${typeof error === 'string' ? error : JSON.stringify(error, null, 2)}
 
-${stack ? `Stack Trace:\n${stack}` : ''}
+Known Working Operations:
+----------------------
+✓ Updates for this entity
+✓ Inserts for other entities
+✓ Updates for other entities
 
-Timestamp: ${new Date().toLocaleString()}
-
-If this error persists, please contact your administrator with these details.
+Suggested Checks:
+---------------
+1. Check entity-specific INSERT permissions
+2. Verify required fields for this entity
+3. Check for any entity-specific triggers or constraints
+4. Verify data validation rules for this entity
 `.trim();
 
       return formattedError;
     } catch (e) {
-      // Fallback if parsing fails
-      return `Detailed Error: ${JSON.stringify(error, null, 2)}`;
+      return `Failed to format error. Raw error: ${JSON.stringify(error)}`;
     }
   }
 }
