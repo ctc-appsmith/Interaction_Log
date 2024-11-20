@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 71,
+    "originalBottomRow": 80,
     "needsErrorInfo": false,
     "mobileBottomRow": 62,
     "widgetName": "notes",
