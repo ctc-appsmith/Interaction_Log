@@ -10,10 +10,12 @@ SELECT
     i.CTCstaff,
     i.clientID,
     e.entityName,
-    a.applicationName
+    a.applicationName,
+		a.applicationType
 FROM interactionLog i
 LEFT JOIN Entities e ON i.entityID = e.entityID 
 LEFT JOIN Applications a ON i.applicationID = a.appID
 	WHERE i.clientID = {{appsmith.store.clientID}}
+
 	ORDER BY commsDate DESC
 ;

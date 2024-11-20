@@ -6,6 +6,7 @@ async handleClick() {
 	 Input1.setValue("")
  });
 	await getApplicantsOnly.run();
+	await getappsbyapplicant_insert.run();
  //showAlert('app name 3', 'success');
 }
 }
