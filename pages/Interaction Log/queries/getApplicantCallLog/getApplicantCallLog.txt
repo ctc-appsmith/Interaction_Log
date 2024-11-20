@@ -1,6 +1,8 @@
 
 SELECT 
-    i.spokeWith,
+    i.recordID,
+		i.applicationID,
+		i.spokeWith,
     i.inReferenceTo,
     i.commsDate,
     i.commsType,
