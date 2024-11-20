@@ -9,6 +9,7 @@ SELECT
     i.notes,
     i.CTCstaff,
     i.clientID,
+		i.entityID,
     e.entityName,
     a.applicationName,
 		a.portalAppID,
