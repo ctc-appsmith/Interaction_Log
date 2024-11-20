@@ -32,7 +32,6 @@
         {"key": "primaryColumns.portalAppID.computedValue"},
         {"key": "primaryColumns.CTCstaff.computedValue"},
         {"key": "primaryColumns.inReferenceTo.isCellVisible"},
-        {"key": "primaryColumns.spokeWith.isCellVisible"},
         {"key": "primaryColumns.commsDate.computedValue"}
     ],
     "needsHeightForContent": true,
@@ -77,7 +76,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1730311745940,
+    "columnUpdatedAt": 1732131219447,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -123,7 +122,7 @@
         "importance": 202.4375,
         "entityName": 276,
         "ApplicantName": 219,
-        "commsSubject": 194,
+        "commsSubject": 329,
         "applicationName": 394
     },
     "parentRowSpace": 10,
@@ -288,7 +287,7 @@
             "allowCellWrapping": false,
             "index": 10,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Importance",
             "fontStyle": "",
             "textColor": "",
@@ -554,7 +553,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": "{{callLog_tbl.processedTableData.map((currentRow, currentIndex) => ( true))}}",
+            "isCellVisible": "true",
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
