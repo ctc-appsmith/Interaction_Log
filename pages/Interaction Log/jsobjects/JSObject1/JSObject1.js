@@ -5,6 +5,7 @@ async handleClick() {
  await getApplicantCallLog.run().then(() => {
 	 Input1.setValue("")
  });
+	await getApplicantsOnly.run();
  //showAlert('app name 3', 'success');
 }
 }
