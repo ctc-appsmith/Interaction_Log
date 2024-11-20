@@ -374,7 +374,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{InsertInteraction.run().then(() => {\n  showAlert(\"Query ran successfully!\");\n}).catch(error => {\n  showAlert(\"Detailed Error: \" + JSON.stringify(error), 'error');\n});\ncloseModal('Insert_Modal').then(() => {\n  getApplicantCallLog.run();\n});}}",
+    "onSubmit": "{{InsertInteraction.run().then(() => {\n  showAlert(\"Query ran successfully!\");\n}).catch(error => {\n  showAlert(ErrorUtils.formatErrorMessage(error), 'error');\n});\ncloseModal('Insert_Modal').then(() => {\n  getApplicantCallLog.run();\n});}}",
     "topRow": 0,
     "bottomRow": 82,
     "fieldLimitExceeded": false,

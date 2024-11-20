@@ -8,5 +8,6 @@ async handleClick() {
 	await getApplicantsOnly.run();
 	await getappsbyapplicant_insert.run();
  //showAlert('app name 3', 'success');
-}
+},
+	
 }
