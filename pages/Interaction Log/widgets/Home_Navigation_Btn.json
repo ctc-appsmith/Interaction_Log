@@ -315,7 +315,7 @@
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemj8mwv9ysie.onClick"},
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem03i8ikg413.onClick"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.menuItems.menuItem1.isDisabled"},
@@ -347,7 +347,7 @@
     "key": "zsz33weswm",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 51,
     "widgetId": "d6nx65jgo3",
     "minWidth": 450,
     "isVisible": true,
