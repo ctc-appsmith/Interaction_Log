@@ -10,7 +10,7 @@ setCurrentPage: (page) => {
 },
 async checkSession() {
     // Check if user data exists
-    if (get_user.data.code === 403) {
+    if (get_user.data === null || get_user.data.code === 403) {
       // Sign out from Supabase
       await logout.logout();
       showAlert('Your session has expired. Please log in again.', 'warning');
