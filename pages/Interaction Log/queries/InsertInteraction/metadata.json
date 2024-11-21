@@ -18,11 +18,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO interactionLog(\n\tclientID,\n\tentityID,\n\tspokeWith,\n\tcommsDate,\n\tcommsType,\n\tcommsSubject,\n\tapplicationID,\n\n\timportance,\n\tnotes,\n\tCTCstaff,\n\tarchived, \n\tinReferenceTo, \n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{entitySelect.selectedOptionValue}}',\n\t\t'{{(insert_form.formData || {}).spokeWith}}',\n\t\t'{{(insert_form.formData || {}).commsDate}}',\n\t\t'{{(insert_form.formData || {}).commsType}}',\n\t\t'{{(insert_form.formData || {}).commsSubject}}',\n\t\t'{{(insert_form.formData || {}).applicationID}}',\n\n\t\t'{{(insert_form.formData || {}).importance}}',\n\t\t'{{(insert_form.formData || {}).notes}}',\n\t\t'{{(insert_form.formData || {}).CTCstaff}}',\n\t\t\"No\", \n\t\t'{{(insert_form.formData || {}).inReferenceTo}}', \n\t\t'{{get_user.data.email}}')\n;",
+      "body": "INSERT INTO interactionLog(\n\tclientID,\n\tentityID,\n\tspokeWith,\n\tcommsDate,\n\tcommsType,\n\tcommsSubject,\n\tapplicationID,\n\timportance,\n\tnotes,\n\tCTCstaff,\n\tarchived, \n\tinReferenceTo, \n\tlastChangedBy\n\t) \n\tVALUES (\n\t\t'{{appsmith.store.clientID}}',\n\t\t'{{entitySelect.selectedOptionValue}}',\n\t\t'{{(insert_form.formData || {}).spokeWith}}',\n\t\t'{{(insert_form.formData || {}).commsDate}}',\n\t\t'{{(insert_form.formData || {}).commsType}}',\n\t\t'{{(insert_form.formData || {}).commsSubject}}',\n\t\t'{{(insert_form.formData || {}).applicationID}}',\n\t\t'{{(insert_form.formData || {}).importance}}',\n\t\t'{{(insert_form.formData || {}).notes}}',\n\t\t'{{(insert_form.formData || {}).CTCstaff}}',\n\t\t\"No\", \n\t\t'{{(insert_form.formData || {}).inReferenceTo}}', \n\t\t'{{get_user.data.email}}')\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },

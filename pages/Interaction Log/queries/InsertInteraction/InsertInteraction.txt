@@ -6,7 +6,6 @@ INSERT INTO interactionLog(
 	commsType,
 	commsSubject,
 	applicationID,
-
 	importance,
 	notes,
 	CTCstaff,
@@ -22,7 +21,6 @@ INSERT INTO interactionLog(
 		'{{(insert_form.formData || {}).commsType}}',
 		'{{(insert_form.formData || {}).commsSubject}}',
 		'{{(insert_form.formData || {}).applicationID}}',
-
 		'{{(insert_form.formData || {}).importance}}',
 		'{{(insert_form.formData || {}).notes}}',
 		'{{(insert_form.formData || {}).CTCstaff}}',
