@@ -439,7 +439,7 @@
     ],
     "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{InsertInteraction.run().then(() => {\n  showAlert('Interaction Created!', 'success');\n  closeModal('Insert_Modal');\n});}}",
+    "onSubmit": "{{InsertInteraction.run().then(() => {\n  showAlert('Interaction Created!', 'success');\n  closeModal('Insert_Modal');\n}).catch(() => {\n  showAlert('Insert Query failed.', 'error');\n});}}",
     "topRow": 0,
     "bottomRow": 87,
     "fieldLimitExceeded": false,
