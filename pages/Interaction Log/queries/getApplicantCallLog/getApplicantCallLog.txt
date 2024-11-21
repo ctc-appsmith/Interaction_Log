@@ -1,4 +1,3 @@
-
 SELECT 
     i.recordID,
 		i.applicationID,
@@ -20,6 +19,6 @@ FROM interactionLog i
 LEFT JOIN Entities e ON i.entityID = e.entityID 
 LEFT JOIN Applications a ON i.applicationID = a.appID
 	WHERE i.entityID = {{entitySelect.selectedOptionValue}}
-  AND archived = "No"
-	ORDER BY commsDate DESC
+AND archived = "No"
+ORDER BY commsDate DESC
 ;
