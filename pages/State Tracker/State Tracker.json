@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1150,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -186,17 +186,6 @@
                 "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_utils.checkSession",
-              "name": "utils.checkSession",
-              "collectionId": "State Tracker_utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  if (get_user.data === null || get_user.data.code === 403) {\n    await logout.logout();\n    showAlert('Your session has expired. Please log in again.', 'warning');\n    navigateTo('Login Page', {});\n    return false;\n  }\n  return true;\n}"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -239,6 +228,19 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table14.selectedRow.appID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "State Tracker_utils.sessionCheckInterval",
+              "name": "utils.sessionCheckInterval",
+              "collectionId": "State Tracker_utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  await utils.checkSession();\n  setInterval(() => utils.checkSession(), 10000);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

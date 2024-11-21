@@ -133,7 +133,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qla816de0b",
     "defaultTab": "Scoring",
-    "onTabSelected": "{{handleSubTabSelection.scoringBidTabSelection();}}",
+    "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.scoringBidTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
         "tab1": {
