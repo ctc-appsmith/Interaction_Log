@@ -130,8 +130,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_utils.checkSession",
-              "name": "utils.checkSession",
+              "id": "State Tracker_utils.sessionCheckInterval",
+              "name": "utils.sessionCheckInterval",
               "collectionId": "State Tracker_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
@@ -237,19 +237,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table14.selectedRow.appID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "State Tracker_utils.sessionCheckInterval",
-              "name": "utils.sessionCheckInterval",
-              "collectionId": "State Tracker_utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  await utils.checkSession();\n  setInterval(() => utils.checkSession(), 10000);\n}"
               ],
               "timeoutInMillisecond": 10000
             }
