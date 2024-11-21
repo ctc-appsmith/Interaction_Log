@@ -21,12 +21,13 @@
     "animateLoading": true,
     "parentColumnSpace": 22.546875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 43,
+    "leftColumn": 41,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
-    "text": "Return to Interaction Log",
+    "text": "Return to {{appsmith.store.clientName}} Interaction Log",
     "isDisabled": false,
     "key": "hcs2wb3lrj",
     "isDeprecated": false,

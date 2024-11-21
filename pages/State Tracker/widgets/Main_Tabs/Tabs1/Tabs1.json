@@ -133,7 +133,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "lwxjavp3h2",
     "defaultTab": "Applications",
-    "onTabSelected": "{{handleSubTabSelection.applicantTabSelection();}}",
+    "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.applicantTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
         "tab1": {

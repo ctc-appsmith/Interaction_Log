@@ -19,5 +19,10 @@ async checkSession() {
       return false;
     }
     return true;
-  }	
+  },
+async sessionCheckInterval() {
+	await this.checkSession();
+	setInterval(() => this.checkSession(), 10000);
+}
+	
 }
