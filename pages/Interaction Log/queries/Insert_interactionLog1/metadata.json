@@ -15,6 +15,7 @@
     },
     "pageId": "Interaction Log",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO interactionLog (clientID,entityID,spokeWith,title,commsDate,commsType,commsSubject,applicationID,portalAppID,importance,notes,CTCstaff,archived,inReferenceTo,created,lastchanged,lastChangedBy) VALUES ('{{(insert_form.formData || {}).clientID}}','{{(insert_form.formData || {}).entityID}}','{{(insert_form.formData || {}).spokeWith}}','{{(insert_form.formData || {}).title}}','{{(insert_form.formData || {}).commsDate}}','{{(insert_form.formData || {}).commsType}}','{{(insert_form.formData || {}).commsSubject}}','{{(insert_form.formData || {}).applicationID}}','{{(insert_form.formData || {}).portalAppID}}','{{(insert_form.formData || {}).importance}}','{{(insert_form.formData || {}).notes}}','{{(insert_form.formData || {}).CTCstaff}}','{{(insert_form.formData || {}).archived}}','{{(insert_form.formData || {}).inReferenceTo}}','{{(insert_form.formData || {}).created}}','{{(insert_form.formData || {}).lastchanged}}','{{(insert_form.formData || {}).lastChangedBy}}')",
