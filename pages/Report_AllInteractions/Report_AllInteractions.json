@@ -29,6 +29,18 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Report_AllInteractions_get_user",
+              "name": "get_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.access_token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Report_AllInteractions_getInteractionLogbyClient",
               "name": "getInteractionLogbyClient",
               "confirmBeforeExecute": false,
@@ -37,14 +49,17 @@
                 "appsmith.store.clientID"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Report_AllInteractions_get_user",
-              "name": "get_user",
+              "id": "Report_AllInteractions_utils.checkSession",
+              "name": "utils.checkSession",
+              "collectionId": "Report_AllInteractions_utils",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                "appsmith.store.access_token"
+                "async function () {\n  if (get_user.data === null || get_user.data.code === 403) {\n    await logout.logout();\n    showAlert('Your session has expired. Please log in again.', 'warning');\n    navigateTo('Login Page', {});\n    return false;\n  }\n  return true;\n}"
               ],
               "timeoutInMillisecond": 10000
             }
