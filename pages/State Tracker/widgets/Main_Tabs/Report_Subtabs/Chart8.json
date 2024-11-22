@@ -1,0 +1,110 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "allowScroll": false,
+    "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
+    "topRow": 108,
+    "type": "CHART_WIDGET",
+    "chartData": {"q2tvwn70zh": {
+        "data": "",
+        "seriesName": "2023"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicBindingPathList": [
+        {"key": "customEChartConfig"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "leftColumn": 0,
+    "customEChartConfig": "{{ ((chartType) => ( \n{\n  \"dataset\": {\n    \"source\": [[\n      \"TechType\",\n      \"Review 1\",\n      \"Review 2\",\n      \"Review 3\"\n    ]].concat(dash_appsbyTech_NV.data.reduce((acc, row) => {\n      let techIndex = acc.findIndex(item => item[0] === row.techType);\n      if (techIndex === -1) {\n        acc.push([row.techType, 0, 0, 0]);\n        techIndex = acc.length - 1;\n      }\n      acc[techIndex][row.reviewOrder] = row.CountOfappID;\n      return acc;\n    }, []))\n  },\n\"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"legend\": {\n    \"orient\": \"horizontal\",\n    \"top\": 10\n  },\n  \"grid\": {\n    \"left\": \"3%\",\n    \"right\": \"4%\",\n    \"bottom\": \"3%\",\n    \"top\": \"15%\",\n    \"containLabel\": true\n  },\n  \"xAxis\": {\n    \"type\": \"value\"\n  },\n  \"yAxis\": {\n    \"type\": \"category\"\n  },\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"total\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"formatter\": function(params) {\n          return params.data[1] > 0 ? params.data[1] : '';\n        }\n      },\n      \"emphasis\": {\n        \"focus\": \"series\"\n      }\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"total\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"formatter\": function(params) {\n          return params.data[2] > 0 ? params.data[2] : '';\n        }\n      },\n      \"emphasis\": {\n        \"focus\": \"series\"\n      }\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"total\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"formatter\": function(params) {\n          return params.data[3] > 0 ? params.data[3] : '';\n        }\n      },\n      \"emphasis\": {\n        \"focus\": \"series\"\n      }\n    }\n  ],\n  \"color\": [\"#5470c6\", \"#91cc75\", \"#fac858\"]  // Blue, Green, Yellow\n}\n))(Chart8.chartType) }}",
+    "flexVerticalAlignment": "start",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Display"],
+    "isLoading": false,
+    "chartName": "Sales Report",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "Product Line",
+    "originalBottomRow": 140,
+    "needsErrorInfo": true,
+    "mobileBottomRow": 220,
+    "widgetName": "Chart8",
+    "displayName": "Chart",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "bottomRow": 140,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 59,
+    "parentColumnSpace": 22.546875,
+    "dynamicTriggerPathList": [],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "showDataPointLabel": false,
+    "key": "atu39ilmof",
+    "isDeprecated": false,
+    "rightColumn": 36,
+    "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
+    "widgetId": "qgyc9rvwkr",
+    "minWidth": 450,
+    "parentId": "hkvmaeawc4",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 188,
+    "responsiveBehavior": "fill",
+    "yAxisName": "Revenue($)",
+    "originalTopRow": 108,
+    "mobileLeftColumn": 35,
+    "chartType": "CUSTOM_ECHART"
+}

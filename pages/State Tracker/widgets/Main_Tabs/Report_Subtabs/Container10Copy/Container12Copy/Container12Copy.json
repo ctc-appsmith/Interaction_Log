@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 70,
-    "bottomRow": 124,
+    "topRow": 51,
+    "bottomRow": 105,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 1.0546875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 32,
+    "leftColumn": 36,
     "dynamicBindingPathList": [],
     "children": [{
         "rightColumn": 67.5,
@@ -67,9 +67,9 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 70,
+    "originalTopRow": 51,
     "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 124,
+    "originalBottomRow": 105,
     "minDynamicHeight": 10
 }

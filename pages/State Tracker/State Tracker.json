@@ -188,8 +188,18 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_dash_appsbyStatus_2",
-              "name": "dash_appsbyStatus_2",
+              "id": "State Tracker_dash_appsbyStatus_NV",
+              "name": "dash_appsbyStatus_NV",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_dash_appsbyTech_NV",
+              "name": "dash_appsbyTech_NV",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
