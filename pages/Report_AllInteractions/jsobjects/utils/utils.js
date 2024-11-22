@@ -9,7 +9,8 @@ setCurrentPage: (page) => {
 	navigateTo(page)
 },
 async checkSession() {
-    // Check if user data exists
+    console.log("Session check executed at:", new Date().toLocaleTimeString());
+	// Check if user data exists
     if (get_user.data === null || get_user.data.code === 403) {
       // Sign out from Supabase
       await logout.logout();
@@ -19,5 +20,9 @@ async checkSession() {
       return false;
     }
     return true;
-  }		
+  },
+async sessionCheckInterval() {
+	await this.checkSession();
+	setInterval(() => this.checkSession(), 3600000);
+}	
 }

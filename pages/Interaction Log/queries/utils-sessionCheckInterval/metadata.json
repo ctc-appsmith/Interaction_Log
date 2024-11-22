@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkSession",
-    "fullyQualifiedName": "utils.checkSession",
+    "name": "sessionCheckInterval",
+    "fullyQualifiedName": "utils.sessionCheckInterval",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-20T22:02:22Z"
+    "createdAt": "2024-11-22T14:42:19Z"
   },
-  "id": "Interaction Log_utils.checkSession",
+  "id": "Interaction Log_utils.sessionCheckInterval",
   "deleted": false,
-  "gitSyncId": "673cac529579f243573a95b1_f4a4f1e9-9f68-4bc6-8f5d-9f33a2cd2c1f"
+  "gitSyncId": "674095ac9579f243573ae534_06bd29b3-cad5-4afa-b689-31b910046a01"
 }

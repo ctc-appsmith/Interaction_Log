@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkSession",
-    "fullyQualifiedName": "utils.checkSession",
+    "name": "sessionCheckInterval",
+    "fullyQualifiedName": "utils.sessionCheckInterval",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Interaction Log",
-    "collectionId": "Interaction Log_utils",
+    "pageId": "Report_AllInteractions",
+    "collectionId": "Report_AllInteractions_utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-11-20T22:02:22Z"
+    "createdAt": "2024-11-22T14:43:00Z"
   },
-  "id": "Interaction Log_utils.checkSession",
+  "id": "Report_AllInteractions_utils.sessionCheckInterval",
   "deleted": false,
-  "gitSyncId": "673cac529579f243573a95b1_f4a4f1e9-9f68-4bc6-8f5d-9f33a2cd2c1f"
+  "gitSyncId": "674095ac9579f243573ae534_f1d2187b-cf0c-41d3-b56b-62e41c94f9b3"
 }

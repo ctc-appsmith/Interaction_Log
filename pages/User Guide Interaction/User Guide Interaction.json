@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Guide Copy",
-    "slug": "user-guide-copy",
+    "name": "User Guide Interaction",
+    "slug": "user-guide-interaction",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Guide Copy",
+        "id": "User Guide Interaction",
         "deleted": false,
         "policies": [],
         "userPermissions": []
