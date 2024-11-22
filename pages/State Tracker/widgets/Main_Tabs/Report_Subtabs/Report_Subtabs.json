@@ -10,7 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
+        {"key": "tabsObj.tab4artsno9z0.isVisible"}
     ],
     "children": [
         {
@@ -20,7 +21,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas74",
             "displayName": "Canvas",
-            "bottomRow": 1890,
+            "bottomRow": 1610,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -66,7 +67,7 @@
             "widgetName": "Canvas76",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1270,
+            "bottomRow": 1610,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -110,7 +111,7 @@
             "widgetName": "Canvas83",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1270,
+            "bottomRow": 1610,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -145,6 +146,50 @@
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
             "flexLayers": []
+        },
+        {
+            "needsErrorInfo": false,
+            "tabId": "tab4artsno9z0",
+            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+            "mobileBottomRow": 1651,
+            "widgetName": "Canvas88",
+            "displayName": "Canvas",
+            "topRow": 1,
+            "bottomRow": 1610,
+            "parentRowSpace": 1,
+            "type": "CANVAS_WIDGET",
+            "canExtend": false,
+            "hideCard": true,
+            "minHeight": 1650,
+            "mobileRightColumn": 1191,
+            "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
+            "leftColumn": 0,
+            "dynamicBindingPathList": [
+                {"key": "borderRadius"},
+                {"key": "boxShadow"}
+            ],
+            "key": "2id0cqth3t",
+            "isDeprecated": false,
+            "tabName": "NV Dashboard",
+            "rightColumn": 1191,
+            "detachFromLayout": true,
+            "dynamicHeight": "AUTO_HEIGHT",
+            "widgetId": "hkvmaeawc4",
+            "containerStyle": "none",
+            "minWidth": 450,
+            "isVisible": true,
+            "version": 1,
+            "parentId": "2p012v1vxu",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "mobileTopRow": 1,
+            "responsiveBehavior": "fill",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "mobileLeftColumn": 0,
+            "maxDynamicHeight": 9000,
+            "minDynamicHeight": 4,
+            "flexLayers": []
         }
     ],
     "flexVerticalAlignment": "stretch",
@@ -162,10 +207,11 @@
     "dynamicPropertyPathList": [
         {"key": "tabsObj.tabpjebagy12y.isVisible"},
         {"key": "onTabSelected"},
-        {"key": "tabsObj.tabfhe9t877tp.isVisible"}
+        {"key": "tabsObj.tabfhe9t877tp.isVisible"},
+        {"key": "tabsObj.tab4artsno9z0.isVisible"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 131,
+    "bottomRow": 165,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -183,9 +229,18 @@
     "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.reportsTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
+        "tab4artsno9z0": {
+            "widgetId": "hkvmaeawc4",
+            "isDuplicateLabel": false,
+            "index": 1,
+            "id": "tab4artsno9z0",
+            "label": "NV Dashboard",
+            "isVisible": "{{appsmith.store.clientID === 12}}"
+        },
         "tabpjebagy12y": {
             "widgetId": "6wy5okpugw",
-            "index": 1,
+            "isDuplicateLabel": false,
+            "index": 2,
             "id": "tabpjebagy12y",
             "label": "Reports",
             "isVisible": "true"
@@ -193,6 +248,7 @@
         "tab1": {
             "widgetId": "nz2nd587tc",
             "positioning": "vertical",
+            "isDuplicateLabel": false,
             "index": 0,
             "label": "Dashboard",
             "id": "tab1",
@@ -200,7 +256,8 @@
         },
         "tabfhe9t877tp": {
             "widgetId": "w8p9c3dy2g",
-            "index": 2,
+            "isDuplicateLabel": false,
+            "index": 3,
             "id": "tabfhe9t877tp",
             "label": "MT Reports",
             "isVisible": "{{false}}"

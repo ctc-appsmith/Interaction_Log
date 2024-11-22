@@ -1,0 +1,123 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "allowScroll": false,
+    "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
+    "topRow": 6,
+    "type": "CHART_WIDGET",
+    "chartData": {"a94eduq1bi": {
+        "data": [
+            {
+                "x": "Product1",
+                "y": 20000
+            },
+            {
+                "x": "Product2",
+                "y": 22000
+            },
+            {
+                "x": "Product3",
+                "y": 32000
+            }
+        ],
+        "seriesName": "2023"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicBindingPathList": [
+        {"key": "customEChartConfig"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "leftColumn": 0,
+    "customEChartConfig": "{{ ((chartType) => ( \n{\n  \"dataset\": {\n    \"source\": [[\n      \"Status\",\n      \"Review 1\",\n      \"Review 2\",\n      \"Review 3\"\n    ]].concat(dash_appsbyStatus_2.data.reduce((acc, row) => {\n      let statusIndex = acc.findIndex(item => item[0] === row.applicationStatus);\n      if (statusIndex === -1) {\n        acc.push([row.applicationStatus, 0, 0, 0]);\n        statusIndex = acc.length - 1;\n      }\n      acc[statusIndex][row.reviewOrder] = row.CountOfappID;\n      return acc;\n    }, []))\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Applications by Status and Review Order\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 400,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n\t\t\t\"color\": \"#134463\",\n\t\t\t\"label\":{\n\t\t\t\t\"show\": true,\n\t\t\t\t\"position\": \"inside\",\n\t\t\t\t\"fontSize\": 16,\n\t\t\t\t\"color\": \"#fff\",\n\t\t\t\t\"formatter\": function(params) {\n return params.data[params.seriesIndex + 1] > 0 ? params.data[params.seriesIndex + 1] : '';\n}\n\t\t\t}\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n\t\t\t\"color\": \"#95969d\",\n\t\t\t\"label\":{\n\t\t\t\t\"show\": true,\n\t\t\t\t\"position\": \"inside\",\n\t\t\t\t\"fontSize\": 16,\n\t\t\t\t\"color\": \"#080808\",\n\t\t\t\t\"formatter\": function(params) {\n return params.data[params.seriesIndex + 1] > 0 ? params.data[params.seriesIndex + 1] : '';\n}\n\t\t\t}\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n\t\t\t\"color\": \"#fac858\",\n\t\t\t\"label\": {\n\t\t\t\t\"show\": true,\n\t\t\t\t\"position\": \"inside\",\n\t\t\t\t\"fontSize\": 16,\n\t\t\t\t\"color\": \"#080808\",\n\t\t\t\t\"formatter\": function(params) {\n return params.data[params.seriesIndex + 1] > 0 ? params.data[params.seriesIndex + 1] : '';\n}\n\t\t\t}\n    }\n  ]\n}\n))(Chart7.chartType) }}",
+    "flexVerticalAlignment": "start",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Display"],
+    "isLoading": false,
+    "chartName": "Sales Report",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "Product Line",
+    "originalBottomRow": 186,
+    "needsErrorInfo": true,
+    "mobileBottomRow": 135,
+    "widgetName": "Chart7",
+    "displayName": "Chart",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "bottomRow": 51,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 60,
+    "parentColumnSpace": 21.921875,
+    "dynamicTriggerPathList": [],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "showDataPointLabel": false,
+    "key": "41ltiuu0xu",
+    "isDeprecated": false,
+    "rightColumn": 36,
+    "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
+    "widgetId": "lsc7ta681i",
+    "minWidth": 450,
+    "parentId": "nw5797ukz0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 103,
+    "responsiveBehavior": "fill",
+    "yAxisName": "Revenue($)",
+    "originalTopRow": 141,
+    "mobileLeftColumn": 36,
+    "chartType": "CUSTOM_ECHART"
+}

@@ -29,14 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home Admin_COUNT_appsPerState",
-              "name": "COUNT_appsPerState",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Home Admin_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,
@@ -45,14 +37,28 @@
                 "appsmith.store.access_token"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
+            {
+              "id": "Home Admin_COUNT_appsPerState",
+              "name": "COUNT_appsPerState",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
             {
               "id": "Home Admin_utils.sessionCheckInterval",
               "name": "utils.sessionCheckInterval",
               "collectionId": "Home Admin_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async function () {\n  await utils.checkSession();\n  setInterval(() => utils.checkSession(), 3600000);\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
