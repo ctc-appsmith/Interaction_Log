@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 68,
+    "originalBottomRow": 60,
     "needsErrorInfo": false,
     "mobileBottomRow": 55,
     "widgetName": "importance",
@@ -62,7 +62,7 @@
     "mobileTopRow": 48,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 61,
+    "originalTopRow": 53,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
