@@ -2,7 +2,7 @@
     "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 97,
+    "topRow": 6,
     "type": "CHART_WIDGET",
     "chartData": {"4od1u9smc4": {
         "data": "{{dash_appsbyTech.data.map (u => ({x: u.techType, y: u.CountOfappID}) )}}",
@@ -29,7 +29,7 @@
     "chartName": "Applications by Tech Type",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 130,
+    "originalBottomRow": 142,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "appTechType_ChartCopy",
@@ -39,7 +39,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 130,
+    "bottomRow": 51,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -99,13 +99,13 @@
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "7rw2g06sb7",
     "minWidth": 450,
-    "parentId": "hkvmaeawc4",
+    "parentId": "nw5797ukz0",
     "labelOrientation": "auto",
     "renderMode": "CANVAS",
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 97,
+    "originalTopRow": 109,
     "mobileLeftColumn": 13,
     "chartType": "BAR_CHART"
 }

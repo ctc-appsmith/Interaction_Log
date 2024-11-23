@@ -11,7 +11,9 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tabsObj.tabfhe9t877tp.isVisible"},
-        {"key": "tabsObj.tab4artsno9z0.isVisible"}
+        {"key": "tabsObj.tab4artsno9z0.isVisible"},
+        {"key": "defaultTab"},
+        {"key": "tabsObj.tab1.isVisible"}
     ],
     "children": [
         {
@@ -208,7 +210,8 @@
         {"key": "tabsObj.tabpjebagy12y.isVisible"},
         {"key": "onTabSelected"},
         {"key": "tabsObj.tabfhe9t877tp.isVisible"},
-        {"key": "tabsObj.tab4artsno9z0.isVisible"}
+        {"key": "tabsObj.tab4artsno9z0.isVisible"},
+        {"key": "tabsObj.tab1.isVisible"}
     ],
     "displayName": "Tabs",
     "bottomRow": 165,
@@ -225,7 +228,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "2p012v1vxu",
-    "defaultTab": "Dashboard",
+    "defaultTab": "{{appsmith.store.clientID === 12 ? 'NV Dashboard' : 'Dashboard'}}",
     "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.reportsTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
@@ -252,7 +255,7 @@
             "index": 0,
             "label": "Dashboard",
             "id": "tab1",
-            "isVisible": true
+            "isVisible": "{{appsmith.store.clientID !== 12}}"
         },
         "tabfhe9t877tp": {
             "widgetId": "w8p9c3dy2g",
