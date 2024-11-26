@@ -1,0 +1,111 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "allowScroll": false,
+    "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
+    "topRow": 6,
+    "type": "CHART_WIDGET",
+    "chartData": {"lwy12chfi0": {
+        "data": "{{{\n  \"dataset\": {\n    \"source\": [[\n      \"Status\",\n      \"Priority 1\",\n      \"Priority 2\",\n      \"Priority 3\"\n    ]].concat(dash_appsbyStatus_NV.data.reduce((acc, row) => {\n      let statusIndex = acc.findIndex(item => item[0] === row.applicationStatus);\n      if (statusIndex === -1) {\n        acc.push([row.applicationStatus, 0, 0, 0]);\n        statusIndex = acc.length - 1;\n      }\n      acc[statusIndex][row.reviewOrder] = row.CountOfappID;\n      return acc;\n    }, []))\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Applications by Status and Priority\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 400,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n      \"color\": \"#134463\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#fff\",\n        \"formatter\": function(params) {\n          return params.data[params.seriesIndex}}{{1] > 0 ? params.data[params.seriesIndex}}{{1] : '';\n        }\n      }\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n      \"color\": \"#95969d\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#080808\",\n        \"formatter\": function(params) {\n          return params.data[params.seriesIndex}}{{1] > 0 ? params.data[params.seriesIndex}}{{1] : '';\n        }\n      }\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Applications\",\n      \"color\": \"#fac858\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#080808\",\n        \"formatter\": function(params) {\n          return params.data[params.seriesIndex}}{{1] > 0 ? params.data[params.seriesIndex}}{{1] : '';\n        }\n      }\n    }\n  ]\n}}}",
+        "seriesName": "2023"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"},
+        {"key": "chartData.lwy12chfi0.data"},
+        {"key": "customEChartConfig"}
+    ],
+    "leftColumn": 31,
+    "customEChartConfig": "{{ ((chartType) => ( \n{\n  \"dataset\": {\n    \"source\": [[\n      \"Team\",\n      \"Priority 1\",\n      \"Priority 2\",\n      \"Priority 3\"\n    ]].concat(Rept_getTaskStatusByTeam_NV.data.reduce((acc, row) => {\n      let teamIndex = acc.findIndex(item => item[0] === row.team);\n      if (teamIndex === -1) {\n        acc.push([row.team, 0, 0, 0]);\n        teamIndex = acc.length - 1;\n      }\n      acc[teamIndex][row.Priority] = row.CountOftaskID;\n      return acc;\n    }, []))\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Open Tasks by Team and Priority\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 400,\n\t\t\t\"color\": \"#000105\",\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"name\": \"Priority 1\",\n      \"type\": \"bar\",\n      \"stack\": \"Tasks\",\n      \"color\": \"#fac858\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#000105\",\n        \"formatter\": function(params) {\n          return params.data[1] > 0 ? params.data[1] : '';\n        }\n      }\n    },\n    {\n      \"name\": \"Priority 2\",\n      \"type\": \"bar\",\n      \"stack\": \"Tasks\",\n      \"color\": \"#95969d\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#000105\",\n        \"formatter\": function(params) {\n          return params.data[2] > 0 ? params.data[2] : '';\n        }\n      }\n    },\n    {\n      \"name\": \"Priority 3\",\n      \"type\": \"bar\",\n      \"stack\": \"Tasks\",\n      \"color\": \"#134463\",\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16,\n        \"color\": \"#fff\",\n        \"formatter\": function(params) {\n          return params.data[3] > 0 ? params.data[3] : '';\n        }\n      }\n    }\n  ]\n}\n))(Chart9.chartType) }}",
+    "flexVerticalAlignment": "start",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Display"],
+    "isLoading": false,
+    "chartName": "Sales Report",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "Product Line",
+    "originalBottomRow": 144,
+    "needsErrorInfo": true,
+    "mobileBottomRow": 142,
+    "widgetName": "Chart9",
+    "displayName": "Chart",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "bottomRow": 51,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 62,
+    "parentColumnSpace": 21.921875,
+    "dynamicTriggerPathList": [],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "showDataPointLabel": false,
+    "key": "ge0utex3lp",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
+    "widgetId": "v4hkum87wg",
+    "minWidth": 450,
+    "parentId": "pl3h6s087d",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 110,
+    "responsiveBehavior": "fill",
+    "yAxisName": "Revenue($)",
+    "originalTopRow": 112,
+    "mobileLeftColumn": 38,
+    "chartType": "CUSTOM_ECHART"
+}

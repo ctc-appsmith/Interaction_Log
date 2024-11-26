@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2340,
+          "bottomRow": 2890,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -188,6 +188,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "State Tracker_Rept_getTaskStatusByTeam_NV",
+              "name": "Rept_getTaskStatusByTeam_NV",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_dash_appsbyStatus_NV",
               "name": "dash_appsbyStatus_NV",
               "confirmBeforeExecute": false,
@@ -198,8 +208,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "State Tracker_dash_appsbyTech_NV",
-              "name": "dash_appsbyTech_NV",
+              "id": "State Tracker_dash_unassignedByTeam_NV",
+              "name": "dash_unassignedByTeam_NV",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

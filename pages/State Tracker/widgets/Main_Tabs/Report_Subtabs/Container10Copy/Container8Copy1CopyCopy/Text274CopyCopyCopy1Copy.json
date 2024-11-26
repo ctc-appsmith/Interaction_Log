@@ -33,7 +33,7 @@
     "isDeprecated": false,
     "rightColumn": 61,
     "textAlign": "CENTER",
-    "dynamicHeight": "AUTO_HEIGHT",
+    "dynamicHeight": "FIXED",
     "widgetId": "13et912p6c",
     "minWidth": 450,
     "isVisible": true,
@@ -45,11 +45,9 @@
     "isLoading": false,
     "mobileTopRow": 70,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 36,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 4,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
