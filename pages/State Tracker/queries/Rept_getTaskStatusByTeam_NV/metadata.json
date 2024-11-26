@@ -38,7 +38,7 @@
     "jsonPathKeys": [
       "appsmith.store.clientID"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

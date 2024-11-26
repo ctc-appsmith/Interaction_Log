@@ -20,6 +20,8 @@ export default {
 			await Rept_COUNT_pendingTasks.run();
 			// Run Rept_getTaskStatusByTeam
 			await Rept_getTaskStatusByTeam.run();
+			// Run Rept_getTaskStatusByTeam_NV
+			await Rept_getTaskStatusByTeam_NV.run();
 			// Run Rept_appsNoTasks
 			await Rept_appsNoTasks.run();
 			// Run dash_incompleteTaskbyType
