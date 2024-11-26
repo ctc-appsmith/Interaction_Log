@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 191,
+    "topRow": 114,
     "type": "CHART_WIDGET",
     "chartData": {"q2tvwn70zh": {
         "data": "",
@@ -29,7 +29,7 @@
     "chartName": "Sales Report",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "Product Line",
-    "originalBottomRow": 243,
+    "originalBottomRow": 145,
     "needsErrorInfo": true,
     "mobileBottomRow": 220,
     "widgetName": "Chart8",
@@ -40,7 +40,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 243,
+    "bottomRow": 166,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 59,
@@ -106,7 +106,7 @@
     "mobileTopRow": 188,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "originalTopRow": 191,
+    "originalTopRow": 93,
     "mobileLeftColumn": 35,
     "chartType": "CUSTOM_ECHART"
 }
