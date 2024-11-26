@@ -4,7 +4,7 @@
     "mobileBottomRow": 24,
     "widgetName": "Log_Out_Btn",
     "onClick": "{{logout.logout();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#252d55",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
@@ -22,10 +22,7 @@
     "parentColumnSpace": 20.109375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 56,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Log Out",
     "isDisabled": false,
     "key": "7puy0f13qz",

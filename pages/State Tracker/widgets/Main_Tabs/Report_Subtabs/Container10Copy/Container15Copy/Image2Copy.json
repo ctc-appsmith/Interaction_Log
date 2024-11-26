@@ -6,7 +6,7 @@
     "displayName": "Image",
     "iconSVG": "/static/media/icon.0ca0b0d56b58addbf45114ae5a79e88a.svg",
     "topRow": 0,
-    "bottomRow": 52,
+    "bottomRow": 51,
     "parentRowSpace": 10,
     "type": "IMAGE_WIDGET",
     "hideCard": false,
