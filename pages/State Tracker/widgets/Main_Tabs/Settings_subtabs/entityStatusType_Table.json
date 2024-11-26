@@ -76,7 +76,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 71,
+    "bottomRow": 81,
     "columnWidthMap": {
         "definition": 315,
         "entityStatusType": 225
