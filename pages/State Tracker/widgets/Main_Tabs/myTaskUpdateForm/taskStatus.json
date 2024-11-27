@@ -28,7 +28,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 24,
+    "originalBottomRow": 25,
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
     "widgetName": "taskStatus",
@@ -62,7 +62,7 @@
     "mobileTopRow": 30,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 20,
+    "originalTopRow": 21,
     "mobileLeftColumn": 12,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
