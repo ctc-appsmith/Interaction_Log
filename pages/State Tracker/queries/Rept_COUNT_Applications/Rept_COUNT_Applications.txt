@@ -3,4 +3,5 @@ SELECT Count(Applications.appID) AS CountOfappID
 	INNER JOIN Clients ON Entities.clientID = Clients.clientID
 
 WHERE Clients.clientID = {{appsmith.store.clientID}}
+AND applicationStatus <> "N/A"
 ;
