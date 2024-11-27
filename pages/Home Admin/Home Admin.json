@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 1550,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -43,6 +43,14 @@
             {
               "id": "Home Admin_COUNT_appsPerState",
               "name": "COUNT_appsPerState",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home Admin_COUNT_appsPerState_byAppStatus",
+              "name": "COUNT_appsPerState_byAppStatus",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

@@ -1,0 +1,12 @@
+SELECT 
+	Clients.clientName, 
+	Applications.applicationStatus, 
+	Count(Applications.appID) AS CountOfappID
+	FROM 
+		(Entities INNER JOIN Applications ON Entities.entityID = Applications.entityID) 
+		INNER JOIN Clients ON Entities.clientID = Clients.clientID
+
+WHERE (((Applications.applicationType)="Scoring"))
+GROUP BY Clients.clientName, Applications.applicationStatus
+ORDER BY clientName, applicationStatus, CountOfappID DESC;
+
