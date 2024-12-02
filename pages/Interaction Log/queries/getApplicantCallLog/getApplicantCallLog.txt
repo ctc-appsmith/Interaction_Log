@@ -14,12 +14,11 @@ SELECT
     e.entityName,
     a.applicationName,
 		a.portalAppID,
-		a.applicationType,
-		a.lastChanged
+		a.applicationType
 FROM interactionLog i
 LEFT JOIN Entities e ON i.entityID = e.entityID 
 LEFT JOIN Applications a ON i.applicationID = a.appID
 	WHERE i.entityID = {{entitySelect.selectedOptionValue}}
 AND archived = "No"
-ORDER BY lastchanged DESC
+ORDER BY commsDate DESC, recordID DESC
 ;
