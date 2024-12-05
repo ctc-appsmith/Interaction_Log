@@ -20,7 +20,7 @@
         {"key": "borderRadius"},
         {"key": "defaultImage"}
     ],
-    "defaultImage": "{{ \n  appsmith.store.clientID === 9 \n    ? \"https://ctc1.s3.us-east-1.amazonaws.com/DE_proposalsperGrantArea.png\"\n    : appsmith.store.clientID === 12 \n    ? \"https://ctc1.s3.us-east-1.amazonaws.com/NV_proposalsperRPA.png\"\n    : \"https://example.com/default_image.jpg\" \n}}\n\n",
+    "defaultImage": "{{ \n  appsmith.store.clientID === 9 \n    ? \"https://ctc1.s3.us-east-1.amazonaws.com/DE_proposalsperGrantArea.png\"\n    : appsmith.store.clientID === 12 \n    ? \"https://ctc1.s3.us-east-1.amazonaws.com/NV_proposalsperRPA.png\"\n    : appsmith.store.clientID === 1 ? \"https://ctc1.s3.us-east-1.amazonaws.com/Montana+proposals.png\"\n: \"https://example.com/default_image.jpg\" \n}}\n\n",
     "flexVerticalAlignment": "start",
     "key": "pzevv22q2v",
     "image": "",
