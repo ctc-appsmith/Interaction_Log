@@ -8,13 +8,13 @@
     "dynamicPropertyPathList": [],
     "iconSVG": "/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
     "displayName": "Container",
-    "topRow": 191,
+    "topRow": 126,
     "searchTags": [
         "div",
         "parent",
         "group"
     ],
-    "bottomRow": 234,
+    "bottomRow": 169,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,

@@ -1,4 +1,4 @@
-SELECT Tasks.taskID, Tasks.appID, Tasks.startDate, Tasks.completedDate, Tasks.dueDate, Tasks.taskTypeID, Tasks.taskStatus, Tasks.assignedTo, Tasks.taskNotes, Tasks.taskNotes, Applications.applicationName, Applications.portalAppID, Applications.applicationType, Applications.reviewOrder, Entities.entityName, taskTypes.taskName, taskTypes.team, Tasks.taskStatus, taskStatusTypes.sortOrder
+SELECT Tasks.taskID, Tasks.appID, Tasks.startDate, Tasks.completedDate, Tasks.dueDate, Tasks.taskTypeID, Tasks.taskStatus, Tasks.assignedTo, Tasks.taskNotes, Tasks.taskNotes, Tasks.filePath, Applications.applicationName, Applications.portalAppID, Applications.applicationType, Applications.reviewOrder, Entities.entityName, taskTypes.taskName, taskTypes.team, Tasks.taskStatus, taskStatusTypes.sortOrder
 
 FROM taskStatusTypes INNER JOIN ((((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) ON taskStatusTypes.taskStatus = Tasks.taskStatus
 			
