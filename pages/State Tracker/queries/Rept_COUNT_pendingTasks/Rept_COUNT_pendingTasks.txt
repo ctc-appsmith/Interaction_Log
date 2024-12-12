@@ -6,6 +6,8 @@ SELECT
 
 
 WHERE 
-    Tasks.taskStatus <> 'Complete' 
+    Tasks.taskStatus <> 'Complete'
+		AND Tasks.taskStatus<>'Application Ineligible'
+		AND Tasks.taskStatus<>'Application Withdrawn'
     AND Clients.clientID = {{appsmith.store.clientID}}
 ;

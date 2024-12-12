@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n\tApplications.appID, \n\tApplications.entityID, \n\tApplications.applicationName, \n\tApplications.portalAppID, \n\tApplications.applicationStatus\n\t\tFROM (\n\t\t\tApplications INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID\n\tWHERE \n    Clients.clientID = {{appsmith.store.clientID}}\n    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')\n    AND Applications.appID NOT IN (select appID from Tasks);\n",
+      "body": "SELECT \n\tApplications.appID, \n\tApplications.entityID, \n\tApplications.applicationName, \n\tApplications.portalAppID, \n\tApplications.applicationStatus\n\t\tFROM (\n\t\t\tApplications INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID\n\tWHERE \n    Clients.clientID = {{appsmith.store.clientID}}\n    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected' AND Applications.applicationStatus<>'Withdrawn' AND Applications.applicationStatus<>'Ineligible')\n    AND Applications.appID NOT IN (select appID from Tasks);\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

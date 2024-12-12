@@ -9,5 +9,5 @@ SELECT
 			INNER JOIN Clients ON Entities.clientID = Clients.clientID
 	WHERE 
     Clients.clientID = {{appsmith.store.clientID}}
-    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected')
+    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected' AND Applications.applicationStatus<>'Withdrawn' AND Applications.applicationStatus<>'Ineligible')
     AND Applications.appID NOT IN (select appID from Tasks);

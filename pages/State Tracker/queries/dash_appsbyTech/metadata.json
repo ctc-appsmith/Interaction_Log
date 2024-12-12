@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Applications.techType, Count(Applications.appID) AS CountOfappID\n\tFROM Clients INNER JOIN (\n\t\tApplications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON \tClients.clientID = Entities.clientID\n\t\t\n\tWHERE Clients.clientID = {{appsmith.store.clientID}}\n\tGROUP BY Applications.techType\n\tORDER BY CountofappID\n;\n",
+      "body": "SELECT Applications.techType, Count(Applications.appID) AS CountOfappID\n\tFROM Clients INNER JOIN (\n\t\tApplications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON \tClients.clientID = Entities.clientID\n\t\t\n\tWHERE Clients.clientID = {{appsmith.store.clientID}}\n\tAND applicationStatus <> \"Ineligible\"\n\tAND applicationStatus <> \"Withdrawn\"\n\tAND applicationStatus <> \"N/A\"\n\tGROUP BY Applications.techType\n\tORDER BY CountofappID\n;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

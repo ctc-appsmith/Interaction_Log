@@ -4,6 +4,9 @@ SELECT
 		INNER JOIN Clients ON Entities.clientID = Clients.clientID
 	WHERE (((Entities.entityType)="Applicant") 
 				 AND ((Clients.clientID)={{appsmith.store.clientID}}))
+				 AND applicationStatus <> "Ineligible"
+				 AND applicationStatus <> "Withdrawn"
+				 AND applicationStatus <> "N/A"
 	GROUP BY Entities.entityName
 	ORDER BY Count(Applications.appID) DESC
 		LIMIT 10

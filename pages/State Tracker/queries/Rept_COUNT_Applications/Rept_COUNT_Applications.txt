@@ -4,4 +4,6 @@ SELECT Count(Applications.appID) AS CountOfappID
 
 WHERE Clients.clientID = {{appsmith.store.clientID}}
 AND applicationStatus <> "N/A"
+AND applicationStatus <> "Ineligible"
+AND applicationStatus <> "Withdrawn"
 ;

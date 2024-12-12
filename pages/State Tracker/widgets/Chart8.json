@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 126,
+    "topRow": 191,
     "type": "CHART_WIDGET",
     "chartData": {"q2tvwn70zh": {
         "data": "",
@@ -39,7 +39,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 178,
+    "bottomRow": 243,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 59,

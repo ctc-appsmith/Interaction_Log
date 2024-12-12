@@ -3,6 +3,9 @@ SELECT Applications.techType, Count(Applications.appID) AS CountOfappID
 		Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 	Clients.clientID = Entities.clientID
 		
 	WHERE Clients.clientID = {{appsmith.store.clientID}}
+	AND applicationStatus <> "Ineligible"
+	AND applicationStatus <> "Withdrawn"
+	AND applicationStatus <> "N/A"
 	GROUP BY Applications.techType
 	ORDER BY CountofappID
 ;
