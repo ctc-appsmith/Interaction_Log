@@ -7,7 +7,10 @@ INNER JOIN Applications ON Applications.entityID = Entities.entityID
 INNER JOIN Tasks ON Tasks.appID = Applications.appID
 INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
 WHERE 
-    Tasks.taskStatus NOT IN ('Complete', 'Application Ineligible', 'Application Withdrawn')
+    Tasks.taskStatus <> "Complete"
+		AND Applications.applicationStatus <> "Ineligible"
+		AND Applications.applicationStatus <> "Withdrawn" 
+		AND Applications.applicationStatus <> "N/A"
     AND Tasks.assignedTo = 'unassigned@ctcnet.us'
     AND Clients.clientID = {{appsmith.store.clientID}}
 GROUP BY taskTypes.team;

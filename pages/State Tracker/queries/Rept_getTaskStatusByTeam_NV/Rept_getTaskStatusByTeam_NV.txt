@@ -2,14 +2,15 @@ SELECT
     taskTypes.team,
     Applications.reviewOrder AS Priority,
     COUNT(Tasks.taskID) AS CountOftaskID
-FROM Clients 
-INNER JOIN Entities ON Clients.clientID = Entities.clientID
+FROM Entities
 INNER JOIN Applications ON Applications.entityID = Entities.entityID
 INNER JOIN Tasks ON Tasks.appID = Applications.appID
 INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
 WHERE 
-    Tasks.taskStatus NOT IN ('Complete', 'Application Ineligible', 'Application Withdrawn')
-    AND Clients.clientID = {{appsmith.store.clientID}}
+    Tasks.taskStatus <> 'Complete'
+		AND Applications.applicationStatus<>'Ineligible'
+		AND Applications.applicationStatus<>'Withdrawn'
+    AND Entities.clientID = {{appsmith.store.clientID}}
 GROUP BY 
     taskTypes.team, 
     Priority

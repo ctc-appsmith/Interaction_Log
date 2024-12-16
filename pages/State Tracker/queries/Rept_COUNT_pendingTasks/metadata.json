@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n\tCount(Tasks.taskID) AS CountOftaskID\n\t\tFROM ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\t\t\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\t\t\t\t\tINNER JOIN Clients ON Entities.clientID = Clients.clientID\n\n\nWHERE \n    Tasks.taskStatus <> 'Complete'\n\t\tAND Tasks.taskStatus<>'Application Ineligible'\n\t\tAND Tasks.taskStatus<>'Application Withdrawn'\n    AND Clients.clientID = {{appsmith.store.clientID}}\n;",
+      "body": "SELECT \n\tCount(Tasks.taskID) AS CountOftaskID\n\t\tFROM ((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\t\t\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\n\n\nWHERE \n    Tasks.taskStatus <> 'Complete'\n\t\tAND Applications.applicationStatus<>'Ineligible'\n\t\tAND Applications.applicationStatus<>'Withdrawn'\n    AND Entities.clientID = {{appsmith.store.clientID}}\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

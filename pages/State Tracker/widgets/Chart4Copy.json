@@ -29,7 +29,7 @@
     "chartName": "Open Tasks by Team",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 208,
+    "originalBottomRow": 289,
     "needsErrorInfo": true,
     "mobileBottomRow": 115,
     "widgetName": "Chart4Copy",
@@ -106,7 +106,7 @@
     "mobileTopRow": 83,
     "responsiveBehavior": "fill",
     "yAxisName": "",
-    "originalTopRow": 163,
+    "originalTopRow": 244,
     "mobileLeftColumn": 8,
     "chartType": "COLUMN_CHART"
 }
