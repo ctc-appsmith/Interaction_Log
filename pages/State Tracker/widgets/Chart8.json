@@ -28,7 +28,7 @@
     "chartName": "Sales Report",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "Product Line",
-    "originalBottomRow": 243,
+    "originalBottomRow": 162,
     "needsErrorInfo": true,
     "mobileBottomRow": 220,
     "widgetName": "Chart8",
@@ -105,7 +105,7 @@
     "mobileTopRow": 188,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "originalTopRow": 191,
+    "originalTopRow": 110,
     "mobileLeftColumn": 35,
     "chartType": "CUSTOM_ECHART"
 }
