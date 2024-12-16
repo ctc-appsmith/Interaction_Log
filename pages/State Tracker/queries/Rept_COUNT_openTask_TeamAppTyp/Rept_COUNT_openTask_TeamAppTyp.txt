@@ -1,11 +1,13 @@
 SELECT Count(Tasks.taskID) AS CountOftaskID
-FROM (((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
-
-
-
+FROM ((Tasks 
+    INNER JOIN Applications ON Tasks.appID = Applications.appID) 
+    INNER JOIN Entities ON Applications.entityID = Entities.entityID) 
+    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID
 WHERE 
     Tasks.taskStatus <> 'Complete' 
-    AND Clients.clientID = {{appsmith.store.clientID}}
+    AND Entities.clientID = {{appsmith.store.clientID}}
+		AND Applications.applicationStatus <> "Ineligible"
+		AND Applications.applicationStatus <> "Withdrawn"
     AND (
         -- If Select11 is null, include all application types
         ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')

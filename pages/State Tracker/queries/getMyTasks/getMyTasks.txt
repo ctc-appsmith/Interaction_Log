@@ -1,18 +1,32 @@
-SELECT Tasks.taskID, Tasks.appID, Tasks.startDate, Tasks.completedDate, Tasks.dueDate, Tasks.taskTypeID, Tasks.taskStatus, Tasks.assignedTo, Tasks.taskNotes, Tasks.taskNotes, Tasks.filePath, Applications.applicationName, Applications.portalAppID, Applications.applicationType, Applications.reviewOrder, Entities.entityName, taskTypes.taskName, taskTypes.team, Tasks.taskStatus, taskStatusTypes.sortOrder
-
-FROM taskStatusTypes INNER JOIN ((((Tasks INNER JOIN Applications ON Tasks.appID = Applications.appID) INNER JOIN Entities ON Applications.entityID = Entities.entityID) INNER JOIN Clients ON Entities.clientID = Clients.clientID) INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) ON taskStatusTypes.taskStatus = Tasks.taskStatus
-			
-			
-WHERE Clients.clientID = {{appsmith.store.clientID}}
-AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
-AND ({{!Select11.selectedOptionValue}} OR (Applications.applicationType = '{{Select11.selectedOptionValue}}'))
-AND ({{!Select7Copy.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy.selectedOptionValue}}'))
-
+SELECT 
+    Tasks.taskID, 
+    Tasks.appID, 
+    Tasks.startDate, 
+    Tasks.completedDate, 
+    Tasks.dueDate, 
+    Tasks.taskTypeID, 
+    Tasks.taskStatus, 
+    Tasks.assignedTo, 
+    Tasks.taskNotes, 
+    Tasks.filePath, 
+    Applications.applicationName, 
+    Applications.portalAppID, 
+    Applications.applicationType, 
+    Applications.reviewOrder, 
+    Entities.entityName, 
+    taskTypes.taskName, 
+    taskTypes.team, 
+    taskStatusTypes.sortOrder
+FROM taskStatusTypes 
+INNER JOIN (((Tasks 
+    INNER JOIN Applications ON Tasks.appID = Applications.appID) 
+    INNER JOIN Entities ON Applications.entityID = Entities.entityID) 
+    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) 
+    ON taskStatusTypes.taskStatus = Tasks.taskStatus
+WHERE Entities.clientID = {{appsmith.store.clientID}}
+    AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
+    AND ((Applications.applicationStatus)<>"Withdrawn") 
+    AND ((Applications.applicationStatus)<>"Ineligible") 
+    AND ({{!Select11.selectedOptionValue}} OR (Applications.applicationType = '{{Select11.selectedOptionValue}}'))
+    AND ({{!Select7Copy.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy.selectedOptionValue}}'))
 ORDER BY reviewOrder ASC, sortOrder ASC, startDate DESC;
-			
-
-
-
-
-
-
