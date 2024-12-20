@@ -23,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 13,
     "widgetName": "To_MT_Log_btn",
-    "buttonColor": "#054587",
+    "buttonColor": "#b91c1c",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "searchTags": [

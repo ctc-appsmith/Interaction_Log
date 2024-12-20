@@ -111,7 +111,7 @@
                     "onClick": "{{showModal('To_AL_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 13 ? 'caret-right' : ''}}",
                     "widgetId": "vxcvnjdj9g",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 0,
                     "id": "menuItembk4lb3c1jf",
                     "label": "Alabama",

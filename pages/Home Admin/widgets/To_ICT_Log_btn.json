@@ -23,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 13,
     "widgetName": "To_ICT_Log_btn",
-    "buttonColor": "#054587",
+    "buttonColor": "#1c691d",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "searchTags": [

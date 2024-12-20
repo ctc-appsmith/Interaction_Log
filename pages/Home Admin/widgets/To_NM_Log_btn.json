@@ -23,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 13,
     "widgetName": "To_NM_Log_btn",
-    "buttonColor": "#054587",
+    "buttonColor": "#063760",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "searchTags": [
