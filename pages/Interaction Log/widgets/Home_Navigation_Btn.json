@@ -68,7 +68,7 @@
     "groupButtons": {
         "groupButton9vldljkxof": {
             "itemType": "BUTTON",
-            "buttonColor": "#135c88",
+            "buttonColor": "#0b4d83",
             "iconName": "globe",
             "widgetId": "6rah4i0s9t",
             "menuItems": {
@@ -76,35 +76,38 @@
                     "onClick": "{{showModal('To_NV_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 12 ? 'caret-right' : ''}}",
                     "widgetId": "oll3ph9ztp",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 5,
                     "id": "menuItemou0428t834",
                     "label": "Nevada",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItembo43fhmy0c": {
                     "onClick": "{{showModal('To_WY_Log_Modal');}}",
                     "backgroundColor": "",
                     "iconName": "{{appsmith.store.clientID == 11 ? 'caret-right' : ''}}",
                     "widgetId": "1tupy04emg",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 8,
                     "id": "menuItembo43fhmy0c",
                     "label": "Wyoming",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItemle954zk9p3": {
                     "onClick": "{{showModal('To_CT_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 14 ? 'caret-right' : ''}}",
                     "widgetId": "7h8685l6fr",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 1,
                     "id": "menuItemle954zk9p3",
                     "label": "Connecticut",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItembk4lb3c1jf": {
                     "backgroundColor": "",
@@ -116,63 +119,68 @@
                     "id": "menuItembk4lb3c1jf",
                     "label": "Alabama",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItemo9ocoeq5o7": {
                     "onClick": "{{showModal('To_DE_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 9 ? 'caret-right' : ''}}",
                     "widgetId": "zc4ufo5nzw",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 2,
                     "id": "menuItemo9ocoeq5o7",
                     "label": "Delaware",
                     "isDisabled": false,
                     "isVisible": true,
-                    "textColor": ""
+                    "textColor": "#000000"
                 },
                 "menuItemj8mwv9ysie": {
                     "onClick": "{{showModal('To_NM_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 16 ? 'caret-right' : ''}}",
                     "widgetId": "7scyzki21s",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 6,
                     "id": "menuItemj8mwv9ysie",
                     "label": "New Mexico",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItemc535vczx17": {
                     "onClick": "{{showModal('To_IL_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 10 ? 'caret-right' : ''}}",
                     "widgetId": "tcblap6mic",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 3,
                     "id": "menuItemc535vczx17",
                     "label": "Illinois",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItem7e5xfzkd62": {
                     "onClick": "{{showModal('To_MT_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 1 ? 'caret-right' : ''}}",
                     "widgetId": "xot7x4y92j",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 4,
                     "id": "menuItem7e5xfzkd62",
                     "label": "Montana",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 },
                 "menuItem03i8ikg413": {
                     "onClick": "{{showModal('To_OR_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 15 ? 'caret-right' : ''}}",
                     "widgetId": "g5qtrr2mr0",
-                    "iconColor": "#eab308",
+                    "iconColor": "#e67000",
                     "index": 7,
                     "id": "menuItem03i8ikg413",
                     "label": "Oregon",
                     "isDisabled": false,
-                    "isVisible": true
+                    "isVisible": true,
+                    "textColor": "#000000"
                 }
             },
             "index": 0,
@@ -186,7 +194,7 @@
         },
         "groupButtonu2bqtvhhnb": {
             "buttonType": "MENU",
-            "buttonColor": "#135c88",
+            "buttonColor": "#0b4d83",
             "iconName": "annotation",
             "widgetId": "ns3kvp5lfq",
             "menuItems": {"menuItemzio04syxtu": {

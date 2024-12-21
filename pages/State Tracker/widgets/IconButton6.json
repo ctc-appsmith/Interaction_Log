@@ -4,7 +4,7 @@
     "mobileBottomRow": 16,
     "widgetName": "IconButton6",
     "onClick": "{{navigateTo('User Guide', {}, 'NEW_WINDOW');}}",
-    "buttonColor": "#dd4b34",
+    "buttonColor": "#e67000",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [

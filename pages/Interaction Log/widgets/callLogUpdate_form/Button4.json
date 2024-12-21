@@ -5,7 +5,7 @@
     "mobileBottomRow": 37,
     "widgetName": "Button4",
     "onClick": "{{UpdateInteraction.run().then(() => {\n  getApplicantCallLog.run();\n}).catch(() => {\n  showAlert('\"Detailed Error: \" + JSON.stringify(error), \"error\"', '');\n});\nremoveValue('appID');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#063760",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
@@ -21,10 +21,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 46,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Update",
     "isDisabled": false,
     "key": "n81lvcz0tb",

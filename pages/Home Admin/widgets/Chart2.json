@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 49,
+    "topRow": 57,
     "type": "CHART_WIDGET",
     "chartData": {"uzali103c8": {
         "data": [
@@ -30,7 +30,7 @@
         {"key": "fontFamily"},
         {"key": "customEChartConfig"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 2,
     "customEChartConfig": "{{ ((chartType) => ( \n{\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Applications by State and Status\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 400,\n      \"color\": \"#000105\",\n      \"overflow\": \"truncate\",\n      \"fontSize\": 20 // Title font size\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\",\n    \"textStyle\": {\n      \"fontSize\": 14 // Legend font size\n    }\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": {\n    \"type\": \"category\",\n    \"data\": [...new Set(COUNT_appsPerState_byAppStatus.data.map(item => item.clientName))].sort(),\n    \"axisLabel\": {\n      \"fontSize\": 14, // X-axis labels font size\n      \"interval\": 0,\n      \"rotate\": 45\n    }\n  },\n  \"yAxis\": {\n    \"type\": \"value\",\n    \"axisLabel\": {\n      \"fontSize\": 14 // Y-axis labels font size\n    }\n  },\n  \"series\": (function() {\n    const statuses = [...new Set(COUNT_appsPerState_byAppStatus.data.map(item => item.applicationStatus))].sort();\n    const colors = [\"#be5151\", \"#134463\", \"#95969d\", \"#fac858\", \"#73c0de\"];\n    \n    return statuses.map((status, idx) => ({\n      \"name\": status,\n      \"type\": \"bar\",\n      \"stack\": \"total\",\n      \"color\": colors[idx % colors.length],\n      \"data\": [...new Set(COUNT_appsPerState_byAppStatus.data.map(item => item.clientName))].sort().map(client => {\n        const matchingRow = COUNT_appsPerState_byAppStatus.data.find(\n          row => row.clientName === client && row.applicationStatus === status\n        );\n        return matchingRow ? matchingRow.CountOfappID : 0;\n      }),\n      \"label\": {\n        \"show\": true,\n        \"position\": \"inside\",\n        \"fontSize\": 16, // Bar labels font size\n        \"formatter\": function(params) {\n          return params.value > 0 ? params.value : '';\n        },\n        \"color\": colors[idx % colors.length] === \"#134463\" ? \"#fff\" : \"#000105\"\n      }\n    }));\n  })()\n}\n))(Chart2.chartType) }}",
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -41,7 +41,7 @@
     "chartName": "Sales Report",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "Product Line",
-    "originalBottomRow": 109,
+    "originalBottomRow": 117,
     "needsErrorInfo": true,
     "mobileBottomRow": 123,
     "widgetName": "Chart2",
@@ -51,7 +51,7 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 109,
+    "bottomRow": 117,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 39,
@@ -107,7 +107,7 @@
     "showDataPointLabel": false,
     "key": "7okdf6ajs3",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "widgetId": "4mvvb0qzg3",
     "minWidth": 450,
@@ -117,7 +117,7 @@
     "mobileTopRow": 91,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "originalTopRow": 49,
+    "originalTopRow": 57,
     "mobileLeftColumn": 15,
     "chartType": "CUSTOM_ECHART"
 }
