@@ -112,7 +112,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "#061041",
+        "buttonColor": "#0b4d83",
         "iconName": "reset",
         "buttonVariant": "SECONDARY",
         "iconAlign": "left"
@@ -820,7 +820,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "#061041",
+        "buttonColor": "#063760",
         "iconName": "floppy-disk",
         "buttonVariant": "PRIMARY",
         "iconAlign": "left"

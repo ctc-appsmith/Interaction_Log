@@ -760,7 +760,7 @@
                 "iconAlign": "left",
                 "position": 21,
                 "isDisabled": false,
-                "fieldType": "Text Input"
+                "fieldType": "Multiline Text Input"
             },
             "reviewOrder": {
                 "labelTextSize": "0.875rem",
@@ -857,7 +857,7 @@
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
-    "rightColumn": 30,
+    "rightColumn": 23,
     "widgetId": "ab0o47fus4",
     "parentId": "jdyybhnowk",
     "renderMode": "CANVAS",
