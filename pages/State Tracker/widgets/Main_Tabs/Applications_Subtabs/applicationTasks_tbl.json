@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 10,
+    "topRow": 9,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -30,7 +30,7 @@
         {"key": "primaryColumns.applicationName.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 31,
+    "leftColumn": 17,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "flexVerticalAlignment": "start",
