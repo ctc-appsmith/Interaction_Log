@@ -42,7 +42,7 @@
     "parentColumnSpace": 18.921875,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
-    "labelTextColor": "#18181b",
+    "labelTextColor": "#000000",
     "sourceData": "[\n  {\n    \"name\": \"Prequalification\",\n    \"code\": \"Prequalification\"\n  },\n  {\n    \"name\": \"Scoring\",\n    \"code\": \"Scoring\"\n  }\n]",
     "key": "g6xdxc6m5k",
     "labelTextSize": "1.25rem",

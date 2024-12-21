@@ -40,7 +40,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#061041",
+    "textColor": "#000000",
     "version": 1,
     "parentId": "bge5pz0xwc",
     "tags": [

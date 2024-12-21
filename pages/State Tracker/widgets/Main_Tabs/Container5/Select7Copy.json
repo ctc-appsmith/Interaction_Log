@@ -43,7 +43,7 @@
     "parentColumnSpace": 18.313720703125,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
-    "labelTextColor": "#18181b",
+    "labelTextColor": "#000000",
     "sourceData": "{{getTeam.data.map (u => ({label: u.teamName, value: u.teamName}) )}}",
     "key": "xceerbc2zm",
     "labelTextSize": "1.25rem",

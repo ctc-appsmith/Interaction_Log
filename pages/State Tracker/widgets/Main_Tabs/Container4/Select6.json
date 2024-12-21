@@ -48,7 +48,7 @@
     "parentColumnSpace": 18.921875,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
-    "labelTextColor": "#18181b",
+    "labelTextColor": "#000000",
     "sourceData": "{{getApplications.data.map (u => ({label: u.portalAppID + \" :  \" + u.applicationName + \"  -- (STATUS: \" + u.applicationStatus + \")\", value: u.appID}) )}}",
     "key": "xceerbc2zm",
     "labelTextSize": "1.25rem",

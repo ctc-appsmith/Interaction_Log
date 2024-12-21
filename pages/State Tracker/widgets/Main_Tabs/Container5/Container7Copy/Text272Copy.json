@@ -40,7 +40,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#061041",
+    "textColor": "#000000",
     "version": 1,
     "parentId": "3pk2rjlx6n",
     "tags": [
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 14,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
