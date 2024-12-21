@@ -23,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 13,
     "widgetName": "To_AL_Log_btn",
-    "buttonColor": "#006ba4",
+    "buttonColor": "#0b4d83",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "searchTags": [

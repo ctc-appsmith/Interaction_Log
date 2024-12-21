@@ -141,6 +141,7 @@
             "sticky": "",
             "originalId": "Applicant",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
@@ -164,5 +165,6 @@
     "originalTopRow": 6,
     "mobileLeftColumn": 0,
     "isVisiblePagination": false,
+    "cellBackground": "",
     "verticalAlignment": "CENTER"
 }

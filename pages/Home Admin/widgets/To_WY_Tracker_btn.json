@@ -23,7 +23,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
     "widgetName": "To_WY_Tracker_btn",
-    "buttonColor": "#252d55",
+    "buttonColor": "#063760",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "searchTags": [

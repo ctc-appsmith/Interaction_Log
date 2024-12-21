@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2080,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -200,16 +200,6 @@
             {
               "id": "State Tracker_dash_appsbyStatus_NV",
               "name": "dash_appsbyStatus_NV",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.clientID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "State Tracker_dash_unassignedByTeam_NV",
-              "name": "dash_unassignedByTeam_NV",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

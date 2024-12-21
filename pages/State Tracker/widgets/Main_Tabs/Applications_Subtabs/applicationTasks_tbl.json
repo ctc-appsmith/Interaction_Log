@@ -95,7 +95,10 @@
         "portalAppID",
         "applicationName"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "cellBackground"}
+    ],
     "displayName": "Table",
     "bottomRow": 59,
     "columnWidthMap": {
@@ -142,6 +145,7 @@
             "sticky": "",
             "originalId": "filePath",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "dueDate": {
@@ -243,6 +247,7 @@
             "sticky": "",
             "originalId": "taskNotes",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "team": {
@@ -309,6 +314,7 @@
             "sticky": "",
             "originalId": "completedDate",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "assignedTo": {
@@ -341,6 +347,7 @@
             "sticky": "",
             "originalId": "assignedTo",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "taskTypeID": {
@@ -373,6 +380,7 @@
             "sticky": "",
             "originalId": "taskTypeID",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "appID": {
@@ -405,6 +413,7 @@
             "sticky": "",
             "originalId": "appID",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "sortOrder": {
@@ -505,6 +514,7 @@
             "sticky": "",
             "originalId": "taskID",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "startDate": {
@@ -538,6 +548,7 @@
             "sticky": "",
             "originalId": "startDate",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "taskStatus": {
@@ -570,6 +581,7 @@
             "sticky": "",
             "originalId": "taskStatus",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "applicationName": {
@@ -629,5 +641,6 @@
     "originalTopRow": 10,
     "mobileLeftColumn": 1,
     "isVisiblePagination": true,
+    "cellBackground": "",
     "verticalAlignment": "CENTER"
 }
