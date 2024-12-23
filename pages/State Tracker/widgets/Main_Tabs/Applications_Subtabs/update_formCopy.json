@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "borderColor": "#2E3D4955",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdateForm.run()}}",
@@ -15,7 +15,6 @@
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.appID.defaultValue"},
         {"key": "schema.__root_schema__.children.appID.borderRadius"},
@@ -851,7 +850,7 @@
         {"key": "schema.__root_schema__.children.techType.onTextChanged"},
         {"key": "schema.__root_schema__.children.currentScore.onTextChanged"}
     ],
-    "borderWidth": "0",
+    "borderWidth": "1",
     "sourceData": "{{getApplications_forUpdateForm.data[0]}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",
