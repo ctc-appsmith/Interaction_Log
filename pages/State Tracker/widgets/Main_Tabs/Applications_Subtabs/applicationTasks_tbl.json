@@ -80,7 +80,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1734975690410,
+    "columnUpdatedAt": 1734976313719,
     "originalBottomRow": 59,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": "[\n  0\n]",
@@ -89,6 +89,7 @@
     "widgetName": "applicationTasks_tbl",
     "defaultPageSize": 0,
     "columnOrder": [
+        "EditActions1",
         "taskName",
         "assignedTo",
         "taskStatus",
@@ -103,8 +104,7 @@
         "taskNotes",
         "filePath",
         "taskTypeID",
-        "sortOrder",
-        "EditActions1"
+        "sortOrder"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -116,6 +116,7 @@
     "bottomRow": 73,
     "columnWidthMap": {
         "taskTypeID": 188,
+        "EditActions1": 112,
         "dueDate": 105,
         "taskName": 272,
         "team": 149,
@@ -169,7 +170,7 @@
             "saveBorderRadius": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
-            "sticky": "right",
+            "sticky": "left",
             "saveIconAlign": "left",
             "originalId": "EditActions1",
             "discardBorderRadius": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
