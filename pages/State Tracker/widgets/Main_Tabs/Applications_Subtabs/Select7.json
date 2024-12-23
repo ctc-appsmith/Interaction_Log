@@ -39,7 +39,7 @@
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 9,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 22,

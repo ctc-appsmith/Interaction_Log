@@ -836,7 +836,7 @@
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 59,
+    "bottomRow": 73,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
@@ -857,7 +857,7 @@
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
-    "rightColumn": 17,
+    "rightColumn": 14,
     "widgetId": "ab0o47fus4",
     "parentId": "jdyybhnowk",
     "renderMode": "CANVAS",
