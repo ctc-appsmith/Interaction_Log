@@ -111,7 +111,8 @@
         {"key": "cellBackground"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
-        {"key": "textSize"}
+        {"key": "textSize"},
+        {"key": "primaryColumns.EditActions1.onSave"}
     ],
     "compactMode": "SHORT",
     "displayName": "Table",
@@ -133,7 +134,10 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
+    "dynamicTriggerPathList": [
+        {"key": "onRowSelected"},
+        {"key": "primaryColumns.EditActions1.onSave"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "EditActions1": {
@@ -154,6 +158,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
+            "onSave": "{{storeValue('taskStatus', applicationTasks_tbl.updatedRow.taskStatus)\n  .then(() => {\n    return updateTask_byApplication_2.run();  // Run this after storing taskStatus\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1');  // Show the modal if taskStatus is 'Complete'\n    }\n    return getTasks_byApplication_3.run();  // Run getMyTasks next\n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  // Run Rept_COUNT after getMyTasks\n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  // Run Rept_COUNT_unassignedTasks last\n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  // Show an error message if any query fails\n  });\n}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
