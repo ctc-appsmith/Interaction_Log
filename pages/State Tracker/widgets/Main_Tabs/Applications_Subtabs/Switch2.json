@@ -17,7 +17,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.921875,
     "dynamicTriggerPathList": [{"key": "onChange"}],
-    "leftColumn": 55,
+    "leftColumn": 56,
     "dynamicBindingPathList": [],
     "labelPosition": "Left",
     "labelStyle": "BOLD",

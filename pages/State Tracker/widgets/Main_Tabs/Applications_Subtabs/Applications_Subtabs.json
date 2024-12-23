@@ -6,7 +6,7 @@
     "topRow": 16,
     "type": "TABS_WIDGET",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
