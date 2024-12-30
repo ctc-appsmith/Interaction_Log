@@ -1,0 +1,75 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+    "labelText": "",
+    "topRow": 5,
+    "labelWidth": 5,
+    "type": "SELECT_WIDGET",
+    "serverSideFiltering": false,
+    "defaultOptionValue": "GREEN",
+    "animateLoading": true,
+    "leftColumn": 26,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "placeholderText": "Select option",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Select"
+    ],
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 43,
+    "needsErrorInfo": false,
+    "mobileBottomRow": 29,
+    "widgetName": "Select12",
+    "isFilterable": true,
+    "displayName": "Select",
+    "searchTags": ["dropdown"],
+    "bottomRow": 9,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 41,
+    "parentColumnSpace": 10.446044921875,
+    "dynamicTriggerPathList": [],
+    "labelPosition": "Top",
+    "sourceData": [
+        {
+            "code": "BLUE",
+            "name": "Blue"
+        },
+        {
+            "code": "GREEN",
+            "name": "Green"
+        },
+        {
+            "code": "RED",
+            "name": "Red"
+        }
+    ],
+    "key": "7dmk5qh43n",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 46,
+    "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+    "widgetId": "4ur8lhc8t3",
+    "optionValue": "code",
+    "minWidth": 450,
+    "parentId": "kfwitygwa6",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 22,
+    "optionLabel": "name",
+    "responsiveBehavior": "fill",
+    "originalTopRow": 39,
+    "mobileLeftColumn": 21,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}
