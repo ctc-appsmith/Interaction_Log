@@ -14,7 +14,7 @@ LEFT JOIN (
     ) m2 ON m1.appID = m2.appID AND m1.changeDate = m2.latestDate
     WHERE m1.changeType = 'Funding'
 ) latest ON a.appID = latest.appID
-SET a.initialBudget = COALESCE(latest.newFunding, a.initialBudget),
+SET a.fundingRequest = COALESCE(latest.newFunding, a.fundingRequest),
 		a.lastChangedBy = '{{get_user.data.email}}'
 WHERE a.appID = '{{Select6.selectedOptionValue}}'
 ;
