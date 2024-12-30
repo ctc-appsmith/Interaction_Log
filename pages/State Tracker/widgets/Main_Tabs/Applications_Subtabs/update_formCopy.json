@@ -7,7 +7,7 @@
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
@@ -856,7 +856,7 @@
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
-    "rightColumn": 14,
+    "rightColumn": 49,
     "widgetId": "ab0o47fus4",
     "parentId": "jdyybhnowk",
     "renderMode": "CANVAS",
