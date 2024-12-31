@@ -39,7 +39,7 @@
             "isDisabled": false,
             "key": "ewwjacwgqk",
             "isDeprecated": false,
-            "tabName": "Application Details",
+            "tabName": "Application Information",
             "rightColumn": 454.125,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -248,7 +248,7 @@
             "positioning": "vertical",
             "isDuplicateLabel": false,
             "index": 1,
-            "label": "Application Details",
+            "label": "Application Information",
             "id": "tab1",
             "isVisible": true
         },
