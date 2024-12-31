@@ -112,7 +112,8 @@
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
         {"key": "textSize"},
-        {"key": "primaryColumns.EditActions1.onSave"}
+        {"key": "primaryColumns.EditActions1.onSave"},
+        {"key": "allowAddNewRow"}
     ],
     "compactMode": "SHORT",
     "displayName": "Table",
@@ -712,6 +713,7 @@
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "javq7ieotp",
+    "allowAddNewRow": "true",
     "minWidth": 450,
     "tableData": "{{getTasks_byApplication_3.data}}",
     "label": "Data",

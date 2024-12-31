@@ -1,18 +1,19 @@
 export default {
-  detailTabQueries: async () => {
+  appInfoTabQueries: async () => {
     try {
-      // Queries specific to Details Tab
+      // Queries specific to Application Information Tab
       await getApplications.run();     
       await getTeam.run();
+			await getCallLog2.run();
    
     } catch (error) {
       console.error("Error running detail tab queries:", error);
     }
   },
-  interactionTabQueries: async () => {
+  taskTabQueries: async () => {
     try {
       // Queries specific to Interaction Log Tab
-      await getCallLog2.run();     
+      await getTasks_byApplication_3.run();     
    
     } catch (error) {
       console.error("Error running detail tab queries:", error);

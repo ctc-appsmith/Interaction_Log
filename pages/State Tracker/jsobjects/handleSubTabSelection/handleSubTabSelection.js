@@ -2,12 +2,12 @@ export default {
 applicationTabSelection: () => {
     const selectedTab = Applications_Subtabs.selectedTab;
 
-    if (selectedTab === "Details") {
+    if (selectedTab === "Application Information") {
       // Run specific function for Tab1
-      return subTabQueries.detailTabQueries();
-    } else if (selectedTab === "Interaction Log") {
+      return subTabQueries.appInfoTabQueries();
+    } else if (selectedTab === "Tasks") {
       // Run specific function for Tab2
-      return subTabQueries.interactionTabQueries();
+      return subTabQueries.taskTabQueries();
 		} else if (selectedTab === "Scoring/Bid Selection") {
 			//Run specific function for Reports tab
 			return subTabQueries.scoringAndBidTabQueries();
