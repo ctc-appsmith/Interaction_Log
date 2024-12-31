@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
-    "topRow": 41,
-    "labelWidth": "21",
+    "topRow": 24,
+    "labelWidth": "4",
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 46,
+    "bottomRow": 29,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -48,7 +48,7 @@
     "key": "7e1ickquk9",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 59,
     "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
     "widgetId": "sbp4hgtk5o",
     "minWidth": 450,

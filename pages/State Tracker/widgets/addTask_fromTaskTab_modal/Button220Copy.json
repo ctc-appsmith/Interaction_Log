@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 8.53125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
+    "leftColumn": 55,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Workflow",
     "isDisabled": false,
