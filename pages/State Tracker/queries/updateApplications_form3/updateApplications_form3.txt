@@ -1,0 +1,8 @@
+UPDATE Applications 
+	SET
+		applicationStatus = '{{Select12.selectedOptionValue}}',
+
+		lastChangedBy = '{{get_user.data.email}}'
+		
+WHERE appID = {{Select6.selectedOptionValue}}
+;

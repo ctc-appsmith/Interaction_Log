@@ -3,7 +3,7 @@
     "borderColor": "#2E3D4955",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdateForm.run()}}",
-    "topRow": 120,
+    "topRow": 138,
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
@@ -116,7 +116,7 @@
         "buttonVariant": "SECONDARY",
         "iconAlign": "left"
     },
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "isLoading": false,
     "submitButtonLabel": "Update",
@@ -199,7 +199,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 147,
+    "originalBottomRow": 142,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -835,7 +835,7 @@
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 144,
+    "bottomRow": 142,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
@@ -862,7 +862,7 @@
     "renderMode": "CANVAS",
     "scrollContents": true,
     "fixedFooter": true,
-    "originalTopRow": 123,
+    "originalTopRow": 138,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
