@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 25,
-    "bottomRow": 30,
+    "bottomRow": 29,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Portal Application ID",
     "key": "c06hvt2p6f",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 35,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 32,
+    "originalBottomRow": 30,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
