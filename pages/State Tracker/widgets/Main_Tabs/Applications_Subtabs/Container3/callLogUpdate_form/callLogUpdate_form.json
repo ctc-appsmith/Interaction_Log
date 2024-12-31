@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "mobileBottomRow": 81,
     "borderColor": "#E0DEDE",
     "widgetName": "callLogUpdate_form",
@@ -8,8 +8,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",
     "searchTags": ["group"],
-    "topRow": 9,
-    "bottomRow": 88,
+    "topRow": 11,
+    "bottomRow": 90,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -18,11 +18,8 @@
     "animateLoading": true,
     "parentColumnSpace": 19.234375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 35,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "leftColumn": 38,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -70,7 +67,7 @@
     "key": "siypbl39m5",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.3e92e6e159c53c6046da08eae3732a97.svg",
     "dynamicHeight": "FIXED",
     "widgetId": "1tzy2fl5sy",
@@ -82,10 +79,10 @@
     "isLoading": false,
     "mobileTopRow": 41,
     "responsiveBehavior": "fill",
-    "originalTopRow": 7,
+    "originalTopRow": 9,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 86,
+    "originalBottomRow": 88,
     "minDynamicHeight": 10
 }

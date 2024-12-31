@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
@@ -11,7 +11,6 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.recordID.computedValue"},
         {"key": "primaryColumns.clientID.computedValue"},
@@ -36,7 +35,7 @@
         {"key": "primaryColumns.portalID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 2,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -820,7 +819,7 @@
     "key": "eide1ace5w",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 38,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "7qhwy5azo4",
