@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{getApplications_forUpdateForm.data[0].currentBudget}}",
+    "text": "${{getApplications_forUpdateForm.data[0].currentBudget.toLocaleString()}}",
     "key": "c0owv5a9tz",
     "isDeprecated": false,
     "rightColumn": 62,
