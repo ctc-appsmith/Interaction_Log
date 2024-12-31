@@ -724,7 +724,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "qal6aq2p79",
-    "defaultTab": "Reports",
+    "defaultTab": "Applications",
     "onTabSelected": "{{utils.checkSession().then(() => {mainTabQueries.handleTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
