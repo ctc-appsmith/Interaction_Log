@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": false,
-    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "boxShadow": "none",
     "mobileBottomRow": 45,
     "borderColor": "#E0DEDE",
     "widgetName": "Form3",
@@ -27,7 +27,7 @@
         "widgetName": "Canvas90",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 840,
+        "bottomRow": 1100,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -61,7 +61,7 @@
         "minDynamicHeight": 4,
         "flexLayers": []
     }],
-    "borderWidth": "0",
+    "borderWidth": "1",
     "positioning": "fixed",
     "flexVerticalAlignment": "stretch",
     "key": "n6zcwbnrzu",
