@@ -112,7 +112,7 @@
         {"key": "primaryColumns.inReferenceTo.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 88,
+    "bottomRow": 90,
     "columnWidthMap": {
         "commsDate": 107,
         "EditActions1": 160,
