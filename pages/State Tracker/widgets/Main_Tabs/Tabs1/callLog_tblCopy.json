@@ -1,9 +1,9 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 0,
+    "topRow": 4,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -11,7 +11,6 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.recordID.computedValue"},
         {"key": "primaryColumns.clientID.computedValue"},
@@ -109,7 +108,7 @@
         {"key": "primaryColumns.inReferenceTo.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 50,
+    "bottomRow": 92,
     "columnWidthMap": {
         "commsDate": 107,
         "EditActions1": 160,
@@ -759,7 +758,7 @@
     "tableData": "{{getCallLog_applicantsTab.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "jcpp6eioun",
+    "parentId": "frw8sph1zz",
     "renderMode": "CANVAS",
     "mobileTopRow": 30,
     "horizontalAlignment": "LEFT",

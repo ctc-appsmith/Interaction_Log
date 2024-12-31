@@ -10,7 +10,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 5,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,

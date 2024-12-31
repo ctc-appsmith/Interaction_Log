@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "borderColor": "#E0DEDE",
     "onSort": "{{\n            Select_ManualScores1.run();\n            Total_record_ManualScores1.run()\n          }}",
     "isVisibleDownload": false,
@@ -13,7 +13,6 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "totalRecordsCount"},
         {"key": "primaryColumns.appID.computedValue"},
@@ -75,7 +74,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1728323055116,
-    "originalBottomRow": 64,
+    "originalBottomRow": 86,
     "primaryColumnId": "idManualScore",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -100,7 +99,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 64,
+    "bottomRow": 86,
     "columnWidthMap": {
         "notes": 265,
         "newScore": 116

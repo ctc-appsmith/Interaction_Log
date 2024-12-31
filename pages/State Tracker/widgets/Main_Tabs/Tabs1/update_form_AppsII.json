@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "borderColor": "#2E3D4955",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications_II.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdate_II.run();}}",
@@ -7,7 +7,7 @@
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
-    "leftColumn": 30,
+    "leftColumn": 28,
     "dynamicBindingPathList": [
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
@@ -15,7 +15,6 @@
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.appID.defaultValue"},
         {"key": "schema.__root_schema__.children.appID.borderRadius"},
@@ -827,7 +826,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 74,
+    "bottomRow": 92,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
@@ -841,7 +840,7 @@
         {"key": "schema.__root_schema__.children.techType.onTextChanged"},
         {"key": "schema.__root_schema__.children.currentScore.onTextChanged"}
     ],
-    "borderWidth": "0",
+    "borderWidth": "1",
     "sourceData": "{{getApplications_forUpdate_II.data[0]}}",
     "resetButtonLabel": "Revert",
     "key": "h9l9ozr8op",

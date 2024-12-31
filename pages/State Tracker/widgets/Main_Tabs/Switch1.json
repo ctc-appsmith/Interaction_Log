@@ -33,7 +33,7 @@
     "onChange": "{{getMyTasks.run()}}",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "27k0pvhs6y",
-    "accentColor": "#0b4d83",
+    "accentColor": "#e67000",
     "isVisible": true,
     "label": "Include Completed Tasks",
     "defaultSwitchState": "",

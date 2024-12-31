@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "mobileBottomRow": 46,
     "borderColor": "#E0DEDE",
     "widgetName": "Form3Copy",
@@ -9,7 +9,7 @@
     "iconSVG": "/static/media/icon.b5185d0532af5856eedbf89336c549ae.svg",
     "searchTags": ["group"],
     "topRow": 16,
-    "bottomRow": 93,
+    "bottomRow": 110,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -19,10 +19,7 @@
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -30,7 +27,7 @@
         "widgetName": "Canvas28Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 770,
+        "bottomRow": 940,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -86,6 +83,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 93,
+    "originalBottomRow": 110,
     "minDynamicHeight": 10
 }
