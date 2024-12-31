@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 40,
-    "bottomRow": 49,
+    "topRow": 26,
+    "bottomRow": 31,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Bid Selection Award Status",
     "key": "c0owv5a9tz",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 31,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 29,
     "responsiveBehavior": "fill",
-    "originalTopRow": 46,
+    "originalTopRow": 26,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 34,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 55,
+    "originalBottomRow": 30,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

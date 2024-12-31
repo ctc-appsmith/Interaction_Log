@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 68,
-    "bottomRow": 73,
+    "topRow": 43,
+    "bottomRow": 47,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Current Score",
     "key": "c0owv5a9tz",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 35,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 17,
     "responsiveBehavior": "fill",
-    "originalTopRow": 74,
+    "originalTopRow": 42,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 41,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 79,
+    "originalBottomRow": 46,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
