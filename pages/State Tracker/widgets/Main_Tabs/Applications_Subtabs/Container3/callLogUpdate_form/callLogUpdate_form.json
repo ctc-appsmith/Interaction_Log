@@ -18,7 +18,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.234375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 38,
+    "leftColumn": 36,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "needsErrorInfo": false,

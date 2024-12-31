@@ -35,7 +35,7 @@
         {"key": "primaryColumns.portalID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -123,7 +123,7 @@
         "ApplicantName": 219,
         "portalAppID": 217,
         "spokeWith": 156,
-        "entityName": 175,
+        "entityName": 191,
         "CTCstaff": 176,
         "portalID": 182,
         "applicationName": 394
@@ -819,7 +819,7 @@
     "key": "eide1ace5w",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 36,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "7qhwy5azo4",

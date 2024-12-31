@@ -5,13 +5,13 @@
     "dynamicPropertyPathList": [],
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 54,
+    "topRow": 34,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 59,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.841297149658203,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "CTC Staff",
     "key": "c06hvt2p6f",
     "isDeprecated": false,
-    "rightColumn": 15,
+    "rightColumn": 20,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 77,
     "responsiveBehavior": "fill",
-    "originalTopRow": 52,
+    "originalTopRow": 34,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 57,
+    "originalBottomRow": 39,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
