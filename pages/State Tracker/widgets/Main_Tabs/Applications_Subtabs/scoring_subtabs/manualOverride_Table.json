@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "borderColor": "#E0DEDE",
     "onSort": "{{\n            Select_manualOverrideTable1.run();\n            Total_record_manualOverrideTable1.run()\n          }}",
     "isVisibleDownload": false,
@@ -13,7 +13,6 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "totalRecordsCount"},
         {"key": "primaryColumns.EditActions1.saveButtonColor"},
