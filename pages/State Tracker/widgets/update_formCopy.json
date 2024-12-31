@@ -3,11 +3,11 @@
     "borderColor": "#2E3D4955",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdateForm.run()}}",
-    "topRow": 182,
+    "topRow": 136,
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
-    "leftColumn": 6,
+    "leftColumn": 10,
     "dynamicBindingPathList": [
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
@@ -199,7 +199,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 203,
+    "originalBottomRow": 145,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -835,7 +835,7 @@
         {"key": "schema.__root_schema__.children.currentBudget.isVisible"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 191,
+    "bottomRow": 145,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
@@ -856,13 +856,13 @@
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
-    "rightColumn": 22,
+    "rightColumn": 26,
     "widgetId": "ab0o47fus4",
     "parentId": "0",
     "renderMode": "CANVAS",
     "scrollContents": true,
     "fixedFooter": true,
-    "originalTopRow": 194,
+    "originalTopRow": 136,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

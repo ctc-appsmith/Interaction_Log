@@ -26,7 +26,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 15,
+    "originalBottomRow": 17,
     "fontSize": "1rem",
     "needsErrorInfo": false,
     "mobileBottomRow": 10,
