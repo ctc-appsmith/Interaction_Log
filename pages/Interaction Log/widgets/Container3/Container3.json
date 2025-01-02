@@ -68,7 +68,7 @@
         "minDynamicHeight": 4,
         "flexLayers": []
     }],
-    "borderWidth": "1",
+    "borderWidth": "0",
     "flexVerticalAlignment": "stretch",
     "key": "5awix83myc",
     "backgroundColor": "#FFFFFF",

@@ -24,7 +24,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "backgroundColor"}
     ],
     "children": [{
         "mobileBottomRow": 100,
@@ -61,7 +62,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "start",
     "key": "43t4bfdmrp",
-    "backgroundColor": "#135c88",
+    "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
