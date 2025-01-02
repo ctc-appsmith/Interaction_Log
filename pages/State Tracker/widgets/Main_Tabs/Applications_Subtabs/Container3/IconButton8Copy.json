@@ -4,7 +4,7 @@
     "mobileBottomRow": 4,
     "widgetName": "IconButton8Copy",
     "onClick": "{{showAlert('The information on this page is READ ONLY. To edit any entry in the log, please return to the homepage and make edits in the interaction log page(s).', 'info');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#e67000",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [
@@ -21,10 +21,7 @@
     "parentColumnSpace": 12.10498046875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 62,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "79pov027xb",
     "isDeprecated": false,

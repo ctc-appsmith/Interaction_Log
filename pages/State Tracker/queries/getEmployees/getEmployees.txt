@@ -6,5 +6,7 @@ SELECT
 	userName
 FROM
   Employees
+WHERE	
+	active = "Yes"
 ORDER BY
   {{employee_Table.sortOrder.column || 'empLastName'}} {{employee_Table.sortOrder.order !== "desc" ? "" : "DESC"}}

@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 49,
+    "originalBottomRow": 59,
     "needsErrorInfo": false,
     "mobileBottomRow": 26,
     "widgetName": "Input5",
@@ -38,7 +38,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 59,
+    "bottomRow": 78,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
