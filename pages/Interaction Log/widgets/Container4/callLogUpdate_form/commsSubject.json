@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 39,
+    "originalBottomRow": 43,
     "needsErrorInfo": false,
     "mobileBottomRow": 40,
     "widgetName": "commsSubject",
@@ -63,7 +63,7 @@
     "mobileTopRow": 33,
     "optionLabel": "label",
     "responsiveBehavior": "fill",
-    "originalTopRow": 32,
+    "originalTopRow": 36,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
