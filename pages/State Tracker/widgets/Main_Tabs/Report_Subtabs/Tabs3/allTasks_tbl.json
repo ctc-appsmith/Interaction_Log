@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 4,
+    "topRow": 6,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -28,8 +28,7 @@
         {"key": "primaryColumns.applicationName.computedValue"},
         {"key": "primaryColumns.taskName.computedValue"},
         {"key": "primaryColumns.team.computedValue"},
-        {"key": "primaryColumns.sortOrder.computedValue"},
-        {"key": "isVisible"}
+        {"key": "primaryColumns.sortOrder.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -38,7 +37,7 @@
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": false,
-    "isVisible": "{{ appsmith.store.selectedOption === \"All Tasks Report\" }}\n",
+    "isVisible": "true",
     "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": 0,
@@ -102,7 +101,7 @@
         {"key": "isVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 56,
+    "bottomRow": 58,
     "columnWidthMap": {
         "portalAppID": 181,
         "taskName": 263,
@@ -704,7 +703,7 @@
     "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "tkxqitavhb",
+    "widgetId": "oazkvwny2n",
     "minWidth": 450,
     "tableData": "{{Rept_allTasks.data}}",
     "label": "Data",

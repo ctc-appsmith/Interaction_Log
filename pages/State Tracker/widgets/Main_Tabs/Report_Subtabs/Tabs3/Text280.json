@@ -5,13 +5,13 @@
     "dynamicPropertyPathList": [{"key": "isVisible"}],
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 0,
+    "topRow": 2,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 4,
+    "bottomRow": 6,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -25,8 +25,7 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -37,9 +36,9 @@
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "det3lnknkt",
+    "widgetId": "r1pxkfi12n",
     "minWidth": 450,
-    "isVisible": "{{ appsmith.store.selectedOption === \"All Tasks Report\" }}",
+    "isVisible": "true",
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
