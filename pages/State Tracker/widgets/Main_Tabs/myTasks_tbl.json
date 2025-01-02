@@ -36,7 +36,9 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "primaryColumns.assignedTo.selectOptions"},
+        {"key": "primaryColumns.taskStatus.selectOptions"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -134,7 +136,10 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 18.921875,
-    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
+    "dynamicTriggerPathList": [
+        {"key": "onRowSelected"},
+        {"key": "primaryColumns.EditActions1.onSave"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "applicationType": {
@@ -189,6 +194,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
+            "onSave": "{{myTasks_updateTasks_2.run().then(() => {\n  showAlert('Record updated successfully!', 'success');\n});\ngetMyTasks.run()}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
@@ -435,6 +441,7 @@
             "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
+            "selectOptions": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( getEmployees.data.map( p => ({label: p.empFirstName + \" \" + p.empLastName, value: p.empEmail}))))}}",
             "allowCellWrapping": false,
             "index": 6,
             "isDiscardVisible": true,
@@ -442,7 +449,7 @@
             "label": "Reviewer",
             "fontStyle": "",
             "textColor": "#000000",
-            "columnType": "text",
+            "columnType": "select",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": true,
@@ -742,6 +749,7 @@
             "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
+            "selectOptions": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( getTaskStatusType.data.map( p => ({label: p.taskStatus, value: p.taskStatus}))))}}",
             "allowCellWrapping": false,
             "index": 5,
             "isDiscardVisible": true,
@@ -749,7 +757,7 @@
             "label": "Status",
             "fontStyle": "",
             "textColor": "#000000",
-            "columnType": "text",
+            "columnType": "select",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": true,

@@ -178,7 +178,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "czybk4jang",
-    "defaultTab": "Tasks",
+    "defaultTab": "Application Information",
     "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.applicationTabSelection()});}}",
     "minWidth": 450,
     "tabsObj": {
@@ -193,7 +193,7 @@
         "tabzeupptoxlu": {
             "widgetId": "wuvz78pm0q",
             "isDuplicateLabel": false,
-            "index": 0,
+            "index": 1,
             "id": "tabzeupptoxlu",
             "label": "Tasks",
             "isVisible": true
@@ -202,7 +202,7 @@
             "widgetId": "jdyybhnowk",
             "positioning": "vertical",
             "isDuplicateLabel": false,
-            "index": 1,
+            "index": 0,
             "label": "Application Information",
             "id": "tab1",
             "isVisible": true

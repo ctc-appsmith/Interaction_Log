@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 16,
     "widgetName": "Container15Copy",
     "borderColor": "#E0DEDE",
@@ -23,10 +23,7 @@
     "parentColumnSpace": 10.1552734375,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -68,7 +65,7 @@
         "minDynamicHeight": 4,
         "flexLayers": []
     }],
-    "borderWidth": "1",
+    "borderWidth": "0",
     "flexVerticalAlignment": "stretch",
     "key": "grwr3vwou6",
     "backgroundColor": "#FFFFFF",

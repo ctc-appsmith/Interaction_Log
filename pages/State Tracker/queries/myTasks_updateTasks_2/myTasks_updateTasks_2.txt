@@ -1,0 +1,14 @@
+UPDATE Tasks 
+	SET 
+		appID= '{{myTasks_tbl.updatedRow.appID}}', 
+		startDate= '{{myTasks_tbl.updatedRow.startDate}}', 
+		dueDate = '{{myTasks_tbl.updatedRow.dueDate}}',
+		completedDate= '{{myTasks_tbl.updatedRow.completedDate}}', 
+		taskStatus= '{{myTasks_tbl.updatedRow.taskStatus}}', 
+		assignedTo= '{{myTasks_tbl.updatedRow.assignedTo}}', 
+		taskNotes= '{{myTasks_tbl.updatedRow.taskNotes}}', 
+		filePath= '{{myTasks_tbl.updatedRow.filePath}}', 
+		
+		lastChangedBy= '{{get_user.data.email}}' 
+	
+	WHERE taskID= '{{myTasks_tbl.updatedRow.taskID}}';

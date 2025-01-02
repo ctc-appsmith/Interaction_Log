@@ -1,12 +1,12 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
-    "topRow": 24,
+    "topRow": 18,
     "labelWidth": "4",
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 29,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
