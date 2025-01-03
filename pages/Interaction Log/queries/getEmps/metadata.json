@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Employees\nORDER BY empLastName ASC;",
+      "body": "SELECT * FROM Employees\nWHERE active = 'Yes'\nORDER BY empLastName ASC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
