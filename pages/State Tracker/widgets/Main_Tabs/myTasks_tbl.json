@@ -852,7 +852,7 @@
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "48xno8fytr",
     "minWidth": 450,
-    "tableData": "{{getMyTasks.data}}",
+    "tableData": "{{getMyTasks_2.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "9ba1p7kq9u",

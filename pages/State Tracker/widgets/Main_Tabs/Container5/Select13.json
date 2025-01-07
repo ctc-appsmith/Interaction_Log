@@ -44,7 +44,7 @@
     "hideCard": false,
     "mobileRightColumn": 38,
     "parentColumnSpace": 18.609375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
     "labelTextColor": "#000000",
     "sourceData": "{{getApplicantsOnly.data.map (u => ({label: u.entityName, value: u.entityID}) )}}",
@@ -64,5 +64,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{getApplications_byEntity_Task.run()}}",
     "minDynamicHeight": 4
 }

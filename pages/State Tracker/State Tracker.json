@@ -238,6 +238,23 @@
                 "entitySelect4.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "State Tracker_getMyTasks_2",
+              "name": "getMyTasks_2",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.clientID",
+                "!Select13.selectedOptionValue",
+                "Select6Copy.selectedOptionValue",
+                "!Select7Copy1.selectedOptionValue",
+                "Select7Copy1.selectedOptionValue",
+                "Switch1.isSwitchedOn",
+                "Select13.selectedOptionValue",
+                "!Select6Copy.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
