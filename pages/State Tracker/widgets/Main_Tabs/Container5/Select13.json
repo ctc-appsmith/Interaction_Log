@@ -6,7 +6,7 @@
     "labelWidth": "7",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "--",
     "animateLoading": true,
     "leftColumn": 15,
     "dynamicBindingPathList": [
@@ -15,7 +15,7 @@
         {"key": "sourceData"}
     ],
     "labelStyle": "BOLD",
-    "placeholderText": "Select option",
+    "placeholderText": "Select Applicant",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -35,7 +35,8 @@
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
         {"key": "optionValue"},
-        {"key": "optionLabel"}
+        {"key": "optionLabel"},
+        {"key": "onOptionChange"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
@@ -64,6 +65,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getApplications_byEntity_Task.run()}}",
+    "onOptionChange": "{{getApplications_byEntity_Task.run().then(() => {\n  getApplications_byEntity_Task.run().then(() => { getMyTasks_2.run().then(() => {Rept_COUNT_openTask_TeamAppTyp.run().then(() => {\n\t\tRept_COUNT_unassignedTasks.run()\n\t})})\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t });\n});}}",
     "minDynamicHeight": 4
 }

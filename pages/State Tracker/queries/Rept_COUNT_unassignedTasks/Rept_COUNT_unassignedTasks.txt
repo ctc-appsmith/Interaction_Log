@@ -8,11 +8,8 @@ SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID
 				 AND ((Applications.applicationStatus)<>"Ineligible") 
 				 AND ((Entities.clientID)={{appsmith.store.clientID}}) 
 				 AND ((Tasks.taskStatus)<>"Complete"))
-    		 AND (
-        -- If Select11 is null, include all application types
-        ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')
-    )
+    		 AND (Applications.applicationType = "Scoring")
     		AND (
-        -- If Select7Copy is null, include all teams
-        ({{!Select7Copy.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy.selectedOptionValue}}')
+        -- If Select7Copy1 is null, include all teams
+        ({{!Select7Copy1.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy1.selectedOptionValue}}')
     )		;

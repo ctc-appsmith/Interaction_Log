@@ -8,11 +8,8 @@ WHERE
     AND Entities.clientID = {{appsmith.store.clientID}}
 		AND Applications.applicationStatus <> "Ineligible"
 		AND Applications.applicationStatus <> "Withdrawn"
-    AND (
-        -- If Select11 is null, include all application types
-        ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')
-    )
+    AND (Applications.applicationType = "Scoring")
     AND (
         -- If Select7Copy is null, include all teams
-        ({{!Select7Copy.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy.selectedOptionValue}}')
+        ({{!Select7Copy1.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy1.selectedOptionValue}}')
     );

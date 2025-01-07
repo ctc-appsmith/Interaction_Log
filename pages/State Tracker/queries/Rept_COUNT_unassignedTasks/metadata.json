@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\n\tFROM ((Tasks \n\t\t\t\t INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\t\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\t\t\t\tINNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tWHERE (((Tasks.assignedTo)=\"unassigned@ctcnet.us\") \n\t\t\t\t AND ((Applications.applicationStatus)<>\"Withdrawn\") \n\t\t\t\t AND ((Applications.applicationStatus)<>\"Ineligible\") \n\t\t\t\t AND ((Entities.clientID)={{appsmith.store.clientID}}) \n\t\t\t\t AND ((Tasks.taskStatus)<>\"Complete\"))\n    \t\t AND (\n        -- If Select11 is null, include all application types\n        ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')\n    )\n    \t\tAND (\n        -- If Select7Copy is null, include all teams\n        ({{!Select7Copy.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy.selectedOptionValue}}')\n    )\t\t;",
+      "body": "SELECT taskTypes.team, Count(Tasks.taskID) AS CountOftaskID\n\tFROM ((Tasks \n\t\t\t\t INNER JOIN Applications ON Tasks.appID = Applications.appID) \n\t\t\t\tINNER JOIN Entities ON Applications.entityID = Entities.entityID) \n\t\t\t\tINNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\n\tWHERE (((Tasks.assignedTo)=\"unassigned@ctcnet.us\") \n\t\t\t\t AND ((Applications.applicationStatus)<>\"Withdrawn\") \n\t\t\t\t AND ((Applications.applicationStatus)<>\"Ineligible\") \n\t\t\t\t AND ((Entities.clientID)={{appsmith.store.clientID}}) \n\t\t\t\t AND ((Tasks.taskStatus)<>\"Complete\"))\n    \t\t AND (Applications.applicationType = \"Scoring\")\n    \t\tAND (\n        -- If Select7Copy1 is null, include all teams\n        ({{!Select7Copy1.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy1.selectedOptionValue}}')\n    )\t\t;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,10 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "!Select11.selectedOptionValue",
-      "!Select7Copy.selectedOptionValue",
-      "Select11.selectedOptionLabel",
-      "Select7Copy.selectedOptionValue",
+      "!Select7Copy1.selectedOptionValue",
+      "Select7Copy1.selectedOptionValue",
       "appsmith.store.clientID"
     ],
     "userSetOnLoad": true,

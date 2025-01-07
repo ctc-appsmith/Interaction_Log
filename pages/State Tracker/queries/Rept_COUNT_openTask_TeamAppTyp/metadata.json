@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Count(Tasks.taskID) AS CountOftaskID\nFROM ((Tasks \n    INNER JOIN Applications ON Tasks.appID = Applications.appID) \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\nWHERE \n    Tasks.taskStatus <> 'Complete' \n    AND Entities.clientID = {{appsmith.store.clientID}}\n\t\tAND Applications.applicationStatus <> \"Ineligible\"\n\t\tAND Applications.applicationStatus <> \"Withdrawn\"\n    AND (\n        -- If Select11 is null, include all application types\n        ({{!Select11.selectedOptionValue}} OR Applications.applicationType = '{{Select11.selectedOptionLabel}}')\n    )\n    AND (\n        -- If Select7Copy is null, include all teams\n        ({{!Select7Copy.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy.selectedOptionValue}}')\n    );",
+      "body": "SELECT Count(Tasks.taskID) AS CountOftaskID\nFROM ((Tasks \n    INNER JOIN Applications ON Tasks.appID = Applications.appID) \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID\nWHERE \n    Tasks.taskStatus <> 'Complete' \n    AND Entities.clientID = {{appsmith.store.clientID}}\n\t\tAND Applications.applicationStatus <> \"Ineligible\"\n\t\tAND Applications.applicationStatus <> \"Withdrawn\"\n    AND (Applications.applicationType = \"Scoring\")\n    AND (\n        -- If Select7Copy is null, include all teams\n        ({{!Select7Copy1.selectedOptionValue}} OR taskTypes.team = '{{Select7Copy1.selectedOptionValue}}')\n    );",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,10 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "!Select11.selectedOptionValue",
-      "!Select7Copy.selectedOptionValue",
-      "Select11.selectedOptionLabel",
-      "Select7Copy.selectedOptionValue",
+      "!Select7Copy1.selectedOptionValue",
+      "Select7Copy1.selectedOptionValue",
       "appsmith.store.clientID"
     ],
     "userSetOnLoad": true,

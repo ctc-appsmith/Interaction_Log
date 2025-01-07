@@ -30,7 +30,7 @@
     "isDeprecated": false,
     "rightColumn": 46,
     "thumbnailSVG": "/static/media/thumbnail.cd04c6d6a11266a806cebe39829607cb.svg",
-    "onChange": "{{getMyTasks.run()}}",
+    "onChange": "{{getMyTasks_2.run()}}",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "27k0pvhs6y",
     "accentColor": "#e67000",
