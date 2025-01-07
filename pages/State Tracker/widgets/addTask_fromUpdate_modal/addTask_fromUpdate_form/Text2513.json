@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Assigned To",
+    "text": "Reviewer",
     "key": "6oqhe0dn5y",
     "isDeprecated": false,
     "rightColumn": 27,

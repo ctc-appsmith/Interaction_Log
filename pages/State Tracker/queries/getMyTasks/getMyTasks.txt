@@ -13,7 +13,8 @@ SELECT
     Applications.portalAppID, 
     Applications.applicationType, 
     Applications.reviewOrder, 
-    Entities.entityName, 
+    Entities.entityName,
+		Entities.entityID,
     taskTypes.taskName, 
     taskTypes.team, 
     taskStatusTypes.sortOrder

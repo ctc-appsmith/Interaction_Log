@@ -395,6 +395,7 @@
         },
         "assignedTo": {
             "computedValue": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"assignedTo\"]))}}",
+            "isFilterable": true,
             "isEditable": true,
             "notation": "standard",
             "alias": "assignedTo",

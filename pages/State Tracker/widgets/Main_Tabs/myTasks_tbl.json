@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 23,
+    "topRow": 28,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -38,7 +38,8 @@
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
         {"key": "primaryColumns.assignedTo.selectOptions"},
-        {"key": "primaryColumns.taskStatus.selectOptions"}
+        {"key": "primaryColumns.taskStatus.selectOptions"},
+        {"key": "primaryColumns.entityID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -83,8 +84,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1735669058062,
-    "originalBottomRow": 119,
+    "columnUpdatedAt": 1736202894213,
+    "originalBottomRow": 124,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -110,6 +111,7 @@
         "applicationName",
         "team",
         "taskNotes",
+        "entityID",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -119,7 +121,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 119,
+    "bottomRow": 124,
     "columnWidthMap": {
         "taskTypeID": 188,
         "entityName": 223,
@@ -358,6 +360,40 @@
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
+        "entityID": {
+            "computedValue": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"entityID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "entityID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "entityID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 15,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "entityID",
+            "fontStyle": "",
+            "textColor": "#000000",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "entityID",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
         "team": {
             "computedValue": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team\"]))}}",
             "isEditable": false,
@@ -429,6 +465,7 @@
         },
         "assignedTo": {
             "computedValue": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"assignedTo\"]))}}",
+            "isFilterable": true,
             "isEditable": true,
             "notation": "standard",
             "alias": "assignedTo",
@@ -824,7 +861,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 23,
+    "originalTopRow": 28,
     "mobileLeftColumn": 1,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
