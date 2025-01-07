@@ -1,13 +1,19 @@
 SELECT 
-	Applications.appID, 
-	Applications.entityID, 
-	Applications.applicationName, 
-	Applications.portalAppID, 
-	Applications.applicationStatus
-		FROM (
-			Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) 
-			INNER JOIN Clients ON Entities.clientID = Clients.clientID
-	WHERE 
-    Clients.clientID = {{appsmith.store.clientID}}
-    AND (Applications.applicationStatus <> 'Approved' AND Applications.applicationStatus <> 'Rejected' AND Applications.applicationStatus<>'Withdrawn' AND Applications.applicationStatus<>'Ineligible')
-    AND Applications.appID NOT IN (select appID from Tasks);
+    Applications.appID, 
+    Applications.entityID, 
+    Applications.applicationName, 
+    Applications.portalAppID, 
+    Applications.applicationStatus
+FROM 
+    Applications 
+    LEFT JOIN Entities ON Applications.entityID = Entities.entityID 
+    LEFT JOIN Clients ON Entities.clientID = Clients.clientID
+WHERE 
+    (Clients.clientID = {{appsmith.store.clientID}})
+    AND Applications.applicationStatus NOT IN ('Approved', 'Rejected', 'Withdrawn', 'Ineligible')
+    AND NOT EXISTS (
+        SELECT 1 
+        FROM Tasks 
+        WHERE Tasks.appID = Applications.appID
+        AND Tasks.taskStatus != 'Complete'
+    );
