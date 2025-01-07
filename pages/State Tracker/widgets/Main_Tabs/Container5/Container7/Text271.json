@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Team: {{ Select7Copy.selectedOptionLabel ? Select7Copy.selectedOptionLabel : \"All teams\" }}\n",
+    "text": "Team: {{ Select7Copy1.selectedOptionLabel ? Select7Copy1.selectedOptionLabel : \"All teams\" }}\n",
     "key": "z9170y13a8",
     "isDeprecated": false,
     "rightColumn": 63,

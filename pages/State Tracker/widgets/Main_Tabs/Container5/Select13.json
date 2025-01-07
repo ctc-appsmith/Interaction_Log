@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Applicant",
-    "topRow": 8,
+    "topRow": 4,
     "labelWidth": "7",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
@@ -40,7 +40,7 @@
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 12,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 38,
@@ -65,6 +65,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{getApplications_byEntity_Task.run().then(() => {\n  getApplications_byEntity_Task.run().then(() => { getMyTasks_2.run().then(() => {Rept_COUNT_openTask_TeamAppTyp.run().then(() => {\n\t\tRept_COUNT_unassignedTasks.run()\n\t})})\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t });\n});}}",
+    "onOptionChange": "{{\n  getApplications_byEntity_Task.run()\n    .then(() => getMyTasks_2.run())\n    .then(() => Rept_COUNT_openTask_TeamAppTyp.run())\n    .then(() => Rept_COUNT_unassignedTasks.run());\n}}",
     "minDynamicHeight": 4
 }
