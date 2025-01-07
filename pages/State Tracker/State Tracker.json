@@ -242,6 +242,16 @@
           ],
           [
             {
+              "id": "State Tracker_getApplications_byEntity_Task",
+              "name": "getApplications_byEntity_Task",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select13.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_getApplications_forUpdate_II",
               "name": "getApplications_forUpdate_II",
               "confirmBeforeExecute": false,
