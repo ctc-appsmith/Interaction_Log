@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1450,
+          "bottomRow": 1460,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -244,10 +244,10 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.clientID",
-                "!Select13.selectedOptionValue",
                 "Select6Copy.selectedOptionValue",
-                "!Select7Copy1.selectedOptionValue",
+                "!Select13.selectedOptionValue",
                 "Select7Copy1.selectedOptionValue",
+                "!Select7Copy1.selectedOptionValue",
                 "Switch1.isSwitchedOn",
                 "Select13.selectedOptionValue",
                 "!Select6Copy.selectedOptionValue"

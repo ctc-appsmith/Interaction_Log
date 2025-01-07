@@ -25,6 +25,8 @@ INNER JOIN (((Tasks
     INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) 
     ON taskStatusTypes.taskStatus = Tasks.taskStatus
 WHERE Entities.clientID = {{appsmith.store.clientID}}
+		AND Applications.applicationStatus <> "Ineligible"
+		AND Applications.applicationStatus <> "Withdrawn"
     AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> "Complete")
 		AND (({{!Select13.selectedOptionValue}} OR (Entities.entityID = '{{Select13.selectedOptionValue}}')))
 		AND (({{!Select6Copy.selectedOptionValue}} OR (Tasks.appID = '{{Select6Copy.selectedOptionValue}}')))
