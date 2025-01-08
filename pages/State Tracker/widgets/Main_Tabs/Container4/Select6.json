@@ -29,7 +29,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 19,
+    "originalBottomRow": 16,
     "needsErrorInfo": false,
     "mobileBottomRow": 12,
     "widgetName": "Select6",
