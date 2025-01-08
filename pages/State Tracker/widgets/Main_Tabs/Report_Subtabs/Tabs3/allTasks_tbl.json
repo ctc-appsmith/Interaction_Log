@@ -70,7 +70,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1734361456693,
+    "columnUpdatedAt": 1736349034752,
     "originalBottomRow": 56,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -337,7 +337,7 @@
             "allowCellWrapping": false,
             "index": 19,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Team",
             "fontStyle": "",
             "textColor": "",

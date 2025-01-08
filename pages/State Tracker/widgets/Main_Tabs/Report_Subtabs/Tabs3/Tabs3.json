@@ -20,7 +20,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas712",
             "displayName": "Canvas",
-            "bottomRow": 600,
+            "bottomRow": 710,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -111,7 +111,7 @@
             "widgetName": "Canvas714",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 690,
+            "bottomRow": 710,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -127,7 +127,7 @@
             ],
             "key": "u871afxiwp",
             "isDeprecated": false,
-            "tabName": "Open Apps without Tasks",
+            "tabName": "Pending Applications without Open Tasks",
             "rightColumn": 1191,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -163,7 +163,7 @@
     "widgetName": "Tabs3",
     "dynamicPropertyPathList": [{"key": "tabsObj.tab1.isVisible"}],
     "displayName": "Tabs",
-    "bottomRow": 64,
+    "bottomRow": 75,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
@@ -183,24 +183,27 @@
         "tab1": {
             "widgetId": "1b4kxycqz5",
             "positioning": "vertical",
-            "index": 0,
+            "isDuplicateLabel": false,
+            "index": 1,
             "label": "All Tasks Report",
             "id": "tab1",
             "isVisible": "{{true}}"
         },
+        "tabfis29fmgak": {
+            "widgetId": "zsk33piugd",
+            "isDuplicateLabel": false,
+            "index": 0,
+            "id": "tabfis29fmgak",
+            "label": "Pending Applications without Open Tasks",
+            "isVisible": true
+        },
         "tab2": {
             "widgetId": "ld02cuvkph",
             "positioning": "vertical",
-            "index": 1,
+            "isDuplicateLabel": false,
+            "index": 2,
             "label": "All Applications Report",
             "id": "tab2",
-            "isVisible": true
-        },
-        "tabfis29fmgak": {
-            "widgetId": "zsk33piugd",
-            "index": 2,
-            "id": "tabfis29fmgak",
-            "label": "Open Apps without Tasks",
             "isVisible": true
         }
     },
