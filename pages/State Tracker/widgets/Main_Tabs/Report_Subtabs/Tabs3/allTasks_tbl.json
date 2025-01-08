@@ -268,7 +268,7 @@
             "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
-            "allowCellWrapping": false,
+            "allowCellWrapping": true,
             "index": 8,
             "isDiscardVisible": true,
             "isVisible": true,

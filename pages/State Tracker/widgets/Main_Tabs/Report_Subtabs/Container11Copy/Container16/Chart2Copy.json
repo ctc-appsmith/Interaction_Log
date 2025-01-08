@@ -29,7 +29,7 @@
     "chartName": "",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "xAxisName": "",
-    "originalBottomRow": 50,
+    "originalBottomRow": 52,
     "needsErrorInfo": true,
     "mobileBottomRow": 45,
     "widgetName": "Chart2Copy",
