@@ -157,7 +157,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 64,
+    "originalBottomRow": 75,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Tabs3",
@@ -177,7 +177,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "h8e1czh2m1",
-    "defaultTab": "All Tasks Report",
+    "defaultTab": "Pending Applications without Open Tasks",
     "minWidth": 450,
     "tabsObj": {
         "tab1": {
