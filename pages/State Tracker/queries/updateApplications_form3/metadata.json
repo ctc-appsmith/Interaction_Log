@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Applications \n\tSET\n\t\tapplicationStatus = '{{Select12.selectedOptionValue}}',\n\n\t\tlastChangedBy = '{{get_user.data.email}}'\n\t\t\nWHERE appID = {{Select6.selectedOptionValue}}\n;",
+      "body": "UPDATE Applications \n\tSET\n\t\tapplicationStatus = '{{Select12Copy.selectedOptionValue}}',\n\n\t\tlastChangedBy = '{{get_user.data.email}}'\n\t\t\nWHERE appID = {{Table14.selectedRow.appID}}\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,8 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select12.selectedOptionValue",
-      "Select6.selectedOptionValue",
+      "Select12Copy.selectedOptionValue",
+      "Table14.selectedRow.appID",
       "get_user.data.email"
     ],
     "userSetOnLoad": false,
