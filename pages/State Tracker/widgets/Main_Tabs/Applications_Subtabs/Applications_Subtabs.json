@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "iconSVG": "/static/media/icon.02aab13974bb96ab5effaedb467a923c.svg",
-    "topRow": 24,
+    "topRow": 23,
     "type": "TABS_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
@@ -164,7 +164,7 @@
         {"key": "onTabSelected"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 122,
+    "bottomRow": 121,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
