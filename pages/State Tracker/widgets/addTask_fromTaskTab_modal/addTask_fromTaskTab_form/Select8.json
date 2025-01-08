@@ -6,13 +6,14 @@
     "labelWidth": "21",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Select6Copy.selectedOptionValue))(Select8.options, Select8.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,

@@ -6,13 +6,14 @@
     "labelWidth": "21",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Select13.selectedOptionValue))(Select9.options, Select9.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "defaultOptionValue"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -34,7 +35,8 @@
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
         {"key": "optionLabel"},
-        {"key": "optionValue"}
+        {"key": "optionValue"},
+        {"key": "onOptionChange"}
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],

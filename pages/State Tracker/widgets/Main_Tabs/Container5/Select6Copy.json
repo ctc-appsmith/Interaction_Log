@@ -41,7 +41,7 @@
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 12,
+    "bottomRow": 15,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 21,
@@ -68,6 +68,6 @@
     "originalTopRow": 8,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n  getMyTasks_2.run()\n    .then(() => Rept_COUNT_openTask_TeamAppTyp.run())\n    .then(() => Rept_COUNT_unassignedTasks.run());\n}}",
+    "onOptionChange": "{{\n  getMyTasks_2.run()\n    .then(() => Rept_COUNT_openTask_TeamAppTyp.run())\n    .then(() => Rept_COUNT_unassignedTasks.run()).then(() => getApplications_byApplicant.run())\t;\n\nstoreValue('entityID', Select13.selectedOptionValue);\n}}",
     "minDynamicHeight": 4
 }
