@@ -5,11 +5,12 @@
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "topRow": 11,
     "type": "BUTTON_WIDGET",
-    "animateLoading": true,
+    "animateLoading": "{{false}}",
     "leftColumn": 52,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "animateLoading"}
     ],
     "text": "Return to Homepage",
     "isDisabled": false,
@@ -27,7 +28,7 @@
     "mobileBottomRow": 20,
     "widgetName": "Home_Btn",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "animateLoading"}],
     "displayName": "Button",
     "searchTags": [
         "click",

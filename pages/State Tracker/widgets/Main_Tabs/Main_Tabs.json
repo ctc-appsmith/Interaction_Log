@@ -5,7 +5,7 @@
     "iconSVG": "/static/media/icon.02aab13974bb96ab5effaedb467a923c.svg",
     "topRow": 16,
     "type": "TABS_WIDGET",
-    "animateLoading": true,
+    "animateLoading": "{{false}}",
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -18,7 +18,8 @@
         {"key": "tabsObj.tab82kzd106wy.isVisible"},
         {"key": "tabsObj.tabe93aapn17m.isVisible"},
         {"key": "tabsObj.tabzexl1ckaew.isVisible"},
-        {"key": "tabsObj.tab7x0axpccgh.isVisible"}
+        {"key": "tabsObj.tab7x0axpccgh.isVisible"},
+        {"key": "animateLoading"}
     ],
     "children": [
         {
@@ -707,7 +708,8 @@
         {"key": "tabsObj.tabe93aapn17m.isVisible"},
         {"key": "tabsObj.tabzexl1ckaew.isVisible"},
         {"key": "tabsObj.tab7x0axpccgh.isVisible"},
-        {"key": "onTabSelected"}
+        {"key": "onTabSelected"},
+        {"key": "animateLoading"}
     ],
     "displayName": "Tabs",
     "bottomRow": 132,

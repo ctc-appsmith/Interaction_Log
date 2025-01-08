@@ -5,6 +5,7 @@
     "widgetName": "IconButton6",
     "onClick": "{{navigateTo('User Guide', {}, 'NEW_WINDOW');}}",
     "buttonColor": "#e67000",
+    "dynamicPropertyPathList": [{"key": "animateLoading"}],
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
     "searchTags": [
@@ -18,11 +19,14 @@
     "hideCard": false,
     "mobileRightColumn": 4,
     "topRowBeforeCollapse": 12,
-    "animateLoading": false,
+    "animateLoading": "{{false}}",
     "parentColumnSpace": 19.234375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "animateLoading"}
+    ],
     "isDisabled": false,
     "key": "hu6fdqu46o",
     "isDeprecated": false,

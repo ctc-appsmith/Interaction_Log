@@ -5,7 +5,10 @@
     "widgetName": "Log_Out_Btn",
     "onClick": "{{logout.logout();}}",
     "buttonColor": "#063760",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [
+        {"key": "onClick"},
+        {"key": "animateLoading"}
+    ],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
     "searchTags": [
@@ -18,11 +21,14 @@
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
-    "animateLoading": true,
+    "animateLoading": "{{false}}",
     "parentColumnSpace": 20.109375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 59,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "animateLoading"}
+    ],
     "text": "Log Out",
     "isDisabled": false,
     "key": "7puy0f13qz",
