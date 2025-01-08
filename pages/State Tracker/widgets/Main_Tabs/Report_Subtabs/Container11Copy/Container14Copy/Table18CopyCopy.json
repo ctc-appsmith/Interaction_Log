@@ -75,7 +75,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 49,
+    "bottomRow": 50,
     "columnWidthMap": {
         "applicationStatus": 170,
         "portalAppID": 181,
