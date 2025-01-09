@@ -27,7 +27,7 @@
         "widgetName": "Canvas90Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 1110,
+        "bottomRow": 890,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,

@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{callLog_tblCopy.selectedRow.commsDate}}",
+    "text": "{{moment(callLog_tblCopy.selectedRow.commsDate).utc().format('MM-DD-YYYY')}}",
     "key": "3c3letev84",
     "isDeprecated": false,
     "rightColumn": 64,

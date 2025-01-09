@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 52,
-    "bottomRow": 110,
+    "bottomRow": 108,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "ioinmbpgwt",
         "containerStyle": "none",
-        "bottomRow": 580,
+        "bottomRow": 560,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,

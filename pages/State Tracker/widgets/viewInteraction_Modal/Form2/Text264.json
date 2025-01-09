@@ -39,7 +39,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "w9a9p4v0vt",
     "minWidth": 450,
-    "isVisible": "{{callLog_tblCopy.selectedRow.inReferenceTo !== null}}",
+    "isVisible": "{{!!callLog_tblCopy.selectedRow.inReferenceTo}}",
     "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,

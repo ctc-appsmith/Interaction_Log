@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 112,
+    "bottomRow": 110,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         "detachFromLayout": true,
         "widgetId": "nw5797ukz0",
         "containerStyle": "none",
-        "bottomRow": 1120,
+        "bottomRow": 1100,
         "topRow": 0,
         "parentRowSpace": 1,
         "isVisible": true,

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n    Applications.appID, \n    Applications.entityID, \n    Applications.applicationName, \n    Applications.portalAppID, \n    Applications.applicationStatus\nFROM \n    Applications \n    LEFT JOIN Entities ON Applications.entityID = Entities.entityID \n    LEFT JOIN Clients ON Entities.clientID = Clients.clientID\nWHERE \n    (Clients.clientID = {{appsmith.store.clientID}})\n    AND Applications.applicationStatus NOT IN ('Approved', 'Rejected', 'Withdrawn', 'Ineligible')\n    AND NOT EXISTS (\n        SELECT 1 \n        FROM Tasks \n        WHERE Tasks.appID = Applications.appID\n        AND Tasks.taskStatus != 'Complete'\n    );",
+      "body": "SELECT \n   A.appID, \n   A.entityID, \n   A.applicationName, \n   A.portalAppID, \n   A.applicationStatus,\n   TT.taskName as most_recent_task\nFROM \n   Applications A\n   LEFT JOIN Entities E ON A.entityID = E.entityID \n   LEFT JOIN Clients C ON E.clientID = C.clientID\n   LEFT JOIN LATERAL (\n       SELECT T.taskID, T.taskTypeID\n       FROM Tasks T\n       WHERE T.appID = A.appID\n       AND T.taskStatus = 'Complete'\n       ORDER BY T.completedDate DESC\n       LIMIT 1\n   ) RT ON true\n   LEFT JOIN taskTypes TT ON RT.taskTypeID = TT.taskTypeID\nWHERE \n   (C.clientID = {{appsmith.store.clientID}})\n   AND A.applicationStatus NOT IN ('Approved', 'Rejected', 'Withdrawn', 'Ineligible')\n   AND NOT EXISTS (\n       SELECT 1 \n       FROM Tasks \n       WHERE Tasks.appID = A.appID\n       AND Tasks.taskStatus != 'Complete'\n   );",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

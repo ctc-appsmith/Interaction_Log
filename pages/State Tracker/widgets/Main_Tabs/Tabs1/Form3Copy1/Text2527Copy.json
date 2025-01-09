@@ -26,7 +26,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 81,
+    "originalBottomRow": 101,
     "fontSize": "0.875rem",
     "needsErrorInfo": false,
     "mobileBottomRow": 60,
@@ -37,7 +37,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 101,
+    "bottomRow": 45,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 19,

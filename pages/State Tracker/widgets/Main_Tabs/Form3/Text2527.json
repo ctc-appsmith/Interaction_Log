@@ -1,7 +1,7 @@
 {
     "borderColor": "#e0dede",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
-    "topRow": 42,
+    "topRow": 41,
     "type": "TEXT_WIDGET",
     "animateLoading": true,
     "overflow": "NONE",
@@ -37,7 +37,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 79,
+    "bottomRow": 45,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 19,

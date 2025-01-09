@@ -1,19 +1,29 @@
 SELECT 
-    Applications.appID, 
-    Applications.entityID, 
-    Applications.applicationName, 
-    Applications.portalAppID, 
-    Applications.applicationStatus
+   A.appID, 
+   A.entityID, 
+   A.applicationName, 
+   A.portalAppID, 
+   A.applicationStatus,
+   TT.taskName as most_recent_task
 FROM 
-    Applications 
-    LEFT JOIN Entities ON Applications.entityID = Entities.entityID 
-    LEFT JOIN Clients ON Entities.clientID = Clients.clientID
+   Applications A
+   LEFT JOIN Entities E ON A.entityID = E.entityID 
+   LEFT JOIN Clients C ON E.clientID = C.clientID
+   LEFT JOIN LATERAL (
+       SELECT T.taskID, T.taskTypeID
+       FROM Tasks T
+       WHERE T.appID = A.appID
+       AND T.taskStatus = 'Complete'
+       ORDER BY T.completedDate DESC
+       LIMIT 1
+   ) RT ON true
+   LEFT JOIN taskTypes TT ON RT.taskTypeID = TT.taskTypeID
 WHERE 
-    (Clients.clientID = {{appsmith.store.clientID}})
-    AND Applications.applicationStatus NOT IN ('Approved', 'Rejected', 'Withdrawn', 'Ineligible')
-    AND NOT EXISTS (
-        SELECT 1 
-        FROM Tasks 
-        WHERE Tasks.appID = Applications.appID
-        AND Tasks.taskStatus != 'Complete'
-    );
+   (C.clientID = {{appsmith.store.clientID}})
+   AND A.applicationStatus NOT IN ('Approved', 'Rejected', 'Withdrawn', 'Ineligible')
+   AND NOT EXISTS (
+       SELECT 1 
+       FROM Tasks 
+       WHERE Tasks.appID = A.appID
+       AND Tasks.taskStatus != 'Complete'
+   );
