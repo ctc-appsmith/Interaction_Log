@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.07abfb45c3867c2e1b1d5d4818b7078c.svg",
-    "topRow": 44,
+    "topRow": 39,
     "type": "CHART_WIDGET",
     "chartData": {"uzali103c8": {
         "data": [
@@ -117,7 +117,7 @@
     "mobileTopRow": 91,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "originalTopRow": 44,
+    "originalTopRow": 39,
     "mobileLeftColumn": 15,
     "chartType": "CUSTOM_ECHART"
 }
