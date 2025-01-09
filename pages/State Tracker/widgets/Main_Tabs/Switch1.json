@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "8rnue4d6ks",
     "isDeprecated": false,
-    "rightColumn": 8,
+    "rightColumn": 10,
     "onChange": "{{getMyTasks_2.run()}}",
     "thumbnailSVG": "/static/media/thumbnail.cd04c6d6a11266a806cebe39829607cb.svg",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -45,9 +45,9 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
-    "originalTopRow": 24,
+    "originalTopRow": 21,
     "mobileLeftColumn": 17,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 32,
+    "originalBottomRow": 26,
     "minDynamicHeight": 4
 }

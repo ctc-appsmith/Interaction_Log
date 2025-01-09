@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 10,
-    "bottomRow": 14,
+    "topRow": 12,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -32,7 +32,7 @@
     "text": "Unassigned Tasks: {{Rept_COUNT_unassignedTasks.data[0].CountOftaskID}}",
     "key": "z9170y13a8",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 61,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 14,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
