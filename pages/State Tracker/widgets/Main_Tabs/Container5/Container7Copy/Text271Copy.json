@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 7,
-    "bottomRow": 11,
+    "topRow": 6,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.01806640625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "Team: {{ Select7Copy1.selectedOptionLabel ? Select7Copy1.selectedOptionLabel : \"All teams\" }}\n",
     "key": "z9170y13a8",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 58,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

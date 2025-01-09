@@ -32,7 +32,7 @@
     "text": "Open Tasks: {{Rept_COUNT_openTask_TeamAppTyp.data[0].CountOftaskID}}",
     "key": "z9170y13a8",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

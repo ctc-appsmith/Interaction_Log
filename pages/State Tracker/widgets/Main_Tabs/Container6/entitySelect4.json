@@ -3,7 +3,7 @@
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "Select Applicant",
     "topRow": 5,
-    "labelWidth": "7",
+    "labelWidth": "8",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
     "defaultOptionValue": "",
