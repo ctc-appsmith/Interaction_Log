@@ -229,7 +229,7 @@
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "2p012v1vxu",
     "defaultTab": "{{appsmith.store.clientID === 12 ? 'NV Dashboard' : 'Dashboard'}}",
-    "onTabSelected": "{{utils.checkSession().then(() => {handleSubTabSelection.reportsTabSelection()});}}",
+    "onTabSelected": "",
     "minWidth": 450,
     "tabsObj": {
         "tab4artsno9z0": {

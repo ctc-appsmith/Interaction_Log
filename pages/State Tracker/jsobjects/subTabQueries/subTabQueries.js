@@ -74,51 +74,7 @@ export default {
       console.error("Error running applicant -> Interaction Log sub tab queries:", error);
     }
   },
- dashboardTabQueries: async () => {
-    try {
-      // Queries specific to Dashboard subtab nested in Reports Tab
-		//Dashboard Queries
-			// Run Rept_COUNT_Applications
-			await Rept_COUNT_Applications.run();
-			// Run dash_appsbyStatus
-			await dash_appsbyStatus.run();
-			// Run dash_appsbyStatus_NV ()
-			// Run dash_appsbyTech
-			await dash_appsbyTech.run();
-			// Run Rept_AppsByApplicant
-			await Rept_AppsByApplicant.run();
-			// Run dash_unassignedByTeam
-			await dash_unassignedByTeam.run();
-			// Run Rept_COUNT_pendingTasks
-			await Rept_COUNT_pendingTasks.run();
-			// Run Rept_getTaskStatusByTeam
-			await Rept_getTaskStatusByTeam.run();
-			// Run Rept_appsNoTasks
-			await Rept_appsNoTasks.run();
-			// Run dash_incompleteTaskbyType
-			await dash_incompleteTaskbyType.run();
-			// Run Dash_getPendingTaskbyTeam
-			await Dash_getPendingTaskbyTeam.run();
-			// Run Rept_COUNT_openTask_TeamAppTyp
-			await Rept_COUNT_openTask_TeamAppTyp.run();
-			// Run dash_appsbyAward
-			await dash_appsbyAward.run();
-			
-    } catch (error) {
-      console.error("Error running Reports -> Dashboard sub tab queries:", error);
-    }
-  },
- reportSubTabQueries: async () => {
-    try {
-      // Queries specific to Reports subtab nested in Reports Tab
-      await Rept_appsNoTasks.run();
-			await Rept_allTasks.run();
-			await Rept_allApplications.run();
-			
-    } catch (error) {
-      console.error("Error running Reports -> Reports sub tab queries:", error);
-    }
-  },	
+	
 	
 	
 	
