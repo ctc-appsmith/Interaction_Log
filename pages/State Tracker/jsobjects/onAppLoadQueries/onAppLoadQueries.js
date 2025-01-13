@@ -3,38 +3,38 @@ export default {
 	// These queries either drive the first page the user sees (dashboard) or drive the dropdowns throughout the app.
 	runQueries: async () => {
 		try {
-		//Dashboard Queries
+			//Dashboard Queries
 			// Run Rept_COUNT_Applications
-			await Rept_COUNT_Applications.run();
+			//			await Rept_COUNT_Applications.run();
 			// Run dash_appsbyStatus
-			await dash_appsbyStatus.run();
+			//			await dash_appsbyStatus.run();
 			// Run dash_appsbyStatus_NV (stacked bar)
-			await dash_appsbyStatus_NV.run();
+			//			await dash_appsbyStatus_NV.run();
 			// Run dash_appsbyTech
-			await dash_appsbyTech.run();
+			//			await dash_appsbyTech.run();
 			// Run Rept_AppsByApplicant
-			await Rept_AppsByApplicant.run();
+			//			await Rept_AppsByApplicant.run();
 			// Run dash_unassignedByTeam
-			await dash_unassignedByTeam.run();
+			//			await dash_unassignedByTeam.run();
 			// Run Rept_COUNT_pendingTasks
-			await Rept_COUNT_pendingTasks.run();
+			//			await Rept_COUNT_pendingTasks.run();
 			// Run Rept_getTaskStatusByTeam
-			await Rept_getTaskStatusByTeam.run();
+			//			await Rept_getTaskStatusByTeam.run();
 			// Run Rept_getTaskStatusByTeam_NV
-			await Rept_getTaskStatusByTeam_NV.run();
+			//			await Rept_getTaskStatusByTeam_NV.run();
 			// Run Rept_appsNoTasks
-			await Rept_appsNoTasks.run();
+			//			await Rept_appsNoTasks.run();
 			// Run dash_incompleteTaskbyType
-			await dash_incompleteTaskbyType.run();
+			//			await dash_incompleteTaskbyType.run();
 			// Run Dash_getPendingTaskbyTeam
-			await Dash_getPendingTaskbyTeam.run();
+			//			await Dash_getPendingTaskbyTeam.run();
 			// Run Rept_COUNT_openTask_TeamAppTyp
-			await Rept_COUNT_openTask_TeamAppTyp.run();
+			//			await Rept_COUNT_openTask_TeamAppTyp.run();
 			// Run dash_appsbyAward
-			await dash_appsbyAward.run();
-			
-		
-		// Drop Down Queries
+			//			await dash_appsbyAward.run();
+
+
+			// Drop Down Queries
 			// Run getAppType
 			await getAppType.run();
 			// Run getTeam
