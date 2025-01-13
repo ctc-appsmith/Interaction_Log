@@ -3,6 +3,7 @@ SELECT
 	empLastName,
 	empFirstName,
 	empEmail,
+	active,
 	userName
 FROM
   Employees

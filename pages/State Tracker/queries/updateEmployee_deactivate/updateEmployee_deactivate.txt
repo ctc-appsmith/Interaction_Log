@@ -1,0 +1,4 @@
+UPDATE Employees
+	SET active = "No"
+	WHERE empID = {{employee_Table.selectedRow.empID}}
+	;
