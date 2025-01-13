@@ -80,7 +80,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1735666206752,
+    "columnUpdatedAt": 1736804032899,
     "originalBottomRow": 73,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": "[\n  0\n]",
@@ -179,7 +179,7 @@
             "saveBorderRadius": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
-            "sticky": "",
+            "sticky": "right",
             "saveIconAlign": "left",
             "originalId": "EditActions1",
             "discardBorderRadius": "{{applicationTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",

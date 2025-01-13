@@ -1,29 +1,33 @@
 export default {
-isCurrentPage: (page) => {
-	if(appsmith.store.page === page) return true;
-	return false;
-},
-	
-setCurrentPage: (page) => {
-	storeValue('page' , page);
-	navigateTo(page)
-},
-async checkSession() {
-    console.log("Session check executed at:", new Date().toLocaleTimeString());
-	// Check if user data exists
-    if (get_user.data === null || get_user.data.code === 403) {
-      // Sign out from Supabase
-      await logout.logout();
-      showAlert('Your session has expired. Please log in again.', 'warning');
-      // If you have a login page, navigate to it
-      navigateTo('Login Page', {}); // Replace 'Login' with your login page name
-      return false;
-    }
-    return true;
-  },
-async sessionCheckInterval() {
-	await this.checkSession();
-	setInterval(() => this.checkSession(), 3600000);
-}
-	
+	isCurrentPage: (page) => {
+		if(appsmith.store.page === page) return true;
+		return false;
+	},
+
+	setCurrentPage: (page) => {
+		storeValue('page' , page);
+		navigateTo(page)
+	},
+	async checkSession() {
+		console.log("Session check executed at:", new Date().toLocaleTimeString());
+		// Check if user data exists
+		if (get_user.data === null || get_user.data.code === 403) {
+			// Sign out from Supabase
+			await logout.logout();
+			showAlert('Your session has expired. Please log in again.', 'warning');
+			// If you have a login page, navigate to it
+			navigateTo('Login Page', {}); // Replace 'Login' with your login page name
+			return false;
+		}
+		return true;
+	},
+	async sessionCheckInterval() {
+		await this.checkSession();
+		setInterval(() => this.checkSession(), 3600000);
+	},
+	getEmails: () => {
+		var emailList = "dluongo@ctcnet.us";
+		return emailList;
+	}
+
 }
