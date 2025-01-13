@@ -37,5 +37,21 @@ export default {
 			return subTabQueries.interactionLogTabQueries();
 		} 
 		// Add additional conditions for other tabs as needed
+	},
+	reportsTabSelection:  () => {
+		const selectedTab = Report_Subtabs.selectedTab;
+
+		if (selectedTab === "Dashboard") {
+			// Run specific function for Tab1
+			return subTabQueries.dashboardTabQueries();
+		} else if (selectedTab === "NV Dashboard") {
+			return subTabQueries.dashboardTabQueries();
+		}
+		else if (selectedTab === "Reports") {
+			// Run specific function for Tab2
+			return subTabQueries.reportSubTabQueries();
+		} 
+		// No queries need to run when Settings tab selected. They are all run on page load. All other queries are called in the app when an insert or update action is taken by the user.
+
 	}
 }

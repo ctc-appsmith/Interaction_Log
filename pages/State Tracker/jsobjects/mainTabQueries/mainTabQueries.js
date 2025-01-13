@@ -19,6 +19,8 @@ export default {
 			// Queries specific to Applications Tab
 			await getApplications.run();     
 			await getTeam.run();
+			await getApplications_forUpdateForm.run();
+			await getTasks_byApplication_3.run();
 
 		} catch (error) {
 			console.error("Error running app tab queries:", error);
