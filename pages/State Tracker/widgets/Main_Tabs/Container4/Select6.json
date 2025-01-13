@@ -6,14 +6,15 @@
     "labelWidth": "6",
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Select6Copy.selectedOptionValue))(Select6.options, Select6.serverSideFiltering) }}",
     "animateLoading": true,
     "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "isVisible"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "defaultOptionValue"}
     ],
     "labelStyle": "BOLD",
     "placeholderText": "Select Application",

@@ -2,8 +2,8 @@ SELECT Applications.appID, Applications.applicationName, Applications.applicatio
 	FROM Clients 
 		INNER JOIN (Applications INNER JOIN Entities ON Applications.entityID = Entities.entityID) ON 	Clients.clientID = Entities.clientID
 
-	WHERE Entities.entityID = '{{Select13.selectedOptionValue}}'
+		WHERE (({{!Select13.selectedOptionValue}} OR (Entities.entityID = '{{Select13.selectedOptionValue}}')))
 	AND Applications.applicationStatus <> "Withdrawn"
 	AND Applications.applicationStatus <> "Ineligible"
-
+	AND Entities.clientID = {{appsmith.store.clientID}}
 ORDER BY entityName ASC, applicationName ASC;
