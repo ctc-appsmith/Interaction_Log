@@ -68,7 +68,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1736800284897,
+    "columnUpdatedAt": 1736806505427,
     "primaryColumnId": "empID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -76,13 +76,13 @@
     "widgetName": "employee_Table",
     "defaultPageSize": 0,
     "columnOrder": [
-        "empID",
         "empLastName",
         "empFirstName",
         "empEmail",
-        "userName",
         "active",
-        "customColumn1"
+        "customColumn1",
+        "empID",
+        "userName"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -93,7 +93,8 @@
     "columnWidthMap": {
         "empLastName": 160,
         "empFirstName": 152,
-        "empEmail": 279,
+        "empEmail": 204,
+        "active": 92,
         "userName": 264
     },
     "parentRowSpace": 10,
@@ -272,7 +273,7 @@
         "customColumn1": {
             "boxShadow": "{{employee_Table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('empID', employee_Table.selectedRow.empID);\nupdateEmployee_deactivate.run().then(() => {\n  getEmployees.run();\n});}}",
+            "onClick": "{{storeValue('empID', employee_Table.triggeredRow.empID);\nupdateEmployee_deactivate.run().then(() => {\n  getEmployees.run().then(() => {\n\t\tEmail.run()\n\t});\n});}}",
             "buttonColor": "{{employee_Table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

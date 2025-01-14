@@ -4,18 +4,16 @@ INSERT INTO Tasks (
 	taskTypeID,
 	taskStatus,
 	assignedTo,
-	taskNotes,
 	filePath,
 	lastChangedBy
 	) 
 	VALUES (
-		'{{appsmith.store.taskappID}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).DatePicker1CopyCopy}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).Select2CopyCopy}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).Select4CopyCopy}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).Select3CopyCopy}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).Input1CopyCopy}}',
-		'{{(addTask_fromUpdate_formCopy.data || {}).Input2CopyCopy}}',
-		'{{get_user.data.email}}'
+    '{{appsmith.store.appID}}',
+    '{{DatePicker1Copy1.formattedDate}}',
+    '{{Select2Copy1.selectedOptionValue}}',
+    '{{Select4Copy1.selectedOptionValue}}',
+    '{{Select3Copy1.selectedOptionValue}}',
+    '{{Input2Copy1.text}}',
+    '{{get_user.data.email}}'
 		)
 ;

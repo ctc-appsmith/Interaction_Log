@@ -197,7 +197,7 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
-            "onSave": "{{storeValue('taskStatus', myTasks_tbl.updatedRow.taskStatus)\n  .then(() => {\n    return myTasks_updateTasks_2.run();\n  })\n  .then(() => {\n    if (appsmith.store.taskStatus === \"Complete\") {\n      showModal('Modal1Copy');  \n    }\n    return getMyTasks_2.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_openTask_TeamAppTyp.run();  \n  })\n  .then(() => {\n    return Rept_COUNT_unassignedTasks.run();  \n  })\n  .catch(() => {\n    showAlert('Query failed to execute.', 'error');  \n  });\n}}",
+            "onSave": "{{storeValue('taskStatus', myTasks_tbl.updatedRow.taskStatus)\n .then(() => {\n   return storeValue('portalAppID', myTasks_tbl.updatedRow.portalAppID);\n })\n .then(() => {\n   return storeValue('appID', myTasks_tbl.updatedRow.appID);\n }) \n .then(() => {\n   return myTasks_updateTasks_2.run();\n })\n .then(() => {\n   if (appsmith.store.taskStatus === \"Complete\") {\n     showModal('Modal1Copy');  \n   }\n   return getMyTasks_2.run();  \n })\n .then(() => {\n   return Rept_COUNT_openTask_TeamAppTyp.run();  \n })\n .then(() => {\n   return Rept_COUNT_unassignedTasks.run();  \n })\n .catch(() => {\n   showAlert('Query failed to execute.', 'error');  \n });\n}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,

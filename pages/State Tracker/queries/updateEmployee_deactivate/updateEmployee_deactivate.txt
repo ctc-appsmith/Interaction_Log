@@ -1,4 +1,4 @@
 UPDATE Employees
 	SET active = "No"
-	WHERE empID = {{employee_Table.selectedRow.empID}}
+	WHERE empID = {{employee_Table.triggeredRow.empID}}
 	;

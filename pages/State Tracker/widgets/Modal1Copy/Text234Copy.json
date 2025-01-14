@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.store.taskportalappid}}",
+    "text": "{{appsmith.store.portalAppID}}",
     "key": "2gnval9hp5",
     "isDeprecated": false,
     "rightColumn": 63,

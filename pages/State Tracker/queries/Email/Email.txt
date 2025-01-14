@@ -1,0 +1,4 @@
+SELECT 
+	Employees.empEmail
+FROM Employees
+Where empID = {{appsmith.store.empID}};
