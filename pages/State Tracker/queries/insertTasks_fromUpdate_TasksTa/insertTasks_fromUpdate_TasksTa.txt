@@ -9,7 +9,8 @@ INSERT INTO Tasks (
 	) 
 	VALUES (
     '{{appsmith.store.appID}}',
-    '{{DatePicker1Copy1.formattedDate}}',
+    
+		'{{(addTask_fromUpdate_formCopy.data || {}).DatePicker1Copy1}}',
     '{{Select2Copy1.selectedOptionValue}}',
     '{{Select4Copy1.selectedOptionValue}}',
     '{{Select3Copy1.selectedOptionValue}}',

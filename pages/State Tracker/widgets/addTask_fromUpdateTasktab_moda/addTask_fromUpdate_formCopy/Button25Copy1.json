@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button25Copy1",
-    "onClick": "{{insertTasks_fromUpdate_TasksTa.run().then(() => {\n  getMyTasks_2.run();\n});\nremoveValue('appID').then(() => {\n  removeValue('entityID');\n});\ncloseModal('addTask_fromUpdateTasktab_moda');}}",
+    "onClick": "{{addTask_fromTaskTab.addTaskfromUpdate()\n .then(() => {\n   return removeValue('appID');\n })\n .then(() => {\n   return removeValue('portalAppID');\n })\n .then(() => {\n   return closeModal('addTask_fromUpdateTasktab_moda');\n });\n}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
