@@ -24,7 +24,6 @@
         {"key": "primaryColumns.applicationName.computedValue"},
         {"key": "primaryColumns.entityName.computedValue"},
         {"key": "primaryColumns.taskName.computedValue"},
-        {"key": "primaryColumns.completedDate.isCellVisible"},
         {"key": "primaryColumns.sortOrder.computedValue"},
         {"key": "primaryColumns.portalAppID.computedValue"},
         {"key": "primaryColumns.reviewOrder.computedValue"},
@@ -116,7 +115,6 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
-        {"key": "primaryColumns.completedDate.isCellVisible"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
         {"key": "primaryColumns.EditActions1.onSave"}
@@ -441,7 +439,7 @@
             "allowSameOptionsInNewRow": true,
             "outputFormat": "MM-DD-YYYY",
             "validation": {},
-            "isCellVisible": "{{myTasks_tbl.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
+            "isCellVisible": true,
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
