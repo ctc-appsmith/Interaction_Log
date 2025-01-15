@@ -186,6 +186,7 @@
                     "textColor": "#000000"
                 },
                 "menuItem26qa0c9gly": {
+                    "onClick": "{{showModal('To_NC_Log_Modal');}}",
                     "iconName": "{{appsmith.store.clientID == 18 ? 'caret-right' : ''}}",
                     "widgetId": "dqyonfz38e",
                     "iconColor": "#e67000",
@@ -361,7 +362,8 @@
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemj8mwv9ysie.onClick"},
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem03i8ikg413.onClick"},
         {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemgmgfp8hn9u.onClick"},
-        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemjp85ren0gw.onClick"}
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItemjp85ren0gw.onClick"},
+        {"key": "groupButtons.groupButton9vldljkxof.menuItems.menuItem26qa0c9gly.onClick"}
     ],
     "leftColumn": 8,
     "dynamicBindingPathList": [
