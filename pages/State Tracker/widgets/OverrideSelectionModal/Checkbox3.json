@@ -37,7 +37,7 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "cxk36252y8",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "label": "Funding",
     "version": 1,
     "parentId": "jwsw85i40t",
