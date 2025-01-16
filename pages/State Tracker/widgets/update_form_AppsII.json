@@ -3,7 +3,7 @@
     "borderColor": "#e0dede",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{updateApplications_II.run().then(() => {\n  getApplications.run();\n});\ngetApplications_forUpdate_II.run();}}",
-    "topRow": 185,
+    "topRow": 119,
     "type": "JSON_FORM_WIDGET",
     "topRowBeforeCollapse": 119,
     "animateLoading": true,
@@ -829,7 +829,7 @@
         {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 217,
+    "bottomRow": 151,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
