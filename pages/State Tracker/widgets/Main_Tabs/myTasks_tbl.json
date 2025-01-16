@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 26,
+    "topRow": 19,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "tableData"},
-        {"key": "defaultSearchText"},
         {"key": "primaryColumns.taskID.computedValue"},
         {"key": "primaryColumns.appID.computedValue"},
         {"key": "primaryColumns.startDate.computedValue"},
@@ -84,7 +83,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1737053543763,
-    "originalBottomRow": 89,
+    "originalBottomRow": 82,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -121,7 +120,7 @@
         {"key": "primaryColumns.applicationName.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 89,
+    "bottomRow": 82,
     "columnWidthMap": {
         "taskTypeID": 188,
         "entityName": 223,
@@ -845,7 +844,7 @@
         }
     },
     "onRowSelected": "{{storeValue('taskappID', myTasks_tbl.selectedRow.appID).then(() => {});\nstoreValue('taskportalappid', myTasks_tbl.selectedRow.portalAppID).then(() => {});}}",
-    "defaultSearchText": "{{get_user.data.email}}",
+    "defaultSearchText": "",
     "key": "4c86oj35z4",
     "canFreezeColumn": false,
     "isDeprecated": false,
@@ -864,7 +863,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 26,
+    "originalTopRow": 19,
     "mobileLeftColumn": 1,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
