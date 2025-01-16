@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 34,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Application Status Types",
     "key": "fqoneh4g0w",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 38,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "FIXED",
@@ -41,7 +41,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "2cl6xnn0fo",
+    "parentId": "rw8zbka9tk",
     "tags": [
         "Suggested",
         "Content"

@@ -20,7 +20,7 @@
         {"key": "primaryColumns.processOrder.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 24,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": "-1",
     "showInlineEditingOptionDropdown": true,
@@ -263,7 +263,7 @@
     "tableData": "{{getAppStatusTypes.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "2cl6xnn0fo",
+    "parentId": "rw8zbka9tk",
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "horizontalAlignment": "LEFT",
