@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#eef0f6",
     "isCanvas": true,
     "iconSVG": "/static/media/icon.02aab13974bb96ab5effaedb467a923c.svg",
     "topRow": 0,
@@ -259,7 +259,7 @@
     "dynamicTriggerPathList": [],
     "borderWidth": 1,
     "key": "ssb2xpljek",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#eef0f6",
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",

@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#eef0f6",
     "isCanvas": true,
     "iconSVG": "/static/media/icon.02aab13974bb96ab5effaedb467a923c.svg",
     "topRow": 0,
@@ -11,7 +11,9 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tabsObj.tabn6d6oc5ese.isVisible"}
+        {"key": "tabsObj.tabn6d6oc5ese.isVisible"},
+        {"key": "tabsObj.tab2.isVisible"},
+        {"key": "tabsObj.tab1.isVisible"}
     ],
     "children": [
         {
@@ -21,7 +23,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas722",
             "displayName": "Canvas",
-            "bottomRow": 1010,
+            "bottomRow": 1030,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -66,7 +68,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas723",
             "displayName": "Canvas",
-            "bottomRow": 1010,
+            "bottomRow": 1030,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -112,7 +114,7 @@
             "widgetName": "Canvas724",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 1010,
+            "bottomRow": 1030,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -162,23 +164,27 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Tabs5",
-    "dynamicPropertyPathList": [{"key": "tabsObj.tabn6d6oc5ese.isVisible"}],
+    "dynamicPropertyPathList": [
+        {"key": "tabsObj.tabn6d6oc5ese.isVisible"},
+        {"key": "tabsObj.tab2.isVisible"},
+        {"key": "tabsObj.tab1.isVisible"}
+    ],
     "displayName": "Tabs",
-    "bottomRow": 105,
+    "bottomRow": 107,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
     "mobileRightColumn": 24,
     "parentColumnSpace": 18.609375,
     "dynamicTriggerPathList": [],
-    "borderWidth": 1,
+    "borderWidth": "0",
     "key": "ssb2xpljek",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#eef0f6",
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.902d280515fd575657e8ccf99545112b.svg",
     "widgetId": "g93sfb1sui",
-    "defaultTab": "Task Types",
+    "defaultTab": "",
     "minWidth": 450,
     "tabsObj": {
         "tabn6d6oc5ese": {
@@ -196,7 +202,7 @@
             "index": 2,
             "label": "Application Types",
             "id": "tab1",
-            "isVisible": true
+            "isVisible": "{{appsmith.store.tabTitle === \"Application Types\"}}"
         },
         "tab2": {
             "widgetId": "rw8zbka9tk",
@@ -205,7 +211,7 @@
             "index": 1,
             "label": "Application Status Types",
             "id": "tab2",
-            "isVisible": true
+            "isVisible": "{{appsmith.store.tabTitle === \"Application Status\"}}"
         }
     },
     "parentId": "b6ycyt1o8b",
