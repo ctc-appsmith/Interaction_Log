@@ -218,7 +218,7 @@
                 "originalIdentifier": "commsSubject",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "children": {},
-                "options": "[\n    {\n\t\t\"label\": \"Application Score\",\n\t\t\"value\": \"Application Score\"\n\t},\n\t{\n    \"label\": \"Negotiation\",\n    \"value\": \"Negotiation\"\n  },\n  {\n    \"label\": \"Policy Decision\",\n    \"value\": \"Policy Decision\"\n  },\n\t{\"label\": \"Recommendation\",\n\t\t\"value\": \"Recommendation\"\n\t},\n\t{\n\t\t\"label\": \"Revision Request\",\n\t\t\"value\": \"Revision Request\"\n\t},\t\n\t{\"label\": \"Other\",\n\t\t \"value\": \"Other\"\n\t}\n]",
+                "options": "[\n  {\n\t\t\"label\": \"Analytics\",\n\t\t\"value\": \"Analytics\"\n\t},\n\t{\n\t\t\"label\": \"Application Score\",\n\t\t\"value\": \"Application Score\"\n\t},\n\t{\n    \"label\": \"Negotiation\",\n    \"value\": \"Negotiation\"\n  },\n  {\n    \"label\": \"Policy Decision\",\n    \"value\": \"Policy Decision\"\n  },\n\t{\"label\": \"Recommendation\",\n\t\t\"value\": \"Recommendation\"\n\t},\n\t{\n\t\t\"label\": \"Revision Request\",\n\t\t\"value\": \"Revision Request\"\n\t},\t\n\t{\"label\": \"Other\",\n\t\t \"value\": \"Other\"\n\t}\n]",
                 "position": 4,
                 "isDisabled": false,
                 "sourceData": "",
