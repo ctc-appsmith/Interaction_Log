@@ -6,7 +6,7 @@
     "topRow": 22,
     "type": "BUTTON_WIDGET",
     "animateLoading": true,
-    "leftColumn": 56,
+    "leftColumn": 53,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add new row",
     "isDisabled": false,
