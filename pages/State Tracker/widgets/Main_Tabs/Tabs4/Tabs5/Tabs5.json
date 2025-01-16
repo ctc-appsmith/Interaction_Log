@@ -6,11 +6,12 @@
     "topRow": 0,
     "type": "TABS_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 11,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "tabsObj.tabn6d6oc5ese.isVisible"}
     ],
     "children": [
         {
@@ -157,10 +158,11 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 105,
+    "originalBottomRow": 107,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Tabs5",
+    "dynamicPropertyPathList": [{"key": "tabsObj.tabn6d6oc5ese.isVisible"}],
     "displayName": "Tabs",
     "bottomRow": 105,
     "parentRowSpace": 10,
@@ -185,7 +187,7 @@
             "index": 0,
             "id": "tabn6d6oc5ese",
             "label": "Task Types",
-            "isVisible": true
+            "isVisible": "{{appsmith.store.tabTitle === \"Task Types\"}}"
         },
         "tab1": {
             "widgetId": "xw98pbjm35",
