@@ -8,7 +8,7 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "",
     "animateLoading": true,
-    "leftColumn": 24,
+    "leftColumn": 21,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -54,7 +54,7 @@
     "key": "xceerbc2zm",
     "labelTextSize": "1.25rem",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 47,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "qe2fda5su6",
     "optionValue": "value",
