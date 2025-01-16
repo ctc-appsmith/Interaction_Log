@@ -83,7 +83,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1736202894213,
+    "columnUpdatedAt": 1737043006949,
     "originalBottomRow": 89,
     "primaryColumnId": "taskID",
     "defaultSelectedRowIndices": [0],
@@ -377,7 +377,7 @@
             "allowCellWrapping": false,
             "index": 15,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "entityID",
             "fontStyle": "",
             "textColor": "#000000",

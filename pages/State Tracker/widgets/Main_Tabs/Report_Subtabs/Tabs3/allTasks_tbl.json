@@ -71,7 +71,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1736349255436,
+    "columnUpdatedAt": 1737043159490,
     "originalBottomRow": 56,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -203,7 +203,7 @@
             "allowCellWrapping": false,
             "index": 9,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "filePath",
             "fontStyle": "",
             "textColor": "",
