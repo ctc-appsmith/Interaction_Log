@@ -6,6 +6,7 @@ SELECT Applications.appID, Applications.applicationName, Applications.applicatio
 	
 AND ({{!Select10.selectedOptionValue}} OR (Applications.applicationType = '{{Select10.selectedOptionValue}}'))
 	
+AND ({{!Select13Copy.selectedOptionValue}} OR (Applications.entityID = '{{Select13Copy.selectedOptionValue}}'))
 
 ORDER BY entityName ASC, applicationName ASC;
 
