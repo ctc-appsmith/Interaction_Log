@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 1130,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -97,7 +97,8 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "insert_form.formData.inReferenceTo",
-                "appsmith.store.clientID"
+                "appsmith.store.clientID",
+                "entitySelect.selectedOptionLabel"
               ],
               "timeoutInMillisecond": 10000
             }
