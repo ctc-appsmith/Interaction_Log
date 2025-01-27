@@ -283,6 +283,16 @@
           ],
           [
             {
+              "id": "State Tracker_getbidselection_currentbudget",
+              "name": "getbidselection_currentbudget",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Select6.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "State Tracker_utils.sessionCheckInterval",
               "name": "utils.sessionCheckInterval",
               "collectionId": "State Tracker_utils",
