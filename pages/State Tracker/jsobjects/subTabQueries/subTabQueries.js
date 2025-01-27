@@ -22,7 +22,9 @@ export default {
 	scoringAndBidTabQueries: async () => {
 		try {
 			// Queries specific to Scoring/Bid Selection Tab
-			await getBidSelectionData_apptable.run();     
+			await getBidSelectionData_apptable.run(); 
+						// Run getbidselectiondata_fundingrequest to populate green box w/new equation
+			await getbidselection_fundingrequest.run();
 			await getAppScores_overall.run();
 			await getAppScores_ManualOverride.run();
 			await getAppScores.run();

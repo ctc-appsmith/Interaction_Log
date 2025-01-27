@@ -30,7 +30,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "${{getBidSelectionData_apptable.data[0].fundingRequest.toLocaleString()}}",
+    "text": "${{getbidselection_fundingrequest.data[0].totalFunding.toLocaleString()}}",
     "key": "o5gl6zhgae",
     "isDeprecated": false,
     "rightColumn": 60,
@@ -52,11 +52,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "originalTopRow": 8,
+    "originalTopRow": 11,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
+    "originalBottomRow": 15,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

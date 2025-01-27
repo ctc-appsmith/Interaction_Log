@@ -1,0 +1,4 @@
+SELECT SUM(requestedFunding) as totalFunding
+FROM proposedPAUs
+WHERE proposedPAUID = {{Select6.selectedOptionValue}}
+;
