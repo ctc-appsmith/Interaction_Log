@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \n    Tasks.taskID, \n    Tasks.appID, \n    Tasks.startDate, \n    Tasks.completedDate, \n    Tasks.dueDate, \n    Tasks.taskTypeID, \n    Tasks.taskStatus, \n    Tasks.assignedTo, \n    Tasks.taskNotes, \n    Tasks.filePath, \n    Applications.applicationName, \n    Applications.portalAppID, \n    Applications.applicationType, \n    Applications.reviewOrder, \n    Entities.entityName,\n\t\tEntities.entityID,\n    taskTypes.taskName, \n    taskTypes.team, \n    taskStatusTypes.sortOrder\nFROM taskStatusTypes \nINNER JOIN (((Tasks \n    INNER JOIN Applications ON Tasks.appID = Applications.appID) \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) \n    ON taskStatusTypes.taskStatus = Tasks.taskStatus\nWHERE Entities.clientID = {{appsmith.store.clientID}}\n\t\tAND Applications.applicationStatus <> \"Ineligible\"\n\t\tAND Applications.applicationStatus <> \"Withdrawn\"\n    AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> \"Complete\")\n\t\tAND (({{!Select13.selectedOptionValue}} OR (Entities.entityID = '{{Select13.selectedOptionValue}}')))\n\t\tAND (({{!Select6Copy.selectedOptionValue}} OR (Tasks.appID = '{{Select6Copy.selectedOptionValue}}')))\n    AND ({{!Select7Copy1.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy1.selectedOptionValue}}'))\nORDER BY reviewOrder ASC, sortOrder ASC, startDate DESC;",
+      "body": "SELECT \n    Tasks.taskID, \n    Tasks.appID, \n    Tasks.startDate, \n    Tasks.completedDate, \n    Tasks.dueDate, \n    Tasks.taskTypeID, \n    Tasks.taskStatus, \n    Tasks.assignedTo, \n    Tasks.taskNotes, \n    Tasks.filePath, \n    Applications.applicationName, \n    Applications.portalAppID, \n    Applications.applicationType, \n    Applications.reviewOrder, \n    Entities.entityName,\n\t\tEntities.entityID,\n    taskTypes.taskName, \n    taskTypes.team, \n    taskStatusTypes.sortOrder\nFROM taskStatusTypes \nINNER JOIN (((Tasks \n    INNER JOIN Applications ON Tasks.appID = Applications.appID) \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID) \n    INNER JOIN taskTypes ON Tasks.taskTypeID = taskTypes.taskTypeID) \n    ON taskStatusTypes.taskStatus = Tasks.taskStatus\nWHERE Entities.clientID = {{appsmith.store.clientID}}\n\t\tAND Applications.applicationStatus <> \"Ineligible\"\n\t\tAND Applications.applicationStatus <> \"Withdrawn\"\n    AND ({{Switch1.isSwitchedOn}} OR Tasks.taskStatus <> \"Complete\")\n\t\tAND (({{!Select13.selectedOptionValue}} OR (Entities.entityID = '{{Select13.selectedOptionValue}}')))\n\t\tAND (({{!Select6Copy.selectedOptionValue}} OR (Tasks.appID = '{{Select6Copy.selectedOptionValue}}')))\n    AND ({{!Select7Copy1.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy1.selectedOptionValue}}'))\n\t\tAND ({{!Select7Copy1Copy.selectedOptionValue}} OR (Tasks.assignedTo = '{{Select7Copy1Copy.selectedOptionValue}}'))\nORDER BY reviewOrder ASC, sortOrder ASC, startDate DESC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,9 +39,11 @@
       "!Select13.selectedOptionValue",
       "!Select6Copy.selectedOptionValue",
       "!Select7Copy1.selectedOptionValue",
+      "!Select7Copy1Copy.selectedOptionValue",
       "Select13.selectedOptionValue",
       "Select6Copy.selectedOptionValue",
       "Select7Copy1.selectedOptionValue",
+      "Select7Copy1Copy.selectedOptionValue",
       "Switch1.isSwitchedOn",
       "appsmith.store.clientID"
     ],

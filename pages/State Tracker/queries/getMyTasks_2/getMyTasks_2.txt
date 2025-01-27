@@ -31,4 +31,5 @@ WHERE Entities.clientID = {{appsmith.store.clientID}}
 		AND (({{!Select13.selectedOptionValue}} OR (Entities.entityID = '{{Select13.selectedOptionValue}}')))
 		AND (({{!Select6Copy.selectedOptionValue}} OR (Tasks.appID = '{{Select6Copy.selectedOptionValue}}')))
     AND ({{!Select7Copy1.selectedOptionValue}} OR (taskTypes.team = '{{Select7Copy1.selectedOptionValue}}'))
+		AND ({{!Select7Copy1Copy.selectedOptionValue}} OR (Tasks.assignedTo = '{{Select7Copy1Copy.selectedOptionValue}}'))
 ORDER BY reviewOrder ASC, sortOrder ASC, startDate DESC;
