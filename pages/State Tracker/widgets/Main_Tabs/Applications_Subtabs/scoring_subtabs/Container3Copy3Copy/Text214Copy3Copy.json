@@ -4,13 +4,13 @@
     "widgetName": "Text214Copy3Copy",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 8,
+    "topRow": 11,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 12,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,

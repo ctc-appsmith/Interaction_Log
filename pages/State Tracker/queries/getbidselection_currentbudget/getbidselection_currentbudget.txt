@@ -1,0 +1,5 @@
+SELECT SUM(e.currentBudget) as totalCurrentBudget
+FROM eligiblePAUs e
+INNER JOIN proposedPAUs p ON e.eligiblePAUID = p.eligiblePAUID
+WHERE p.appID = {{Select6.selectedOptionValue}}
+;

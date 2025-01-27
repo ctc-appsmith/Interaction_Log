@@ -16,6 +16,10 @@ export default {
 			
 			// Run getbidselectiondata_fundingrequest to populate green box w/new equation
 			await getbidselection_fundingrequest.run();
+			
+			await getbidselectiondata_refbudget.run();
+			
+			await getbidselection_currentbudget.run();
 
     } catch (error) {
       console.error("Error running queries:", error);

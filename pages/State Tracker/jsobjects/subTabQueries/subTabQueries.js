@@ -25,6 +25,7 @@ export default {
 			await getBidSelectionData_apptable.run(); 
 						// Run getbidselectiondata_fundingrequest to populate green box w/new equation
 			await getbidselection_fundingrequest.run();
+			getbidselectiondata
 			await getAppScores_overall.run();
 			await getAppScores_ManualOverride.run();
 			await getAppScores.run();
