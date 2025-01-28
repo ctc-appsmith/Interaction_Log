@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Applications.appID, \n       Applications.applicationName, \n       Applications.applicationType, \n       Applications.applicationStatus, \n       Entities.entityName, \n       Applications.portalAppID, \n       Applications.initialScore, \n       Applications.fundingRequest, \n       Applications.referenceBudget, \n       Applications.currentBudget, \n       Entities.entityType, \n       Entities.entityID\nFROM Applications \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID\nWHERE entityType = \"Applicant\"\n    AND Applications.entityID = '{{Select9.selectedOptionValue}}'\nORDER BY entityName ASC, applicationName ASC;",
+      "body": "SELECT Applications.appID, \n       Applications.applicationName, \n       Applications.applicationType, \n       Applications.applicationStatus, \n       Entities.entityName, \n       Applications.portalAppID, \n       Applications.initialScore, \n       Applications.fundingRequest, \n       Entities.entityType, \n       Entities.entityID\nFROM Applications \n    INNER JOIN Entities ON Applications.entityID = Entities.entityID\nWHERE entityType = \"Applicant\"\n    AND Applications.entityID = '{{Select9.selectedOptionValue}}'\nORDER BY entityName ASC, applicationName ASC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

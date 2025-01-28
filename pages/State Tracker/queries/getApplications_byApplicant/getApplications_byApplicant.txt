@@ -6,8 +6,6 @@ SELECT Applications.appID,
        Applications.portalAppID, 
        Applications.initialScore, 
        Applications.fundingRequest, 
-       Applications.referenceBudget, 
-       Applications.currentBudget, 
        Entities.entityType, 
        Entities.entityID
 FROM Applications 
