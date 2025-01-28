@@ -1,8 +1,9 @@
-SELECT entityID, entityName FROM Entities
-
-WHERE clientID = {{appsmith.store.clientID}}
-
-AND entityType = "Applicant"
-
-ORDER BY entityName Asc
-;
+SELECT entityID, entityName 
+FROM Entities
+WHERE entityID IN (
+    SELECT DISTINCT entityID 
+    FROM Applications 
+    WHERE applicationType = {{Select10.selectedOptionLabel}}
+) 
+AND clientID = {{appsmith.store.clientID}}
+ORDER BY entityName ASC;

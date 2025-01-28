@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT entityID, entityName FROM Entities\n\nWHERE clientID = {{appsmith.store.clientID}}\n\nAND entityType = \"Applicant\"\n\nORDER BY entityName Asc\n;",
+      "body": "SELECT entityID, entityName \nFROM Entities\nWHERE entityID IN (\n    SELECT DISTINCT entityID \n    FROM Applications \n    WHERE applicationType = {{Select10.selectedOptionLabel}}\n) \nAND clientID = {{appsmith.store.clientID}}\nORDER BY entityName ASC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,6 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "Select10.selectedOptionLabel",
       "appsmith.store.clientID"
     ],
     "userSetOnLoad": true,
