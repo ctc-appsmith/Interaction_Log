@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2170,
+          "bottomRow": 1040,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -269,7 +269,9 @@
                 "Select13.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "State Tracker_getApplications_forUpdate_II",
               "name": "getApplications_forUpdate_II",

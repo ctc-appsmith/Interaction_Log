@@ -1,13 +1,13 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 46,
-    "widgetName": "DocumentViewer5",
+    "widgetName": "DocumentViewer5Copy",
     "isCanvas": false,
     "displayName": "Document Viewer",
     "iconSVG": "/static/media/icon.3e8abdb084ce856a43fb2ae1354bf17a.svg",
     "searchTags": ["pdf"],
     "topRow": 6,
-    "bottomRow": 69,
+    "bottomRow": 76,
     "parentRowSpace": 10,
     "type": "DOCUMENT_VIEWER_WIDGET",
     "hideCard": false,
@@ -22,10 +22,10 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.90b68df6fa9cdb12189336cd5c4ed121.svg",
-    "widgetId": "l2pvi8vrgo",
+    "widgetId": "ch1xhubt9n",
     "isVisible": true,
     "version": 1,
-    "parentId": "sisekow6qs",
+    "parentId": "q05ihz53d0",
     "tags": ["Media"],
     "renderMode": "CANVAS",
     "isLoading": false,
@@ -34,5 +34,5 @@
     "originalTopRow": 6,
     "mobileLeftColumn": 0,
     "originalBottomRow": 69,
-    "docUrl": "https://ctc1.s3.us-east-1.amazonaws.com/WY+BEAD+Scoring+Phase+Process+Flows+20241031+v4.pdf"
+    "docUrl": "https://ctc1.s3.us-east-1.amazonaws.com/GA+BEAD+Scoring+Phase+Process+Flow+20241024.pdf"
 }

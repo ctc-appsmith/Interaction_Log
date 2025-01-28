@@ -9,9 +9,9 @@
     ],
     "iconSVG": "/static/media/icon.c0b4c50c8e9e6060b0525341b26d016d.svg",
     "displayName": "Switch",
-    "topRow": 17,
+    "topRow": 14,
     "searchTags": ["boolean"],
-    "bottomRow": 22,
+    "bottomRow": 19,
     "parentRowSpace": 10,
     "type": "SWITCH_WIDGET",
     "alignWidget": "LEFT",
@@ -45,9 +45,9 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
-    "originalTopRow": 17,
+    "originalTopRow": 14,
     "mobileLeftColumn": 17,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 22,
+    "originalBottomRow": 19,
     "minDynamicHeight": 4
 }
