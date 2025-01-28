@@ -6,7 +6,6 @@ INSERT INTO Tasks (
 	taskTypeID,
 	taskStatus,
 	assignedTo,
-	taskNotes,
 	filePath,
 	lastChangedBy
 	) 
@@ -18,7 +17,6 @@ INSERT INTO Tasks (
 		'{{(addTask_fromUpdate_form.data || {}).Select2Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select4Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Select3Copy}}',
-		'{{(addTask_fromUpdate_form.data || {}).Input1Copy}}',
 		'{{(addTask_fromUpdate_form.data || {}).Input2Copy}}',
 		'{{get_user.data.email}}'
 		)

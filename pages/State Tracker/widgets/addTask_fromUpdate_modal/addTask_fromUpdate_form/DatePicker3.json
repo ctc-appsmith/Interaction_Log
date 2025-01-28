@@ -6,7 +6,7 @@
     "labelWidth": "16",
     "type": "DATE_PICKER_WIDGET2",
     "animateLoading": true,
-    "leftColumn": 41,
+    "leftColumn": 49,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -46,7 +46,7 @@
     "labelTextSize": "0.875rem",
     "defaultDate": "",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 55,
     "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
     "widgetId": "grb34xsbir",
     "minWidth": 450,

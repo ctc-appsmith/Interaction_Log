@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 4,
-    "bottomRow": 9,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.665417480468747,
     "dynamicTriggerPathList": [],
-    "leftColumn": 47,
+    "leftColumn": 41,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Completed Date",
     "key": "6oqhe0dn5y",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 49,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 9,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 8,
+    "originalBottomRow": 9,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
