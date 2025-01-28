@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button220Copy",
-    "onClick": "{{appsmith.store.clientID === 1 ? showModal('MT_workflow_ModalCopy') : appsmith.store.clientID === 9 ? showModal('DE_workflow_ModalCopy'): appsmith.store.clientID === 10 ? showModal('IL_workflow_ModalCopy') :appsmith.store.clientID === 11 ? showModal('WY_workflow_ModalCopy') :appsmith.store.clientID === 12 ? showModal('NV_workflow_ModalCopy') :appsmith.store.clientID === 13 ? showModal('AL_workflow_ModalCopy') :appsmith.store.clientID === 14 ? showModal('CT_workflow_ModalCopy') :appsmith.store.clientID === 15 ? showModal('OR_workflow_ModalCopy') :appsmith.store.clientID === 16 ? showModal('NM_workflow_ModalCopy') :showModal('Modal1')}}",
+    "onClick": "{{appsmith.store.clientID === 1 ? showModal('MT_workflow_ModalCopy') : appsmith.store.clientID === 9 ? showModal('DE_workflow_ModalCopy'): appsmith.store.clientID === 10 ? showModal('IL_workflow_ModalCopy') :appsmith.store.clientID === 11 ? showModal('WY_workflow_ModalCopy') :appsmith.store.clientID === 12 ? showModal('NV_workflow_ModalCopy') :appsmith.store.clientID === 13 ? showModal('AL_workflow_ModalCopy') :appsmith.store.clientID === 14 ? showModal('CT_workflow_ModalCopy') :appsmith.store.clientID === 15 ? showModal('OR_workflow_ModalCopy') :appsmith.store.clientID === 16 ? showModal('NM_workflow_ModalCopy') :appsmith.store.clientID === 19 ? showModal('GA_workflow_Modal') : showModal('Modal1')}}",
     "buttonColor": "#061041",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
