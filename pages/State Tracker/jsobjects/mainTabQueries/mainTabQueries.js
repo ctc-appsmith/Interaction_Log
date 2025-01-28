@@ -32,6 +32,7 @@ export default {
 			await Rept_COUNT_openTask_TeamAppTyp.run();     
 			await Rept_COUNT_unassignedTasks.run();
 			await getMyTasks.run();
+			await getApplications_byEntity_Task.run();
 
 		} catch (error) {
 			console.error("Error running task tab queries:", error);
