@@ -37,7 +37,7 @@
         "buttonVariant": "SECONDARY",
         "iconAlign": "left"
     },
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "isLoading": false,
     "submitButtonLabel": "Update",
