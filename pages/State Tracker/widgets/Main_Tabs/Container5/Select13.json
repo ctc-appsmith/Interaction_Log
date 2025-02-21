@@ -65,6 +65,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
-    "onOptionChange": "{{\n  getApplications_byEntity_Task.run()\n    .then(() => getMyTasks_2.run())\n    .then(() => Rept_COUNT_openTask_TeamAppTyp.run())\n    .then(() => Rept_COUNT_unassignedTasks.run());\n}}",
+    "onOptionChange": "{{\n  getApplications_byEntity_Task.run()\n    .then(() => getMyTasks_2.run())\n    .then(() => Rept_COUNT_openTask_TeamAppTyp.run())\n    .then(() => Rept_COUNT_unassignedTasks.run())\n\t\t.then(() =>\ngetApplications_byApplicant.run()) ;\n}}",
     "minDynamicHeight": 4
 }
