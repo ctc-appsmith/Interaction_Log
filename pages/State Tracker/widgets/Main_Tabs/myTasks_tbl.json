@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 15,
+    "topRow": 19,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -120,7 +120,7 @@
         {"key": "primaryColumns.applicationName.isCellVisible"}
     ],
     "displayName": "Table",
-    "bottomRow": 78,
+    "bottomRow": 82,
     "columnWidthMap": {
         "taskTypeID": 188,
         "entityName": 223,
