@@ -26,7 +26,7 @@
         "version": 1,
         "parentId": "6t9tlho0m1",
         "shouldScrollContents": false,
-        "minHeight": 600,
+        "minHeight": 550,
         "isLoading": false,
         "parentColumnSpace": 1,
         "dynamicTriggerPathList": [],
@@ -50,6 +50,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 164,
-    "width": 532,
+    "width": 542,
     "minDynamicHeight": 4
 }
