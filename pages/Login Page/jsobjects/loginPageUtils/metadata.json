@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "loginPageUtils",
+    "pageId": "Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "PAGE_MODALS",
+        "value": "[\"Update_PW_Modal\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Login Page_loginPageUtils",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_0187edb3-40f0-46d3-b9f3-c6fda6e3c4e8"
+}

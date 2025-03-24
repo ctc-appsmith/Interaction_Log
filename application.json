@@ -1,16 +1,16 @@
 {
   "pages": [
     {
+      "id": "Login Page",
+      "isDefault": true
+    },
+    {
       "id": "Home Admin",
       "isDefault": false
     },
     {
       "id": "Interaction Log",
       "isDefault": false
-    },
-    {
-      "id": "Login Page",
-      "isDefault": true
     },
     {
       "id": "State Tracker",

@@ -5,8 +5,8 @@
     "isCanvas": true,
     "displayName": "Tabs",
     "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
-    "topRow": 20,
-    "bottomRow": 60,
+    "topRow": 24,
+    "bottomRow": 64,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -73,9 +73,9 @@
     "parentId": "0w1i4mgn7n",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 20,
+    "originalTopRow": 24,
     "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 60,
+    "originalBottomRow": 64,
     "minDynamicHeight": 4
 }

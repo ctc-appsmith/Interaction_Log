@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "globalAuth",
+    "pageId": "Interaction Log",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "SUPABASE_URL",
+        "value": "\"https://iuwrvlyhtutiqmjqrjbd.supabase.co\""
+      },
+      {
+        "name": "SUPABASE_KEY",
+        "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml1d3J2bHlodHV0aXFtanFyamJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDY4OTE3MTYsImV4cCI6MjAyMjQ2NzcxNn0.WewAHigezTOixZWquSgpuSG8pEj7MNLrsoP95m803Q4\""
+      },
+      {
+        "name": "ADMINS",
+        "value": "[\"appsmith@ctcnet.us\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Interaction Log_globalAuth",
+  "deleted": false,
+  "gitSyncId": "66df548a9579f243573899d9_3f3e2ee2-559e-4bd2-a182-0a5b50f0a231"
+}
