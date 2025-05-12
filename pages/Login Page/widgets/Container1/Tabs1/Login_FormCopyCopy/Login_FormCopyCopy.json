@@ -21,7 +21,7 @@
         "widgetName": "Canvas2CopyCopy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 330,
+        "bottomRow": 320,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
